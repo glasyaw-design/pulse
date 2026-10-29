@@ -1,0 +1,213 @@
+{
+  "method": "Mixed-audio spectral-flux nearest attack, 5K Normal melody, not listening or device latency measurement. Do not infer true sync from nearest attack alone.",
+  "tracks": [
+    {
+      "song": "Afterglow Ascent",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 113,
+          "within80ms": 111,
+          "medianNearestAttackMs": 27.8
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 115,
+          "within80ms": 114,
+          "medianNearestAttackMs": 27.3
+        },
+        {
+          "start": 80,
+          "end": 119.8,
+          "notes": 109,
+          "within80ms": 105,
+          "medianNearestAttackMs": 28.0
+        }
+      ]
+    },
+    {
+      "song": "Ivory Daydream",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 130,
+          "within80ms": 130,
+          "medianNearestAttackMs": 27.6
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 137,
+          "within80ms": 137,
+          "medianNearestAttackMs": 28.1
+        },
+        {
+          "start": 80,
+          "end": 120.59,
+          "notes": 107,
+          "within80ms": 107,
+          "medianNearestAttackMs": 29.1
+        }
+      ]
+    },
+    {
+      "song": "Bassline Riot",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 123,
+          "within80ms": 123,
+          "medianNearestAttackMs": 26.7
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 131,
+          "within80ms": 130,
+          "medianNearestAttackMs": 23.5
+        },
+        {
+          "start": 80,
+          "end": 122.23,
+          "notes": 124,
+          "within80ms": 124,
+          "medianNearestAttackMs": 25.3
+        }
+      ]
+    },
+    {
+      "song": "Photon Rush",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 146,
+          "within80ms": 141,
+          "medianNearestAttackMs": 28.0
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 149,
+          "within80ms": 149,
+          "medianNearestAttackMs": 29.7
+        },
+        {
+          "start": 80,
+          "end": 120.45,
+          "notes": 169,
+          "within80ms": 169,
+          "medianNearestAttackMs": 29.5
+        }
+      ]
+    },
+    {
+      "song": "한 칸 더 가까이",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 144,
+          "within80ms": 144,
+          "medianNearestAttackMs": 25.7
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 152,
+          "within80ms": 151,
+          "medianNearestAttackMs": 27.2
+        },
+        {
+          "start": 80,
+          "end": 120.53,
+          "notes": 145,
+          "within80ms": 144,
+          "medianNearestAttackMs": 26.4
+        }
+      ]
+    },
+    {
+      "song": "내일의 우리에게",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 121,
+          "within80ms": 121,
+          "medianNearestAttackMs": 27.3
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 136,
+          "within80ms": 133,
+          "medianNearestAttackMs": 27.5
+        },
+        {
+          "start": 80,
+          "end": 120.2,
+          "notes": 133,
+          "within80ms": 132,
+          "medianNearestAttackMs": 27.1
+        }
+      ]
+    },
+    {
+      "song": "Neon Eclipse",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 122,
+          "within80ms": 119,
+          "medianNearestAttackMs": 24.8
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 126,
+          "within80ms": 126,
+          "medianNearestAttackMs": 25.1
+        },
+        {
+          "start": 80,
+          "end": 120.26,
+          "notes": 116,
+          "within80ms": 116,
+          "medianNearestAttackMs": 23.2
+        }
+      ]
+    },
+    {
+      "song": "Open Blue Sky",
+      "sections": [
+        {
+          "start": 0,
+          "end": 40,
+          "notes": 176,
+          "within80ms": 176,
+          "medianNearestAttackMs": 9.9
+        },
+        {
+          "start": 40,
+          "end": 80,
+          "notes": 163,
+          "within80ms": 163,
+          "medianNearestAttackMs": 9.9
+        },
+        {
+          "start": 80,
+          "end": 119.55,
+          "notes": 118,
+          "within80ms": 118,
+          "medianNearestAttackMs": 9.9
+        }
+      ]
+    }
+  ]
+}
