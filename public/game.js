@@ -81,7 +81,7 @@ function assignBinding(code){
 function refresh(){
  const t=tracks[selected],current=readBest(),legacy=readLegacyBest(),best=current||legacy,chart=t.charts[diff];
  document.documentElement.style.setProperty('--accent',t.color);document.body.classList.toggle('expert-mode',diff===3);document.documentElement.style.setProperty('--jacket',([0,48,170,215,320,30,265][selected]||0)+'deg');
- $('#jacketIndex').textContent=String(selected+1).padStart(2,'0');$('#jacketWord').innerHTML=t.short;$('.jacket-visual').style.backgroundImage="linear-gradient(0deg,#070b1880,transparent 65%),url('assets/jackets/"+t.id+".svg')";
+ $('#jacketIndex').textContent=String(selected+1).padStart(2,'0');$('#jacketWord').innerHTML=t.short;$('#jacketImage').src='assets/jackets/'+t.id+'-v30.svg';$('#jacketImage').alt=t.name+' 재킷';
  $('#trackTitle').textContent=t.name;$('#bpm').textContent=t.bpmLabel;$('#genre').textContent=t.genre.toUpperCase();$('#songLength').textContent=formatTime(t.duration);
  const badge=displayedClearBadge();$('#clearBadge').textContent=CLEAR_BADGE_LABELS[badge];$('#clearBadge').dataset.clear=badge;$('#clearBadge').title=JUDGE_LABELS[judgeMode]+' / '+arrangementMode+' · 현재 브라우저의 달성 기록';
  $('#chartDescription').textContent=keyCount+'KEY / '+DIFF[diff]+' / LV.'+t.levels[diff];
@@ -105,7 +105,7 @@ function setJudgeMode(mode){if(state!=='idle'||!JUDGE_PRESETS[mode])return;judge
 function setArrangement(mode){if(state!=='idle'||!ARRANGEMENT_MODES.includes(mode))return;arrangementMode=mode;if(mode==='RANDOM')randomSeed=newArrangementSeed();savePrefs();refresh()}
 function selectTrack(i){if(state!=='idle')return;stopSongPreview();selected=(i+tracks.length)%tracks.length;refresh();document.querySelectorAll('.song')[selected]?.scrollIntoView?.({block:'nearest'})}
 function selectDifficulty(i){if(state!=='idle')return;diff=(i+DIFF.length)%DIFF.length;refresh()}
-tracks.forEach((t,i)=>{const b=document.createElement('button');b.className='song';b.innerHTML='<span class="song-num">0'+(i+1)+'</span><div class="thumb '+['','b','c'][i]+'"></div><div class="song-copy"><span class="song-name">'+t.name+'</span><small>'+t.genre+' · '+formatTime(t.duration)+'</small></div><span class="song-bpm">'+t.bpmLabel+'</span>'+t.levels.map((l,d)=>'<span class="song-level'+(d===3?' expert-level':'')+'">'+l+'</span>').join('');b.querySelector('.thumb').style.backgroundImage="url('assets/jackets/"+t.id+".svg')";b.onclick=()=>selectTrack(i);$('#songs').append(b)});
+tracks.forEach((t,i)=>{const b=document.createElement('button');b.className='song';b.innerHTML='<span class="song-num">0'+(i+1)+'</span><div class="thumb '+['','b','c'][i]+'"></div><div class="song-copy"><span class="song-name">'+t.name+'</span><small>'+t.genre+' · '+formatTime(t.duration)+'</small></div><span class="song-bpm">'+t.bpmLabel+'</span>'+t.levels.map((l,d)=>'<span class="song-level'+(d===3?' expert-level':'')+'">'+l+'</span>').join('');b.querySelector('.thumb').innerHTML='<img class="song-jacket-image" src="assets/jackets/'+t.id+'-v30.svg" alt="" loading="eager">';b.onclick=()=>selectTrack(i);$('#songs').append(b)});
 function lockControls(locked){document.querySelectorAll('.song,[data-keymode],[data-diff],[data-arrangement],[data-judge],#shuffleSeed,#start,#keyConfig').forEach(b=>b.disabled=locked)}
 function createAudioEngine(){ctxAudio=new (window.AudioContext||window.webkitAudioContext)({latencyHint:AUDIO_LATENCY_MODES[audioMode]});master=ctxAudio.createGain();master.gain.value=volume;master.connect(ctxAudio.destination);backgroundBus=ctxAudio.createGain();backgroundBus.connect(master);keyBus=ctxAudio.createGain();keyBus.gain.value=keysVolume;keyBus.connect(master);keyPlayer=new KeySoundPlayer(ctxAudio,backgroundBus,keyBus);refreshAudioInfo()}
 async function initAudio(){if(audioReconfigure)await audioReconfigure;if(!ctxAudio)createAudioEngine();await ctxAudio.resume();refreshAudioInfo()}
@@ -119,7 +119,7 @@ function chart(mode=arrangementMode,seed=randomSeed){return transformChart(track
 async function start(options={}){
  if(state!=='idle'||window.PulseAccount&&!window.PulseAccount.ready())return;stopSongPreview();state='loading';lockControls(true);$('#start>span').textContent='LOADING';$('#message').textContent='음원을 준비하고 있습니다…';
  try{
-  await initAudio();if(document.fonts)await Promise.all([document.fonts.load('400 16px Maplestory'),document.fonts.load('700 28px Maplestory')]);const track=tracks[selected];
+  await initAudio();if(document.fonts)await Promise.all([document.fonts.load('400 16px PulseMaple30'),document.fonts.load('700 28px PulseMaple30')]);const track=tracks[selected];
   if(bufferId!==track.id){musicBuffer=null;bufferId='';const r=await fetch(track.audio);if(!r.ok)throw Error('audio_fetch');musicBuffer=await ctxAudio.decodeAudioData(await r.arrayBuffer());bufferId=track.id}
   if(keysEnabled)await loadKeys();
   const replay=options?.reuseSeed===true&&sessionArrangement===arrangementMode&&sessionChartId===track.chartIds[diff];sessionArrangement=arrangementMode;sessionSeed=replay?sessionSeed:arrangementMode==='RANDOM'?randomSeed:0;sessionChartId=track.chartIds[diff];randomSeed=sessionSeed||randomSeed;
@@ -230,12 +230,12 @@ function draw(now){
  for(let l=0;l<keyCount;l++){
   const x=pad+l*lw+3,w=lw-6,cx=x+w/2,active=held[l];
   const g=ctx.createLinearGradient(0,keyTop,0,H);g.addColorStop(0,active?'#d6f6ff':centerLane(l,keyCount)?'#88794b':'#405f75');g.addColorStop(.16,active?'#88cce7':centerLane(l,keyCount)?'#3c3625':'#1c3447');g.addColorStop(1,centerLane(l,keyCount)?'#17160f':'#0a1622');ctx.fillStyle=g;ctx.beginPath();ctx.roundRect(x,keyTop,w,H-keyTop-6,4);ctx.fill();ctx.strokeStyle=centerLane(l,keyCount)?'#e4d09a66':'#b2ddf866';ctx.lineWidth=.7;ctx.stroke();ctx.globalAlpha=active?1:.4;ctx.fillStyle=laneColor(l);ctx.fillRect(x+5,keyTop+3,w-10,2);ctx.globalAlpha=1;
-  ctx.fillStyle=active?'#1b2d3b':'#c3d9e8';ctx.textAlign='center';ctx.font='700 '+(bindings[l]==='Space'?8:11)+'px Maplestory,sans-serif';ctx.fillText(keyName(bindings[l]),cx,H-22);
+  ctx.fillStyle=active?'#1b2d3b':'#c3d9e8';ctx.textAlign='center';ctx.font='700 '+(bindings[l]==='Space'?8:11)+'px PulseMaple30,sans-serif';ctx.fillText(keyName(bindings[l]),cx,H-22);
 
  }
  hitEffects=hitEffects.filter(hit=>now-hit.at<420);paintHitEffects(ctx,hitEffects,now,pad,lw,lineY,hitStyle,effectStrength);
- ctx.textAlign='center';if(combo>1&&state!=='celebrating'){ctx.fillStyle='#95bbd280';ctx.font='700 12px Maplestory,sans-serif';ctx.fillText('COMBO',W/2,H*.27);ctx.fillStyle='#e6f4ffc4';ctx.font='700 55px "Maplestory",sans-serif';ctx.fillText(combo,W/2,H*.27+49)}
- if(now-judgeAt<500){ctx.globalAlpha=Math.min(1,(500-now+judgeAt)/150);ctx.fillStyle=['MISS','FAIL'].includes(judgement)?'#f19785':judgement==='PERFECT'?'#e9ff85':'#8ddaff';ctx.font='700 28px "Maplestory",sans-serif';ctx.fillText(judgement,W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100)));if(judgementTiming&&timingSide&&!['MISS','FAIL'].includes(judgement)){ctx.fillStyle=timingSide==='FAST'?'#71d7ff':timingSide==='SLOW'?'#ffac86':'#e9ff85';ctx.font='700 12px Maplestory,sans-serif';ctx.fillText(timingSide+' '+(timingError>=0?'+':'')+Math.round(timingError)+' ms',W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100))+19)}ctx.globalAlpha=1}
+ ctx.textAlign='center';if(combo>1&&state!=='celebrating'){ctx.fillStyle='#95bbd280';ctx.font='700 12px PulseMaple30,sans-serif';ctx.fillText('COMBO',W/2,H*.27);ctx.fillStyle='#e6f4ffc4';ctx.font='700 55px "PulseMaple30",sans-serif';ctx.fillText(combo,W/2,H*.27+49)}
+ if(now-judgeAt<500){ctx.globalAlpha=Math.min(1,(500-now+judgeAt)/150);ctx.fillStyle=['MISS','FAIL'].includes(judgement)?'#f19785':judgement==='PERFECT'?'#e9ff85':'#8ddaff';ctx.font='700 28px "PulseMaple30",sans-serif';ctx.fillText(judgement,W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100)));if(judgementTiming&&timingSide&&!['MISS','FAIL'].includes(judgement)){ctx.fillStyle=timingSide==='FAST'?'#71d7ff':timingSide==='SLOW'?'#ffac86':'#e9ff85';ctx.font='700 12px PulseMaple30,sans-serif';ctx.fillText(timingSide+' '+(timingError>=0?'+':'')+Math.round(timingError)+' ms',W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100))+19)}ctx.globalAlpha=1}
  if(state==='celebrating'&&completion)paintCompletion(ctx,completion.label,now-completion.at,W,H,effectStrength);
  $('#countdown').hidden=t>=0;if(t<0)$('#countdown b').textContent=Math.ceil(-t);
  $('#progress').style.width=(Math.max(0,Math.min(1,t/track.duration))*100)+'%';$('#playTime').textContent=formatTime(t)+' / '+formatTime(track.duration);

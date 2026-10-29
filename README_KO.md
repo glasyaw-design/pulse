@@ -1,68 +1,59 @@
-# PULSE SHIFT — Netlify 배포 패키지
+# PULSE SHIFT v30 — 전체 프로젝트
 
-이 패키지는 최신 7곡·4/5/6/8키·112개 채보, Basic/Standard, 써클/바 노트, 이펙트 강도, 롱노트 유지 연출, FULL COMBO/ALL PERFECT 마무리 연출, 저지연 오디오 설정과 곡별 온라인 랭킹을 포함합니다.
+이 ZIP은 전체 버전입니다. 이전 패치를 별도로 적용하지 마세요.
+압축 해제 후 `package.json`, `netlify.toml`, `public`, `netlify`, `scripts`가 같은 폴더에 있어야 합니다.
 
-## 권장: 랭킹까지 포함해서 배포
+## 이번 수정
 
-Node.js 22 이상을 설치하고, ZIP을 푼 폴더(이 설명서와 package.json이 있는 폴더)에서 터미널을 여세요.
+- 8곡: 원곡의 앞부분을 보존하고 반복되는 중간 구간을 줄여 후반 하이라이트와 원곡 엔딩으로 연결했습니다. 약 1분 59초~2분 14초입니다.
+- 128채보: 4/5/6/8키 × Easy/Normal/Hard/Expert를 편집된 음원 기준으로 다시 생성했습니다.
+- 선율 상승·하강을 우선하고, 난이도·키 수에 따라 베이스/드럼 반주를 더합니다. 좌우 비율을 강제로 50:50으로 맞추지 않습니다.
+- 롱노트는 편집 연결부를 넘지 않으며, 유지 중 모든 레인이 막히는 패턴을 제외했습니다.
+- 곡별 재킷 8장: 실제 이미지 요소로 표시. 이전 배경 그림이 덮어쓰지 않습니다.
+- 메이플스토리 Light/Bold: 로컬 WOFF 파일과 새 파일명 사용. 제목, 메뉴, 게임 캔버스 판정에 적용.
+- 이전 계정·랭킹·클리어 배지·키 설정·8키 색상·기어 스킨 기능 포함.
+- 새로운 채보 ID 사용: 이전 채보 점수를 새 채보 랭킹/클리어 배지로 가져오지 않습니다. 기존 서버 데이터를 삭제하지 않습니다.
 
-```bash
-npm install
-npm test
-npm run build
-npx netlify-cli deploy --prod
-```
+## Netlify에 올리기
 
-Netlify CLI의 안내에 따라 로그인한 뒤 기존 사이트를 선택하거나 새 사이트를 만드세요. `netlify.toml`이 정적 파일 폴더 `public`과 Functions 폴더 `netlify/functions`를 지정하므로 별도 경로 설정은 필요하지 않습니다. 최신 CLI는 설정된 빌드 명령을 실행하고 정적 파일과 함수를 함께 배포합니다.
+로그인과 온라인 랭킹에는 Netlify Functions가 필요합니다. 기존 사이트와 연결된 저장소에 이 전체 프로젝트를 반영한 뒤 재배포하세요. 기존 사이트를 유지해야 기존 계정·서버 기록을 계속 사용할 수 있습니다.
 
-Git으로 배포하려면 이 폴더를 저장소에 올린 뒤 Netlify의 **Import an existing project**에서 연결하세요. 빌드 명령은 `npm run build`, Publish directory는 `public`입니다. Functions 설정은 netlify.toml에 있습니다.
+| 설정 | 값 |
+|---|---|
+| Base directory | package.json이 있는 폴더. 저장소 최상위에 있으면 비워 둠 |
+| Build command | npm run build |
+| Publish directory | public |
+| Functions directory | netlify/functions |
+| Node | 22 (netlify.toml에 포함) |
 
-온라인 랭킹은 Netlify Functions + Netlify Blobs를 사용합니다. SDK가 함수 실행 시 사이트 연결 정보를 자동으로 받으므로 코드에 토큰을 넣지 마세요. 처음에는 빈 랭킹이며, 실제 완주 기록만 쌓입니다. 브라우저별 플레이어 토큰으로 닉네임을 유지합니다. 첫 랭킹 등록 전 닉네임을 직접 정하며, 문자·숫자·_로 2~16자이고 대소문자를 구분하지 않아 중복 이름은 사용할 수 없습니다. 헤더의 닉네임 버튼이나 랭킹 창에서 변경할 수 있습니다. 기존 ChatGPT Sites의 랭킹 DB와 별개인 새 저장소이므로 이전 서버 순위는 자동 복사되지 않습니다.
+`dist`나 `build`를 Publish directory로 지정하지 마세요. ZIP 파일 또는 public 폴더만 드래그하는 정적 배포는 로그인·랭킹 Functions 배포를 대신하지 않습니다.
 
-## 드래그 앤 드롭으로 게임만 빠르게 올리기
+로컬 빌드 확인: 프로젝트 폴더에서 `npm run build`.
+Netlify는 package-lock.json을 이용해 @netlify/blobs 의존성을 설치합니다. node_modules는 배포 소스에 포함하지 않습니다.
 
-압축을 풀고 **public 폴더 안의 index.html이 바로 보이는 그 폴더**를 Netlify Drop에 올리면 게임과 브라우저 개인 기록은 사용할 수 있습니다. 단순 정적 파일 업로드만으로는 이 패키지의 서버 함수를 배포하지 못하므로 **온라인 랭킹은 위 CLI 또는 Git 배포를 사용하세요.** 웹사이트의 업로드/빌드 방식은 Netlify UI에 따라 달라질 수 있어, 전체 기능에는 CLI/Git 경로를 권장합니다.
+## exit code: 2가 뜰 때
 
-## 설정 위치
+`Build script returned non-zero exit code: 2`는 실패 요약입니다. 그 위의 최초 오류가 원인입니다.
 
-- F2 → 노트 모양: Bar / Circle
-- F2 → 타격 이펙트: Laser / Ring / Spark / Off
-- F2 → 이펙트 강도: 약하게 / 보통 / 강하게
-- F2 → 미리보기: 타격·롱노트 / FULL COMBO / ALL PERFECT. 미리보기는 기록에 반영되지 않습니다.
-- F2 → 오디오 지연 설정: 저지연(기본) / 안정성 우선. 샘플레이트·처리/출력 지연은 브라우저 보고값이며 기기 전체 지연의 실측값은 아닙니다.
-- 웹 버전은 ASIO 드라이버를 직접 선택하지 않습니다.
+- package.json ENOENT: Base directory가 실제 프로젝트 폴더와 일치하는지 확인.
+- Cannot find module scripts/validate-deploy.mjs: 전체 ZIP을 풀었는지 확인.
+- PULSE SHIFT: required files are missing: 출력된 파일 목록 확인. 패치만 배포하면 안 됩니다.
+- Deploy directory ... does not exist: Publish directory를 public으로 설정.
+- npm 의존성 또는 Functions 번들 오류: 해당 오류 위아래 로그를 확인해야 합니다.
 
-저지연 설정 후에도 장치/브라우저에 따라 지연이 남을 수 있습니다. 입력 보정과 클릭 측정을 함께 사용하세요.
+이 전체 프로젝트의 로컬 빌드는 검증했습니다. 사용자의 Netlify 로그 전체를 받지 않았으므로 실제 서버 실패 원인을 확정하거나 해당 배포의 성공을 보장하지 않습니다.
 
-## 검증 범위
+## 적용 여부 확인
 
-정적 파일 누락 검사, 게임 판정/롱노트/완주 상태 전이 검사, 랭킹 프로토콜·동점·중복 제출·점수 산식·동시 저장 조건 검사를 수행했습니다. 실제 Netlify 계정에는 배포하지 않았습니다. SDK 연결은 Netlify에서 배포한 뒤 실제 도메인의 RANKING 버튼과 완주 등록으로 확인하세요.
+새 배포가 Published 상태가 된 뒤 사이트를 여세요. 화면 맨 아래에 v30이 표시됩니다.
+재킷은 곡마다 다른 그림이어야 하며 글꼴은 메이플스토리체입니다.
+배포가 실패하면 이전 게시 버전이 남아 재킷·폰트도 이전 모습일 수 있습니다.
 
-랭킹 서버는 시작 티켓, 경과 시간, 판정 총수, 점수 재계산을 검사합니다. 리플레이 기반의 고급 부정행위 검증은 포함하지 않습니다. 이식된 랭킹은 조건부 쓰기와 강한 일관성 읽기를 사용하지만, 대규모 이용자 수에 맞춘 별도 DB 인덱싱은 후속 작업입니다.
+## 음악 편집 확인
 
-## 파일 구조
+`EDIT_REVIEW.html`을 열면 각 곡의 사용한 원곡 구간, 편집본 전체 재생, 연결부 앞뒤 재생 버튼을 확인할 수 있습니다.
+정확한 원곡↔게임 타임라인은 review/edit-manifest.json, 채보 통계는 review/chart-review.json에 있습니다.
 
-- public/: 바로 실행할 게임·음원·이미지
-- netlify/functions/ranking.mjs: /api/ranking/:action 요청 처리
-- netlify/lib/: Netlify Blobs 랭킹 서버와 현재 채보 판정 수
-- scripts/: 패키지 검증과 랭킹 계약 테스트
-- netlify.toml: 배포 설정
-- package.json / package-lock.json: 서버 함수 의존성
+편집 지점과 선율은 스테레오 믹스의 반복·화성·강세·음높이 분석으로 추정했습니다. 가사 전사 기반 문장 경계 검수나 사람의 청음·수동 완주 검수는 완료하지 않았습니다. 악기별 원본 MIDI/stem에서 만든 수동 채보와 동등하다고 보장하지 않습니다. 키음은 기존과 같은 혼합 음원에서 추출한 근사 방식입니다.
 
-## 공식 참고 문서
-
-- https://docs.netlify.com/build/functions/configuration/
-- https://docs.netlify.com/build/data-and-storage/netlify-blobs/
-- https://cli.netlify.com/commands/deploy/
-
-## 멀티키 / Chart Studio
-
-곡 선택 화면의 4 KEY / 5 KEY / 6 KEY / 8 KEY에서 전환합니다.
-기본 키: 4키 D F J K, 5키 D F Space J K, 6키 S D F J K L, 8키 A S D F J K L ;.
-F2에서 모드별 키 배치를 따로 저장합니다. 8키는 양손 4개씩 사용하는 일반 8레인 방식입니다.
-랭킹과 개인 최고 기록은 키 모드별로 분리합니다. 기존 5키 채보와 기록은 유지됩니다.
-새 채보는 기존 분석의 멜로디 음높이·시점을 바탕으로 키 수에 맞춰 배치했습니다. 4키 Expert에서는 일부 밀집 반주 동시음을 줄였습니다.
-
-CHART STUDIO에서 키 모드를 고르고 노트와 키음을 편집할 수 있습니다. 프로젝트 저장에는 음원도 포함되고, 이전 5키 프로젝트도 열 수 있습니다. H는 롱노트 도구이며, 각 모드 기본 키로 키음을 미리 들을 수 있습니다. 키 모드를 바꾸면 확인 후 현재 노트가 비워지므로 필요한 작업은 먼저 프로젝트로 저장하세요. 편집한 채보의 게임·온라인 랭킹 직접 등록은 지원하지 않습니다.
-
-추가 수록곡: Photon Rush, 한 칸 더 가까이, 내일의 우리에게, Neon Eclipse. 각 곡은 약 2분 아케이드 편집본이며 원본 파일은 변경하지 않았습니다. BPM과 음높이는 혼합 음원 분석 추정치입니다.
+검증: 128채보 실행/그리기/입력/일시정지 자동 테스트, 음원 16개 전체 디코딩 및 길이 정합, 롱노트 겹침·연결부 점검, 계정/랭킹/배지 회귀 테스트. 실제 브라우저에서 재킷·폰트 표시와 게임 시작 확인. 실제 Netlify 서버 배포는 수행하지 않았습니다.
