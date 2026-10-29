@@ -9,3 +9,16 @@ function summarizeTiming(samples){
  return {median:median(clean),spread:Math.sqrt(clean.reduce((s,x)=>s+(x-median(clean))**2,0)/clean.length),count:samples.length,fast:samples.filter(x=>x< -5).length,slow:samples.filter(x=>x>5).length,center:samples.filter(x=>Math.abs(x)<=5).length};
 }
 function clampOffset(ms){return Math.max(-200,Math.min(200,Math.round(ms)))}
+// Short event-queue grace delays automatic settlement, never widens hit windows.
+const INPUT_QUEUE_GRACE=.080;
+function inputEventTime(event,now=performance.now(),origin=performance.timeOrigin){
+ let stamp=event?.timeStamp;
+ if(!Number.isFinite(stamp)||stamp<=0)return now;
+ if(stamp>1e12&&Number.isFinite(origin))stamp-=origin;
+ if(stamp>now+2||stamp<0)return now;
+ return Math.min(now,stamp);
+}
+function inputAudioTime(context,event,now=performance.now()){
+ // Stay in the existing render-clock domain so saved audio offsets remain valid.
+ return context.currentTime-(now-inputEventTime(event,now))/1000;
+}

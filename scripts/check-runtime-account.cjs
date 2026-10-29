@@ -35,5 +35,22 @@ for(let song=0;song<vm.runInContext("tracks.length",c);song++)for(const k of [4,
  await vm.runInContext('togglePause()',c);assert.equal(vm.runInContext('state',c),'paused');
 }
 console.log('PASS: '+vm.runInContext('tracks.length',c)*16+' chart starts, draw/input/pause (audio mocked)');
+// Regression: event creation time, delayed dispatch, tail release, repeat and resume boundaries.
+sandbox.performance.now=()=>1000;sandbox.performance.timeOrigin=1700000000000;
+const run=code=>vm.runInContext(code,c);
+const fixture=()=>run("state='playing';keyCount=5;held=Array(5).fill(false);ctxAudio={currentTime:10.060};startAt=0;sessionOffset=0;sessionJudgeMode='STANDARD';life=100;failPending=false;inputEpoch=0;judges=[0,0,0,0,0];combo=earned=0;timingSamples=[];keyPlayer=null;notes=[{time:10,lane:0,dur:0,status:0}]");
+fixture();run('press(0,{timeStamp:940})');assert.equal(run('judges[0]'),1);assert(Math.abs(run('timingSamples[0]'))<.0001);
+run('press(0,{timeStamp:940,repeat:true})');assert.equal(run('judges.reduce((a,b)=>a+b,0)'),1);
+fixture();run('press(0,{timeStamp:1700000000940})');assert.equal(run('judges[0]'),1);
+fixture();run('ctxAudio.currentTime=10.2;updateGame(10.2,1000)');assert.equal(run('notes[0].status'),0);run('press(0,{timeStamp:940})');assert.equal(run('judges[3]'),1); // 140ms MISS, never widened to GOOD
+fixture();run('ctxAudio.currentTime=10.24;updateGame(10.24,1000)');assert.equal(run('judges[4]'),1);
+fixture();run('press(0,{timeStamp:800})');assert.equal(run('held[0]'),false);assert.equal(run('notes[0].status'),0);
+fixture();run('notes[0].dur=1;notes[0].status=1;held[0]=true;ctxAudio.currentTime=10.94;release(0,{timeStamp:940})');assert.equal(run('judges[3]'),1); // actual release 10.88, before 10.90 tail threshold
+fixture();run('notes[0].dur=1;notes[0].status=1;held[0]=true;ctxAudio.currentTime=10.98;release(0,{timeStamp:940});release(0,{timeStamp:940})');assert.equal(run('judges[0]'),1);
+fixture();await run('togglePause()');assert.equal(run('held.some(Boolean)'),false);assert.equal(run('state'), 'paused');
+run("state='playing';resetInputState();press(0,{timeStamp:990})");assert.equal(run('held[0]'),false);
+run('held[0]=true;release(0,{timeStamp:990})');assert.equal(run('held[0]'),true);
+assert.equal(run('inputEventTime({timeStamp:NaN},1000)'),1000);assert.equal(run('inputEventTime({timeStamp:2000},1000)'),1000);
+console.log('PASS: delayed/epoch timestamps, repeat rejection, unchanged judgement windows, stale event rejection, hold tails, pause reset');
 console.log('PASS full HTML script boot, settings open/close, all key modes refresh');
 })().catch(e=>{console.error(e);process.exitCode=1});
