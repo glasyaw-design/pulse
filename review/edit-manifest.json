@@ -3,33 +3,36 @@
     "id": "bittersweet-ascension",
     "source": "upload/Bittersweet Ascension.mp3",
     "bpm": 128.4,
-    "duration": 120.458957,
+    "duration": 127.093878,
     "sourceDuration": 203.6,
     "segments": [
       {
-        "sourceStart": 0.0,
-        "sourceEnd": 71.092381,
-        "gameStart": 0.0,
-        "gameEnd": 71.092381
+        "sourceStart": 0,
+        "sourceEnd": 84.2804081632653,
+        "gameStart": 0,
+        "gameEnd": 84.2804081632653
       },
       {
-        "sourceStart": 154.233424,
+        "sourceStart": 160.7865306122449,
         "sourceEnd": 203.6,
-        "gameStart": 71.092381,
-        "gameEnd": 120.458957
+        "gameStart": 84.2804081632653,
+        "gameEnd": 127.09387755102041
       }
     ],
     "joins": [
       {
-        "sourceOut": 71.09239,
-        "sourceIn": 154.233433,
-        "contextChromaSimilarity": 0.744,
-        "beatFractionDifference": 0.078
+        "sourceOut": 84.2804081632653,
+        "sourceIn": 160.7865306122449,
+        "prelapSeconds": 0.19,
+        "orderedChromaSimilarity": 0.5417803709088531,
+        "rhythmicCorrelation": 0.7525379827836036,
+        "localOutgoingBeat": 0.47500000000000003,
+        "localIncomingBeat": 0.468
       }
     ],
-    "audio": "audio/bittersweet-ascension-v30.mp3",
-    "keysAudio": "audio/bittersweet-ascension-keys-v30.ogg",
-    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+    "audio": "audio/bittersweet-ascension-v35.mp3",
+    "keysAudio": "audio/bittersweet-ascension-keys-v35.ogg",
+    "method": "Ordered 32-beat chroma, energy and rhythmic comparison using locally estimated tempo; transient-aligned 190ms cosine prelap; original ending retained. Algorithmic review, not human audition or vocal-boundary verification."
   },
   {
     "id": "dreamy-piano-bounce",
