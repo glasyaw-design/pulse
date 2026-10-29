@@ -3,36 +3,20 @@
     "id": "bittersweet-ascension",
     "source": "upload/Bittersweet Ascension.mp3",
     "bpm": 128.4,
-    "duration": 127.093878,
+    "duration": 105.62,
     "sourceDuration": 203.6,
     "segments": [
       {
-        "sourceStart": 0,
-        "sourceEnd": 84.2804081632653,
-        "gameStart": 0,
-        "gameEnd": 84.2804081632653
-      },
-      {
-        "sourceStart": 160.7865306122449,
+        "sourceStart": 97.98,
         "sourceEnd": 203.6,
-        "gameStart": 84.2804081632653,
-        "gameEnd": 127.09387755102041
+        "gameStart": 0,
+        "gameEnd": 105.62
       }
     ],
-    "joins": [
-      {
-        "sourceOut": 84.2804081632653,
-        "sourceIn": 160.7865306122449,
-        "prelapSeconds": 0.19,
-        "orderedChromaSimilarity": 0.5417803709088531,
-        "rhythmicCorrelation": 0.7525379827836036,
-        "localOutgoingBeat": 0.47500000000000003,
-        "localIncomingBeat": 0.468
-      }
-    ],
-    "audio": "audio/bittersweet-ascension-v35.mp3",
-    "keysAudio": "audio/bittersweet-ascension-keys-v35.ogg",
-    "method": "Ordered 32-beat chroma, energy and rhythmic comparison using locally estimated tempo; transient-aligned 190ms cosine prelap; original ending retained. Algorithmic review, not human audition or vocal-boundary verification."
+    "joins": [],
+    "audio": "audio/bittersweet-ascension-v39.mp3",
+    "keysAudio": "audio/bittersweet-ascension-keys-v39.ogg",
+    "method": "Continuous source excerpt from 97.98s to original ending. No internal cuts, transitions, repeats or time stretch. 100ms intro fade, 100ms ending fade. Original middle progression is sample-identical in PCM."
   },
   {
     "id": "dreamy-piano-bounce",

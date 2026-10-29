@@ -1,0 +1,70 @@
+{
+  "chartsReviewed": 160,
+  "chartsChanged": 18,
+  "melodyNotesRelocated": 170,
+  "notesAndTimesAndPitchAndHoldDurationsPreserved": true,
+  "skewWindowsBefore": 282,
+  "skewWindowsAfter": 262,
+  "skewDefinition": "2-second windows sampled at one-second intervals: >=8 noncentral notes and >=85% on one hand. Overlapping windows are not independent passages.",
+  "melodicDirectionReversalsBefore": 32,
+  "melodicDirectionReversalsAfter": 32,
+  "sourceEventChecks": [
+    {
+      "song": "Afterglow Ascent",
+      "total": 16987,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "Ivory Daydream",
+      "total": 14360,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "Bassline Riot",
+      "total": 18708,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "Photon Rush",
+      "total": 18687,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "한 칸 더 가까이",
+      "total": 18117,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "내일의 우리에게",
+      "total": 15389,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "Neon Eclipse",
+      "total": 17714,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    },
+    {
+      "song": "Open Blue Sky",
+      "total": 16024,
+      "melodySourceMismatch": 0,
+      "rhythmOver26ms": 0,
+      "holdBurden": []
+    }
+  ],
+  "limitations": "Automated structural/source-event review, not human listening or playtesting. Extracted pitches are estimates from mixed audio. Residual contour reversals and concentrated passages retained where relocation would worsen playability or phrase relationships."
+}

@@ -1,0 +1,1282 @@
+[
+  {
+    "song": "Afterglow Ascent",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 543,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 995,
+    "melodyLaneChanges": 9
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1400,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 509,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 938,
+    "melodyLaneChanges": 21
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1188,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 594,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1140,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1507,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 635,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1220,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1577,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 635,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 1185,
+    "melodyLaneChanges": 13
+  },
+  {
+    "song": "Afterglow Ascent",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1571,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 573,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 769,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1168,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 543,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 755,
+    "melodyLaneChanges": 7
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1052,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 621,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 853,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1261,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 640,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 887,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1333,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 640,
+    "melodyLaneChanges": 6
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 883,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Ivory Daydream",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1312,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 274,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 688,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 1066,
+    "melodyLaneChanges": 12
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1522,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 274,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 640,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 993,
+    "melodyLaneChanges": 12
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1359,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 274,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 733,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1197,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1643,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 274,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 767,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1267,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1736,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 274,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 765,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1246,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Bassline Riot",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1716,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 277,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 662,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 958,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1536,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 277,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 621,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 904,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1391,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 277,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 743,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1096,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1743,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 277,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 785,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1183,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1905,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 277,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 772,
+    "melodyLaneChanges": 1
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1158,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Photon Rush",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1845,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 665,
+    "melodyLaneChanges": 10
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1020,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1437,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 587,
+    "melodyLaneChanges": 17
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 991,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1116,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 753,
+    "melodyLaneChanges": 6
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1271,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1492,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 860,
+    "melodyLaneChanges": 6
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1348,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1534,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 270,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 844,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1315,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1534,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 668,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 852,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1201,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 621,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 828,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 940,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 703,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1092,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1223,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 723,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1121,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1253,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 214,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 723,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1118,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "내일의 우리에게",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1253,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 260,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 524,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": true,
+    "notes": 1039,
+    "melodyLaneChanges": 11
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": true,
+    "notes": 1487,
+    "melodyLaneChanges": 12
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 260,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 480,
+    "melodyLaneChanges": 1
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 960,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1289,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 260,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 582,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1197,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1614,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 260,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 641,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1288,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1718,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 260,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 641,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1251,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Neon Eclipse",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1703,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 5,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 227,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 5,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 664,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 5,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 880,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 5,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1237,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 4,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 227,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 4,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 594,
+    "melodyLaneChanges": 10
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 4,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 855,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 4,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1094,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 6,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 227,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 6,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 717,
+    "melodyLaneChanges": 8
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 6,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 998,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 6,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1339,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 8,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 227,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 8,
+    "difficulty": "Normal",
+    "changed": true,
+    "notes": 766,
+    "melodyLaneChanges": 8
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 8,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1060,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 8,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1465,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 7,
+    "difficulty": "Easy",
+    "changed": false,
+    "notes": 227,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 7,
+    "difficulty": "Normal",
+    "changed": false,
+    "notes": 731,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 7,
+    "difficulty": "Hard",
+    "changed": false,
+    "notes": 1041,
+    "melodyLaneChanges": 0
+  },
+  {
+    "song": "Open Blue Sky",
+    "keys": 7,
+    "difficulty": "Expert",
+    "changed": false,
+    "notes": 1448,
+    "melodyLaneChanges": 0
+  }
+]

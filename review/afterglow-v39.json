@@ -1,0 +1,130 @@
+{
+  "song": "Afterglow Ascent",
+  "duration": 105.62,
+  "join": null,
+  "charts": [
+    {
+      "keys": 4,
+      "tier": "Easy",
+      "notes": 246,
+      "holds": 22
+    },
+    {
+      "keys": 4,
+      "tier": "Normal",
+      "notes": 394,
+      "holds": 24
+    },
+    {
+      "keys": 4,
+      "tier": "Hard",
+      "notes": 830,
+      "holds": 9
+    },
+    {
+      "keys": 4,
+      "tier": "Expert",
+      "notes": 1012,
+      "holds": 6
+    },
+    {
+      "keys": 5,
+      "tier": "Easy",
+      "notes": 246,
+      "holds": 22
+    },
+    {
+      "keys": 5,
+      "tier": "Normal",
+      "notes": 420,
+      "holds": 24
+    },
+    {
+      "keys": 5,
+      "tier": "Hard",
+      "notes": 891,
+      "holds": 9
+    },
+    {
+      "keys": 5,
+      "tier": "Expert",
+      "notes": 1190,
+      "holds": 6
+    },
+    {
+      "keys": 6,
+      "tier": "Easy",
+      "notes": 246,
+      "holds": 22
+    },
+    {
+      "keys": 6,
+      "tier": "Normal",
+      "notes": 454,
+      "holds": 23
+    },
+    {
+      "keys": 6,
+      "tier": "Hard",
+      "notes": 1013,
+      "holds": 10
+    },
+    {
+      "keys": 6,
+      "tier": "Expert",
+      "notes": 1312,
+      "holds": 7
+    },
+    {
+      "keys": 7,
+      "tier": "Easy",
+      "notes": 246,
+      "holds": 22
+    },
+    {
+      "keys": 7,
+      "tier": "Normal",
+      "notes": 486,
+      "holds": 22
+    },
+    {
+      "keys": 7,
+      "tier": "Hard",
+      "notes": 1056,
+      "holds": 10
+    },
+    {
+      "keys": 7,
+      "tier": "Expert",
+      "notes": 1370,
+      "holds": 7
+    },
+    {
+      "keys": 8,
+      "tier": "Easy",
+      "notes": 246,
+      "holds": 22
+    },
+    {
+      "keys": 8,
+      "tier": "Normal",
+      "notes": 486,
+      "holds": 21
+    },
+    {
+      "keys": 8,
+      "tier": "Hard",
+      "notes": 1096,
+      "holds": 11
+    },
+    {
+      "keys": 8,
+      "tier": "Expert",
+      "notes": 1374,
+      "holds": 9
+    }
+  ],
+  "otherSevenTracksUnchanged": true,
+  "audioDecodes": true,
+  "audition": "Not human-listening verified; spectral, onset and structural checks only."
+}
