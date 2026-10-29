@@ -129,3 +129,7 @@ dialog{color:#e3edf9;border:1px solid #678ca9;background:#0a1523;width:min(530px
 body{font-synthesis:none}.song-name,.track-title,.launch,.jacket-word{font-style:normal}.song-name{font-size:18px}.song-copy{min-width:0}.song-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 
 .song-bpm{font-size:12px;white-space:nowrap}.song-level{font-size:22px}
+
+#jacket{background-size:cover;background-position:center}.jacket:before,.thumb:before{display:none!important}.thumb{background-size:cover!important;background-position:center!important;filter:none!important}
+
+.jacket-visual{background-size:cover!important;background-position:center!important}.jacket-visual:before{display:none!important}
