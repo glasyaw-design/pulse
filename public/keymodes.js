@@ -7,4 +7,4 @@ function validBindings(value,count){return Array.isArray(value)&&value.length===
 
 const DEFAULT_FIVE_AUX=['KeyG','KeyH'];
 function validFiveAux(value){return Array.isArray(value)&&value.length===2&&value.every(k=>k===null||typeof k==='string'&&k.length>0&&!['Enter','Escape','F2'].includes(k)&&!/^(Shift|Control|Meta)/.test(k))&&new Set(value.filter(Boolean)).size===value.filter(Boolean).length}
-function resolveInputLane(code,count,primary,aux){const lane=primary.indexOf(code);if(lane>=0)return lane;return count===5&&aux.includes(code)?2:-1}
+function resolveInputLane(code,count,primary,aux){const lane=primary.indexOf(code);if(lane>=0)return lane;return [5,7].includes(count)&&aux.includes(code)?Math.floor(count/2):-1}

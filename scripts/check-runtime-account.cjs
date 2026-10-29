@@ -64,11 +64,11 @@ auxFixture();run('notes=[{time:10,lane:2,dur:0,status:0}]');down('KeyG');down('K
 auxFixture();run('notes=[{time:10,lane:2,dur:1,status:0}]');down('Space');run('ctxAudio.currentTime=10.4');down('KeyH');up('Space');assert.equal(run('notes[0].status'),1);assert.equal(run('held[2]'),true);run('ctxAudio.currentTime=10.95');up('KeyH');assert.equal(run('judges[0]'),2);assert.equal(run('judges[3]'),0);
 auxFixture();run('notes=[{time:10,lane:2,dur:1,status:0}]');down('KeyG');run("press(2,{timeStamp:1000},'pointer:7')");up('KeyG');assert.equal(run('held[2]'),true);run("ctxAudio.currentTime=10.95;release(2,{timeStamp:1000},'pointer:7')");assert.equal(run('held[2]'),false);assert.equal(run('judges[0]'),2);
 auxFixture();down('KeyG');await run('togglePause()');assert.equal(run('inputOwners.size'),0);assert.equal(run('held.some(Boolean)'),false);
-run("auxRemapping=0");assert.equal(run("assignFiveAux('KeyD')"),false);assert.equal(run("assignFiveAux('AltLeft')"),true);assert.equal(run("resolveInputLane('AltLeft',5,bindings,fiveAuxBindings)"),2);assert.equal(run("resolveInputLane('KeyG',7,MODE_BINDINGS[7],DEFAULT_FIVE_AUX)"),-1);
+run("auxRemapping=0");assert.equal(run("assignFiveAux('KeyD')"),false);assert.equal(run("assignFiveAux('AltLeft')"),true);assert.equal(run("resolveInputLane('AltLeft',5,bindings,fiveAuxBindings)"),2);assert.equal(run("resolveInputLane('KeyG',7,MODE_BINDINGS[7],DEFAULT_FIVE_AUX)"),3);
 assert.equal(JSON.parse(storage.get('pulse-prefs-v4')).fiveAuxBindings[0],'AltLeft');run("fiveAuxBindings=DEFAULT_FIVE_AUX.slice();loadPrefs()");assert.equal(run('fiveAuxBindings[0]'),'AltLeft');
 run("state='idle';setKeyMode(4)");for(const count of [5,6,7,8,4]){down('Tab');assert.equal(run('keyCount'),count)}down('Tab',{shiftKey:true});assert.equal(run('keyCount'),8);
 el('#settingsDialog').open=true;down('Tab');assert.equal(run('keyCount'),8);el('#settingsDialog').open=false;run("state='playing'");down('Tab');assert.equal(run('keyCount'),8);
-run("state='idle';setKeyMode(7)");assert.equal(run('bindings.length'),7);assert.equal(run("bindings[3]"),'Space');assert.equal(el('#fiveAuxPanel').hidden,true);
+run("state='idle';setKeyMode(7)");assert.equal(run('bindings.length'),7);assert.equal(run("bindings[3]"),'Space');assert.equal(el('#fiveAuxPanel').hidden,false);
 for(const count of [4,5,6,7,8])for(const skin of ['BAR','CIRCLE','DIAMOND']){
  run('state="idle";setKeyMode('+count+');noteSkin="'+skin+'";draw(1000)');el('#settingsDialog').open=true;run('drawVisualPreview(1000)');el('#settingsDialog').open=false;
 }
@@ -78,7 +78,15 @@ for(const count of [4,5,6,7,8])for(const mode of ['NORMAL','MIRROR','RANDOM']){
  assert.deepEqual(mapping.slice().sort((a,b)=>a-b),Array.from({length:count},(_,i)=>i));
  if(mode==='MIRROR'&&count===7)assert.equal(mapping[3],3);
 }
+run("state='idle';setKeyMode(7);sevenAuxBindings=DEFAULT_FIVE_AUX.slice();renderBindings()");assert.equal(run("$('#fiveAuxPanel').hidden"),false);
+fixture();run("keyCount=7;bindings=MODE_BINDINGS[7].slice();sevenAuxBindings=DEFAULT_FIVE_AUX.slice();inputOwners.clear();ctxAudio.currentTime=10;notes=[{time:10,lane:3,dur:1,status:0}]");down('KeyG');run('ctxAudio.currentTime=10.4');down('KeyH');up('KeyG');assert.equal(run('held[3]'),true);run('ctxAudio.currentTime=10.95');up('KeyH');assert.equal(run('judges[0]'),2);
+run("auxRemapping=0;assignFiveAux('AltLeft');savePrefs();sevenAuxBindings=[null,null];loadPrefs()");assert.equal(run('sevenAuxBindings[0]'),'AltLeft');
 console.log('PASS: auxiliary alternating taps, repeat/single-note deduplication, shared keyboard/pointer holds, pause reset, remap collision/Alt/persistence, Tab cycling/modal guards, 7KEY and all skins');
 
+let autoBegins=0,autoSubmits=0;sandbox.window.PulseRanking={beginRun:async()=>{autoBegins++;return {}},submit:async()=>{autoSubmits++}};
+run("state='idle';autoMode=true");await run('start()');assert.equal(autoBegins,0);assert.equal(run('sessionAuto'),true);
+run("notes=[{time:1,lane:0,dur:0,status:0},{time:2,lane:3,dur:1,status:0}];totalJudgements=3;updateGame(2.1,2100)");assert.equal(run('judges[0]'),2);assert.equal(run('held[3]'),true);run('updateGame(3.1,3100)');assert.equal(run('judges[0]'),3);assert.equal(run('held[3]'),false);
+const beforeAutoRecords=JSON.stringify([...storage]);run('finish()');await run('submitRanking()');assert.equal(autoSubmits,0);assert.equal(JSON.stringify([...storage]),beforeAutoRecords);assert.match(el('#resultMode').textContent,/AUTO/);
+console.log('PASS AUTO: taps/holds, no ranking begin/submit, no local best/badge writes');
 console.log('PASS full HTML script boot, settings open/close, all key modes refresh');
 })().catch(e=>{console.error(e);process.exitCode=1});
