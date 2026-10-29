@@ -3,6 +3,9 @@ const $=s=>document.querySelector(s),tracks=TRACK_LIBRARY.map(t=>({...t}));
 const DIFF=['EASY','NORMAL','HARD','EXPERT'],DIFF_KO=['쉬움','보통','어려움','최상급'];
 const JUDGE_LABELS={BASIC:'Basic',STANDARD:'Standard'};
 const AUDIO_LATENCY_MODES={LOW:'interactive',STABLE:'playback'};
+const GEAR_SKINS=['ORIGINAL','CARBON','NEON','IVORY'];
+let gearSkin='ORIGINAL';
+let backgroundBrightness=60,gearWidthPercent=100,judgePosition=82;
 const DEFAULT_KEYS=MODE_BINDINGS[5];
 let keyCount=5,bindingsByMode={};
 let arrangementMode='NORMAL',sessionArrangement='NORMAL',randomSeed=newArrangementSeed(),sessionSeed=0,sessionChartId='';
@@ -21,9 +24,9 @@ let W=350,H=500,dpr=1,totalJudgements=0;
 const canvas=$('#game'),ctx=canvas.getContext('2d');
 function formatTime(seconds){const t=Math.max(0,Math.floor(seconds));return String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}
 function keyName(code){if(code==='Space')return 'SPACE';if(code.startsWith('Key'))return code.slice(3);if(code.startsWith('Digit'))return code.slice(5);if(code.startsWith('Numpad'))return 'NUM '+code.slice(6);return ({ArrowUp:'↑',ArrowDown:'↓',ArrowLeft:'←',ArrowRight:'→',Semicolon:';',Quote:"'",Comma:',',Period:'.',Slash:'/',Backslash:'\\',BracketLeft:'[',BracketRight:']',Minus:'-',Equal:'=',Backquote:'`'})[code]||code.replace(/(Left|Right)$/,'')}
-function loadPrefs(){try{const p=JSON.parse(localStorage.getItem('pulse-prefs-v4')||'{}');if(KEY_MODES.includes(p.keyCount))keyCount=p.keyCount;bindingsByMode={};for(const k of KEY_MODES)if(validBindings(p.bindingsByMode?.[k],k))bindingsByMode[k]=p.bindingsByMode[k];if(validBindings(p.bindings,5)&&!bindingsByMode[5])bindingsByMode[5]=p.bindings;bindings=(bindingsByMode[keyCount]||MODE_BINDINGS[keyCount]).slice();applyKeyCharts();if(Number.isFinite(p.speed))speed=Math.max(1,Math.min(10,p.speed));if(Number.isFinite(p.volume))volume=Math.max(0,Math.min(1,p.volume));if(Number.isFinite(p.offset))offset=Math.max(-.2,Math.min(.2,p.offset));if(Object.hasOwn(AUDIO_LATENCY_MODES,p.audioMode))audioMode=p.audioMode;if(Object.hasOwn(EFFECT_STRENGTHS,p.effectStrength))effectStrength=p.effectStrength;if(NOTE_SKINS.includes(p.noteSkin))noteSkin=p.noteSkin;if(HIT_STYLES.includes(p.hitStyle))hitStyle=p.hitStyle;if(JUDGE_PRESETS[p.judgeMode])judgeMode=p.judgeMode;if(ARRANGEMENT_MODES.includes(p.arrangementMode))arrangementMode=p.arrangementMode;keysEnabled=p.keysEnabled!==false;if(Number.isFinite(p.keysVolume))keysVolume=Math.max(0,Math.min(1.5,p.keysVolume))}catch{}}
-function savePrefs(){bindingsByMode[keyCount]=bindings.slice();try{localStorage.setItem('pulse-prefs-v4',JSON.stringify({bindings:bindingsByMode[5]||MODE_BINDINGS[5],keyCount,bindingsByMode,speed,volume,offset,keysEnabled,keysVolume,arrangementMode,judgeMode,noteSkin,hitStyle,effectStrength,audioMode}))}catch{}}
-function applyKeyCharts(){tracks.forEach((t,i)=>Object.assign(t,TRACK_LIBRARY[i],keyChartSet(TRACK_LIBRARY[i],keyCount)));held=Array(keyCount).fill(false);flashes=Array(keyCount).fill(-9999);VISUAL_KEY_COUNT=keyCount;document.documentElement.style.setProperty('--key-count',keyCount);document.documentElement.style.setProperty('--gear-width',(keyCount*64+48)+'px')}
+function loadPrefs(){try{const p=JSON.parse(localStorage.getItem('pulse-prefs-v4')||'{}');if(Number.isFinite(p.backgroundBrightness))backgroundBrightness=Math.max(0,Math.min(100,p.backgroundBrightness));if(Number.isFinite(p.gearWidthPercent))gearWidthPercent=Math.max(75,Math.min(125,p.gearWidthPercent));if(Number.isFinite(p.judgePosition))judgePosition=Math.max(35,Math.min(90,p.judgePosition));if(GEAR_SKINS.includes(p.gearSkin))gearSkin=p.gearSkin;if(validEightColors(p.eightNoteColors))eightNoteColors=p.eightNoteColors.map(c=>c.toLowerCase());if(KEY_MODES.includes(p.keyCount))keyCount=p.keyCount;bindingsByMode={};for(const k of KEY_MODES)if(validBindings(p.bindingsByMode?.[k],k))bindingsByMode[k]=p.bindingsByMode[k];if(validBindings(p.bindings,5)&&!bindingsByMode[5])bindingsByMode[5]=p.bindings;bindings=(bindingsByMode[keyCount]||MODE_BINDINGS[keyCount]).slice();applyKeyCharts();if(Number.isFinite(p.speed))speed=Math.max(1,Math.min(10,p.speed));if(Number.isFinite(p.volume))volume=Math.max(0,Math.min(1,p.volume));if(Number.isFinite(p.offset))offset=Math.max(-.2,Math.min(.2,p.offset));if(Object.hasOwn(AUDIO_LATENCY_MODES,p.audioMode))audioMode=p.audioMode;if(Object.hasOwn(EFFECT_STRENGTHS,p.effectStrength))effectStrength=p.effectStrength;if(NOTE_SKINS.includes(p.noteSkin))noteSkin=p.noteSkin;if(HIT_STYLES.includes(p.hitStyle))hitStyle=p.hitStyle;if(JUDGE_PRESETS[p.judgeMode])judgeMode=p.judgeMode;if(ARRANGEMENT_MODES.includes(p.arrangementMode))arrangementMode=p.arrangementMode;keysEnabled=p.keysEnabled!==false;if(Number.isFinite(p.keysVolume))keysVolume=Math.max(0,Math.min(1.5,p.keysVolume))}catch{}}
+function savePrefs(){bindingsByMode[keyCount]=bindings.slice();try{localStorage.setItem('pulse-prefs-v4',JSON.stringify({bindings:bindingsByMode[5]||MODE_BINDINGS[5],keyCount,bindingsByMode,speed,volume,offset,keysEnabled,keysVolume,arrangementMode,judgeMode,noteSkin,hitStyle,effectStrength,audioMode,eightNoteColors,gearSkin,backgroundBrightness,gearWidthPercent,judgePosition}))}catch{}}
+function applyKeyCharts(){tracks.forEach((t,i)=>Object.assign(t,TRACK_LIBRARY[i],keyChartSet(TRACK_LIBRARY[i],keyCount)));held=Array(keyCount).fill(false);flashes=Array(keyCount).fill(-9999);VISUAL_KEY_COUNT=keyCount;document.documentElement.style.setProperty('--key-count',keyCount);applyReadability()}
 function setKeyMode(count){if(state!=='idle'||!KEY_MODES.includes(count))return;bindingsByMode[keyCount]=bindings.slice();keyCount=count;bindings=(bindingsByMode[count]||MODE_BINDINGS[count]).slice();remapping=null;applyKeyCharts();savePrefs();renderBindings();refresh()}
 function renderKeyMode(){document.querySelectorAll('[data-keymode]').forEach(b=>{const on=+b.dataset.keymode===keyCount;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});$('.top-mid strong').textContent=keyCount;$('.key-mode strong').textContent=keyCount;$('#keyConfigTitle').textContent=keyCount+' KEY CONFIGURATION';$('#playKeyCount').textContent=keyCount+' KEY';$('#gearKeyCount').textContent='PULSE / '+keyCount+'KEY';$('#game').setAttribute('aria-label',keyCount+'키 리듬게임 플레이 영역');$('#keyModeHint').textContent=keyCount===4?'4KEY · 압축된 리듬과 양손 교대':keyCount===5?'5KEY · 중앙 리듬을 잇는 선율':keyCount===6?'6KEY · 선율과 반주의 양손 분업':'8KEY · 넓은 음역과 다층 복합 연주'}
 function bestKey(mode=arrangementMode){return 'pulse-rules-v7-'+tracks[selected].chartIds[diff]+'-'+judgeMode.toLowerCase()+'-'+mode.toLowerCase()}
@@ -158,7 +161,7 @@ function draw(now){
  ctx.clearRect(0,0,W,H);ctx.fillStyle='#040810';ctx.fillRect(0,0,W,H);
  for(let l=0;l<keyCount;l++){
   const x=pad+l*lw,laneDepth=ctx.createLinearGradient(0,0,0,H);laneDepth.addColorStop(0,centerLane(l,keyCount)?'#11130f':l%2?'#0d1722':'#080f18');laneDepth.addColorStop(1,centerLane(l,keyCount)?'#28261d':l%2?'#142b3c':'#10202e');ctx.fillStyle=laneDepth;ctx.fillRect(x,0,lw,H);ctx.strokeStyle=centerLane(l,keyCount)||l===Math.ceil(keyCount/2)?'#7f826455':'#56748a44';ctx.lineWidth=.7;ctx.beginPath();ctx.moveTo(x,0);ctx.lineTo(x,H);ctx.stroke();
-  if(held[l]){const g=ctx.createLinearGradient(0,lineY-150,0,lineY);g.addColorStop(0,'#75d8ff00');g.addColorStop(1,centerLane(l,keyCount)?'#ffe68566':'#75d8ff55');ctx.fillStyle=g;ctx.fillRect(x+1,lineY-150,lw-2,150)}
+  if(held[l]){const g=ctx.createLinearGradient(0,lineY-150,0,lineY);g.addColorStop(0,laneColor(l)+'00');g.addColorStop(1,laneColor(l)+'55');ctx.fillStyle=g;ctx.fillRect(x+1,lineY-150,lw-2,150)}
  }
  if(noteSkin==='CIRCLE')drawJudgementLine(lineY,pad,lw);
  ctx.save();ctx.beginPath();ctx.rect(pad,0,W-pad*2,lineY+headRadius+5);ctx.clip();const beat=60/track.bpm;
@@ -166,7 +169,7 @@ function draw(now){
  for(const n of notes){
   if(n.status===2)continue;const y=lineY-(n.time-t)*lineY/travel,tailY=lineY-(n.time+n.dur-t)*lineY/travel;if(y< -headMargin||tailY>lineY+headMargin)continue;
   const x=pad+n.lane*lw+3,w=lw-6,c=laneColor(n.lane);
-  if(n.dur){const bottom=n.status===1?lineY:y,stemWidth=w*(noteSkin==='CIRCLE'?.28:.56),stemX=x+(w-stemWidth)/2;ctx.fillStyle=centerLane(n.lane,keyCount)?'#e6bf4144':'#57c6f044';ctx.fillRect(stemX,tailY,stemWidth,Math.max(0,bottom-tailY));if(n.status===1&&held[n.lane]&&state==='playing')paintHoldBody(ctx,stemX,Math.max(0,tailY),bottom,stemWidth,c,now,effectStrength);ctx.fillStyle=c+'88';ctx.fillRect(stemX,tailY,stemWidth,2);if(noteSkin==='CIRCLE'){ctx.beginPath();ctx.arc(x+w/2,tailY,circleNoteRadius(w)*.38,0,Math.PI*2);ctx.fill();ctx.strokeStyle=c;ctx.lineWidth=1;ctx.stroke()}}paintNoteHead(ctx,x,n.status===1?lineY:y,w,c,noteSkin);if(n.status===1&&held[n.lane]&&state==='playing')paintHoldAnchor(ctx,x+w/2,lineY,w,c,now,noteSkin,effectStrength);
+  if(n.dur){const bottom=n.status===1?lineY:y,stemWidth=w*(noteSkin==='CIRCLE'?.28:.56),stemX=x+(w-stemWidth)/2;ctx.fillStyle=c+'44';ctx.fillRect(stemX,tailY,stemWidth,Math.max(0,bottom-tailY));if(n.status===1&&held[n.lane]&&state==='playing')paintHoldBody(ctx,stemX,Math.max(0,tailY),bottom,stemWidth,c,now,effectStrength);ctx.fillStyle=c+'88';ctx.fillRect(stemX,tailY,stemWidth,2);if(noteSkin==='CIRCLE'){ctx.beginPath();ctx.arc(x+w/2,tailY,circleNoteRadius(w)*.38,0,Math.PI*2);ctx.fill();ctx.strokeStyle=c;ctx.lineWidth=1;ctx.stroke()}}paintNoteHead(ctx,x,n.status===1?lineY:y,w,c,noteSkin);if(n.status===1&&held[n.lane]&&state==='playing')paintHoldAnchor(ctx,x+w/2,lineY,w,c,now,noteSkin,effectStrength);
  }
  ctx.restore();if(noteSkin!=='CIRCLE')drawJudgementLine(lineY,pad,lw);
  for(let l=0;l<keyCount;l++){
@@ -177,13 +180,52 @@ function draw(now){
  }
  hitEffects=hitEffects.filter(hit=>now-hit.at<420);paintHitEffects(ctx,hitEffects,now,pad,lw,lineY,hitStyle,effectStrength);
  ctx.textAlign='center';if(combo>1&&state!=='celebrating'){ctx.fillStyle='#95bbd280';ctx.font='700 12px Rajdhani,sans-serif';ctx.fillText('COMBO',W/2,H*.27);ctx.fillStyle='#e6f4ffc4';ctx.font='800 italic 55px "Barlow Condensed",sans-serif';ctx.fillText(combo,W/2,H*.27+49)}
- if(now-judgeAt<500){ctx.globalAlpha=Math.min(1,(500-now+judgeAt)/150);ctx.fillStyle=['MISS','FAIL'].includes(judgement)?'#f19785':judgement==='PERFECT'?'#e9ff85':'#8ddaff';ctx.font='800 italic 28px "Barlow Condensed",sans-serif';ctx.fillText(judgement,W/2,lineY-55);if(judgementTiming&&timingSide&&!['MISS','FAIL'].includes(judgement)){ctx.fillStyle=timingSide==='FAST'?'#71d7ff':timingSide==='SLOW'?'#ffac86':'#e9ff85';ctx.font='700 12px Rajdhani,sans-serif';ctx.fillText(timingSide+' '+(timingError>=0?'+':'')+Math.round(timingError)+' ms',W/2,lineY-36)}ctx.globalAlpha=1}
+ if(now-judgeAt<500){ctx.globalAlpha=Math.min(1,(500-now+judgeAt)/150);ctx.fillStyle=['MISS','FAIL'].includes(judgement)?'#f19785':judgement==='PERFECT'?'#e9ff85':'#8ddaff';ctx.font='800 italic 28px "Barlow Condensed",sans-serif';ctx.fillText(judgement,W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100)));if(judgementTiming&&timingSide&&!['MISS','FAIL'].includes(judgement)){ctx.fillStyle=timingSide==='FAST'?'#71d7ff':timingSide==='SLOW'?'#ffac86':'#e9ff85';ctx.font='700 12px Rajdhani,sans-serif';ctx.fillText(timingSide+' '+(timingError>=0?'+':'')+Math.round(timingError)+' ms',W/2,Math.max(50,Math.min(lineY-30,lineY*judgePosition/100))+19)}ctx.globalAlpha=1}
  if(state==='celebrating'&&completion)paintCompletion(ctx,completion.label,now-completion.at,W,H,effectStrength);
  $('#countdown').hidden=t>=0;if(t<0)$('#countdown b').textContent=Math.ceil(-t);
  $('#progress').style.width=(Math.max(0,Math.min(1,t/track.duration))*100)+'%';$('#playTime').textContent=formatTime(t)+' / '+formatTime(track.duration);
  const section=(track.sections||[]).filter(s=>s.time<=t).at(-1);$('#sectionName').textContent=section?section.name:'OPENING';
 }
-async function openSettings(){if(state==='loading'||state==='celebrating')return;if(state==='playing')await togglePause();remapping=null;setVisualPreview('PLAY');$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#bindingMessage').textContent='Enter: 일시정지 / Esc: 뒤로 가기';renderBindings();$('#settingsDialog').showModal()}
+function applyReadability(){
+ const root=document.documentElement;
+ root.style.setProperty('--background-brightness',backgroundBrightness/100);
+ root.style.setProperty('--gear-width',Math.round((keyCount*64+48)*gearWidthPercent/100)+'px');
+ root.style.setProperty('--gear-scale',gearWidthPercent/100);
+ for(const [id,value,suffix] of [['backgroundBrightness',backgroundBrightness,'%'],['gearWidthPercent',gearWidthPercent,'%'],['judgePosition',judgePosition,'%']]){
+  $('#'+id).value=value;$('#'+id+'Value').textContent=value+suffix;
+ }
+ $('#readabilityJudge').style.top=judgePosition+'%';
+ $('#readabilityMini').style.width=(gearWidthPercent*.6)+'%';
+ $('#readabilityPreview').style.backgroundColor='rgb('+[12,25,40].map(v=>Math.round(v*backgroundBrightness/60)).join(',')+')';
+}
+for(const id of ['backgroundBrightness','gearWidthPercent','judgePosition']){
+ $('#'+id).oninput=e=>{
+  const n=Number(e.target.value);if(!Number.isFinite(n))return;
+  if(id==='backgroundBrightness')backgroundBrightness=Math.max(0,Math.min(100,n));
+  if(id==='gearWidthPercent')gearWidthPercent=Math.max(75,Math.min(125,n));
+  if(id==='judgePosition')judgePosition=Math.max(35,Math.min(90,n));
+  applyReadability();savePrefs();
+ };
+}
+$('#resetReadability').onclick=()=>{backgroundBrightness=60;gearWidthPercent=100;judgePosition=82;applyReadability();savePrefs()};
+function applyGearSkin(){
+ document.documentElement.dataset.gearSkin=gearSkin;
+ document.querySelectorAll('[data-gear-choice]').forEach(button=>{
+  const on=button.dataset.gearChoice===gearSkin;
+  button.setAttribute('aria-pressed',String(on));
+ });
+}
+document.querySelectorAll('[data-gear-choice]').forEach(button=>button.onclick=()=>{
+ if(!GEAR_SKINS.includes(button.dataset.gearChoice))return;
+ gearSkin=button.dataset.gearChoice;applyGearSkin();savePrefs();
+});
+function syncEightColorSettings(){
+ const preset=Object.keys(EIGHT_COLOR_PRESETS).find(k=>EIGHT_COLOR_PRESETS[k].colors.every((c,i)=>c===eightNoteColors[i]));
+ $('#eightColorPreset').value=preset||'CUSTOM';
+ document.querySelectorAll('[data-eight-color]').forEach(input=>{input.value=eightNoteColors[+input.dataset.eightColor]});
+ document.querySelectorAll('[data-eight-lane]').forEach(cell=>{cell.style.setProperty('--note-color',eightNoteColors[EIGHT_COLOR_GROUPS[+cell.dataset.eightLane]])});
+}
+async function openSettings(){if(state==='loading'||state==='celebrating')return;if(state==='playing')await togglePause();remapping=null;syncEightColorSettings();setVisualPreview('PLAY');$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#bindingMessage').textContent='Enter: 일시정지 / Esc: 뒤로 가기';renderBindings();$('#settingsDialog').showModal()}
 document.querySelectorAll('[data-judge]').forEach(b=>b.onclick=()=>setJudgeMode(b.dataset.judge));
 document.querySelectorAll('[data-arrangement]').forEach(b=>b.onclick=()=>setArrangement(b.dataset.arrangement));$('#shuffleSeed').onclick=()=>{if(state!=='idle')return;randomSeed=newArrangementSeed();renderArrangement()};
 
@@ -220,4 +262,13 @@ $('#noteSkin').onchange=e=>{if(!NOTE_SKINS.includes(e.target.value))return;noteS
 $('#offsetMinus').onclick=()=>setOffset(offset*1000-1);$('#offsetPlus').onclick=()=>setOffset(offset*1000+1);$('#offsetReset').onclick=()=>setOffset(0);$('#calibrateStart').onclick=startCalibration;$('#calibrateTap').onpointerdown=e=>{e.preventDefault();tapCalibration()};$('#applyCalibration').onclick=()=>{if(calibrationOffset===null)return;setOffset(calibrationOffset);$('#calibrationMessage').textContent='보정값을 저장했어요. 실제 플레이의 FAST/SLOW도 확인해 주세요.';$('#applyCalibration').hidden=true};$('#applyResultOffset').onclick=()=>{if(resultOffset===null)return;setOffset(resultOffset);$('#applyResultOffset').textContent='보정 '+(resultOffset>=0?'+':'')+resultOffset+' ms 저장 완료';$('#applyResultOffset').hidden=true};
 
 document.querySelectorAll('[data-keymode]').forEach(b=>b.onclick=()=>setKeyMode(+b.dataset.keymode));
-loadPrefs();$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#speed').value=speed;$('#volume').value=volume*100;$('#offset').value=offset*1000;$('#keySound').checked=keysEnabled;$('#keysVolume').value=keysVolume*100;$('#keysVolText').textContent=Math.round(keysVolume*100)+'%';$('#volText').textContent=Math.round(volume*100)+'%';$('#offsetText').textContent=Math.round(offset*1000)+' ms';renderBindings();refresh();requestAnimationFrame(draw);
+$('#eightColorPreset').onchange=e=>{
+ const preset=EIGHT_COLOR_PRESETS[e.target.value];if(!preset)return;
+ eightNoteColors=preset.colors.slice();syncEightColorSettings();savePrefs();previewAt=performance.now();
+};
+document.querySelectorAll('[data-eight-color]').forEach(input=>input.oninput=e=>{
+ const colors=eightNoteColors.slice();colors[+input.dataset.eightColor]=e.target.value;
+ if(!validEightColors(colors))return;eightNoteColors=colors;syncEightColorSettings();savePrefs();
+});
+$('#resetEightColors').onclick=()=>{eightNoteColors=EIGHT_COLOR_PRESETS.CLASSIC.colors.slice();syncEightColorSettings();savePrefs()};
+loadPrefs();applyReadability();applyGearSkin();syncEightColorSettings();$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#speed').value=speed;$('#volume').value=volume*100;$('#offset').value=offset*1000;$('#keySound').checked=keysEnabled;$('#keysVolume').value=keysVolume*100;$('#keysVolText').textContent=Math.round(keysVolume*100)+'%';$('#volText').textContent=Math.round(volume*100)+'%';$('#offsetText').textContent=Math.round(offset*1000)+' ms';renderBindings();refresh();requestAnimationFrame(draw);

@@ -268,13 +268,13 @@
       55,
       88
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "chartIds": [
-      "bittersweet-ascension-v12-5key-voices-0",
-      "bittersweet-ascension-v12-5key-voices-1",
-      "bittersweet-ascension-v12-5key-voices-2",
-      "bittersweet-ascension-v12-5key-voices-3"
+      "bittersweet-ascension-v15-5key-phrases-0",
+      "bittersweet-ascension-v15-5key-phrases-1",
+      "bittersweet-ascension-v15-5key-phrases-2",
+      "bittersweet-ascension-v15-5key-phrases-3"
     ],
     "legacyDifficulty": [
       1,
@@ -284,10 +284,10 @@
     ],
     "keysAudio": "audio/bittersweet-ascension-keys.ogg",
     "previousChartIds": [
-      "bittersweet-ascension-v9-flow-0",
-      "bittersweet-ascension-v9-flow-1",
-      "bittersweet-ascension-v9-flow-2",
-      "bittersweet-ascension-v9-flow-3"
+      "bittersweet-ascension-v12-5key-voices-0",
+      "bittersweet-ascension-v12-5key-voices-1",
+      "bittersweet-ascension-v12-5key-voices-2",
+      "bittersweet-ascension-v12-5key-voices-3"
     ],
     "sourceDuration": 203.6,
     "edit": {
@@ -296,12 +296,74 @@
       "removed": 83.79678,
       "version": "arcade-1"
     },
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "bittersweet-ascension-v15-4key-phrases-0",
+          "bittersweet-ascension-v15-4key-phrases-1",
+          "bittersweet-ascension-v15-4key-phrases-2",
+          "bittersweet-ascension-v15-4key-phrases-3"
+        ],
+        "levels": [
+          7,
+          9,
+          13,
+          16
+        ],
+        "previousChartIds": [
+          "bittersweet-ascension-v12-4key-voices-0",
+          "bittersweet-ascension-v12-4key-voices-1",
+          "bittersweet-ascension-v12-4key-voices-2",
+          "bittersweet-ascension-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "bittersweet-ascension-v15-6key-phrases-0",
+          "bittersweet-ascension-v15-6key-phrases-1",
+          "bittersweet-ascension-v15-6key-phrases-2",
+          "bittersweet-ascension-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          11,
+          16,
+          19
+        ],
+        "previousChartIds": [
+          "bittersweet-ascension-v12-6key-voices-0",
+          "bittersweet-ascension-v12-6key-voices-1",
+          "bittersweet-ascension-v12-6key-voices-2",
+          "bittersweet-ascension-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "bittersweet-ascension-v15-8key-phrases-0",
+          "bittersweet-ascension-v15-8key-phrases-1",
+          "bittersweet-ascension-v15-8key-phrases-2",
+          "bittersweet-ascension-v15-8key-phrases-3"
+        ],
+        "levels": [
+          9,
+          15,
+          18,
+          20
+        ],
+        "previousChartIds": [
+          "bittersweet-ascension-v12-8key-voices-0",
+          "bittersweet-ascension-v12-8key-voices-1",
+          "bittersweet-ascension-v12-8key-voices-2",
+          "bittersweet-ascension-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "dreamy-piano-bounce",
@@ -572,13 +634,13 @@
       56,
       88
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "chartIds": [
-      "dreamy-piano-bounce-v12-5key-voices-0",
-      "dreamy-piano-bounce-v12-5key-voices-1",
-      "dreamy-piano-bounce-v12-5key-voices-2",
-      "dreamy-piano-bounce-v12-5key-voices-3"
+      "dreamy-piano-bounce-v15-5key-phrases-0",
+      "dreamy-piano-bounce-v15-5key-phrases-1",
+      "dreamy-piano-bounce-v15-5key-phrases-2",
+      "dreamy-piano-bounce-v15-5key-phrases-3"
     ],
     "legacyDifficulty": [
       1,
@@ -588,10 +650,10 @@
     ],
     "keysAudio": "audio/dreamy-piano-bounce-keys.ogg",
     "previousChartIds": [
-      "dreamy-piano-bounce-v9-flow-0",
-      "dreamy-piano-bounce-v9-flow-1",
-      "dreamy-piano-bounce-v9-flow-2",
-      "dreamy-piano-bounce-v9-flow-3"
+      "dreamy-piano-bounce-v12-5key-voices-0",
+      "dreamy-piano-bounce-v12-5key-voices-1",
+      "dreamy-piano-bounce-v12-5key-voices-2",
+      "dreamy-piano-bounce-v12-5key-voices-3"
     ],
     "sourceDuration": 189.16,
     "edit": {
@@ -600,12 +662,74 @@
       "removed": 68.571429,
       "version": "arcade-1"
     },
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "dreamy-piano-bounce-v15-4key-phrases-0",
+          "dreamy-piano-bounce-v15-4key-phrases-1",
+          "dreamy-piano-bounce-v15-4key-phrases-2",
+          "dreamy-piano-bounce-v15-4key-phrases-3"
+        ],
+        "levels": [
+          6,
+          9,
+          11,
+          14
+        ],
+        "previousChartIds": [
+          "dreamy-piano-bounce-v12-4key-voices-0",
+          "dreamy-piano-bounce-v12-4key-voices-1",
+          "dreamy-piano-bounce-v12-4key-voices-2",
+          "dreamy-piano-bounce-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "dreamy-piano-bounce-v15-6key-phrases-0",
+          "dreamy-piano-bounce-v15-6key-phrases-1",
+          "dreamy-piano-bounce-v15-6key-phrases-2",
+          "dreamy-piano-bounce-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          10,
+          12,
+          15
+        ],
+        "previousChartIds": [
+          "dreamy-piano-bounce-v12-6key-voices-0",
+          "dreamy-piano-bounce-v12-6key-voices-1",
+          "dreamy-piano-bounce-v12-6key-voices-2",
+          "dreamy-piano-bounce-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "dreamy-piano-bounce-v15-8key-phrases-0",
+          "dreamy-piano-bounce-v15-8key-phrases-1",
+          "dreamy-piano-bounce-v15-8key-phrases-2",
+          "dreamy-piano-bounce-v15-8key-phrases-3"
+        ],
+        "levels": [
+          8,
+          11,
+          12,
+          16
+        ],
+        "previousChartIds": [
+          "dreamy-piano-bounce-v12-8key-voices-0",
+          "dreamy-piano-bounce-v12-8key-voices-1",
+          "dreamy-piano-bounce-v12-8key-voices-2",
+          "dreamy-piano-bounce-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "bouncy-bass-party",
@@ -906,13 +1030,13 @@
       55,
       88
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "chartIds": [
-      "bouncy-bass-party-v12-5key-voices-0",
-      "bouncy-bass-party-v12-5key-voices-1",
-      "bouncy-bass-party-v12-5key-voices-2",
-      "bouncy-bass-party-v12-5key-voices-3"
+      "bouncy-bass-party-v15-5key-phrases-0",
+      "bouncy-bass-party-v15-5key-phrases-1",
+      "bouncy-bass-party-v15-5key-phrases-2",
+      "bouncy-bass-party-v15-5key-phrases-3"
     ],
     "legacyDifficulty": [
       1,
@@ -922,10 +1046,10 @@
     ],
     "keysAudio": "audio/bouncy-bass-party-keys.ogg",
     "previousChartIds": [
-      "bouncy-bass-party-v9-flow-0",
-      "bouncy-bass-party-v9-flow-1",
-      "bouncy-bass-party-v9-flow-2",
-      "bouncy-bass-party-v9-flow-3"
+      "bouncy-bass-party-v12-5key-voices-0",
+      "bouncy-bass-party-v12-5key-voices-1",
+      "bouncy-bass-party-v12-5key-voices-2",
+      "bouncy-bass-party-v12-5key-voices-3"
     ],
     "sourceDuration": 207.56,
     "edit": {
@@ -934,12 +1058,74 @@
       "removed": 85.333333,
       "version": "arcade-1"
     },
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "bouncy-bass-party-v15-4key-phrases-0",
+          "bouncy-bass-party-v15-4key-phrases-1",
+          "bouncy-bass-party-v15-4key-phrases-2",
+          "bouncy-bass-party-v15-4key-phrases-3"
+        ],
+        "levels": [
+          7,
+          9,
+          13,
+          15
+        ],
+        "previousChartIds": [
+          "bouncy-bass-party-v12-4key-voices-0",
+          "bouncy-bass-party-v12-4key-voices-1",
+          "bouncy-bass-party-v12-4key-voices-2",
+          "bouncy-bass-party-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "bouncy-bass-party-v15-6key-phrases-0",
+          "bouncy-bass-party-v15-6key-phrases-1",
+          "bouncy-bass-party-v15-6key-phrases-2",
+          "bouncy-bass-party-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          12,
+          15,
+          18
+        ],
+        "previousChartIds": [
+          "bouncy-bass-party-v12-6key-voices-0",
+          "bouncy-bass-party-v12-6key-voices-1",
+          "bouncy-bass-party-v12-6key-voices-2",
+          "bouncy-bass-party-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "bouncy-bass-party-v15-8key-phrases-0",
+          "bouncy-bass-party-v15-8key-phrases-1",
+          "bouncy-bass-party-v15-8key-phrases-2",
+          "bouncy-bass-party-v15-8key-phrases-3"
+        ],
+        "levels": [
+          9,
+          13,
+          16,
+          19
+        ],
+        "previousChartIds": [
+          "bouncy-bass-party-v12-8key-voices-0",
+          "bouncy-bass-party-v12-8key-voices-1",
+          "bouncy-bass-party-v12-8key-voices-2",
+          "bouncy-bass-party-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "luminous-forward-motion",
@@ -1205,13 +1391,13 @@
       55,
       83
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "previousChartIds": [
-      "luminous-forward-motion-v11-5key-flow-0",
-      "luminous-forward-motion-v11-5key-flow-1",
-      "luminous-forward-motion-v11-5key-flow-2",
-      "luminous-forward-motion-v11-5key-flow-3"
+      "luminous-forward-motion-v12-5key-voices-0",
+      "luminous-forward-motion-v12-5key-voices-1",
+      "luminous-forward-motion-v12-5key-voices-2",
+      "luminous-forward-motion-v12-5key-voices-3"
     ],
     "keysAudio": "audio/luminous-forward-motion-keys.ogg",
     "sourceDuration": 213.16,
@@ -1226,17 +1412,79 @@
       "estimatedBeatPhase": 0.2506345177664975
     },
     "chartIds": [
-      "luminous-forward-motion-v12-5key-voices-0",
-      "luminous-forward-motion-v12-5key-voices-1",
-      "luminous-forward-motion-v12-5key-voices-2",
-      "luminous-forward-motion-v12-5key-voices-3"
+      "luminous-forward-motion-v15-5key-phrases-0",
+      "luminous-forward-motion-v15-5key-phrases-1",
+      "luminous-forward-motion-v15-5key-phrases-2",
+      "luminous-forward-motion-v15-5key-phrases-3"
     ],
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "luminous-forward-motion-v15-4key-phrases-0",
+          "luminous-forward-motion-v15-4key-phrases-1",
+          "luminous-forward-motion-v15-4key-phrases-2",
+          "luminous-forward-motion-v15-4key-phrases-3"
+        ],
+        "levels": [
+          7,
+          9,
+          12,
+          20
+        ],
+        "previousChartIds": [
+          "luminous-forward-motion-v12-4key-voices-0",
+          "luminous-forward-motion-v12-4key-voices-1",
+          "luminous-forward-motion-v12-4key-voices-2",
+          "luminous-forward-motion-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "luminous-forward-motion-v15-6key-phrases-0",
+          "luminous-forward-motion-v15-6key-phrases-1",
+          "luminous-forward-motion-v15-6key-phrases-2",
+          "luminous-forward-motion-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          12,
+          14,
+          22
+        ],
+        "previousChartIds": [
+          "luminous-forward-motion-v12-6key-voices-0",
+          "luminous-forward-motion-v12-6key-voices-1",
+          "luminous-forward-motion-v12-6key-voices-2",
+          "luminous-forward-motion-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "luminous-forward-motion-v15-8key-phrases-0",
+          "luminous-forward-motion-v15-8key-phrases-1",
+          "luminous-forward-motion-v15-8key-phrases-2",
+          "luminous-forward-motion-v15-8key-phrases-3"
+        ],
+        "levels": [
+          8,
+          13,
+          15,
+          23
+        ],
+        "previousChartIds": [
+          "luminous-forward-motion-v12-8key-voices-0",
+          "luminous-forward-motion-v12-8key-voices-1",
+          "luminous-forward-motion-v12-8key-voices-2",
+          "luminous-forward-motion-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "one-step-closer",
@@ -1502,13 +1750,13 @@
       55,
       86
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "previousChartIds": [
-      "one-step-closer-v11-5key-flow-0",
-      "one-step-closer-v11-5key-flow-1",
-      "one-step-closer-v11-5key-flow-2",
-      "one-step-closer-v11-5key-flow-3"
+      "one-step-closer-v12-5key-voices-0",
+      "one-step-closer-v12-5key-voices-1",
+      "one-step-closer-v12-5key-voices-2",
+      "one-step-closer-v12-5key-voices-3"
     ],
     "keysAudio": "audio/one-step-closer-keys.ogg",
     "sourceDuration": 161.88,
@@ -1523,17 +1771,79 @@
       "estimatedBeatPhase": 0.15673374613003097
     },
     "chartIds": [
-      "one-step-closer-v12-5key-voices-0",
-      "one-step-closer-v12-5key-voices-1",
-      "one-step-closer-v12-5key-voices-2",
-      "one-step-closer-v12-5key-voices-3"
+      "one-step-closer-v15-5key-phrases-0",
+      "one-step-closer-v15-5key-phrases-1",
+      "one-step-closer-v15-5key-phrases-2",
+      "one-step-closer-v15-5key-phrases-3"
     ],
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "one-step-closer-v15-4key-phrases-0",
+          "one-step-closer-v15-4key-phrases-1",
+          "one-step-closer-v15-4key-phrases-2",
+          "one-step-closer-v15-4key-phrases-3"
+        ],
+        "levels": [
+          7,
+          8,
+          12,
+          14
+        ],
+        "previousChartIds": [
+          "one-step-closer-v12-4key-voices-0",
+          "one-step-closer-v12-4key-voices-1",
+          "one-step-closer-v12-4key-voices-2",
+          "one-step-closer-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "one-step-closer-v15-6key-phrases-0",
+          "one-step-closer-v15-6key-phrases-1",
+          "one-step-closer-v15-6key-phrases-2",
+          "one-step-closer-v15-6key-phrases-3"
+        ],
+        "levels": [
+          7,
+          11,
+          13,
+          15
+        ],
+        "previousChartIds": [
+          "one-step-closer-v12-6key-voices-0",
+          "one-step-closer-v12-6key-voices-1",
+          "one-step-closer-v12-6key-voices-2",
+          "one-step-closer-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "one-step-closer-v15-8key-phrases-0",
+          "one-step-closer-v15-8key-phrases-1",
+          "one-step-closer-v15-8key-phrases-2",
+          "one-step-closer-v15-8key-phrases-3"
+        ],
+        "levels": [
+          8,
+          12,
+          14,
+          16
+        ],
+        "previousChartIds": [
+          "one-step-closer-v12-8key-voices-0",
+          "one-step-closer-v12-8key-voices-1",
+          "one-step-closer-v12-8key-voices-2",
+          "one-step-closer-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "to-our-tomorrow",
@@ -1799,13 +2109,13 @@
       55,
       84
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "previousChartIds": [
-      "to-our-tomorrow-v11-5key-flow-0",
-      "to-our-tomorrow-v11-5key-flow-1",
-      "to-our-tomorrow-v11-5key-flow-2",
-      "to-our-tomorrow-v11-5key-flow-3"
+      "to-our-tomorrow-v12-5key-voices-0",
+      "to-our-tomorrow-v12-5key-voices-1",
+      "to-our-tomorrow-v12-5key-voices-2",
+      "to-our-tomorrow-v12-5key-voices-3"
     ],
     "keysAudio": "audio/to-our-tomorrow-keys.ogg",
     "sourceDuration": 246.0,
@@ -1820,17 +2130,79 @@
       "estimatedBeatPhase": 0.43859649122807015
     },
     "chartIds": [
-      "to-our-tomorrow-v12-5key-voices-0",
-      "to-our-tomorrow-v12-5key-voices-1",
-      "to-our-tomorrow-v12-5key-voices-2",
-      "to-our-tomorrow-v12-5key-voices-3"
+      "to-our-tomorrow-v15-5key-phrases-0",
+      "to-our-tomorrow-v15-5key-phrases-1",
+      "to-our-tomorrow-v15-5key-phrases-2",
+      "to-our-tomorrow-v15-5key-phrases-3"
     ],
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "to-our-tomorrow-v15-4key-phrases-0",
+          "to-our-tomorrow-v15-4key-phrases-1",
+          "to-our-tomorrow-v15-4key-phrases-2",
+          "to-our-tomorrow-v15-4key-phrases-3"
+        ],
+        "levels": [
+          6,
+          10,
+          12,
+          14
+        ],
+        "previousChartIds": [
+          "to-our-tomorrow-v12-4key-voices-0",
+          "to-our-tomorrow-v12-4key-voices-1",
+          "to-our-tomorrow-v12-4key-voices-2",
+          "to-our-tomorrow-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "to-our-tomorrow-v15-6key-phrases-0",
+          "to-our-tomorrow-v15-6key-phrases-1",
+          "to-our-tomorrow-v15-6key-phrases-2",
+          "to-our-tomorrow-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          11,
+          13,
+          15
+        ],
+        "previousChartIds": [
+          "to-our-tomorrow-v12-6key-voices-0",
+          "to-our-tomorrow-v12-6key-voices-1",
+          "to-our-tomorrow-v12-6key-voices-2",
+          "to-our-tomorrow-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "to-our-tomorrow-v15-8key-phrases-0",
+          "to-our-tomorrow-v15-8key-phrases-1",
+          "to-our-tomorrow-v15-8key-phrases-2",
+          "to-our-tomorrow-v15-8key-phrases-3"
+        ],
+        "levels": [
+          9,
+          11,
+          14,
+          16
+        ],
+        "previousChartIds": [
+          "to-our-tomorrow-v12-8key-voices-0",
+          "to-our-tomorrow-v12-8key-voices-1",
+          "to-our-tomorrow-v12-8key-voices-2",
+          "to-our-tomorrow-v12-8key-voices-3"
+        ]
+      }
+    }
   },
   {
     "id": "futuristic-minor-key",
@@ -2096,13 +2468,13 @@
       55,
       88
     ],
-    "chartVersion": 12,
+    "chartVersion": 15,
     "keyCount": 5,
     "previousChartIds": [
-      "futuristic-minor-key-v11-5key-flow-0",
-      "futuristic-minor-key-v11-5key-flow-1",
-      "futuristic-minor-key-v11-5key-flow-2",
-      "futuristic-minor-key-v11-5key-flow-3"
+      "futuristic-minor-key-v12-5key-voices-0",
+      "futuristic-minor-key-v12-5key-voices-1",
+      "futuristic-minor-key-v12-5key-voices-2",
+      "futuristic-minor-key-v12-5key-voices-3"
     ],
     "keysAudio": "audio/futuristic-minor-key-keys.ogg",
     "sourceDuration": 191.6,
@@ -2117,16 +2489,78 @@
       "estimatedBeatPhase": 0.2568151595744681
     },
     "chartIds": [
-      "futuristic-minor-key-v12-5key-voices-0",
-      "futuristic-minor-key-v12-5key-voices-1",
-      "futuristic-minor-key-v12-5key-voices-2",
-      "futuristic-minor-key-v12-5key-voices-3"
+      "futuristic-minor-key-v15-5key-phrases-0",
+      "futuristic-minor-key-v15-5key-phrases-1",
+      "futuristic-minor-key-v15-5key-phrases-2",
+      "futuristic-minor-key-v15-5key-phrases-3"
     ],
-    "availableKeyModes": [
-      4,
-      5,
-      6,
-      8
-    ]
+    "keyModes": {
+      "4": {
+        "keyCount": 4,
+        "chartVersion": 15,
+        "chartIds": [
+          "futuristic-minor-key-v15-4key-phrases-0",
+          "futuristic-minor-key-v15-4key-phrases-1",
+          "futuristic-minor-key-v15-4key-phrases-2",
+          "futuristic-minor-key-v15-4key-phrases-3"
+        ],
+        "levels": [
+          7,
+          9,
+          13,
+          17
+        ],
+        "previousChartIds": [
+          "futuristic-minor-key-v12-4key-voices-0",
+          "futuristic-minor-key-v12-4key-voices-1",
+          "futuristic-minor-key-v12-4key-voices-2",
+          "futuristic-minor-key-v12-4key-voices-3"
+        ]
+      },
+      "6": {
+        "keyCount": 6,
+        "chartVersion": 15,
+        "chartIds": [
+          "futuristic-minor-key-v15-6key-phrases-0",
+          "futuristic-minor-key-v15-6key-phrases-1",
+          "futuristic-minor-key-v15-6key-phrases-2",
+          "futuristic-minor-key-v15-6key-phrases-3"
+        ],
+        "levels": [
+          8,
+          12,
+          17,
+          20
+        ],
+        "previousChartIds": [
+          "futuristic-minor-key-v12-6key-voices-0",
+          "futuristic-minor-key-v12-6key-voices-1",
+          "futuristic-minor-key-v12-6key-voices-2",
+          "futuristic-minor-key-v12-6key-voices-3"
+        ]
+      },
+      "8": {
+        "keyCount": 8,
+        "chartVersion": 15,
+        "chartIds": [
+          "futuristic-minor-key-v15-8key-phrases-0",
+          "futuristic-minor-key-v15-8key-phrases-1",
+          "futuristic-minor-key-v15-8key-phrases-2",
+          "futuristic-minor-key-v15-8key-phrases-3"
+        ],
+        "levels": [
+          9,
+          14,
+          18,
+          21
+        ],
+        "previousChartIds": [
+          "futuristic-minor-key-v12-8key-voices-0",
+          "futuristic-minor-key-v12-8key-voices-1",
+          "futuristic-minor-key-v12-8key-voices-2",
+          "futuristic-minor-key-v12-8key-voices-3"
+        ]
+      }
+    }
   }
 ]
