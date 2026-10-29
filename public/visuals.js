@@ -1,6 +1,7 @@
 'use strict';
 const NOTE_SKINS=['BAR','CIRCLE'],HIT_STYLES=['LASER','RING','SPARK','OFF'];
-function laneColor(lane){return lane===2?'#f2da7b':lane%2?'#6fd5ff':'#e8eff9'}
+let VISUAL_KEY_COUNT=5;
+function laneColor(lane){return VISUAL_KEY_COUNT%2&&lane===Math.floor(VISUAL_KEY_COUNT/2)?'#f2da7b':Math.min(lane,VISUAL_KEY_COUNT-1-lane)%2?'#6fd5ff':'#e8eff9'}
 function circleNoteRadius(width){return Math.max(2,width*.45)}
 function paintNoteHead(c,x,y,w,color,skin){
  c.save();

@@ -1,6 +1,6 @@
-# PULSE FIVE — Netlify 배포 패키지
+# PULSE SHIFT — Netlify 배포 패키지
 
-이 패키지는 최신 3곡·12개 채보, Basic/Standard, 써클/바 노트, 이펙트 강도, 롱노트 유지 연출, FULL COMBO/ALL PERFECT 마무리 연출, 저지연 오디오 설정과 곡별 온라인 랭킹을 포함합니다.
+이 패키지는 최신 7곡·4/5/6/8키·112개 채보, Basic/Standard, 써클/바 노트, 이펙트 강도, 롱노트 유지 연출, FULL COMBO/ALL PERFECT 마무리 연출, 저지연 오디오 설정과 곡별 온라인 랭킹을 포함합니다.
 
 ## 권장: 랭킹까지 포함해서 배포
 
@@ -54,3 +54,15 @@ Git으로 배포하려면 이 폴더를 저장소에 올린 뒤 Netlify의 **Imp
 - https://docs.netlify.com/build/functions/configuration/
 - https://docs.netlify.com/build/data-and-storage/netlify-blobs/
 - https://cli.netlify.com/commands/deploy/
+
+## 멀티키 / Chart Studio
+
+곡 선택 화면의 4 KEY / 5 KEY / 6 KEY / 8 KEY에서 전환합니다.
+기본 키: 4키 D F J K, 5키 D F Space J K, 6키 S D F J K L, 8키 A S D F J K L ;.
+F2에서 모드별 키 배치를 따로 저장합니다. 8키는 양손 4개씩 사용하는 일반 8레인 방식입니다.
+랭킹과 개인 최고 기록은 키 모드별로 분리합니다. 기존 5키 채보와 기록은 유지됩니다.
+새 채보는 기존 분석의 멜로디 음높이·시점을 바탕으로 키 수에 맞춰 배치했습니다. 4키 Expert에서는 일부 밀집 반주 동시음을 줄였습니다.
+
+CHART STUDIO에서 키 모드를 고르고 노트와 키음을 편집할 수 있습니다. 프로젝트 저장에는 음원도 포함되고, 이전 5키 프로젝트도 열 수 있습니다. H는 롱노트 도구이며, 각 모드 기본 키로 키음을 미리 들을 수 있습니다. 키 모드를 바꾸면 확인 후 현재 노트가 비워지므로 필요한 작업은 먼저 프로젝트로 저장하세요. 편집한 채보의 게임·온라인 랭킹 직접 등록은 지원하지 않습니다.
+
+추가 수록곡: Photon Rush, 한 칸 더 가까이, 내일의 우리에게, Neon Eclipse. 각 곡은 약 2분 아케이드 편집본이며 원본 파일은 변경하지 않았습니다. BPM과 음높이는 혼합 음원 분석 추정치입니다.
