@@ -1,0 +1,270 @@
+[
+  {
+    "id": "bittersweet-ascension",
+    "source": "upload/Bittersweet Ascension.mp3",
+    "bpm": 128.4,
+    "duration": 120.458957,
+    "sourceDuration": 203.6,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 71.092381,
+        "gameStart": 0.0,
+        "gameEnd": 71.092381
+      },
+      {
+        "sourceStart": 154.233424,
+        "sourceEnd": 203.6,
+        "gameStart": 71.092381,
+        "gameEnd": 120.458957
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 71.09239,
+        "sourceIn": 154.233433,
+        "contextChromaSimilarity": 0.744,
+        "beatFractionDifference": 0.078
+      }
+    ],
+    "audio": "audio/bittersweet-ascension-v30.mp3",
+    "keysAudio": "audio/bittersweet-ascension-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "dreamy-piano-bounce",
+    "source": "upload/Dreamy Piano Bounce.mp3",
+    "bpm": 126,
+    "duration": 129.166349,
+    "sourceDuration": 189.16,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 67.610295,
+        "gameStart": 0.0,
+        "gameEnd": 67.610295
+      },
+      {
+        "sourceStart": 127.603946,
+        "sourceEnd": 189.16,
+        "gameStart": 67.610295,
+        "gameEnd": 129.166349
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 67.610304,
+        "sourceIn": 127.603955,
+        "contextChromaSimilarity": 0.937,
+        "beatFractionDifference": 0.013
+      }
+    ],
+    "audio": "audio/dreamy-piano-bounce-v30.mp3",
+    "keysAudio": "audio/dreamy-piano-bounce-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "bouncy-bass-party",
+    "source": "upload/バouncy Bass Party(1).mp3",
+    "bpm": 180,
+    "duration": 133.558186,
+    "sourceDuration": 207.56,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 65.974014,
+        "gameStart": 0.0,
+        "gameEnd": 65.974014
+      },
+      {
+        "sourceStart": 139.975828,
+        "sourceEnd": 207.56,
+        "gameStart": 65.974014,
+        "gameEnd": 133.558186
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 65.974023,
+        "sourceIn": 139.975837,
+        "contextChromaSimilarity": 0.954,
+        "beatFractionDifference": 0.005
+      }
+    ],
+    "audio": "audio/bouncy-bass-party-v30.mp3",
+    "keysAudio": "audio/bouncy-bass-party-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "luminous-forward-motion",
+    "source": "upload/Luminous Forward Motion.mp3",
+    "bpm": 148,
+    "duration": 128.432562,
+    "sourceDuration": 213.16,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 77.09873,
+        "gameStart": 0.0,
+        "gameEnd": 77.09873
+      },
+      {
+        "sourceStart": 161.826168,
+        "sourceEnd": 213.16,
+        "gameStart": 77.09873,
+        "gameEnd": 128.432562
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 77.098739,
+        "sourceIn": 161.826177,
+        "contextChromaSimilarity": 0.838,
+        "beatFractionDifference": 0.006
+      }
+    ],
+    "audio": "audio/luminous-forward-motion-v30.mp3",
+    "keysAudio": "audio/luminous-forward-motion-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "one-step-closer",
+    "source": "upload/한 칸 더 가까이.mp3",
+    "bpm": 163.1,
+    "duration": 124.684535,
+    "sourceDuration": 161.88,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 79.852472,
+        "gameStart": 0.0,
+        "gameEnd": 79.852472
+      },
+      {
+        "sourceStart": 117.047937,
+        "sourceEnd": 161.88,
+        "gameStart": 79.852472,
+        "gameEnd": 124.684535
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 79.852481,
+        "sourceIn": 117.047946,
+        "contextChromaSimilarity": 0.947,
+        "beatFractionDifference": 0.11
+      }
+    ],
+    "audio": "audio/one-step-closer-v30.mp3",
+    "keysAudio": "audio/one-step-closer-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "to-our-tomorrow",
+    "source": "upload/내일의 우리에게.mp3",
+    "bpm": 128.7,
+    "duration": 130.692063,
+    "sourceDuration": 246.0,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 82.157234,
+        "gameStart": 0.0,
+        "gameEnd": 82.157234
+      },
+      {
+        "sourceStart": 197.46517,
+        "sourceEnd": 246.0,
+        "gameStart": 82.157234,
+        "gameEnd": 130.692063
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 82.157243,
+        "sourceIn": 197.465179,
+        "contextChromaSimilarity": 0.567,
+        "beatFractionDifference": 0.336
+      }
+    ],
+    "audio": "audio/to-our-tomorrow-v30.mp3",
+    "keysAudio": "audio/to-our-tomorrow-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "futuristic-minor-key",
+    "source": "upload/Futuristic Minor Key.mp3",
+    "bpm": 190.2,
+    "duration": 125.689796,
+    "sourceDuration": 191.6,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 61.334558,
+        "gameStart": 0.0,
+        "gameEnd": 61.334558
+      },
+      {
+        "sourceStart": 127.244762,
+        "sourceEnd": 191.6,
+        "gameStart": 61.334558,
+        "gameEnd": 125.689796
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 61.334567,
+        "sourceIn": 127.244771,
+        "contextChromaSimilarity": 0.872,
+        "beatFractionDifference": 0.065
+      }
+    ],
+    "audio": "audio/futuristic-minor-key-v30.mp3",
+    "keysAudio": "audio/futuristic-minor-key-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  },
+  {
+    "id": "open-blue-sky",
+    "source": "upload/Open Blue Sky.mp3",
+    "bpm": 150,
+    "duration": 118.936871,
+    "sourceDuration": 209.96,
+    "segments": [
+      {
+        "sourceStart": 0.0,
+        "sourceEnd": 51.367211,
+        "gameStart": 0.0,
+        "gameEnd": 51.367211
+      },
+      {
+        "sourceStart": 129.589433,
+        "sourceEnd": 167.193968,
+        "gameStart": 51.367211,
+        "gameEnd": 88.971746
+      },
+      {
+        "sourceStart": 179.994875,
+        "sourceEnd": 209.96,
+        "gameStart": 88.971746,
+        "gameEnd": 118.936871
+      }
+    ],
+    "joins": [
+      {
+        "sourceOut": 51.36722,
+        "sourceIn": 129.589442,
+        "contextChromaSimilarity": 0.962,
+        "beatFractionDifference": 0.444
+      },
+      {
+        "sourceOut": 167.193977,
+        "sourceIn": 179.994884,
+        "contextChromaSimilarity": 0.922,
+        "beatFractionDifference": 0.002
+      }
+    ],
+    "audio": "audio/open-blue-sky-v30.mp3",
+    "keysAudio": "audio/open-blue-sky-keys-v30.ogg",
+    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+  }
+]
