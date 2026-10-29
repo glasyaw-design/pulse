@@ -1,0 +1,130 @@
+{
+  "song": "Ivory Daydream",
+  "duration": 120.596,
+  "join": 60.943446712018144,
+  "charts": [
+    {
+      "keys": 4,
+      "tier": "Easy",
+      "notes": 214,
+      "holds": 25
+    },
+    {
+      "keys": 4,
+      "tier": "Normal",
+      "notes": 543,
+      "holds": 21
+    },
+    {
+      "keys": 4,
+      "tier": "Hard",
+      "notes": 755,
+      "holds": 18
+    },
+    {
+      "keys": 4,
+      "tier": "Expert",
+      "notes": 1052,
+      "holds": 15
+    },
+    {
+      "keys": 5,
+      "tier": "Easy",
+      "notes": 214,
+      "holds": 25
+    },
+    {
+      "keys": 5,
+      "tier": "Normal",
+      "notes": 573,
+      "holds": 22
+    },
+    {
+      "keys": 5,
+      "tier": "Hard",
+      "notes": 769,
+      "holds": 20
+    },
+    {
+      "keys": 5,
+      "tier": "Expert",
+      "notes": 1168,
+      "holds": 15
+    },
+    {
+      "keys": 6,
+      "tier": "Easy",
+      "notes": 214,
+      "holds": 25
+    },
+    {
+      "keys": 6,
+      "tier": "Normal",
+      "notes": 621,
+      "holds": 22
+    },
+    {
+      "keys": 6,
+      "tier": "Hard",
+      "notes": 853,
+      "holds": 19
+    },
+    {
+      "keys": 6,
+      "tier": "Expert",
+      "notes": 1261,
+      "holds": 16
+    },
+    {
+      "keys": 7,
+      "tier": "Easy",
+      "notes": 214,
+      "holds": 25
+    },
+    {
+      "keys": 7,
+      "tier": "Normal",
+      "notes": 640,
+      "holds": 22
+    },
+    {
+      "keys": 7,
+      "tier": "Hard",
+      "notes": 883,
+      "holds": 20
+    },
+    {
+      "keys": 7,
+      "tier": "Expert",
+      "notes": 1312,
+      "holds": 16
+    },
+    {
+      "keys": 8,
+      "tier": "Easy",
+      "notes": 214,
+      "holds": 25
+    },
+    {
+      "keys": 8,
+      "tier": "Normal",
+      "notes": 640,
+      "holds": 22
+    },
+    {
+      "keys": 8,
+      "tier": "Hard",
+      "notes": 887,
+      "holds": 19
+    },
+    {
+      "keys": 8,
+      "tier": "Expert",
+      "notes": 1333,
+      "holds": 15
+    }
+  ],
+  "otherSevenTracksUnchanged": true,
+  "audioDecodes": true,
+  "audition": "Not human-listening verified; spectral, onset and structural checks only."
+}

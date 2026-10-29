@@ -38,33 +38,36 @@
     "id": "dreamy-piano-bounce",
     "source": "upload/Dreamy Piano Bounce.mp3",
     "bpm": 126,
-    "duration": 129.166349,
+    "duration": 120.595828,
     "sourceDuration": 189.16,
     "segments": [
       {
-        "sourceStart": 0.0,
-        "sourceEnd": 67.610295,
-        "gameStart": 0.0,
-        "gameEnd": 67.610295
+        "sourceStart": 0,
+        "sourceEnd": 60.943446712018144,
+        "gameStart": 0,
+        "gameEnd": 60.943446712018144
       },
       {
-        "sourceStart": 127.603946,
+        "sourceStart": 129.50761904761904,
         "sourceEnd": 189.16,
-        "gameStart": 67.610295,
-        "gameEnd": 129.166349
+        "gameStart": 60.943446712018144,
+        "gameEnd": 120.5958276643991
       }
     ],
     "joins": [
       {
-        "sourceOut": 67.610304,
-        "sourceIn": 127.603955,
-        "contextChromaSimilarity": 0.937,
-        "beatFractionDifference": 0.013
+        "sourceOut": 60.943446712018144,
+        "sourceIn": 129.50761904761904,
+        "prelapSeconds": 0.12,
+        "orderedChromaSimilarity": 0.6075424115448901,
+        "rhythmicCorrelation": 0.7357638119937417,
+        "localOutgoingBeat": 0.47650000000000003,
+        "localIncomingBeat": 0.47600000000000003
       }
     ],
-    "audio": "audio/dreamy-piano-bounce-v30.mp3",
-    "keysAudio": "audio/dreamy-piano-bounce-keys-v30.ogg",
-    "method": "Editorial source regions guided by full-source repetition, energy and chroma. Transient-aligned joins, 24ms prelap; original ending retained. Vocal boundaries not verified by transcription."
+    "audio": "audio/dreamy-piano-bounce-v36.mp3",
+    "keysAudio": "audio/dreamy-piano-bounce-keys-v36.ogg",
+    "method": "Ordered 32-beat chroma, energy and rhythmic comparison using locally estimated tempo; transient-aligned 120ms cosine prelap; original ending retained. Algorithmic review, not human audition or vocal-boundary verification."
   },
   {
     "id": "bouncy-bass-party",
