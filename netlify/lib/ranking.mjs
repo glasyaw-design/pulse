@@ -1,3 +1,4 @@
+import {accountSession} from './auth.mjs';
 import { RANK_CATALOG } from './rank-catalog.mjs';
 const MODES=['BASIC','STANDARD'],ARR=['NORMAL','MIRROR','RANDOM'];
 const json=(data,status=200)=>Response.json(data,{status,headers:{'Cache-Control':'no-store'}});
@@ -16,7 +17,9 @@ async function releaseOldName(store,key,id){if(!key)return;for(let i=0;i<10;i++)
 async function getBoard(store,g,id){const{blobs}=await store.list({prefix:prefix(g)}),raw=await mapLimit(blobs,entry=>read(store,entry.key)),rows=raw.filter(Boolean).sort((a,b)=>performanceCompare(b,a)||a.achieved_at-b.achieved_at||a.player_id.localeCompare(b.player_id));let previous=null,rank=0;const ranked=await mapLimit(rows,async(row,i)=>{const player=await read(store,'players/'+row.player_id);return{...row,nickname:player?.nickname||'PLAYER'}});for(let i=0;i<ranked.length;i++){if(!previous||performanceCompare(ranked[i],previous)!==0)rank=i+1;ranked[i].position=rank;previous=ranked[i]}const clean=row=>({position:row.position,nickname:row.nickname,score:row.score,accuracy:row.accuracy,max_combo:row.max_combo,achieved_at:row.achieved_at,mine:row.player_id===id});const mine=ranked.find(r=>r.player_id===id);return{...g,chart:RANK_CATALOG[g.chartId],total:ranked.length,entries:ranked.slice(0,50).map(clean),mine:mine?clean(mine):null}}
 export async function handleBlobRanking(request,store){try{
  const url=new URL(request.url),action=url.pathname.split('/').at(-1),now=Date.now();if(request.method==='POST'){const origin=request.headers.get('origin');if(origin&&origin!==url.origin)reject('같은 게임에서만 기록을 등록할 수 있습니다.',403)}
- const token=request.headers.get('authorization')?.replace(/^Bearer /,''),id=token&&/^[a-f0-9]{64}$/.test(token)?await hash(token):null,player=id?await read(store,'players/'+id):null;
+ const session=await accountSession(request,store);
+ if(session&&request.method==='POST'&&request.headers.get('origin')!==url.origin)reject('게임 홈페이지에서 다시 시도해 주세요.',403);
+ const token=request.headers.get('authorization')?.replace(/^Bearer /,''),id=session?.playerId||(token&&/^[a-f0-9]{64}$/.test(token)?await hash(token):null),player=id?await read(store,'players/'+id):null;
  async function body(){const text=await request.text();if(text.length>4096)reject('요청이 너무 큽니다.',413);try{return JSON.parse(text)}catch{reject('요청 내용을 확인해 주세요.')}}
  if(action==='profile'&&request.method==='GET'){if(url.searchParams.has('nickname')){const name=nameOf(url.searchParams.get('nickname'));return json({available:await nameAvailable(store,name.toLowerCase(),id,now)})}return json(player?{playerId:id,nickname:player.nickname,needsNickname:!player.nicknameKey}:{playerId:null,needsNickname:true})}
  if(action==='board'&&request.method==='GET')return json(await getBoard(store,group(Object.fromEntries(url.searchParams)),id));
