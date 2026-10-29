@@ -26,7 +26,7 @@ await vm.runInContext('toggleSongPreview()',c);assert.equal(el('#songPreview')['
 vm.runInContext('selectTrack(1)',c);assert(previewAudio.paused);assert.equal(el('#songPreview').textContent,'▶ 12초 미리듣기');
 await vm.runInContext('toggleSongPreview()',c);previewAudio.currentTime+=12;previewAudio.ontimeupdate();assert(previewAudio.paused);
 console.log('PASS: preview toggle, song-change stop and 12-second stop (media mocked)');
-for(let song=0;song<7;song++)for(const k of [4,5,6,8])for(let d=0;d<4;d++){
+for(let song=0;song<vm.runInContext("tracks.length",c);song++)for(const k of [4,5,6,8])for(let d=0;d<4;d++){
  vm.runInContext('state="idle";selected='+song+';setKeyMode('+k+');diff='+d,c);
  await vm.runInContext('start()',c);
  assert.equal(vm.runInContext('state',c),'playing');
@@ -34,6 +34,6 @@ for(let song=0;song<7;song++)for(const k of [4,5,6,8])for(let d=0;d<4;d++){
  vm.runInContext('draw(100);press(0);release(0)',c);
  await vm.runInContext('togglePause()',c);assert.equal(vm.runInContext('state',c),'paused');
 }
-console.log('PASS: 112 chart starts, draw/input/pause (audio mocked)');
+console.log('PASS: '+vm.runInContext('tracks.length',c)*16+' chart starts, draw/input/pause (audio mocked)');
 console.log('PASS full HTML script boot, settings open/close, all key modes refresh');
 })().catch(e=>{console.error(e);process.exitCode=1});
