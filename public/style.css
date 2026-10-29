@@ -133,3 +133,7 @@ body{font-synthesis:none}.song-name,.track-title,.launch,.jacket-word{font-style
 #jacket{background-size:cover;background-position:center}.jacket:before,.thumb:before{display:none!important}.thumb{background-size:cover!important;background-position:center!important;filter:none!important}
 
 .jacket-visual{background-size:cover!important;background-position:center!important}.jacket-visual:before{display:none!important}
+
+.five-aux-panel{margin-top:16px;padding:14px;border:1px solid #b4a4df44;background:#171422}.five-aux-panel[hidden]{display:none}.five-aux-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.five-aux-grid>div{display:grid;grid-template-columns:1fr auto;gap:6px}.five-aux-grid small{grid-column:1/-1;color:#b4aac9}.five-aux-grid button{padding:9px 8px;border:1px solid #736389;background:#30273f;color:#f4edff;font:inherit;font-size:12px}.five-aux-grid button.capturing{background:#b7f4df;color:#162720}.five-aux-grid button[id*="Off"]{color:#b7abc9;background:transparent}.five-aux-panel p{font-size:12px;line-height:1.6}
+
+#visualPreview{aspect-ratio:33/13}

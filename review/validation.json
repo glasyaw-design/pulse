@@ -5,60 +5,60 @@
       "duration": 120.459,
       "mp3DecodedSeconds": 120.45895691609978,
       "keysDecodedSeconds": 120.45895691609978,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "Ivory Daydream",
       "duration": 129.166,
       "mp3DecodedSeconds": 129.1663492063492,
       "keysDecodedSeconds": 129.1663492063492,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "Bassline Riot",
       "duration": 133.558,
       "mp3DecodedSeconds": 133.5581859410431,
       "keysDecodedSeconds": 133.5581859410431,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "Photon Rush",
       "duration": 128.433,
       "mp3DecodedSeconds": 128.43256235827664,
       "keysDecodedSeconds": 128.43256235827664,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "한 칸 더 가까이",
       "duration": 124.685,
       "mp3DecodedSeconds": 124.6845351473923,
       "keysDecodedSeconds": 124.6845351473923,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "내일의 우리에게",
       "duration": 130.692,
       "mp3DecodedSeconds": 130.69206349206348,
       "keysDecodedSeconds": 130.69206349206348,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "Neon Eclipse",
       "duration": 125.69,
       "mp3DecodedSeconds": 125.68979591836735,
       "keysDecodedSeconds": 125.68979591836735,
-      "chartsChecked": 16
+      "chartsChecked": 20
     },
     {
       "song": "Open Blue Sky",
       "duration": 118.937,
       "mp3DecodedSeconds": 118.93687074829931,
       "keysDecodedSeconds": 118.93687074829931,
-      "chartsChecked": 16
+      "chartsChecked": 20
     }
   ],
   "checks": [
-    "128 charts sorted, lane-bounded, duplicate-free",
+    "160 charts sorted, lane-bounded, duplicate-free",
     "No lane overlap; >=95ms release/repeat spacing",
     "No long note crosses an edit splice",
     "No all-lane occupation while a long note is held",

@@ -19,9 +19,9 @@ if(!missing.has('public/tracks.js')){
  const library=vm.runInNewContext(readFileSync(resolve(root,'public/tracks.js'),'utf8')+';TRACK_LIBRARY');
  for(const track of library){
   requireFile('public/'+track.audio);requireFile('public/'+track.keysAudio);requireFile('public/assets/jackets/'+track.id+'-v30.svg');
-  for(const k of [4,5,6,8]){const mode=k===5?track:track.keyModes?.[k];if(!mode||mode.charts?.length!==4)throw Error(`Incomplete charts: ${track.id} ${k}KEY`)}
+  for(const k of [4,5,6,7,8]){const mode=k===5?track:track.keyModes?.[k];if(!mode||mode.charts?.length!==4)throw Error(`Incomplete charts: ${track.id} ${k}KEY`)}
  }
 }
 if(missing.size){console.error('\nPULSE SHIFT: required files are missing:\n'+[...missing].map(x=>'  - '+x).join('\n')+'\nUse the FULL project folder containing package.json and netlify.toml. Publish directory: public. Do not deploy a patch ZIP on its own.\n');process.exit(1)}
-console.log('PULSE SHIFT v30: scripts, styles, fonts, 8 jackets, 16 audio files and 128 charts are present.');
+console.log('PULSE SHIFT v31: scripts, styles, fonts, 8 jackets, 16 audio files and 160 charts are present.');
 await import('./check-chart-integrity.mjs');

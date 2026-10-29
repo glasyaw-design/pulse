@@ -348,13 +348,13 @@
       55,
       88
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "chartIds": [
-      "bittersweet-ascension-v30-5key-gameedit-0",
-      "bittersweet-ascension-v30-5key-gameedit-1",
-      "bittersweet-ascension-v30-5key-gameedit-2",
-      "bittersweet-ascension-v30-5key-gameedit-3"
+      "bittersweet-ascension-v31-5key-reviewed-0",
+      "bittersweet-ascension-v31-5key-reviewed-1",
+      "bittersweet-ascension-v31-5key-reviewed-2",
+      "bittersweet-ascension-v31-5key-reviewed-3"
     ],
     "legacyDifficulty": [
       null,
@@ -364,10 +364,10 @@
     ],
     "keysAudio": "audio/bittersweet-ascension-keys-v30.ogg",
     "previousChartIds": [
-      "bittersweet-ascension-v15-5key-phrases-0",
-      "bittersweet-ascension-v15-5key-phrases-1",
-      "bittersweet-ascension-v25-5key-flow-2",
-      "bittersweet-ascension-v27-5key-contour-3"
+      "bittersweet-ascension-v30-5key-gameedit-0",
+      "bittersweet-ascension-v30-5key-gameedit-1",
+      "bittersweet-ascension-v30-5key-gameedit-2",
+      "bittersweet-ascension-v30-5key-gameedit-3"
     ],
     "sourceDuration": 203.6,
     "edit": {
@@ -379,12 +379,12 @@
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bittersweet-ascension-v30-4key-gameedit-0",
-          "bittersweet-ascension-v30-4key-gameedit-1",
-          "bittersweet-ascension-v30-4key-gameedit-2",
-          "bittersweet-ascension-v30-4key-gameedit-3"
+          "bittersweet-ascension-v31-4key-reviewed-0",
+          "bittersweet-ascension-v31-4key-reviewed-1",
+          "bittersweet-ascension-v31-4key-reviewed-2",
+          "bittersweet-ascension-v31-4key-reviewed-3"
         ],
         "levels": [
           7,
@@ -393,10 +393,10 @@
           21
         ],
         "previousChartIds": [
-          "bittersweet-ascension-v15-4key-phrases-0",
-          "bittersweet-ascension-v25-4key-flow-1",
-          "bittersweet-ascension-v25-4key-flow-2",
-          "bittersweet-ascension-v27-4key-contour-3"
+          "bittersweet-ascension-v30-4key-gameedit-0",
+          "bittersweet-ascension-v30-4key-gameedit-1",
+          "bittersweet-ascension-v30-4key-gameedit-2",
+          "bittersweet-ascension-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -407,12 +407,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bittersweet-ascension-v30-6key-gameedit-0",
-          "bittersweet-ascension-v30-6key-gameedit-1",
-          "bittersweet-ascension-v30-6key-gameedit-2",
-          "bittersweet-ascension-v30-6key-gameedit-3"
+          "bittersweet-ascension-v31-6key-reviewed-0",
+          "bittersweet-ascension-v31-6key-reviewed-1",
+          "bittersweet-ascension-v31-6key-reviewed-2",
+          "bittersweet-ascension-v31-6key-reviewed-3"
         ],
         "levels": [
           7,
@@ -421,10 +421,10 @@
           27
         ],
         "previousChartIds": [
-          "bittersweet-ascension-v15-6key-phrases-0",
-          "bittersweet-ascension-v15-6key-phrases-1",
-          "bittersweet-ascension-v25-6key-flow-2",
-          "bittersweet-ascension-v25-6key-flow-3"
+          "bittersweet-ascension-v30-6key-gameedit-0",
+          "bittersweet-ascension-v30-6key-gameedit-1",
+          "bittersweet-ascension-v30-6key-gameedit-2",
+          "bittersweet-ascension-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -435,12 +435,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bittersweet-ascension-v30-8key-gameedit-0",
-          "bittersweet-ascension-v30-8key-gameedit-1",
-          "bittersweet-ascension-v30-8key-gameedit-2",
-          "bittersweet-ascension-v30-8key-gameedit-3"
+          "bittersweet-ascension-v31-8key-reviewed-0",
+          "bittersweet-ascension-v31-8key-reviewed-1",
+          "bittersweet-ascension-v31-8key-reviewed-2",
+          "bittersweet-ascension-v31-8key-reviewed-3"
         ],
         "levels": [
           7,
@@ -449,16 +449,44 @@
           27
         ],
         "previousChartIds": [
-          "bittersweet-ascension-v15-8key-phrases-0",
-          "bittersweet-ascension-v25-8key-flow-1",
-          "bittersweet-ascension-v25-8key-flow-2",
-          "bittersweet-ascension-v25-8key-flow-3"
+          "bittersweet-ascension-v30-8key-gameedit-0",
+          "bittersweet-ascension-v30-8key-gameedit-1",
+          "bittersweet-ascension-v30-8key-gameedit-2",
+          "bittersweet-ascension-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "bittersweet-ascension-v31-7key-reviewed-0",
+          "bittersweet-ascension-v31-7key-reviewed-1",
+          "bittersweet-ascension-v31-7key-reviewed-2",
+          "bittersweet-ascension-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          7,
+          12,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "bittersweet-ascension-v31-7key-gameedit-0",
+          "bittersweet-ascension-v31-7key-gameedit-1",
+          "bittersweet-ascension-v31-7key-gameedit-2",
+          "bittersweet-ascension-v31-7key-gameedit-3"
         ]
       }
     },
@@ -832,13 +860,13 @@
       56,
       88
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "chartIds": [
-      "dreamy-piano-bounce-v30-5key-gameedit-0",
-      "dreamy-piano-bounce-v30-5key-gameedit-1",
-      "dreamy-piano-bounce-v30-5key-gameedit-2",
-      "dreamy-piano-bounce-v30-5key-gameedit-3"
+      "dreamy-piano-bounce-v31-5key-reviewed-0",
+      "dreamy-piano-bounce-v31-5key-reviewed-1",
+      "dreamy-piano-bounce-v31-5key-reviewed-2",
+      "dreamy-piano-bounce-v31-5key-reviewed-3"
     ],
     "legacyDifficulty": [
       null,
@@ -848,10 +876,10 @@
     ],
     "keysAudio": "audio/dreamy-piano-bounce-keys-v30.ogg",
     "previousChartIds": [
-      "dreamy-piano-bounce-v15-5key-phrases-0",
-      "dreamy-piano-bounce-v15-5key-phrases-1",
-      "dreamy-piano-bounce-v15-5key-phrases-2",
-      "dreamy-piano-bounce-v27-5key-contour-3"
+      "dreamy-piano-bounce-v30-5key-gameedit-0",
+      "dreamy-piano-bounce-v30-5key-gameedit-1",
+      "dreamy-piano-bounce-v30-5key-gameedit-2",
+      "dreamy-piano-bounce-v30-5key-gameedit-3"
     ],
     "sourceDuration": 189.16,
     "edit": {
@@ -863,12 +891,12 @@
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "dreamy-piano-bounce-v30-4key-gameedit-0",
-          "dreamy-piano-bounce-v30-4key-gameedit-1",
-          "dreamy-piano-bounce-v30-4key-gameedit-2",
-          "dreamy-piano-bounce-v30-4key-gameedit-3"
+          "dreamy-piano-bounce-v31-4key-reviewed-0",
+          "dreamy-piano-bounce-v31-4key-reviewed-1",
+          "dreamy-piano-bounce-v31-4key-reviewed-2",
+          "dreamy-piano-bounce-v31-4key-reviewed-3"
         ],
         "levels": [
           6,
@@ -877,10 +905,10 @@
           22
         ],
         "previousChartIds": [
-          "dreamy-piano-bounce-v25-4key-flow-0",
-          "dreamy-piano-bounce-v25-4key-flow-1",
-          "dreamy-piano-bounce-v25-4key-flow-2",
-          "dreamy-piano-bounce-v27-4key-contour-3"
+          "dreamy-piano-bounce-v30-4key-gameedit-0",
+          "dreamy-piano-bounce-v30-4key-gameedit-1",
+          "dreamy-piano-bounce-v30-4key-gameedit-2",
+          "dreamy-piano-bounce-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -891,12 +919,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "dreamy-piano-bounce-v30-6key-gameedit-0",
-          "dreamy-piano-bounce-v30-6key-gameedit-1",
-          "dreamy-piano-bounce-v30-6key-gameedit-2",
-          "dreamy-piano-bounce-v30-6key-gameedit-3"
+          "dreamy-piano-bounce-v31-6key-reviewed-0",
+          "dreamy-piano-bounce-v31-6key-reviewed-1",
+          "dreamy-piano-bounce-v31-6key-reviewed-2",
+          "dreamy-piano-bounce-v31-6key-reviewed-3"
         ],
         "levels": [
           6,
@@ -905,10 +933,10 @@
           26
         ],
         "previousChartIds": [
-          "dreamy-piano-bounce-v15-6key-phrases-0",
-          "dreamy-piano-bounce-v25-6key-flow-1",
-          "dreamy-piano-bounce-v25-6key-flow-2",
-          "dreamy-piano-bounce-v27-6key-contour-3"
+          "dreamy-piano-bounce-v30-6key-gameedit-0",
+          "dreamy-piano-bounce-v30-6key-gameedit-1",
+          "dreamy-piano-bounce-v30-6key-gameedit-2",
+          "dreamy-piano-bounce-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -919,12 +947,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "dreamy-piano-bounce-v30-8key-gameedit-0",
-          "dreamy-piano-bounce-v30-8key-gameedit-1",
-          "dreamy-piano-bounce-v30-8key-gameedit-2",
-          "dreamy-piano-bounce-v30-8key-gameedit-3"
+          "dreamy-piano-bounce-v31-8key-reviewed-0",
+          "dreamy-piano-bounce-v31-8key-reviewed-1",
+          "dreamy-piano-bounce-v31-8key-reviewed-2",
+          "dreamy-piano-bounce-v31-8key-reviewed-3"
         ],
         "levels": [
           6,
@@ -933,16 +961,44 @@
           27
         ],
         "previousChartIds": [
-          "dreamy-piano-bounce-v25-8key-flow-0",
-          "dreamy-piano-bounce-v25-8key-flow-1",
-          "dreamy-piano-bounce-v25-8key-flow-2",
-          "dreamy-piano-bounce-v25-8key-flow-3"
+          "dreamy-piano-bounce-v30-8key-gameedit-0",
+          "dreamy-piano-bounce-v30-8key-gameedit-1",
+          "dreamy-piano-bounce-v30-8key-gameedit-2",
+          "dreamy-piano-bounce-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "dreamy-piano-bounce-v31-7key-reviewed-0",
+          "dreamy-piano-bounce-v31-7key-reviewed-1",
+          "dreamy-piano-bounce-v31-7key-reviewed-2",
+          "dreamy-piano-bounce-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          6,
+          14,
+          18,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "dreamy-piano-bounce-v31-7key-gameedit-0",
+          "dreamy-piano-bounce-v31-7key-gameedit-1",
+          "dreamy-piano-bounce-v31-7key-gameedit-2",
+          "dreamy-piano-bounce-v31-7key-gameedit-3"
         ]
       }
     },
@@ -1401,13 +1457,13 @@
       55,
       88
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "chartIds": [
-      "bouncy-bass-party-v30-5key-gameedit-0",
-      "bouncy-bass-party-v30-5key-gameedit-1",
-      "bouncy-bass-party-v30-5key-gameedit-2",
-      "bouncy-bass-party-v30-5key-gameedit-3"
+      "bouncy-bass-party-v31-5key-reviewed-0",
+      "bouncy-bass-party-v31-5key-reviewed-1",
+      "bouncy-bass-party-v31-5key-reviewed-2",
+      "bouncy-bass-party-v31-5key-reviewed-3"
     ],
     "legacyDifficulty": [
       null,
@@ -1417,10 +1473,10 @@
     ],
     "keysAudio": "audio/bouncy-bass-party-keys-v30.ogg",
     "previousChartIds": [
-      "bouncy-bass-party-v15-5key-phrases-0",
-      "bouncy-bass-party-v15-5key-phrases-1",
-      "bouncy-bass-party-v25-5key-flow-2",
-      "bouncy-bass-party-v27-5key-contour-3"
+      "bouncy-bass-party-v30-5key-gameedit-0",
+      "bouncy-bass-party-v30-5key-gameedit-1",
+      "bouncy-bass-party-v30-5key-gameedit-2",
+      "bouncy-bass-party-v30-5key-gameedit-3"
     ],
     "sourceDuration": 207.56,
     "edit": {
@@ -1432,12 +1488,12 @@
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bouncy-bass-party-v30-4key-gameedit-0",
-          "bouncy-bass-party-v30-4key-gameedit-1",
-          "bouncy-bass-party-v30-4key-gameedit-2",
-          "bouncy-bass-party-v30-4key-gameedit-3"
+          "bouncy-bass-party-v31-4key-reviewed-0",
+          "bouncy-bass-party-v31-4key-reviewed-1",
+          "bouncy-bass-party-v31-4key-reviewed-2",
+          "bouncy-bass-party-v31-4key-reviewed-3"
         ],
         "levels": [
           6,
@@ -1446,10 +1502,10 @@
           24
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v15-4key-phrases-0",
-          "bouncy-bass-party-v15-4key-phrases-1",
-          "bouncy-bass-party-v15-4key-phrases-2",
-          "bouncy-bass-party-v27-4key-contour-3"
+          "bouncy-bass-party-v30-4key-gameedit-0",
+          "bouncy-bass-party-v30-4key-gameedit-1",
+          "bouncy-bass-party-v30-4key-gameedit-2",
+          "bouncy-bass-party-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1460,12 +1516,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bouncy-bass-party-v30-6key-gameedit-0",
-          "bouncy-bass-party-v30-6key-gameedit-1",
-          "bouncy-bass-party-v30-6key-gameedit-2",
-          "bouncy-bass-party-v30-6key-gameedit-3"
+          "bouncy-bass-party-v31-6key-reviewed-0",
+          "bouncy-bass-party-v31-6key-reviewed-1",
+          "bouncy-bass-party-v31-6key-reviewed-2",
+          "bouncy-bass-party-v31-6key-reviewed-3"
         ],
         "levels": [
           6,
@@ -1474,10 +1530,10 @@
           27
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v15-6key-phrases-0",
-          "bouncy-bass-party-v15-6key-phrases-1",
-          "bouncy-bass-party-v25-6key-flow-2",
-          "bouncy-bass-party-v27-6key-contour-3"
+          "bouncy-bass-party-v30-6key-gameedit-0",
+          "bouncy-bass-party-v30-6key-gameedit-1",
+          "bouncy-bass-party-v30-6key-gameedit-2",
+          "bouncy-bass-party-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1488,12 +1544,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "bouncy-bass-party-v30-8key-gameedit-0",
-          "bouncy-bass-party-v30-8key-gameedit-1",
-          "bouncy-bass-party-v30-8key-gameedit-2",
-          "bouncy-bass-party-v30-8key-gameedit-3"
+          "bouncy-bass-party-v31-8key-reviewed-0",
+          "bouncy-bass-party-v31-8key-reviewed-1",
+          "bouncy-bass-party-v31-8key-reviewed-2",
+          "bouncy-bass-party-v31-8key-reviewed-3"
         ],
         "levels": [
           6,
@@ -1502,16 +1558,44 @@
           27
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v15-8key-phrases-0",
-          "bouncy-bass-party-v25-8key-flow-1",
-          "bouncy-bass-party-v27-8key-contour-2",
-          "bouncy-bass-party-v25-8key-flow-3"
+          "bouncy-bass-party-v30-8key-gameedit-0",
+          "bouncy-bass-party-v30-8key-gameedit-1",
+          "bouncy-bass-party-v30-8key-gameedit-2",
+          "bouncy-bass-party-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "bouncy-bass-party-v31-7key-reviewed-0",
+          "bouncy-bass-party-v31-7key-reviewed-1",
+          "bouncy-bass-party-v31-7key-reviewed-2",
+          "bouncy-bass-party-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          6,
+          14,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "bouncy-bass-party-v31-7key-gameedit-0",
+          "bouncy-bass-party-v31-7key-gameedit-1",
+          "bouncy-bass-party-v31-7key-gameedit-2",
+          "bouncy-bass-party-v31-7key-gameedit-3"
         ]
       }
     },
@@ -1915,13 +1999,13 @@
       55,
       83
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "previousChartIds": [
-      "luminous-forward-motion-v15-5key-phrases-0",
-      "luminous-forward-motion-v15-5key-phrases-1",
-      "luminous-forward-motion-v15-5key-phrases-2",
-      "luminous-forward-motion-v27-5key-contour-3"
+      "luminous-forward-motion-v30-5key-gameedit-0",
+      "luminous-forward-motion-v30-5key-gameedit-1",
+      "luminous-forward-motion-v30-5key-gameedit-2",
+      "luminous-forward-motion-v30-5key-gameedit-3"
     ],
     "keysAudio": "audio/luminous-forward-motion-keys-v30.ogg",
     "sourceDuration": 213.16,
@@ -1936,20 +2020,20 @@
       "estimatedBeatPhase": 0.2506345177664975
     },
     "chartIds": [
-      "luminous-forward-motion-v30-5key-gameedit-0",
-      "luminous-forward-motion-v30-5key-gameedit-1",
-      "luminous-forward-motion-v30-5key-gameedit-2",
-      "luminous-forward-motion-v30-5key-gameedit-3"
+      "luminous-forward-motion-v31-5key-reviewed-0",
+      "luminous-forward-motion-v31-5key-reviewed-1",
+      "luminous-forward-motion-v31-5key-reviewed-2",
+      "luminous-forward-motion-v31-5key-reviewed-3"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v30-4key-gameedit-0",
-          "luminous-forward-motion-v30-4key-gameedit-1",
-          "luminous-forward-motion-v30-4key-gameedit-2",
-          "luminous-forward-motion-v30-4key-gameedit-3"
+          "luminous-forward-motion-v31-4key-reviewed-0",
+          "luminous-forward-motion-v31-4key-reviewed-1",
+          "luminous-forward-motion-v31-4key-reviewed-2",
+          "luminous-forward-motion-v31-4key-reviewed-3"
         ],
         "levels": [
           7,
@@ -1958,10 +2042,10 @@
           26
         ],
         "previousChartIds": [
-          "luminous-forward-motion-v15-4key-phrases-0",
-          "luminous-forward-motion-v15-4key-phrases-1",
-          "luminous-forward-motion-v15-4key-phrases-2",
-          "luminous-forward-motion-v27-4key-contour-3"
+          "luminous-forward-motion-v30-4key-gameedit-0",
+          "luminous-forward-motion-v30-4key-gameedit-1",
+          "luminous-forward-motion-v30-4key-gameedit-2",
+          "luminous-forward-motion-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1972,12 +2056,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v30-6key-gameedit-0",
-          "luminous-forward-motion-v30-6key-gameedit-1",
-          "luminous-forward-motion-v30-6key-gameedit-2",
-          "luminous-forward-motion-v30-6key-gameedit-3"
+          "luminous-forward-motion-v31-6key-reviewed-0",
+          "luminous-forward-motion-v31-6key-reviewed-1",
+          "luminous-forward-motion-v31-6key-reviewed-2",
+          "luminous-forward-motion-v31-6key-reviewed-3"
         ],
         "levels": [
           7,
@@ -1986,10 +2070,10 @@
           27
         ],
         "previousChartIds": [
-          "luminous-forward-motion-v15-6key-phrases-0",
-          "luminous-forward-motion-v15-6key-phrases-1",
-          "luminous-forward-motion-v27-6key-contour-2",
-          "luminous-forward-motion-v25-6key-flow-3"
+          "luminous-forward-motion-v30-6key-gameedit-0",
+          "luminous-forward-motion-v30-6key-gameedit-1",
+          "luminous-forward-motion-v30-6key-gameedit-2",
+          "luminous-forward-motion-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -2000,12 +2084,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v30-8key-gameedit-0",
-          "luminous-forward-motion-v30-8key-gameedit-1",
-          "luminous-forward-motion-v30-8key-gameedit-2",
-          "luminous-forward-motion-v30-8key-gameedit-3"
+          "luminous-forward-motion-v31-8key-reviewed-0",
+          "luminous-forward-motion-v31-8key-reviewed-1",
+          "luminous-forward-motion-v31-8key-reviewed-2",
+          "luminous-forward-motion-v31-8key-reviewed-3"
         ],
         "levels": [
           7,
@@ -2014,16 +2098,44 @@
           27
         ],
         "previousChartIds": [
-          "luminous-forward-motion-v15-8key-phrases-0",
-          "luminous-forward-motion-v15-8key-phrases-1",
-          "luminous-forward-motion-v25-8key-flow-2",
-          "luminous-forward-motion-v27-8key-contour-3"
+          "luminous-forward-motion-v30-8key-gameedit-0",
+          "luminous-forward-motion-v30-8key-gameedit-1",
+          "luminous-forward-motion-v30-8key-gameedit-2",
+          "luminous-forward-motion-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "luminous-forward-motion-v31-7key-reviewed-0",
+          "luminous-forward-motion-v31-7key-reviewed-1",
+          "luminous-forward-motion-v31-7key-reviewed-2",
+          "luminous-forward-motion-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          7,
+          15,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "luminous-forward-motion-v31-7key-gameedit-0",
+          "luminous-forward-motion-v31-7key-gameedit-1",
+          "luminous-forward-motion-v31-7key-gameedit-2",
+          "luminous-forward-motion-v31-7key-gameedit-3"
         ]
       }
     },
@@ -2448,13 +2560,13 @@
       55,
       86
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "previousChartIds": [
-      "one-step-closer-v15-5key-phrases-0",
-      "one-step-closer-v15-5key-phrases-1",
-      "one-step-closer-v25-5key-flow-2",
-      "one-step-closer-v25-5key-flow-3"
+      "one-step-closer-v30-5key-gameedit-0",
+      "one-step-closer-v30-5key-gameedit-1",
+      "one-step-closer-v30-5key-gameedit-2",
+      "one-step-closer-v30-5key-gameedit-3"
     ],
     "keysAudio": "audio/one-step-closer-keys-v30.ogg",
     "sourceDuration": 161.88,
@@ -2469,20 +2581,20 @@
       "estimatedBeatPhase": 0.15673374613003097
     },
     "chartIds": [
-      "one-step-closer-v30-5key-gameedit-0",
-      "one-step-closer-v30-5key-gameedit-1",
-      "one-step-closer-v30-5key-gameedit-2",
-      "one-step-closer-v30-5key-gameedit-3"
+      "one-step-closer-v31-5key-reviewed-0",
+      "one-step-closer-v31-5key-reviewed-1",
+      "one-step-closer-v31-5key-reviewed-2",
+      "one-step-closer-v31-5key-reviewed-3"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "one-step-closer-v30-4key-gameedit-0",
-          "one-step-closer-v30-4key-gameedit-1",
-          "one-step-closer-v30-4key-gameedit-2",
-          "one-step-closer-v30-4key-gameedit-3"
+          "one-step-closer-v31-4key-reviewed-0",
+          "one-step-closer-v31-4key-reviewed-1",
+          "one-step-closer-v31-4key-reviewed-2",
+          "one-step-closer-v31-4key-reviewed-3"
         ],
         "levels": [
           7,
@@ -2491,10 +2603,10 @@
           20
         ],
         "previousChartIds": [
-          "one-step-closer-v15-4key-phrases-0",
-          "one-step-closer-v15-4key-phrases-1",
-          "one-step-closer-v15-4key-phrases-2",
-          "one-step-closer-v27-4key-contour-3"
+          "one-step-closer-v30-4key-gameedit-0",
+          "one-step-closer-v30-4key-gameedit-1",
+          "one-step-closer-v30-4key-gameedit-2",
+          "one-step-closer-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -2505,12 +2617,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "one-step-closer-v30-6key-gameedit-0",
-          "one-step-closer-v30-6key-gameedit-1",
-          "one-step-closer-v30-6key-gameedit-2",
-          "one-step-closer-v30-6key-gameedit-3"
+          "one-step-closer-v31-6key-reviewed-0",
+          "one-step-closer-v31-6key-reviewed-1",
+          "one-step-closer-v31-6key-reviewed-2",
+          "one-step-closer-v31-6key-reviewed-3"
         ],
         "levels": [
           7,
@@ -2519,10 +2631,10 @@
           27
         ],
         "previousChartIds": [
-          "one-step-closer-v15-6key-phrases-0",
-          "one-step-closer-v15-6key-phrases-1",
-          "one-step-closer-v25-6key-flow-2",
-          "one-step-closer-v25-6key-flow-3"
+          "one-step-closer-v30-6key-gameedit-0",
+          "one-step-closer-v30-6key-gameedit-1",
+          "one-step-closer-v30-6key-gameedit-2",
+          "one-step-closer-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -2533,12 +2645,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "one-step-closer-v30-8key-gameedit-0",
-          "one-step-closer-v30-8key-gameedit-1",
-          "one-step-closer-v30-8key-gameedit-2",
-          "one-step-closer-v30-8key-gameedit-3"
+          "one-step-closer-v31-8key-reviewed-0",
+          "one-step-closer-v31-8key-reviewed-1",
+          "one-step-closer-v31-8key-reviewed-2",
+          "one-step-closer-v31-8key-reviewed-3"
         ],
         "levels": [
           7,
@@ -2547,16 +2659,44 @@
           27
         ],
         "previousChartIds": [
-          "one-step-closer-v15-8key-phrases-0",
-          "one-step-closer-v15-8key-phrases-1",
-          "one-step-closer-v15-8key-phrases-2",
-          "one-step-closer-v25-8key-flow-3"
+          "one-step-closer-v30-8key-gameedit-0",
+          "one-step-closer-v30-8key-gameedit-1",
+          "one-step-closer-v30-8key-gameedit-2",
+          "one-step-closer-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "one-step-closer-v31-7key-reviewed-0",
+          "one-step-closer-v31-7key-reviewed-1",
+          "one-step-closer-v31-7key-reviewed-2",
+          "one-step-closer-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          7,
+          15,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "one-step-closer-v31-7key-gameedit-0",
+          "one-step-closer-v31-7key-gameedit-1",
+          "one-step-closer-v31-7key-gameedit-2",
+          "one-step-closer-v31-7key-gameedit-3"
         ]
       }
     },
@@ -2946,13 +3086,13 @@
       55,
       84
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "previousChartIds": [
-      "to-our-tomorrow-v15-5key-phrases-0",
-      "to-our-tomorrow-v15-5key-phrases-1",
-      "to-our-tomorrow-v25-5key-flow-2",
-      "to-our-tomorrow-v27-5key-contour-3"
+      "to-our-tomorrow-v30-5key-gameedit-0",
+      "to-our-tomorrow-v30-5key-gameedit-1",
+      "to-our-tomorrow-v30-5key-gameedit-2",
+      "to-our-tomorrow-v30-5key-gameedit-3"
     ],
     "keysAudio": "audio/to-our-tomorrow-keys-v30.ogg",
     "sourceDuration": 246.0,
@@ -2967,20 +3107,20 @@
       "estimatedBeatPhase": 0.43859649122807015
     },
     "chartIds": [
-      "to-our-tomorrow-v30-5key-gameedit-0",
-      "to-our-tomorrow-v30-5key-gameedit-1",
-      "to-our-tomorrow-v30-5key-gameedit-2",
-      "to-our-tomorrow-v30-5key-gameedit-3"
+      "to-our-tomorrow-v31-5key-reviewed-0",
+      "to-our-tomorrow-v31-5key-reviewed-1",
+      "to-our-tomorrow-v31-5key-reviewed-2",
+      "to-our-tomorrow-v31-5key-reviewed-3"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "to-our-tomorrow-v30-4key-gameedit-0",
-          "to-our-tomorrow-v30-4key-gameedit-1",
-          "to-our-tomorrow-v30-4key-gameedit-2",
-          "to-our-tomorrow-v30-4key-gameedit-3"
+          "to-our-tomorrow-v31-4key-reviewed-0",
+          "to-our-tomorrow-v31-4key-reviewed-1",
+          "to-our-tomorrow-v31-4key-reviewed-2",
+          "to-our-tomorrow-v31-4key-reviewed-3"
         ],
         "levels": [
           7,
@@ -2989,10 +3129,10 @@
           17
         ],
         "previousChartIds": [
-          "to-our-tomorrow-v15-4key-phrases-0",
-          "to-our-tomorrow-v15-4key-phrases-1",
-          "to-our-tomorrow-v15-4key-phrases-2",
-          "to-our-tomorrow-v27-4key-contour-3"
+          "to-our-tomorrow-v30-4key-gameedit-0",
+          "to-our-tomorrow-v30-4key-gameedit-1",
+          "to-our-tomorrow-v30-4key-gameedit-2",
+          "to-our-tomorrow-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -3003,12 +3143,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "to-our-tomorrow-v30-6key-gameedit-0",
-          "to-our-tomorrow-v30-6key-gameedit-1",
-          "to-our-tomorrow-v30-6key-gameedit-2",
-          "to-our-tomorrow-v30-6key-gameedit-3"
+          "to-our-tomorrow-v31-6key-reviewed-0",
+          "to-our-tomorrow-v31-6key-reviewed-1",
+          "to-our-tomorrow-v31-6key-reviewed-2",
+          "to-our-tomorrow-v31-6key-reviewed-3"
         ],
         "levels": [
           7,
@@ -3017,10 +3157,10 @@
           21
         ],
         "previousChartIds": [
-          "to-our-tomorrow-v15-6key-phrases-0",
-          "to-our-tomorrow-v15-6key-phrases-1",
-          "to-our-tomorrow-v25-6key-flow-2",
-          "to-our-tomorrow-v25-6key-flow-3"
+          "to-our-tomorrow-v30-6key-gameedit-0",
+          "to-our-tomorrow-v30-6key-gameedit-1",
+          "to-our-tomorrow-v30-6key-gameedit-2",
+          "to-our-tomorrow-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -3031,12 +3171,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "to-our-tomorrow-v30-8key-gameedit-0",
-          "to-our-tomorrow-v30-8key-gameedit-1",
-          "to-our-tomorrow-v30-8key-gameedit-2",
-          "to-our-tomorrow-v30-8key-gameedit-3"
+          "to-our-tomorrow-v31-8key-reviewed-0",
+          "to-our-tomorrow-v31-8key-reviewed-1",
+          "to-our-tomorrow-v31-8key-reviewed-2",
+          "to-our-tomorrow-v31-8key-reviewed-3"
         ],
         "levels": [
           7,
@@ -3045,16 +3185,44 @@
           22
         ],
         "previousChartIds": [
-          "to-our-tomorrow-v15-8key-phrases-0",
-          "to-our-tomorrow-v15-8key-phrases-1",
-          "to-our-tomorrow-v25-8key-flow-2",
-          "to-our-tomorrow-v25-8key-flow-3"
+          "to-our-tomorrow-v30-8key-gameedit-0",
+          "to-our-tomorrow-v30-8key-gameedit-1",
+          "to-our-tomorrow-v30-8key-gameedit-2",
+          "to-our-tomorrow-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "to-our-tomorrow-v31-7key-reviewed-0",
+          "to-our-tomorrow-v31-7key-reviewed-1",
+          "to-our-tomorrow-v31-7key-reviewed-2",
+          "to-our-tomorrow-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          7,
+          13,
+          20,
+          22
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "to-our-tomorrow-v31-7key-gameedit-0",
+          "to-our-tomorrow-v31-7key-gameedit-1",
+          "to-our-tomorrow-v31-7key-gameedit-2",
+          "to-our-tomorrow-v31-7key-gameedit-3"
         ]
       }
     },
@@ -3514,13 +3682,13 @@
       55,
       88
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "previousChartIds": [
-      "futuristic-minor-key-v15-5key-phrases-0",
-      "futuristic-minor-key-v15-5key-phrases-1",
-      "futuristic-minor-key-v25-5key-flow-2",
-      "futuristic-minor-key-v27-5key-contour-3"
+      "futuristic-minor-key-v30-5key-gameedit-0",
+      "futuristic-minor-key-v30-5key-gameedit-1",
+      "futuristic-minor-key-v30-5key-gameedit-2",
+      "futuristic-minor-key-v30-5key-gameedit-3"
     ],
     "keysAudio": "audio/futuristic-minor-key-keys-v30.ogg",
     "sourceDuration": 191.6,
@@ -3535,20 +3703,20 @@
       "estimatedBeatPhase": 0.2568151595744681
     },
     "chartIds": [
-      "futuristic-minor-key-v30-5key-gameedit-0",
-      "futuristic-minor-key-v30-5key-gameedit-1",
-      "futuristic-minor-key-v30-5key-gameedit-2",
-      "futuristic-minor-key-v30-5key-gameedit-3"
+      "futuristic-minor-key-v31-5key-reviewed-0",
+      "futuristic-minor-key-v31-5key-reviewed-1",
+      "futuristic-minor-key-v31-5key-reviewed-2",
+      "futuristic-minor-key-v31-5key-reviewed-3"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v30-4key-gameedit-0",
-          "futuristic-minor-key-v30-4key-gameedit-1",
-          "futuristic-minor-key-v30-4key-gameedit-2",
-          "futuristic-minor-key-v30-4key-gameedit-3"
+          "futuristic-minor-key-v31-4key-reviewed-0",
+          "futuristic-minor-key-v31-4key-reviewed-1",
+          "futuristic-minor-key-v31-4key-reviewed-2",
+          "futuristic-minor-key-v31-4key-reviewed-3"
         ],
         "levels": [
           6,
@@ -3557,10 +3725,10 @@
           23
         ],
         "previousChartIds": [
-          "futuristic-minor-key-v15-4key-phrases-0",
-          "futuristic-minor-key-v15-4key-phrases-1",
-          "futuristic-minor-key-v25-4key-flow-2",
-          "futuristic-minor-key-v27-4key-contour-3"
+          "futuristic-minor-key-v30-4key-gameedit-0",
+          "futuristic-minor-key-v30-4key-gameedit-1",
+          "futuristic-minor-key-v30-4key-gameedit-2",
+          "futuristic-minor-key-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -3571,12 +3739,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v30-6key-gameedit-0",
-          "futuristic-minor-key-v30-6key-gameedit-1",
-          "futuristic-minor-key-v30-6key-gameedit-2",
-          "futuristic-minor-key-v30-6key-gameedit-3"
+          "futuristic-minor-key-v31-6key-reviewed-0",
+          "futuristic-minor-key-v31-6key-reviewed-1",
+          "futuristic-minor-key-v31-6key-reviewed-2",
+          "futuristic-minor-key-v31-6key-reviewed-3"
         ],
         "levels": [
           6,
@@ -3585,10 +3753,10 @@
           27
         ],
         "previousChartIds": [
-          "futuristic-minor-key-v15-6key-phrases-0",
-          "futuristic-minor-key-v15-6key-phrases-1",
-          "futuristic-minor-key-v25-6key-flow-2",
-          "futuristic-minor-key-v25-6key-flow-3"
+          "futuristic-minor-key-v30-6key-gameedit-0",
+          "futuristic-minor-key-v30-6key-gameedit-1",
+          "futuristic-minor-key-v30-6key-gameedit-2",
+          "futuristic-minor-key-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -3599,12 +3767,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v30-8key-gameedit-0",
-          "futuristic-minor-key-v30-8key-gameedit-1",
-          "futuristic-minor-key-v30-8key-gameedit-2",
-          "futuristic-minor-key-v30-8key-gameedit-3"
+          "futuristic-minor-key-v31-8key-reviewed-0",
+          "futuristic-minor-key-v31-8key-reviewed-1",
+          "futuristic-minor-key-v31-8key-reviewed-2",
+          "futuristic-minor-key-v31-8key-reviewed-3"
         ],
         "levels": [
           6,
@@ -3613,16 +3781,44 @@
           27
         ],
         "previousChartIds": [
-          "futuristic-minor-key-v15-8key-phrases-0",
-          "futuristic-minor-key-v15-8key-phrases-1",
-          "futuristic-minor-key-v25-8key-flow-2",
-          "futuristic-minor-key-v25-8key-flow-3"
+          "futuristic-minor-key-v30-8key-gameedit-0",
+          "futuristic-minor-key-v30-8key-gameedit-1",
+          "futuristic-minor-key-v30-8key-gameedit-2",
+          "futuristic-minor-key-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
           null,
           null,
           null
+        ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "futuristic-minor-key-v31-7key-reviewed-0",
+          "futuristic-minor-key-v31-7key-reviewed-1",
+          "futuristic-minor-key-v31-7key-reviewed-2",
+          "futuristic-minor-key-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          6,
+          13,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "futuristic-minor-key-v31-7key-gameedit-0",
+          "futuristic-minor-key-v31-7key-gameedit-1",
+          "futuristic-minor-key-v31-7key-gameedit-2",
+          "futuristic-minor-key-v31-7key-gameedit-3"
         ]
       }
     },
@@ -4017,7 +4213,7 @@
       52,
       88
     ],
-    "chartVersion": 30,
+    "chartVersion": 31,
     "keyCount": 5,
     "legacyDifficulty": [
       null,
@@ -4028,12 +4224,12 @@
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
           "open-blue-sky-v30-4key-gameedit-0",
-          "open-blue-sky-v30-4key-gameedit-1",
-          "open-blue-sky-v30-4key-gameedit-2",
-          "open-blue-sky-v30-4key-gameedit-3"
+          "open-blue-sky-v31-4key-reviewed-1",
+          "open-blue-sky-v31-4key-reviewed-2",
+          "open-blue-sky-v31-4key-reviewed-3"
         ],
         "levels": [
           7,
@@ -4043,9 +4239,9 @@
         ],
         "previousChartIds": [
           "open-blue-sky-v23-4key-phrases-0",
-          "open-blue-sky-v27-4key-contour-1",
-          "open-blue-sky-v27-4key-contour-2",
-          "open-blue-sky-v27-4key-contour-3"
+          "open-blue-sky-v30-4key-gameedit-1",
+          "open-blue-sky-v30-4key-gameedit-2",
+          "open-blue-sky-v30-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -4056,12 +4252,12 @@
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
           "open-blue-sky-v30-6key-gameedit-0",
-          "open-blue-sky-v30-6key-gameedit-1",
-          "open-blue-sky-v30-6key-gameedit-2",
-          "open-blue-sky-v30-6key-gameedit-3"
+          "open-blue-sky-v31-6key-reviewed-1",
+          "open-blue-sky-v31-6key-reviewed-2",
+          "open-blue-sky-v31-6key-reviewed-3"
         ],
         "levels": [
           7,
@@ -4071,9 +4267,9 @@
         ],
         "previousChartIds": [
           "open-blue-sky-v23-6key-phrases-0",
-          "open-blue-sky-v23-6key-phrases-1",
-          "open-blue-sky-v23-6key-phrases-2",
-          "open-blue-sky-v27-6key-contour-3"
+          "open-blue-sky-v30-6key-gameedit-1",
+          "open-blue-sky-v30-6key-gameedit-2",
+          "open-blue-sky-v30-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -4084,12 +4280,12 @@
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 30,
+        "chartVersion": 31,
         "chartIds": [
           "open-blue-sky-v30-8key-gameedit-0",
-          "open-blue-sky-v30-8key-gameedit-1",
-          "open-blue-sky-v30-8key-gameedit-2",
-          "open-blue-sky-v30-8key-gameedit-3"
+          "open-blue-sky-v31-8key-reviewed-1",
+          "open-blue-sky-v31-8key-reviewed-2",
+          "open-blue-sky-v31-8key-reviewed-3"
         ],
         "levels": [
           7,
@@ -4099,9 +4295,9 @@
         ],
         "previousChartIds": [
           "open-blue-sky-v23-8key-phrases-0",
-          "open-blue-sky-v23-8key-phrases-1",
-          "open-blue-sky-v25-8key-flow-2",
-          "open-blue-sky-v27-8key-contour-3"
+          "open-blue-sky-v30-8key-gameedit-1",
+          "open-blue-sky-v30-8key-gameedit-2",
+          "open-blue-sky-v30-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -4109,13 +4305,41 @@
           null,
           null
         ]
+      },
+      "7": {
+        "keyCount": 7,
+        "chartVersion": 31,
+        "chartIds": [
+          "open-blue-sky-v31-7key-gameedit-0",
+          "open-blue-sky-v31-7key-reviewed-1",
+          "open-blue-sky-v31-7key-reviewed-2",
+          "open-blue-sky-v31-7key-reviewed-3"
+        ],
+        "levels": [
+          7,
+          15,
+          21,
+          27
+        ],
+        "legacyDifficulty": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "previousChartIds": [
+          "open-blue-sky-v31-7key-gameedit-0",
+          "open-blue-sky-v31-7key-gameedit-1",
+          "open-blue-sky-v31-7key-gameedit-2",
+          "open-blue-sky-v31-7key-gameedit-3"
+        ]
       }
     },
     "chartIds": [
-      "open-blue-sky-v30-5key-gameedit-0",
-      "open-blue-sky-v30-5key-gameedit-1",
-      "open-blue-sky-v30-5key-gameedit-2",
-      "open-blue-sky-v30-5key-gameedit-3"
+      "open-blue-sky-v31-5key-reviewed-0",
+      "open-blue-sky-v31-5key-reviewed-1",
+      "open-blue-sky-v31-5key-reviewed-2",
+      "open-blue-sky-v31-5key-reviewed-3"
     ],
     "levels": [
       7,
@@ -4124,10 +4348,10 @@
       26
     ],
     "previousChartIds": [
-      "open-blue-sky-v23-5key-phrases-0",
-      "open-blue-sky-v23-5key-phrases-1",
-      "open-blue-sky-v27-5key-contour-2",
-      "open-blue-sky-v27-5key-contour-3"
+      "open-blue-sky-v30-5key-gameedit-0",
+      "open-blue-sky-v30-5key-gameedit-1",
+      "open-blue-sky-v30-5key-gameedit-2",
+      "open-blue-sky-v30-5key-gameedit-3"
     ],
     "editVersion": 30,
     "editSegments": [

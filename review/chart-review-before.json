@@ -1,0 +1,12319 @@
+[
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      114.989
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          59.615,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          60.093,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          20.284,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          20.613,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          29.643,
+          2,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          30.062,
+          3,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          73.922,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          74.231,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 522,
+    "melody": 364,
+    "rhythm": 158,
+    "max1s": [
+      10,
+      111.856
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [
+      [
+        9.0,
+        7,
+        1
+      ],
+      [
+        45.0,
+        8,
+        1
+      ],
+      [
+        63.0,
+        1,
+        8
+      ],
+      [
+        64.0,
+        1,
+        7
+      ],
+      [
+        82.0,
+        8,
+        1
+      ],
+      [
+        84.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          7.104,
+          1,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          7.503,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.805,
+          1,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          20.044,
+          0,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.758,
+          3,
+          0.255,
+          75,
+          "melody"
+        ],
+        [
+          45.068,
+          2,
+          0,
+          75,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 950,
+    "melody": 607,
+    "rhythm": 343,
+    "max1s": [
+      14,
+      95.573
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 266,
+    "inversions": 0,
+    "samePitchLaneChanges": 16,
+    "skewWindows": [
+      [
+        9.0,
+        9,
+        1
+      ],
+      [
+        18.0,
+        8,
+        0
+      ],
+      [
+        19.0,
+        9,
+        0
+      ],
+      [
+        20.0,
+        9,
+        0
+      ],
+      [
+        63.0,
+        1,
+        9
+      ],
+      [
+        102.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          2.814,
+          1,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          2.933,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          6.036,
+          2,
+          0.265,
+          63,
+          "melody"
+        ],
+        [
+          6.356,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.564,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          11.883,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1383,
+    "melody": 705,
+    "rhythm": 678,
+    "max1s": [
+      21,
+      95.573
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 494,
+    "inversions": 1,
+    "samePitchLaneChanges": 65,
+    "skewWindows": [
+      [
+        18.0,
+        9,
+        1
+      ],
+      [
+        102.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          51.862,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          51.952,
+          3,
+          0,
+          80,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.287,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          1.377,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.4,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          4.48,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          3,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          5.468,
+          4,
+          0,
+          78,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      114.989
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          59.615,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          60.093,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          20.284,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          20.613,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          29.643,
+          1,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          30.062,
+          2,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          73.922,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          74.231,
+          2,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 493,
+    "melody": 364,
+    "rhythm": 129,
+    "max1s": [
+      10,
+      111.856
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 10,
+    "skewWindows": [
+      [
+        9.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          7.104,
+          1,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          7.503,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          12.292,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          12.532,
+          0,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.805,
+          1,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          20.044,
+          0,
+          0,
+          61,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 914,
+    "melody": 607,
+    "rhythm": 307,
+    "max1s": [
+      14,
+      95.573
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 238,
+    "inversions": 0,
+    "samePitchLaneChanges": 17,
+    "skewWindows": [
+      [
+        19.0,
+        9,
+        0
+      ],
+      [
+        20.0,
+        9,
+        0
+      ],
+      [
+        103.0,
+        11,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          2.814,
+          1,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          2.933,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.253,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          3.422,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          7.423,
+          1,
+          0.344,
+          66,
+          "melody"
+        ],
+        [
+          7.822,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1116,
+    "melody": 704,
+    "rhythm": 412,
+    "max1s": [
+      16,
+      35.12
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 352,
+    "inversions": 1,
+    "samePitchLaneChanges": 71,
+    "skewWindows": [
+      [
+        2.0,
+        8,
+        0
+      ],
+      [
+        3.0,
+        8,
+        1
+      ],
+      [
+        20.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          51.862,
+          3,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          51.952,
+          2,
+          0,
+          80,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.287,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          1.377,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.866,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          2.115,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.4,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          4.48,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      114.989
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          59.615,
+          3,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          60.093,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          20.284,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          20.613,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          29.643,
+          3,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          30.062,
+          4,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.589,
+          3,
+          0.424,
+          75,
+          "melody"
+        ],
+        [
+          45.068,
+          4,
+          0,
+          75,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 555,
+    "melody": 364,
+    "rhythm": 191,
+    "max1s": [
+      10,
+      111.856
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        9.0,
+        7,
+        1
+      ],
+      [
+        10.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          19.805,
+          1,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          20.044,
+          0,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          82.034,
+          2,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          82.263,
+          3,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          89.507,
+          1,
+          0.254,
+          64,
+          "melody"
+        ],
+        [
+          89.816,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1152,
+    "melody": 607,
+    "rhythm": 545,
+    "max1s": [
+      20,
+      95.573
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 370,
+    "inversions": 0,
+    "samePitchLaneChanges": 16,
+    "skewWindows": [
+      [
+        2.0,
+        7,
+        1
+      ],
+      [
+        14.0,
+        10,
+        1
+      ],
+      [
+        19.0,
+        9,
+        1
+      ],
+      [
+        20.0,
+        9,
+        0
+      ],
+      [
+        102.0,
+        12,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          2.814,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          2.933,
+          3,
+          0.265,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.933,
+          3,
+          0.265,
+          66,
+          "melody"
+        ],
+        [
+          3.253,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          7.423,
+          2,
+          0.249,
+          66,
+          "melody"
+        ],
+        [
+          7.822,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1447,
+    "melody": 704,
+    "rhythm": 743,
+    "max1s": [
+      22,
+      34.472
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 493,
+    "inversions": 1,
+    "samePitchLaneChanges": 63,
+    "skewWindows": [
+      [
+        2.0,
+        7,
+        1
+      ],
+      [
+        3.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          51.952,
+          5,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          52.042,
+          4,
+          0,
+          83,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.287,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          1.377,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.115,
+          3,
+          0.264,
+          66,
+          "melody"
+        ],
+        [
+          2.434,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.4,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          4.48,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      114.989
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 6,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          59.615,
+          4,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          60.093,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          29.643,
+          5,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          30.062,
+          6,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.589,
+          4,
+          0.424,
+          75,
+          "melody"
+        ],
+        [
+          45.068,
+          5,
+          0,
+          75,
+          "melody"
+        ]
+      ],
+      [
+        [
+          89.507,
+          2,
+          0.254,
+          64,
+          "melody"
+        ],
+        [
+          89.816,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 595,
+    "melody": 364,
+    "rhythm": 231,
+    "max1s": [
+      10,
+      111.856
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        9.0,
+        7,
+        1
+      ],
+      [
+        10.0,
+        7,
+        1
+      ],
+      [
+        11.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          29.643,
+          5,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          30.062,
+          4,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          82.034,
+          3,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          82.263,
+          4,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          89.507,
+          1,
+          0.254,
+          64,
+          "melody"
+        ],
+        [
+          89.816,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1214,
+    "melody": 607,
+    "rhythm": 607,
+    "max1s": [
+      20,
+      95.573
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 397,
+    "inversions": 0,
+    "samePitchLaneChanges": 15,
+    "skewWindows": [
+      [
+        2.0,
+        8,
+        0
+      ],
+      [
+        14.0,
+        10,
+        1
+      ],
+      [
+        102.0,
+        12,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          2.814,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          2.933,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.883,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          11.993,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          13.829,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          13.938,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Afterglow Ascent",
+    "id": "bittersweet-ascension",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1498,
+    "melody": 704,
+    "rhythm": 794,
+    "max1s": [
+      23,
+      34.472
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 507,
+    "inversions": 0,
+    "samePitchLaneChanges": 67,
+    "skewWindows": [
+      [
+        2.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          1.287,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          1.377,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.4,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          4.48,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          6,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          5.468,
+          7,
+          0,
+          78,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 231,
+    "melody": 231,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      121.484
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          22.289,
+          2,
+          0.304,
+          65,
+          "melody"
+        ],
+        [
+          22.858,
+          0,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.624,
+          3,
+          0.424,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          84.678,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          85.246,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 646,
+    "melody": 400,
+    "rhythm": 246,
+    "max1s": [
+      10,
+      87.062
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        65.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          4,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          37.864,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          4,
+          0.24,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          76.107,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          76.346,
+          0,
+          0.329,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          83.58,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          83.82,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 834,
+    "melody": 506,
+    "rhythm": 328,
+    "max1s": [
+      13,
+      77.294
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 76,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        74.0,
+        8,
+        0
+      ],
+      [
+        75.0,
+        8,
+        0
+      ],
+      [
+        108.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          4,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          37.774,
+          3,
+          0.274,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          58.337,
+          1,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          58.497,
+          0,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          77.624,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          77.733,
+          3,
+          0,
+          72,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1350,
+    "melody": 739,
+    "rhythm": 611,
+    "max1s": [
+      22,
+      82.393
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 206,
+    "inversions": 2,
+    "samePitchLaneChanges": 98,
+    "skewWindows": [
+      [
+        3.0,
+        1,
+        7
+      ],
+      [
+        5.0,
+        8,
+        0
+      ],
+      [
+        75.0,
+        8,
+        0
+      ],
+      [
+        107.0,
+        8,
+        0
+      ],
+      [
+        108.0,
+        8,
+        1
+      ],
+      [
+        112.0,
+        8,
+        1
+      ],
+      [
+        113.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          14.667,
+          4,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          14.756,
+          3,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          4,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.285,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          2.375,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.093,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          3.173,
+          3,
+          0.324,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          5.468,
+          1,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 231,
+    "melody": 231,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      121.484
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          22.289,
+          1,
+          0.304,
+          65,
+          "melody"
+        ],
+        [
+          22.858,
+          0,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.624,
+          2,
+          0.424,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          84.678,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          85.246,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 604,
+    "melody": 400,
+    "rhythm": 204,
+    "max1s": [
+      10,
+      85.715
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          3,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          30.87,
+          0,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          31.119,
+          1,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.864,
+          2,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          3,
+          0.24,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          83.58,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          83.82,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 821,
+    "melody": 506,
+    "rhythm": 315,
+    "max1s": [
+      12,
+      85.875
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 79,
+    "inversions": 1,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [
+      [
+        0.0,
+        1,
+        7
+      ],
+      [
+        75.0,
+        8,
+        0
+      ],
+      [
+        107.0,
+        8,
+        0
+      ],
+      [
+        111.0,
+        7,
+        1
+      ],
+      [
+        112.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          3,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          37.774,
+          2,
+          0.274,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          56.591,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          56.831,
+          1,
+          0,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          58.337,
+          1,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          58.497,
+          0,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1174,
+    "melody": 740,
+    "rhythm": 434,
+    "max1s": [
+      18,
+      82.632
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 176,
+    "inversions": 2,
+    "samePitchLaneChanges": 104,
+    "skewWindows": [
+      [
+        5.0,
+        9,
+        1
+      ],
+      [
+        75.0,
+        8,
+        1
+      ],
+      [
+        107.0,
+        8,
+        0
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          14.527,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          14.667,
+          2,
+          0,
+          81,
+          "melody"
+        ]
+      ],
+      [
+        [
+          91.342,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          3,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.285,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          2.375,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.093,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          3.173,
+          2,
+          0.324,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          5.468,
+          1,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 231,
+    "melody": 231,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      121.484
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          22.289,
+          2,
+          0.304,
+          65,
+          "melody"
+        ],
+        [
+          22.858,
+          0,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.624,
+          4,
+          0.424,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          5,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          106.199,
+          3,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          106.678,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 671,
+    "melody": 400,
+    "rhythm": 271,
+    "max1s": [
+      11,
+      68.574
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        90.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          3,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          5,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          37.864,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          5,
+          0.24,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          83.58,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          83.82,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          106.448,
+          3,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          106.678,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 922,
+    "melody": 506,
+    "rhythm": 416,
+    "max1s": [
+      16,
+      77.155
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 91,
+    "inversions": 2,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        8.0,
+        10,
+        1
+      ],
+      [
+        74.0,
+        8,
+        1
+      ],
+      [
+        75.0,
+        8,
+        1
+      ],
+      [
+        107.0,
+        8,
+        0
+      ],
+      [
+        111.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          68.345,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          68.734,
+          4,
+          0,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          91.342,
+          3,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          5,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          24.195,
+          2,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          24.424,
+          3,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.774,
+          4,
+          0.274,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          5,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          58.337,
+          1,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          58.497,
+          0,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1410,
+    "melody": 740,
+    "rhythm": 670,
+    "max1s": [
+      24,
+      82.393
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 190,
+    "inversions": 2,
+    "samePitchLaneChanges": 99,
+    "skewWindows": [
+      [
+        5.0,
+        9,
+        1
+      ],
+      [
+        75.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          14.667,
+          5,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          14.756,
+          4,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          91.342,
+          3,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          5,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.285,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          2.375,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.093,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          3.173,
+          5,
+          0.324,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          1,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          5.468,
+          0,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 231,
+    "melody": 231,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      121.484
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          22.289,
+          3,
+          0.304,
+          65,
+          "melody"
+        ],
+        [
+          22.858,
+          1,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.624,
+          6,
+          0.424,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          7,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          106.199,
+          4,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          106.678,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 696,
+    "melody": 400,
+    "rhythm": 296,
+    "max1s": [
+      11,
+      70.25
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [
+      [
+        90.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          4,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          7,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          37.864,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          7,
+          0.24,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          106.448,
+          4,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          106.678,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          114.061,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          114.3,
+          4,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 953,
+    "melody": 506,
+    "rhythm": 447,
+    "max1s": [
+      16,
+      77.155
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 91,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        3.0,
+        1,
+        8
+      ],
+      [
+        75.0,
+        8,
+        1
+      ],
+      [
+        107.0,
+        8,
+        1
+      ],
+      [
+        111.0,
+        7,
+        1
+      ],
+      [
+        112.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          91.342,
+          4,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          7,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          8.66,
+          4,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          8.84,
+          3,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.774,
+          6,
+          0.274,
+          79,
+          "melody"
+        ],
+        [
+          38.103,
+          7,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          58.337,
+          1,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          58.497,
+          0,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Ivory Daydream",
+    "id": "dreamy-piano-bounce",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1458,
+    "melody": 740,
+    "rhythm": 718,
+    "max1s": [
+      26,
+      48.819
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 183,
+    "inversions": 2,
+    "samePitchLaneChanges": 97,
+    "skewWindows": [
+      [
+        5.0,
+        9,
+        1
+      ],
+      [
+        75.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          14.667,
+          7,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          14.756,
+          6,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          91.342,
+          4,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          91.612,
+          7,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.285,
+          3,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          2.375,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.093,
+          6,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          3.173,
+          7,
+          0.324,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.378,
+          1,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          5.468,
+          0,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 274,
+    "melody": 274,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      125.415
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.995,
+          2,
+          0,
+          85,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.252,
+          2,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          21.661,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.994,
+          1,
+          0.284,
+          64,
+          "melody"
+        ],
+        [
+          16.333,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.154,
+          2,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          117.653,
+          4,
+          0,
+          70,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 700,
+    "melody": 503,
+    "rhythm": 197,
+    "max1s": [
+      10,
+      82.662
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 3,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        67.0,
+        8,
+        1
+      ],
+      [
+        103.0,
+        9,
+        1
+      ],
+      [
+        121.0,
+        8,
+        1
+      ],
+      [
+        126.0,
+        8,
+        1
+      ],
+      [
+        127.0,
+        9,
+        0
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          3,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          4,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.161,
+          3,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          29.603,
+          3,
+          0,
+          82,
+          "melody"
+        ],
+        [
+          29.832,
+          4,
+          0,
+          82,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.326,
+          1,
+          0.274,
+          63,
+          "melody"
+        ],
+        [
+          85.655,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          101.22,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          101.539,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 1072,
+    "melody": 657,
+    "rhythm": 415,
+    "max1s": [
+      14,
+      102.826
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 75,
+    "inversions": 2,
+    "samePitchLaneChanges": 15,
+    "skewWindows": [
+      [
+        121.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          4,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.061,
+          3,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          21.551,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          21.661,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          33.663,
+          4,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          33.773,
+          3,
+          0,
+          81,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.332,
+          3,
+          0,
+          73,
+          "melody"
+        ],
+        [
+          47.502,
+          2,
+          0,
+          73,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1594,
+    "melody": 893,
+    "rhythm": 701,
+    "max1s": [
+      23,
+      28.495
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 167,
+    "inversions": 3,
+    "samePitchLaneChanges": 101,
+    "skewWindows": [
+      [
+        131.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          3.662,
+          1,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          3.741,
+          2,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          25.322,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          25.412,
+          3,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.087,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.058,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.157,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.407,
+          1,
+          0,
+          57,
+          "melody"
+        ],
+        [
+          1.487,
+          0,
+          0,
+          57,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.664,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          2.744,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 274,
+    "melody": 274,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      125.415
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.995,
+          1,
+          0,
+          85,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          14.996,
+          0,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          15.325,
+          1,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          15.994,
+          1,
+          0.284,
+          64,
+          "melody"
+        ],
+        [
+          16.333,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.154,
+          1,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          117.653,
+          3,
+          0,
+          70,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 649,
+    "melody": 503,
+    "rhythm": 146,
+    "max1s": [
+      10,
+      82.662
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 4,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        14.0,
+        8,
+        0
+      ],
+      [
+        15.0,
+        8,
+        0
+      ],
+      [
+        121.0,
+        8,
+        0
+      ],
+      [
+        127.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          2,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          42.414,
+          1,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          42.673,
+          2,
+          0,
+          71,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          29.603,
+          2,
+          0,
+          82,
+          "melody"
+        ],
+        [
+          29.832,
+          3,
+          0,
+          82,
+          "melody"
+        ]
+      ],
+      [
+        [
+          66.239,
+          1,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          66.549,
+          2,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          101.22,
+          2,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          101.539,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 1013,
+    "melody": 657,
+    "rhythm": 356,
+    "max1s": [
+      14,
+      52.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 68,
+    "inversions": 4,
+    "samePitchLaneChanges": 17,
+    "skewWindows": [
+      [
+        121.0,
+        12,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          2,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          42.414,
+          1,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          42.673,
+          2,
+          0,
+          71,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.157,
+          0,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.317,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.551,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          21.661,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          33.663,
+          3,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          33.773,
+          2,
+          0,
+          81,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1395,
+    "melody": 894,
+    "rhythm": 501,
+    "max1s": [
+      22,
+      28.495
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 156,
+    "inversions": 6,
+    "samePitchLaneChanges": 106,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          3.582,
+          1,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          3.662,
+          2,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          10.656,
+          3,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          2,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          24.993,
+          2,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          25.073,
+          1,
+          0,
+          71,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.058,
+          0,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.157,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.157,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.317,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.407,
+          1,
+          0,
+          57,
+          "melody"
+        ],
+        [
+          1.487,
+          0,
+          0,
+          57,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 274,
+    "melody": 274,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      125.415
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.995,
+          2,
+          0,
+          85,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.252,
+          2,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          21.661,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.994,
+          2,
+          0.284,
+          64,
+          "melody"
+        ],
+        [
+          16.333,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.154,
+          2,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          117.653,
+          5,
+          0,
+          70,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 738,
+    "melody": 503,
+    "rhythm": 235,
+    "max1s": [
+      12,
+      18.997
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 3,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        14.0,
+        7,
+        1
+      ],
+      [
+        15.0,
+        8,
+        0
+      ],
+      [
+        121.0,
+        8,
+        1
+      ],
+      [
+        127.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          4,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          5,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.161,
+          4,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          29.603,
+          4,
+          0,
+          82,
+          "melody"
+        ],
+        [
+          29.832,
+          5,
+          0,
+          82,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.326,
+          1,
+          0.274,
+          63,
+          "melody"
+        ],
+        [
+          85.655,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          101.22,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          101.539,
+          5,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1215,
+    "melody": 657,
+    "rhythm": 558,
+    "max1s": [
+      19,
+      52.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 89,
+    "inversions": 2,
+    "samePitchLaneChanges": 17,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          5,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.061,
+          4,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          21.551,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          21.661,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          33.663,
+          5,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          33.773,
+          4,
+          0,
+          81,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.332,
+          4,
+          0,
+          73,
+          "melody"
+        ],
+        [
+          47.502,
+          3,
+          0,
+          73,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1688,
+    "melody": 895,
+    "rhythm": 793,
+    "max1s": [
+      27,
+      57.17
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 184,
+    "inversions": 1,
+    "samePitchLaneChanges": 102,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.087,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.058,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.157,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.407,
+          1,
+          0,
+          57,
+          "melody"
+        ],
+        [
+          1.487,
+          0,
+          0,
+          57,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.664,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          2.744,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 274,
+    "melody": 274,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      125.415
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          7,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.995,
+          3,
+          0,
+          85,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.252,
+          3,
+          0,
+          61,
+          "melody"
+        ],
+        [
+          21.661,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.994,
+          2,
+          0.284,
+          64,
+          "melody"
+        ],
+        [
+          16.333,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.154,
+          3,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          117.653,
+          7,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          127.829,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          128.189,
+          2,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 769,
+    "melody": 503,
+    "rhythm": 266,
+    "max1s": [
+      12,
+      18.997
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 3,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        121.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          7,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          6,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          7,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.161,
+          6,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          74.491,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          74.82,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.326,
+          2,
+          0.274,
+          63,
+          "melody"
+        ],
+        [
+          85.655,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          101.22,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          101.539,
+          7,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1275,
+    "melody": 657,
+    "rhythm": 618,
+    "max1s": [
+      19,
+      52.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 99,
+    "inversions": 3,
+    "samePitchLaneChanges": 16,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          7,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          6,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.187,
+          1,
+          0,
+          61,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.941,
+          7,
+          0,
+          85,
+          "melody"
+        ],
+        [
+          48.061,
+          6,
+          0,
+          86,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          18.159,
+          3,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          18.328,
+          4,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.551,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          21.661,
+          3,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          33.663,
+          7,
+          0,
+          81,
+          "melody"
+        ],
+        [
+          33.773,
+          6,
+          0,
+          81,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Bassline Riot",
+    "id": "bouncy-bass-party",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1762,
+    "melody": 894,
+    "rhythm": 868,
+    "max1s": [
+      27,
+      57.17
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 176,
+    "inversions": 2,
+    "samePitchLaneChanges": 104,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          10.656,
+          7,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          10.825,
+          6,
+          0,
+          83,
+          "melody"
+        ]
+      ],
+      [
+        [
+          31.997,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          32.087,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.058,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          1.157,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.407,
+          1,
+          0,
+          57,
+          "melody"
+        ],
+        [
+          1.487,
+          0,
+          0,
+          57,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.664,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          2.744,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 277,
+    "melody": 277,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      122.272
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          6.366,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          6.775,
+          1,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          38.493,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.643,
+          3,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.952,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 721,
+    "melody": 487,
+    "rhythm": 234,
+    "max1s": [
+      11,
+      96.68
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 6,
+    "skewWindows": [
+      [
+        36.0,
+        8,
+        1
+      ],
+      [
+        56.0,
+        1,
+        8
+      ],
+      [
+        98.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          36.567,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          36.776,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          38.802,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          51.882,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          52.072,
+          2,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 963,
+    "melody": 552,
+    "rhythm": 411,
+    "max1s": [
+      15,
+      71.438
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 6,
+    "inversions": 0,
+    "samePitchLaneChanges": 30,
+    "skewWindows": [
+      [
+        11.0,
+        8,
+        1
+      ],
+      [
+        12.0,
+        7,
+        1
+      ],
+      [
+        25.0,
+        8,
+        1
+      ],
+      [
+        36.0,
+        9,
+        1
+      ],
+      [
+        37.0,
+        9,
+        0
+      ],
+      [
+        38.0,
+        8,
+        1
+      ],
+      [
+        47.0,
+        8,
+        0
+      ],
+      [
+        48.0,
+        8,
+        1
+      ],
+      [
+        49.0,
+        7,
+        1
+      ],
+      [
+        50.0,
+        8,
+        1
+      ],
+      [
+        114.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          1.277,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.397,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.148,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.258,
+          2,
+          0.354,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          6.366,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          6.475,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1776,
+    "melody": 943,
+    "rhythm": 833,
+    "max1s": [
+      24,
+      99.414
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 287,
+    "inversions": 2,
+    "samePitchLaneChanges": 182,
+    "skewWindows": [
+      [
+        12.0,
+        11,
+        1
+      ],
+      [
+        36.0,
+        17,
+        3
+      ],
+      [
+        37.0,
+        17,
+        1
+      ],
+      [
+        114.0,
+        7,
+        1
+      ],
+      [
+        117.0,
+        1,
+        8
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          70.53,
+          4,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          70.629,
+          3,
+          0,
+          78,
+          "melody"
+        ]
+      ],
+      [
+        [
+          123.19,
+          4,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          123.28,
+          2,
+          0.274,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          0.698,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          0.778,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.031,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          4.121,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.258,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.348,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 277,
+    "melody": 277,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      122.272
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 1,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          64.643,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.952,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 669,
+    "melody": 487,
+    "rhythm": 182,
+    "max1s": [
+      11,
+      96.68
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 8,
+    "skewWindows": [
+      [
+        36.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          84.109,
+          2,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          84.408,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ],
+      [
+        [
+          97.179,
+          2,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          97.379,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          25.931,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          26.141,
+          1,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.567,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          36.776,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          38.802,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 926,
+    "melody": 552,
+    "rhythm": 374,
+    "max1s": [
+      15,
+      71.438
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 4,
+    "inversions": 3,
+    "samePitchLaneChanges": 33,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          19.236,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          19.346,
+          2,
+          0,
+          71,
+          "melody"
+        ]
+      ],
+      [
+        [
+          84.109,
+          2,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          84.408,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ],
+      [
+        [
+          97.179,
+          2,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          97.379,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.277,
+          0,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.397,
+          1,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.397,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.696,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.148,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.258,
+          0,
+          0.354,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1521,
+    "melody": 943,
+    "rhythm": 578,
+    "max1s": [
+      21,
+      62.229
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 258,
+    "inversions": 2,
+    "samePitchLaneChanges": 184,
+    "skewWindows": [
+      [
+        117.0,
+        1,
+        8
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          70.53,
+          3,
+          0,
+          71,
+          "melody"
+        ],
+        [
+          70.629,
+          2,
+          0,
+          78,
+          "melody"
+        ]
+      ],
+      [
+        [
+          123.19,
+          3,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          123.28,
+          2,
+          0.274,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          0.698,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          0.778,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.415,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          2.614,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.031,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          4.121,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 277,
+    "melody": 277,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      122.272
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          38.493,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.643,
+          4,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.952,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 759,
+    "melody": 487,
+    "rhythm": 272,
+    "max1s": [
+      12,
+      76.097
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 8,
+    "skewWindows": [
+      [
+        117.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          25.931,
+          3,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          26.141,
+          2,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.567,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          36.776,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          38.802,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1126,
+    "melody": 552,
+    "rhythm": 574,
+    "max1s": [
+      18,
+      72.964
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 7,
+    "inversions": 1,
+    "samePitchLaneChanges": 29,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          97.179,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          97.379,
+          5,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.277,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.397,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.148,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.258,
+          2,
+          0.354,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          6.366,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          6.475,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1982,
+    "melody": 941,
+    "rhythm": 1041,
+    "max1s": [
+      28,
+      99.514
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 285,
+    "inversions": 1,
+    "samePitchLaneChanges": 185,
+    "skewWindows": [
+      [
+        117.0,
+        1,
+        8
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          123.19,
+          5,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          123.28,
+          3,
+          0.274,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          0.698,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          0.778,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.031,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          4.121,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.258,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.348,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 277,
+    "melody": 277,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      122.272
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          6.366,
+          3,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          6.775,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          38.493,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.643,
+          5,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.952,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 799,
+    "melody": 487,
+    "rhythm": 312,
+    "max1s": [
+      12,
+      76.097
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        50.0,
+        7,
+        1
+      ],
+      [
+        117.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          25.931,
+          4,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          26.141,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.567,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          36.776,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          38.802,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          39.001,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1198,
+    "melody": 552,
+    "rhythm": 646,
+    "max1s": [
+      18,
+      82.383
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 6,
+    "inversions": 1,
+    "samePitchLaneChanges": 33,
+    "skewWindows": [
+      [
+        8.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          19.236,
+          7,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          19.346,
+          6,
+          0,
+          71,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.277,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.397,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          2.415,
+          4,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          2.714,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.148,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          5.258,
+          1,
+          0.354,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Photon Rush",
+    "id": "luminous-forward-motion",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 2108,
+    "melody": 944,
+    "rhythm": 1164,
+    "max1s": [
+      29,
+      62.229
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 292,
+    "inversions": 2,
+    "samePitchLaneChanges": 186,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          97.289,
+          6,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          97.379,
+          7,
+          0,
+          76,
+          "melody"
+        ]
+      ],
+      [
+        [
+          123.19,
+          7,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          123.28,
+          4,
+          0.274,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          0.698,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          0.778,
+          3,
+          0.255,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          0.778,
+          3,
+          0.255,
+          63,
+          "melody"
+        ],
+        [
+          1.088,
+          4,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          4.031,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          4.121,
+          3,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 270,
+    "melody": 270,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      9.628
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          21.471,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          21.84,
+          3,
+          0.274,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.317,
+          3,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          23.696,
+          4,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          52.91,
+          1,
+          0.314,
+          62,
+          "melody"
+        ],
+        [
+          53.279,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 690,
+    "melody": 529,
+    "rhythm": 161,
+    "max1s": [
+      12,
+      121.065
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 4,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [
+      [
+        9.0,
+        9,
+        0
+      ],
+      [
+        14.0,
+        9,
+        1
+      ],
+      [
+        21.0,
+        0,
+        8
+      ],
+      [
+        35.0,
+        7,
+        1
+      ],
+      [
+        36.0,
+        9,
+        0
+      ],
+      [
+        50.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          4,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          111.696,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          111.876,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          21.84,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          22.03,
+          3,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          29.244,
+          4,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          29.433,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          35.17,
+          3,
+          0,
+          68,
+          "melody"
+        ],
+        [
+          35.35,
+          2,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 1020,
+    "melody": 594,
+    "rhythm": 426,
+    "max1s": [
+      12,
+      121.434
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 15,
+    "inversions": 4,
+    "samePitchLaneChanges": 14,
+    "skewWindows": [
+      [
+        40.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          4,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          111.696,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          111.876,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          16.233,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          16.473,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          17.031,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.211,
+          3,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          24.185,
+          3,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          24.434,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1442,
+    "melody": 658,
+    "rhythm": 784,
+    "max1s": [
+      18,
+      121.244
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 41,
+    "inversions": 4,
+    "samePitchLaneChanges": 33,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          4,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          111.696,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          111.876,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          6.765,
+          3,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          6.864,
+          2,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.773,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          11.853,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.843,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          20.922,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 270,
+    "melody": 270,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      9.628
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          21.471,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          21.84,
+          2,
+          0.274,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.317,
+          2,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          23.696,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.385,
+          1,
+          0.314,
+          62,
+          "melody"
+        ],
+        [
+          37.754,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 607,
+    "melody": 529,
+    "rhythm": 78,
+    "max1s": [
+      11,
+      120.516
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 17,
+    "skewWindows": [
+      [
+        9.0,
+        9,
+        0
+      ],
+      [
+        14.0,
+        9,
+        1
+      ],
+      [
+        21.0,
+        1,
+        8
+      ],
+      [
+        36.0,
+        9,
+        0
+      ],
+      [
+        37.0,
+        7,
+        1
+      ],
+      [
+        43.0,
+        7,
+        1
+      ],
+      [
+        63.0,
+        8,
+        1
+      ],
+      [
+        72.0,
+        1,
+        9
+      ],
+      [
+        85.0,
+        1,
+        8
+      ],
+      [
+        92.0,
+        1,
+        8
+      ],
+      [
+        98.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          3,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          4.27,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          4.46,
+          1,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          21.84,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          22.03,
+          2,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          27.398,
+          2,
+          0.314,
+          64,
+          "melody"
+        ],
+        [
+          27.767,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 991,
+    "melody": 594,
+    "rhythm": 397,
+    "max1s": [
+      12,
+      121.434
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 15,
+    "inversions": 2,
+    "samePitchLaneChanges": 20,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          3,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          4.27,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          4.46,
+          1,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          16.233,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          16.473,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          27.398,
+          2,
+          0.314,
+          64,
+          "melody"
+        ],
+        [
+          27.767,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1116,
+    "melody": 658,
+    "rhythm": 458,
+    "max1s": [
+      14,
+      121.434
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 36,
+    "inversions": 2,
+    "samePitchLaneChanges": 39,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          3,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          64.733,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          64.922,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          5.837,
+          2,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          5.937,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          6.765,
+          3,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          6.864,
+          2,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.773,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          11.853,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 270,
+    "melody": 270,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      9.628
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          23.317,
+          4,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          23.696,
+          5,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          52.91,
+          2,
+          0.314,
+          62,
+          "melody"
+        ],
+        [
+          53.279,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.27,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          70.819,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 767,
+    "melody": 529,
+    "rhythm": 238,
+    "max1s": [
+      12,
+      121.244
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [
+      [
+        36.0,
+        9,
+        0
+      ],
+      [
+        122.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          5,
+          0,
+          69,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          29.244,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          29.433,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          35.17,
+          4,
+          0,
+          68,
+          "melody"
+        ],
+        [
+          35.35,
+          3,
+          0,
+          68,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.457,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          36.826,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1284,
+    "melody": 594,
+    "rhythm": 690,
+    "max1s": [
+      18,
+      100.681
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 16,
+    "inversions": 1,
+    "samePitchLaneChanges": 12,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          5,
+          0,
+          69,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          21.84,
+          5,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          22.03,
+          4,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          29.244,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          29.433,
+          4,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          35.17,
+          4,
+          0,
+          68,
+          "melody"
+        ],
+        [
+          35.35,
+          3,
+          0,
+          68,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1493,
+    "melody": 657,
+    "rhythm": 836,
+    "max1s": [
+      20,
+      121.244
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 38,
+    "inversions": 1,
+    "samePitchLaneChanges": 32,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          5,
+          0,
+          69,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          6.765,
+          4,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          6.864,
+          3,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.773,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          11.853,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.843,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          20.922,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 270,
+    "melody": 270,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      9.628
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          23.317,
+          5,
+          0,
+          66,
+          "melody"
+        ],
+        [
+          23.696,
+          7,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          52.91,
+          2,
+          0.314,
+          62,
+          "melody"
+        ],
+        [
+          53.279,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.27,
+          7,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          70.819,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 870,
+    "melody": 529,
+    "rhythm": 341,
+    "max1s": [
+      12,
+      121.244
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        122.0,
+        7,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          117.573,
+          7,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          117.762,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          17.031,
+          7,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.211,
+          6,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          35.17,
+          5,
+          0,
+          68,
+          "melody"
+        ],
+        [
+          35.35,
+          4,
+          0,
+          68,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.457,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          36.826,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1356,
+    "melody": 594,
+    "rhythm": 762,
+    "max1s": [
+      18,
+      119.778
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 14,
+    "inversions": 2,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          6,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          7,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.573,
+          7,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          117.762,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          35.17,
+          5,
+          0,
+          68,
+          "melody"
+        ],
+        [
+          35.35,
+          4,
+          0,
+          68,
+          "melody"
+        ]
+      ],
+      [
+        [
+          36.457,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          36.826,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          40.159,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          40.268,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "한 칸 더 가까이",
+    "id": "one-step-closer",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1534,
+    "melody": 657,
+    "rhythm": 877,
+    "max1s": [
+      20,
+      121.244
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 38,
+    "inversions": 2,
+    "samePitchLaneChanges": 28,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          17.59,
+          6,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          17.77,
+          7,
+          0,
+          69,
+          "melody"
+        ]
+      ],
+      [
+        [
+          117.573,
+          7,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          117.762,
+          6,
+          0,
+          79,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          5.837,
+          5,
+          0,
+          79,
+          "melody"
+        ],
+        [
+          5.937,
+          7,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          6.765,
+          5,
+          0,
+          67,
+          "melody"
+        ],
+        [
+          6.864,
+          4,
+          0,
+          67,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.773,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          11.853,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 214,
+    "melody": 214,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      123.609
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          96.96,
+          4,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          97.419,
+          2,
+          0.364,
+          74,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          7.313,
+          2,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          7.782,
+          4,
+          0.384,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.607,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          15.076,
+          4,
+          0.633,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.698,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          45.157,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 679,
+    "melody": 438,
+    "rhythm": 241,
+    "max1s": [
+      10,
+      123.849
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 6,
+    "skewWindows": [
+      [
+        62.0,
+        8,
+        1
+      ],
+      [
+        66.0,
+        8,
+        1
+      ],
+      [
+        70.0,
+        7,
+        1
+      ],
+      [
+        71.0,
+        7,
+        1
+      ],
+      [
+        98.0,
+        8,
+        1
+      ],
+      [
+        99.0,
+        8,
+        1
+      ],
+      [
+        102.0,
+        7,
+        1
+      ],
+      [
+        105.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          81.944,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          82.323,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          22.369,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          22.599,
+          1,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.176,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          89.487,
+          3,
+          0.254,
+          69,
+          "melody"
+        ],
+        [
+          89.796,
+          2,
+          0,
+          69,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 853,
+    "melody": 537,
+    "rhythm": 316,
+    "max1s": [
+      13,
+      38.123
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 12,
+    "inversions": 1,
+    "samePitchLaneChanges": 30,
+    "skewWindows": [
+      [
+        30.0,
+        1,
+        7
+      ],
+      [
+        40.0,
+        8,
+        0
+      ],
+      [
+        41.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.537,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.646,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.195,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.314,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.028,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          14.138,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1203,
+    "melody": 600,
+    "rhythm": 603,
+    "max1s": [
+      17,
+      37.884
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 91,
+    "inversions": 1,
+    "samePitchLaneChanges": 32,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          3,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          6.605,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          6.705,
+          3,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          8.88,
+          2,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          8.96,
+          1,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.693,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.783,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 214,
+    "melody": 214,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      123.609
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 3,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          96.96,
+          3,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          97.419,
+          1,
+          0.364,
+          74,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          7.313,
+          1,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          7.782,
+          3,
+          0.384,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.698,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          45.157,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          89.487,
+          2,
+          0.254,
+          69,
+          "melody"
+        ],
+        [
+          89.796,
+          0,
+          0,
+          69,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 638,
+    "melody": 438,
+    "rhythm": 200,
+    "max1s": [
+      10,
+      123.849
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          37.176,
+          1,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          47.741,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          47.981,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          59.465,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          59.764,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 829,
+    "melody": 537,
+    "rhythm": 292,
+    "max1s": [
+      12,
+      38.123
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 15,
+    "inversions": 0,
+    "samePitchLaneChanges": 30,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          1.537,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.646,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.195,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.314,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.028,
+          2,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          14.138,
+          1,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 940,
+    "melody": 600,
+    "rhythm": 340,
+    "max1s": [
+      13,
+      96.491
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 83,
+    "inversions": 0,
+    "samePitchLaneChanges": 31,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          6.605,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          6.705,
+          3,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          8.88,
+          2,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          8.96,
+          1,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.693,
+          1,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.783,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 214,
+    "melody": 214,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      123.609
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          96.96,
+          5,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          97.419,
+          2,
+          0.364,
+          74,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          7.313,
+          3,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          7.782,
+          5,
+          0.384,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.607,
+          4,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          15.076,
+          5,
+          0.633,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.698,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          45.157,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 703,
+    "melody": 438,
+    "rhythm": 265,
+    "max1s": [
+      10,
+      123.849
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 7,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          4,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          81.944,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          82.323,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          13.599,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          13.908,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          22.369,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          22.599,
+          1,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.176,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1095,
+    "melody": 537,
+    "rhythm": 558,
+    "max1s": [
+      16,
+      37.884
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 16,
+    "inversions": 1,
+    "samePitchLaneChanges": 28,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          4,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.537,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.646,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.195,
+          2,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.314,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.028,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          14.138,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1223,
+    "melody": 600,
+    "rhythm": 623,
+    "max1s": [
+      17,
+      78.891
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 87,
+    "inversions": 2,
+    "samePitchLaneChanges": 29,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          37.275,
+          1,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          74.391,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          4,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          6.605,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          6.705,
+          4,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          8.88,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          8.96,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.693,
+          2,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.783,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 214,
+    "melody": 214,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      123.609
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          96.96,
+          7,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          97.419,
+          3,
+          0.364,
+          74,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          7.313,
+          4,
+          0,
+          72,
+          "melody"
+        ],
+        [
+          7.782,
+          7,
+          0.384,
+          72,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.607,
+          5,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          15.076,
+          7,
+          0.633,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.698,
+          3,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          45.157,
+          1,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 723,
+    "melody": 438,
+    "rhythm": 285,
+    "max1s": [
+      10,
+      123.849
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 2,
+    "samePitchLaneChanges": 6,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          5,
+          0,
+          66,
+          "melody"
+        ]
+      ],
+      [
+        [
+          81.944,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          82.323,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          22.369,
+          3,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          22.599,
+          2,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          37.176,
+          2,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.698,
+          0,
+          0,
+          60,
+          "melody"
+        ],
+        [
+          45.157,
+          1,
+          0,
+          60,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1122,
+    "melody": 537,
+    "rhythm": 585,
+    "max1s": [
+      16,
+      37.884
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 15,
+    "inversions": 1,
+    "samePitchLaneChanges": 28,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          74.391,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          5,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.537,
+          0,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          1.646,
+          1,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.195,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.314,
+          4,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.028,
+          4,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          14.138,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "내일의 우리에게",
+    "id": "to-our-tomorrow",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1253,
+    "melody": 600,
+    "rhythm": 653,
+    "max1s": [
+      18,
+      37.884
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 89,
+    "inversions": 2,
+    "samePitchLaneChanges": 29,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          37.275,
+          1,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          37.415,
+          0,
+          0,
+          60,
+          "melody"
+        ]
+      ],
+      [
+        [
+          74.391,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          74.6,
+          5,
+          0,
+          66,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          6.605,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          6.705,
+          5,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          8.88,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          8.96,
+          2,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          11.693,
+          3,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          11.783,
+          4,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      119.309
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          4,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.34,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          70.899,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 529,
+    "melody": 375,
+    "rhythm": 154,
+    "max1s": [
+      10,
+      61.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        25.0,
+        9,
+        0
+      ],
+      [
+        54.0,
+        1,
+        7
+      ],
+      [
+        68.0,
+        7,
+        1
+      ],
+      [
+        70.0,
+        7,
+        1
+      ],
+      [
+        71.0,
+        8,
+        1
+      ],
+      [
+        72.0,
+        7,
+        1
+      ],
+      [
+        76.0,
+        7,
+        1
+      ],
+      [
+        81.0,
+        8,
+        1
+      ],
+      [
+        90.0,
+        7,
+        1
+      ],
+      [
+        102.0,
+        8,
+        1
+      ],
+      [
+        103.0,
+        9,
+        0
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          1,
+          0.255,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          3,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          75.379,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          75.778,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 1044,
+    "melody": 623,
+    "rhythm": 421,
+    "max1s": [
+      14,
+      120.396
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 231,
+    "inversions": 1,
+    "samePitchLaneChanges": 10,
+    "skewWindows": [
+      [
+        1.0,
+        8,
+        1
+      ],
+      [
+        17.0,
+        0,
+        9
+      ],
+      [
+        18.0,
+        0,
+        9
+      ],
+      [
+        43.0,
+        1,
+        12
+      ],
+      [
+        54.0,
+        1,
+        9
+      ],
+      [
+        63.0,
+        1,
+        8
+      ],
+      [
+        90.0,
+        8,
+        0
+      ],
+      [
+        102.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          85.765,
+          3,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          4,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.624,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          15.734,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.696,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          23.816,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          45.267,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1542,
+    "melody": 799,
+    "rhythm": 743,
+    "max1s": [
+      21,
+      86.693
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 461,
+    "inversions": 3,
+    "samePitchLaneChanges": 100,
+    "skewWindows": [
+      [
+        0.0,
+        9,
+        1
+      ],
+      [
+        3.0,
+        1,
+        13
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          7.094,
+          4,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          7.174,
+          3,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.806,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          14.896,
+          1,
+          0,
+          57,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.765,
+          3,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          4,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.117,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.207,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.537,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.696,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      119.309
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          3,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.34,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          70.899,
+          0,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 481,
+    "melody": 375,
+    "rhythm": 106,
+    "max1s": [
+      8,
+      119.309
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        18.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          1,
+          0.255,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          3,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          108.184,
+          0,
+          0.334,
+          64,
+          "melody"
+        ],
+        [
+          108.703,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 980,
+    "melody": 623,
+    "rhythm": 357,
+    "max1s": [
+      14,
+      87.012
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 217,
+    "inversions": 2,
+    "samePitchLaneChanges": 13,
+    "skewWindows": [
+      [
+        1.0,
+        9,
+        1
+      ],
+      [
+        18.0,
+        1,
+        9
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          80.677,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          80.886,
+          2,
+          0,
+          76,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.765,
+          2,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          14.647,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          14.806,
+          1,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          15.624,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          15.734,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.696,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          23.816,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1302,
+    "melody": 797,
+    "rhythm": 505,
+    "max1s": [
+      19,
+      40.358
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 329,
+    "inversions": 3,
+    "samePitchLaneChanges": 100,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          7.094,
+          3,
+          0,
+          78,
+          "melody"
+        ],
+        [
+          7.174,
+          2,
+          0,
+          79,
+          "melody"
+        ]
+      ],
+      [
+        [
+          14.806,
+          0,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          14.896,
+          1,
+          0,
+          57,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.765,
+          2,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          3,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.117,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.207,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.537,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.616,
+          2,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.616,
+          2,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.696,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      119.309
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          1,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          5,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.34,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          70.899,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 583,
+    "melody": 375,
+    "rhythm": 208,
+    "max1s": [
+      10,
+      61.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        19.0,
+        7,
+        1
+      ],
+      [
+        69.0,
+        7,
+        1
+      ],
+      [
+        90.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          25.063,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          25.382,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          45.117,
+          1,
+          0.255,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          1,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          4,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1231,
+    "melody": 623,
+    "rhythm": 608,
+    "max1s": [
+      18,
+      83.72
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 292,
+    "inversions": 1,
+    "samePitchLaneChanges": 11,
+    "skewWindows": [
+      [
+        1.0,
+        10,
+        1
+      ],
+      [
+        58.0,
+        12,
+        2
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          85.765,
+          4,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          5,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.624,
+          3,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          15.734,
+          2,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.696,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          23.816,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          42.374,
+          1,
+          0.274,
+          64,
+          "melody"
+        ],
+        [
+          42.703,
+          2,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1637,
+    "melody": 798,
+    "rhythm": 839,
+    "max1s": [
+      25,
+      40.448
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 473,
+    "inversions": 1,
+    "samePitchLaneChanges": 97,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          85.765,
+          4,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          5,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.117,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.207,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.537,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.696,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 260,
+    "melody": 260,
+    "rhythm": 0,
+    "max1s": [
+      4,
+      119.309
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          3,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          7,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.34,
+          3,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          70.899,
+          1,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 643,
+    "melody": 375,
+    "rhythm": 268,
+    "max1s": [
+      11,
+      61.66
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 4,
+    "skewWindows": [
+      [
+        19.0,
+        7,
+        1
+      ],
+      [
+        20.0,
+        8,
+        0
+      ],
+      [
+        90.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          45.117,
+          2,
+          0.255,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          60.483,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          60.802,
+          6,
+          0,
+          64,
+          "melody"
+        ]
+      ],
+      [
+        [
+          75.379,
+          2,
+          0,
+          64,
+          "melody"
+        ],
+        [
+          75.778,
+          3,
+          0,
+          64,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1320,
+    "melody": 623,
+    "rhythm": 697,
+    "max1s": [
+      19,
+      84.189
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 328,
+    "inversions": 2,
+    "samePitchLaneChanges": 12,
+    "skewWindows": [
+      [
+        1.0,
+        10,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          80.677,
+          6,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          80.886,
+          5,
+          0,
+          76,
+          "melody"
+        ]
+      ],
+      [
+        [
+          85.765,
+          6,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          7,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          15.624,
+          4,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          15.734,
+          3,
+          0,
+          62,
+          "melody"
+        ]
+      ],
+      [
+        [
+          23.696,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          23.816,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          45.267,
+          2,
+          0,
+          62,
+          "melody"
+        ],
+        [
+          45.427,
+          0,
+          0,
+          62,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Neon Eclipse",
+    "id": "futuristic-minor-key",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1740,
+    "melody": 799,
+    "rhythm": 941,
+    "max1s": [
+      28,
+      29.333
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 477,
+    "inversions": 1,
+    "samePitchLaneChanges": 97,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          85.765,
+          6,
+          0,
+          80,
+          "melody"
+        ],
+        [
+          85.915,
+          7,
+          0,
+          76,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          1.117,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.207,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.537,
+          1,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ]
+      ],
+      [
+        [
+          1.616,
+          0,
+          0,
+          59,
+          "melody"
+        ],
+        [
+          1.696,
+          1,
+          0,
+          59,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 5,
+    "difficulty": 0,
+    "notes": 227,
+    "melody": 227,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      110.589
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 2,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          68.983,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          69.392,
+          3,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          70.19,
+          1,
+          0.345,
+          58,
+          "melody"
+        ],
+        [
+          70.59,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 5,
+    "difficulty": 1,
+    "notes": 719,
+    "melody": 511,
+    "rhythm": 208,
+    "max1s": [
+      12,
+      99.185
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        5.0,
+        1,
+        7
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        47.0,
+        8,
+        0
+      ],
+      [
+        48.0,
+        10,
+        0
+      ],
+      [
+        56.0,
+        9,
+        1
+      ],
+      [
+        57.0,
+        10,
+        0
+      ],
+      [
+        58.0,
+        10,
+        0
+      ],
+      [
+        59.0,
+        8,
+        0
+      ],
+      [
+        76.0,
+        1,
+        9
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          4,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.728,
+          4,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          44.928,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ],
+      [
+        [
+          69.392,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          69.592,
+          3,
+          0,
+          63,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 5,
+    "difficulty": 2,
+    "notes": 880,
+    "melody": 547,
+    "rhythm": 333,
+    "max1s": [
+      13,
+      75.189
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 4,
+    "inversions": 1,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [
+      [
+        5.0,
+        0,
+        9
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        78.0,
+        1,
+        9
+      ],
+      [
+        87.0,
+        1,
+        9
+      ],
+      [
+        104.0,
+        8,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          4,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          9.0,
+          1,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          9.109,
+          2,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          24.734,
+          2,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          24.844,
+          1,
+          0.244,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 5,
+    "difficulty": 3,
+    "notes": 1314,
+    "melody": 731,
+    "rhythm": 583,
+    "max1s": [
+      24,
+      69.991
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 118,
+    "inversions": 1,
+    "samePitchLaneChanges": 110,
+    "skewWindows": [
+      [
+        5.0,
+        0,
+        13
+      ],
+      [
+        15.0,
+        10,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        104.0,
+        8,
+        1
+      ],
+      [
+        109.0,
+        1,
+        7
+      ],
+      [
+        112.0,
+        9,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          4,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.325,
+          2,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          2.424,
+          3,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.841,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          3.941,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.059,
+          4,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          5.158,
+          3,
+          0,
+          74,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 4,
+    "difficulty": 0,
+    "notes": 227,
+    "melody": 227,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      110.589
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 0,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": []
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 4,
+    "difficulty": 1,
+    "notes": 662,
+    "melody": 511,
+    "rhythm": 151,
+    "max1s": [
+      12,
+      99.185
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 6,
+    "skewWindows": [
+      [
+        9.0,
+        8,
+        0
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        18.0,
+        10,
+        0
+      ],
+      [
+        19.0,
+        8,
+        1
+      ],
+      [
+        21.0,
+        0,
+        9
+      ],
+      [
+        26.0,
+        9,
+        1
+      ],
+      [
+        35.0,
+        10,
+        1
+      ],
+      [
+        38.0,
+        9,
+        1
+      ],
+      [
+        47.0,
+        8,
+        1
+      ],
+      [
+        48.0,
+        10,
+        0
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          2,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          3,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          5.059,
+          2,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          5.258,
+          3,
+          0,
+          74,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          1,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.603,
+          1,
+          0.244,
+          55,
+          "melody"
+        ],
+        [
+          20.902,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 4,
+    "difficulty": 2,
+    "notes": 856,
+    "melody": 547,
+    "rhythm": 309,
+    "max1s": [
+      13,
+      75.189
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 4,
+    "inversions": 0,
+    "samePitchLaneChanges": 8,
+    "skewWindows": [
+      [
+        9.0,
+        10,
+        0
+      ],
+      [
+        10.0,
+        8,
+        0
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        18.0,
+        10,
+        0
+      ],
+      [
+        19.0,
+        10,
+        0
+      ],
+      [
+        21.0,
+        0,
+        10
+      ],
+      [
+        22.0,
+        0,
+        8
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          9.0,
+          0,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          9.109,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          1,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.902,
+          1,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          21.102,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 4,
+    "difficulty": 3,
+    "notes": 1120,
+    "melody": 731,
+    "rhythm": 389,
+    "max1s": [
+      20,
+      73.593
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 100,
+    "inversions": 0,
+    "samePitchLaneChanges": 111,
+    "skewWindows": [
+      [
+        15.0,
+        10,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        1
+      ],
+      [
+        109.0,
+        1,
+        7
+      ]
+    ],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          2.325,
+          2,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          2.424,
+          3,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.841,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          3.941,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.059,
+          3,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          5.158,
+          2,
+          0,
+          74,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 6,
+    "difficulty": 0,
+    "notes": 227,
+    "melody": 227,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      110.589
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 1,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          70.19,
+          1,
+          0.345,
+          58,
+          "melody"
+        ],
+        [
+          70.59,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 6,
+    "difficulty": 1,
+    "notes": 772,
+    "melody": 511,
+    "rhythm": 261,
+    "max1s": [
+      12,
+      99.185
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        2.0,
+        7,
+        1
+      ],
+      [
+        5.0,
+        1,
+        9
+      ],
+      [
+        9.0,
+        8,
+        0
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        18.0,
+        10,
+        0
+      ],
+      [
+        19.0,
+        8,
+        1
+      ],
+      [
+        21.0,
+        0,
+        9
+      ],
+      [
+        48.0,
+        10,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          5,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.603,
+          2,
+          0.244,
+          55,
+          "melody"
+        ],
+        [
+          20.902,
+          3,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.728,
+          5,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          44.928,
+          3,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 6,
+    "difficulty": 2,
+    "notes": 1043,
+    "melody": 547,
+    "rhythm": 496,
+    "max1s": [
+      18,
+      84.987
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 4,
+    "inversions": 1,
+    "samePitchLaneChanges": 9,
+    "skewWindows": [
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        1
+      ],
+      [
+        19.0,
+        10,
+        1
+      ],
+      [
+        21.0,
+        0,
+        10
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          5,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          9.0,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          9.109,
+          1,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          2,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.902,
+          2,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          21.102,
+          3,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 6,
+    "difficulty": 3,
+    "notes": 1394,
+    "melody": 731,
+    "rhythm": 663,
+    "max1s": [
+      26,
+      69.193
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 116,
+    "inversions": 1,
+    "samePitchLaneChanges": 108,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          3,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          5,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.325,
+          3,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          2.424,
+          4,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.841,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          3.941,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.059,
+          5,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          5.158,
+          4,
+          0,
+          74,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 8,
+    "difficulty": 0,
+    "notes": 227,
+    "melody": 227,
+    "rhythm": 0,
+    "max1s": [
+      3,
+      110.589
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 0,
+    "samePitchLaneChanges": 1,
+    "skewWindows": [],
+    "inversionExamples": [],
+    "repeatExamples": [
+      [
+        [
+          70.19,
+          1,
+          0.345,
+          58,
+          "melody"
+        ],
+        [
+          70.59,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 8,
+    "difficulty": 1,
+    "notes": 805,
+    "melody": 511,
+    "rhythm": 294,
+    "max1s": [
+      12,
+      99.185
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 0,
+    "inversions": 1,
+    "samePitchLaneChanges": 5,
+    "skewWindows": [
+      [
+        2.0,
+        7,
+        1
+      ],
+      [
+        5.0,
+        1,
+        9
+      ],
+      [
+        9.0,
+        8,
+        0
+      ],
+      [
+        15.0,
+        9,
+        1
+      ],
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        0
+      ],
+      [
+        18.0,
+        10,
+        0
+      ],
+      [
+        19.0,
+        8,
+        1
+      ],
+      [
+        21.0,
+        0,
+        9
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          6,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          3,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.603,
+          3,
+          0.244,
+          55,
+          "melody"
+        ],
+        [
+          20.902,
+          4,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          44.728,
+          7,
+          0,
+          65,
+          "melody"
+        ],
+        [
+          44.928,
+          4,
+          0,
+          65,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 8,
+    "difficulty": 2,
+    "notes": 1087,
+    "melody": 547,
+    "rhythm": 540,
+    "max1s": [
+      18,
+      84.987
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 5,
+    "inversions": 1,
+    "samePitchLaneChanges": 8,
+    "skewWindows": [
+      [
+        16.0,
+        10,
+        0
+      ],
+      [
+        17.0,
+        10,
+        1
+      ],
+      [
+        19.0,
+        10,
+        1
+      ]
+    ],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          6,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          9.0,
+          2,
+          0,
+          63,
+          "melody"
+        ],
+        [
+          9.109,
+          3,
+          0,
+          63,
+          "melody"
+        ]
+      ],
+      [
+        [
+          19.087,
+          0,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          19.296,
+          3,
+          0,
+          55,
+          "melody"
+        ]
+      ],
+      [
+        [
+          20.902,
+          3,
+          0,
+          55,
+          "melody"
+        ],
+        [
+          21.102,
+          4,
+          0,
+          55,
+          "melody"
+        ]
+      ]
+    ]
+  },
+  {
+    "song": "Open Blue Sky",
+    "id": "open-blue-sky",
+    "keys": 8,
+    "difficulty": 3,
+    "notes": 1493,
+    "melody": 731,
+    "rhythm": 762,
+    "max1s": [
+      27,
+      65.99
+    ],
+    "under65msGroups": 0,
+    "under160msSameLane": 122,
+    "inversions": 1,
+    "samePitchLaneChanges": 111,
+    "skewWindows": [],
+    "inversionExamples": [
+      [
+        [
+          12.641,
+          4,
+          0,
+          69,
+          "melody"
+        ],
+        [
+          12.841,
+          6,
+          0,
+          67,
+          "melody"
+        ]
+      ]
+    ],
+    "repeatExamples": [
+      [
+        [
+          2.325,
+          5,
+          0,
+          70,
+          "melody"
+        ],
+        [
+          2.424,
+          4,
+          0,
+          70,
+          "melody"
+        ]
+      ],
+      [
+        [
+          3.841,
+          1,
+          0,
+          58,
+          "melody"
+        ],
+        [
+          3.941,
+          0,
+          0,
+          58,
+          "melody"
+        ]
+      ],
+      [
+        [
+          5.059,
+          6,
+          0,
+          74,
+          "melody"
+        ],
+        [
+          5.158,
+          5,
+          0,
+          74,
+          "melody"
+        ]
+      ]
+    ]
+  }
+]
