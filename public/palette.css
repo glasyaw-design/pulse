@@ -236,3 +236,11 @@ dialog::backdrop{background:#09060ed9}
 #accountDialog input:focus-visible,#accountDialog button:focus-visible{outline:2px solid #d3c3ff}
 
 :root{--hot:#9de8d2;--accent:#b8a6e8!important}
+
+/* v30: actual image elements own jacket artwork; theme gradients cannot obscure it. */
+.jacket-visual{inset:0;transform:none;filter:none;background:none!important}
+.jacket-visual:before,.thumb:before{content:none!important;display:none!important}
+.jacket-image,.song-jacket-image{display:block;width:100%;height:100%;object-fit:cover}
+.thumb,.thumb.b,.thumb.c{background:none!important;filter:none!important}
+:root{--sans:'PulseMaple30',sans-serif;--display:'PulseMaple30',sans-serif}
+body,button,input,select,textarea{font-family:var(--sans)}
