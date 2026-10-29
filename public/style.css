@@ -103,3 +103,8 @@ dialog{color:#e3edf9;border:1px solid #678ca9;background:#0a1523;width:min(530px
 #readabilityJudge small{display:block;text-align:center;color:#71d7ff;font-size:8px;margin-top:4px}
 @media(max-width:1000px){.gear{width:min(var(--gear-width),55vw)}.life-rail{left:auto;right:5%}}
 @media(max-width:600px){.gear{width:min(var(--gear-width),calc((100vw - 64px)*var(--gear-scale)),calc(100vw - 64px))}.life-rail{left:auto;right:9px}}
+
+.song-preview-row{display:flex;align-items:center;gap:10px;margin:14px 0;flex-wrap:wrap}
+#songPreview{padding:9px 13px;border:1px solid #60829b;border-radius:5px;background:#152838;color:#def0ff;font-size:11px;cursor:pointer}
+#songPreview[aria-pressed=true]{border-color:#e0ee98;color:#e0ee98}
+#songPreviewStatus{font-size:10px;color:#9fb5cb}

@@ -1,7 +1,16 @@
 'use strict';
 const NOTE_SKINS=['BAR','CIRCLE'],HIT_STYLES=['LASER','RING','SPARK','OFF'];
 let VISUAL_KEY_COUNT=5;
-function laneColor(lane){return VISUAL_KEY_COUNT%2&&lane===Math.floor(VISUAL_KEY_COUNT/2)?'#f2da7b':Math.min(lane,VISUAL_KEY_COUNT-1-lane)%2?'#6fd5ff':'#e8eff9'}
+const EIGHT_COLOR_GROUPS=[0,1,0,2,2,0,1,0];
+const EIGHT_COLOR_PRESETS={
+ CLASSIC:{label:'Classic · 화이트 / 블루 / 골드',colors:['#e8eff9','#6fd5ff','#f2da7b']},
+ NEON:{label:'Neon · 시안 / 핑크 / 라임',colors:['#52e5ff','#ff79c6','#c5f77d']},
+ AURORA:{label:'Aurora · 민트 / 라벤더 / 피치',colors:['#8ff0cf','#b7a0ff','#ffba91']},
+ EMBER:{label:'Ember · 아이보리 / 코럴 / 앰버',colors:['#fff1d6','#ff827b','#ffc857']}
+};
+let eightNoteColors=EIGHT_COLOR_PRESETS.CLASSIC.colors.slice();
+function validEightColors(colors){return Array.isArray(colors)&&colors.length===3&&colors.every(c=>typeof c==='string'&&/^#[0-9a-f]{6}$/i.test(c))}
+function laneColor(lane){if(VISUAL_KEY_COUNT===8)return eightNoteColors[EIGHT_COLOR_GROUPS[lane]];return VISUAL_KEY_COUNT%2&&lane===Math.floor(VISUAL_KEY_COUNT/2)?'#f2da7b':Math.min(lane,VISUAL_KEY_COUNT-1-lane)%2?'#6fd5ff':'#e8eff9'}
 function circleNoteRadius(width){return Math.max(2,width*.45)}
 function paintNoteHead(c,x,y,w,color,skin){
  c.save();

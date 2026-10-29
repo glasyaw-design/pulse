@@ -22,9 +22,34 @@ let keysVolume=1,keyPlayer=null,keyAudioBuffer=null,keyBufferId='',backgroundBus
 let ctxAudio,master,musicSource=null,musicBuffer=null,bufferId='',startAt=0,pauseAt=0;
 let W=350,H=500,dpr=1,totalJudgements=0;
 const canvas=$('#game'),ctx=canvas.getContext('2d');
+let songPreview=null,previewGeneration=0;
+function stopSongPreview(){
+ previewGeneration++;
+ if(songPreview){songPreview.pause();songPreview.removeAttribute('src');songPreview.load();songPreview=null}
+ const b=$('#songPreview');if(b){b.textContent='▶ 12초 미리듣기';b.setAttribute('aria-pressed','false')}
+ const status=$('#songPreviewStatus');if(status)status.textContent='';
+}
+async function toggleSongPreview(){
+ if(state!=='idle')return;
+ if(songPreview){stopSongPreview();return}
+ const t=tracks[selected],generation=++previewGeneration,a=new Audio();
+ songPreview=a;a.preload='auto';a.volume=Math.min(1,volume*.65);
+ const section=t.sections?.find(s=>s.name==='PEAK'&&s.time>15);
+ const from=Math.max(0,Math.min(section?.time??30,t.duration-12));
+ const end=Math.min(from+12,t.duration);
+ $('#songPreview').textContent='■ 미리듣기 중지';$('#songPreview').setAttribute('aria-pressed','true');
+ $('#songPreviewStatus').textContent='불러오는 중…';
+ a.onloadedmetadata=()=>{if(generation===previewGeneration)a.currentTime=Math.min(from,Math.max(0,a.duration-12))};
+ a.ontimeupdate=()=>{if(generation!==previewGeneration)return;const remaining=Math.max(0,end-a.currentTime);a.volume=Math.min(1,volume*.65)*Math.min(1,remaining/.7,Math.max(0,(a.currentTime-from)/.25));$('#songPreviewStatus').textContent=Math.ceil(Math.min(12,remaining))+'초 미리듣기';if(a.currentTime>=end)stopSongPreview()};
+ a.onended=()=>{if(generation===previewGeneration)stopSongPreview()};
+ a.onerror=()=>{if(generation!==previewGeneration)return;stopSongPreview();$('#songPreviewStatus').textContent='미리듣기를 불러오지 못했어요.'};
+ a.src=t.audio;
+ try{await a.play()}catch(error){if(generation!==previewGeneration)return;stopSongPreview();$('#songPreviewStatus').textContent='미리듣기를 시작하지 못했어요. 다시 눌러 주세요.'}
+}
+$('#songPreview').onclick=toggleSongPreview;
 function formatTime(seconds){const t=Math.max(0,Math.floor(seconds));return String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0')}
 function keyName(code){if(code==='Space')return 'SPACE';if(code.startsWith('Key'))return code.slice(3);if(code.startsWith('Digit'))return code.slice(5);if(code.startsWith('Numpad'))return 'NUM '+code.slice(6);return ({ArrowUp:'↑',ArrowDown:'↓',ArrowLeft:'←',ArrowRight:'→',Semicolon:';',Quote:"'",Comma:',',Period:'.',Slash:'/',Backslash:'\\',BracketLeft:'[',BracketRight:']',Minus:'-',Equal:'=',Backquote:'`'})[code]||code.replace(/(Left|Right)$/,'')}
-function loadPrefs(){try{const p=JSON.parse(localStorage.getItem('pulse-prefs-v4')||'{}');if(Number.isFinite(p.backgroundBrightness))backgroundBrightness=Math.max(0,Math.min(100,p.backgroundBrightness));if(Number.isFinite(p.gearWidthPercent))gearWidthPercent=Math.max(75,Math.min(125,p.gearWidthPercent));if(Number.isFinite(p.judgePosition))judgePosition=Math.max(35,Math.min(90,p.judgePosition));if(GEAR_SKINS.includes(p.gearSkin))gearSkin=p.gearSkin;if(validEightColors(p.eightNoteColors))eightNoteColors=p.eightNoteColors.map(c=>c.toLowerCase());if(KEY_MODES.includes(p.keyCount))keyCount=p.keyCount;bindingsByMode={};for(const k of KEY_MODES)if(validBindings(p.bindingsByMode?.[k],k))bindingsByMode[k]=p.bindingsByMode[k];if(validBindings(p.bindings,5)&&!bindingsByMode[5])bindingsByMode[5]=p.bindings;bindings=(bindingsByMode[keyCount]||MODE_BINDINGS[keyCount]).slice();applyKeyCharts();if(Number.isFinite(p.speed))speed=Math.max(1,Math.min(10,p.speed));if(Number.isFinite(p.volume))volume=Math.max(0,Math.min(1,p.volume));if(Number.isFinite(p.offset))offset=Math.max(-.2,Math.min(.2,p.offset));if(Object.hasOwn(AUDIO_LATENCY_MODES,p.audioMode))audioMode=p.audioMode;if(Object.hasOwn(EFFECT_STRENGTHS,p.effectStrength))effectStrength=p.effectStrength;if(NOTE_SKINS.includes(p.noteSkin))noteSkin=p.noteSkin;if(HIT_STYLES.includes(p.hitStyle))hitStyle=p.hitStyle;if(JUDGE_PRESETS[p.judgeMode])judgeMode=p.judgeMode;if(ARRANGEMENT_MODES.includes(p.arrangementMode))arrangementMode=p.arrangementMode;keysEnabled=p.keysEnabled!==false;if(Number.isFinite(p.keysVolume))keysVolume=Math.max(0,Math.min(1.5,p.keysVolume))}catch{}}
+function loadPrefs(){try{const p=JSON.parse(localStorage.getItem('pulse-prefs-v4')||'{}');if(Number.isFinite(p.backgroundBrightness))backgroundBrightness=Math.max(0,Math.min(100,p.backgroundBrightness));if(Number.isFinite(p.gearWidthPercent))gearWidthPercent=Math.max(75,Math.min(125,p.gearWidthPercent));if(Number.isFinite(p.judgePosition))judgePosition=Math.max(35,Math.min(90,p.judgePosition));if(GEAR_SKINS.includes(p.gearSkin))gearSkin=p.gearSkin;if(typeof validEightColors==='function'&&validEightColors(p.eightNoteColors))eightNoteColors=p.eightNoteColors.map(c=>c.toLowerCase());if(KEY_MODES.includes(p.keyCount))keyCount=p.keyCount;bindingsByMode={};for(const k of KEY_MODES)if(validBindings(p.bindingsByMode?.[k],k))bindingsByMode[k]=p.bindingsByMode[k];if(validBindings(p.bindings,5)&&!bindingsByMode[5])bindingsByMode[5]=p.bindings;bindings=(bindingsByMode[keyCount]||MODE_BINDINGS[keyCount]).slice();applyKeyCharts();if(Number.isFinite(p.speed))speed=Math.max(1,Math.min(10,p.speed));if(Number.isFinite(p.volume))volume=Math.max(0,Math.min(1,p.volume));if(Number.isFinite(p.offset))offset=Math.max(-.2,Math.min(.2,p.offset));if(Object.hasOwn(AUDIO_LATENCY_MODES,p.audioMode))audioMode=p.audioMode;if(Object.hasOwn(EFFECT_STRENGTHS,p.effectStrength))effectStrength=p.effectStrength;if(NOTE_SKINS.includes(p.noteSkin))noteSkin=p.noteSkin;if(HIT_STYLES.includes(p.hitStyle))hitStyle=p.hitStyle;if(JUDGE_PRESETS[p.judgeMode])judgeMode=p.judgeMode;if(ARRANGEMENT_MODES.includes(p.arrangementMode))arrangementMode=p.arrangementMode;keysEnabled=p.keysEnabled!==false;if(Number.isFinite(p.keysVolume))keysVolume=Math.max(0,Math.min(1.5,p.keysVolume))}catch{}}
 function savePrefs(){bindingsByMode[keyCount]=bindings.slice();try{localStorage.setItem('pulse-prefs-v4',JSON.stringify({bindings:bindingsByMode[5]||MODE_BINDINGS[5],keyCount,bindingsByMode,speed,volume,offset,keysEnabled,keysVolume,arrangementMode,judgeMode,noteSkin,hitStyle,effectStrength,audioMode,eightNoteColors,gearSkin,backgroundBrightness,gearWidthPercent,judgePosition}))}catch{}}
 function applyKeyCharts(){tracks.forEach((t,i)=>Object.assign(t,TRACK_LIBRARY[i],keyChartSet(TRACK_LIBRARY[i],keyCount)));held=Array(keyCount).fill(false);flashes=Array(keyCount).fill(-9999);VISUAL_KEY_COUNT=keyCount;document.documentElement.style.setProperty('--key-count',keyCount);applyReadability()}
 function setKeyMode(count){if(state!=='idle'||!KEY_MODES.includes(count))return;bindingsByMode[keyCount]=bindings.slice();keyCount=count;bindings=(bindingsByMode[count]||MODE_BINDINGS[count]).slice();remapping=null;applyKeyCharts();savePrefs();renderBindings();refresh()}
@@ -70,7 +95,7 @@ function renderArrangement(){
 function renderJudgeMode(){const w=JUDGE_PRESETS[judgeMode];$('#topJudgeLabel').textContent=JUDGE_LABELS[judgeMode];document.querySelectorAll('[data-judge]').forEach(b=>b.classList.toggle('active',b.dataset.judge===judgeMode));$('#judgeInfo').textContent='PERFECT ±'+w.perfect+' · GREAT ±'+w.great+' · GOOD ±'+w.good+' ms';$('#judgeHelp').textContent=judgeMode==='BASIC'?'넓은 타이밍 허용 범위와 완만한 게이지 감소':'정확한 입력과 안정적인 연주에 도전하세요';$('#judgeWindowsHelp').textContent='현재 '+JUDGE_LABELS[judgeMode]+': PERFECT ±'+w.perfect+' / GREAT ±'+w.great+' / GOOD ±'+w.good+' / MISS ±'+w.miss+' ms. 범위 밖으로 놓치면 FAIL입니다.'}
 function setJudgeMode(mode){if(state!=='idle'||!JUDGE_PRESETS[mode])return;judgeMode=mode;savePrefs();refresh()}
 function setArrangement(mode){if(state!=='idle'||!ARRANGEMENT_MODES.includes(mode))return;arrangementMode=mode;if(mode==='RANDOM')randomSeed=newArrangementSeed();savePrefs();refresh()}
-function selectTrack(i){if(state!=='idle')return;selected=(i+tracks.length)%tracks.length;refresh();document.querySelectorAll('.song')[selected]?.scrollIntoView?.({block:'nearest'})}
+function selectTrack(i){if(state!=='idle')return;stopSongPreview();selected=(i+tracks.length)%tracks.length;refresh();document.querySelectorAll('.song')[selected]?.scrollIntoView?.({block:'nearest'})}
 function selectDifficulty(i){if(state!=='idle')return;diff=(i+DIFF.length)%DIFF.length;refresh()}
 tracks.forEach((t,i)=>{const b=document.createElement('button');b.className='song';b.innerHTML='<span class="song-num">0'+(i+1)+'</span><div class="thumb '+['','b','c'][i]+'"></div><div class="song-copy"><span class="song-name">'+t.name+'</span><small>'+t.genre+' · '+formatTime(t.duration)+'</small></div><span class="song-bpm">'+t.bpmLabel+'</span>'+t.levels.map((l,d)=>'<span class="song-level'+(d===3?' expert-level':'')+'">'+l+'</span>').join('');b.onclick=()=>selectTrack(i);$('#songs').append(b)});
 function lockControls(locked){document.querySelectorAll('.song,[data-keymode],[data-diff],[data-arrangement],[data-judge],#shuffleSeed,#start,#keyConfig').forEach(b=>b.disabled=locked)}
@@ -84,7 +109,7 @@ function stopMusic(){if(keyPlayer)keyPlayer.stop();if(musicSource){try{musicSour
 function playMusic(position){stopMusic();musicSource=ctxAudio.createBufferSource();musicSource.buffer=musicBuffer;musicSource.connect(backgroundBus||master);if(keyPlayer){keyPlayer.enabled=keysEnabled;keyPlayer.reset(position);keyPlayer.schedule(position,startAt)}musicSource.start(Math.max(ctxAudio.currentTime,startAt),Math.max(0,position))}
 function chart(mode=arrangementMode,seed=randomSeed){return transformChart(tracks[selected].charts[diff],mode,seed,keyCount).map(([time,lane,dur,pitch,kind])=>({time,lane,dur,pitch,kind,status:0}))}
 async function start(options={}){
- if(state!=='idle')return;state='loading';lockControls(true);$('#start>span').textContent='LOADING';$('#message').textContent='음원을 준비하고 있습니다…';
+ if(state!=='idle')return;stopSongPreview();state='loading';lockControls(true);$('#start>span').textContent='LOADING';$('#message').textContent='음원을 준비하고 있습니다…';
  try{
   await initAudio();const track=tracks[selected];
   if(bufferId!==track.id){musicBuffer=null;bufferId='';const r=await fetch(track.audio);if(!r.ok)throw Error('audio_fetch');musicBuffer=await ctxAudio.decodeAudioData(await r.arrayBuffer());bufferId=track.id}
@@ -220,6 +245,12 @@ document.querySelectorAll('[data-gear-choice]').forEach(button=>button.onclick=(
  gearSkin=button.dataset.gearChoice;applyGearSkin();savePrefs();
 });
 function syncEightColorSettings(){
+ if(typeof EIGHT_COLOR_PRESETS==='undefined'){
+  const panel=document.querySelector('.eight-color-settings');if(panel)panel.hidden=true;
+  console.warn('Older visuals loaded: color settings disabled until the next update.');
+  return;
+ }
+
  const preset=Object.keys(EIGHT_COLOR_PRESETS).find(k=>EIGHT_COLOR_PRESETS[k].colors.every((c,i)=>c===eightNoteColors[i]));
  $('#eightColorPreset').value=preset||'CUSTOM';
  document.querySelectorAll('[data-eight-color]').forEach(input=>{input.value=eightNoteColors[+input.dataset.eightColor]});
@@ -251,7 +282,7 @@ document.addEventListener('keydown',e=>{
 });
 document.addEventListener('keyup',e=>{const lane=bindings.indexOf(e.code);if(lane>=0)release(lane)});
 function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>{b.onpointerdown=e=>{e.preventDefault();b.setPointerCapture(e.pointerId);b.classList.add('down');press(+b.dataset.key)};b.onpointerup=b.onpointercancel=()=>{b.classList.remove('down');release(+b.dataset.key)}})}
-document.addEventListener('visibilitychange',()=>{if(document.hidden&&state==='playing')togglePause()});window.addEventListener('blur',()=>{if(state==='playing')togglePause()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)stopSongPreview();if(document.hidden&&state==='playing')togglePause()});window.addEventListener('blur',()=>{if(state==='playing')togglePause()});
 
 function setOffset(ms){offset=clampOffset(ms)/1000;$('#offset').value=Math.round(offset*1000);$('#offsetText').textContent=(offset>=0?'+':'')+Math.round(offset*1000)+' ms';if(state==='paused'){sessionOffset=offset;timingSamples=[];timingSide='';syncHUD()}savePrefs()}
 function stopCalibration(){if(!calibration)return;for(const source of calibration.sources){try{source.stop()}catch{}}calibration=null;$('#calibrateStart').textContent='타이밍 다시 측정';$('#calibrateTap').hidden=true}
