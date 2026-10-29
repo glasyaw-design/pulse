@@ -81,7 +81,7 @@ function assignBinding(code){
 function refresh(){
  const t=tracks[selected],current=readBest(),legacy=readLegacyBest(),best=current||legacy,chart=t.charts[diff];
  document.documentElement.style.setProperty('--accent',t.color);document.body.classList.toggle('expert-mode',diff===3);document.documentElement.style.setProperty('--jacket',([0,48,170,215,320,30,265][selected]||0)+'deg');
- $('#jacketIndex').textContent=String(selected+1).padStart(2,'0');$('#jacketWord').innerHTML=t.short;$('.jacket-visual').style.backgroundImage="linear-gradient(0deg,#070b1880,transparent 65%),url('assets/jackets/"+t.id+".svg')";
+ $('#jacketIndex').textContent=String(selected+1).padStart(2,'0');$('#jacketWord').innerHTML=t.short;
  $('#trackTitle').textContent=t.name;$('#bpm').textContent=t.bpmLabel;$('#genre').textContent=t.genre.toUpperCase();$('#songLength').textContent=formatTime(t.duration);
  const badge=displayedClearBadge();$('#clearBadge').textContent=CLEAR_BADGE_LABELS[badge];$('#clearBadge').dataset.clear=badge;$('#clearBadge').title=JUDGE_LABELS[judgeMode]+' / '+arrangementMode+' · 현재 브라우저의 달성 기록';
  $('#chartDescription').textContent=keyCount+'KEY / '+DIFF[diff]+' / LV.'+t.levels[diff];
@@ -105,7 +105,7 @@ function setJudgeMode(mode){if(state!=='idle'||!JUDGE_PRESETS[mode])return;judge
 function setArrangement(mode){if(state!=='idle'||!ARRANGEMENT_MODES.includes(mode))return;arrangementMode=mode;if(mode==='RANDOM')randomSeed=newArrangementSeed();savePrefs();refresh()}
 function selectTrack(i){if(state!=='idle')return;stopSongPreview();selected=(i+tracks.length)%tracks.length;refresh();document.querySelectorAll('.song')[selected]?.scrollIntoView?.({block:'nearest'})}
 function selectDifficulty(i){if(state!=='idle')return;diff=(i+DIFF.length)%DIFF.length;refresh()}
-tracks.forEach((t,i)=>{const b=document.createElement('button');b.className='song';b.innerHTML='<span class="song-num">0'+(i+1)+'</span><div class="thumb '+['','b','c'][i]+'"></div><div class="song-copy"><span class="song-name">'+t.name+'</span><small>'+t.genre+' · '+formatTime(t.duration)+'</small></div><span class="song-bpm">'+t.bpmLabel+'</span>'+t.levels.map((l,d)=>'<span class="song-level'+(d===3?' expert-level':'')+'">'+l+'</span>').join('');b.querySelector('.thumb').style.backgroundImage="url('assets/jackets/"+t.id+".svg')";b.onclick=()=>selectTrack(i);$('#songs').append(b)});
+tracks.forEach((t,i)=>{const b=document.createElement('button');b.className='song';b.innerHTML='<span class="song-num">0'+(i+1)+'</span><div class="thumb '+['','b','c'][i]+'"></div><div class="song-copy"><span class="song-name">'+t.name+'</span><small>'+t.genre+' · '+formatTime(t.duration)+'</small></div><span class="song-bpm">'+t.bpmLabel+'</span>'+t.levels.map((l,d)=>'<span class="song-level'+(d===3?' expert-level':'')+'">'+l+'</span>').join('');b.onclick=()=>selectTrack(i);$('#songs').append(b)});
 function lockControls(locked){document.querySelectorAll('.song,[data-keymode],[data-diff],[data-arrangement],[data-judge],#shuffleSeed,#start,#keyConfig').forEach(b=>b.disabled=locked)}
 function createAudioEngine(){ctxAudio=new (window.AudioContext||window.webkitAudioContext)({latencyHint:AUDIO_LATENCY_MODES[audioMode]});master=ctxAudio.createGain();master.gain.value=volume;master.connect(ctxAudio.destination);backgroundBus=ctxAudio.createGain();backgroundBus.connect(master);keyBus=ctxAudio.createGain();keyBus.gain.value=keysVolume;keyBus.connect(master);keyPlayer=new KeySoundPlayer(ctxAudio,backgroundBus,keyBus);refreshAudioInfo()}
 async function initAudio(){if(audioReconfigure)await audioReconfigure;if(!ctxAudio)createAudioEngine();await ctxAudio.resume();refreshAudioInfo()}
@@ -336,5 +336,3 @@ $('#resetEightColors').onclick=()=>{eightNoteColors=EIGHT_COLOR_PRESETS.CLASSIC.
 loadPrefs();applyReadability();applyGearSkin();syncEightColorSettings();$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#speed').value=speed;$('#volume').value=volume*100;$('#offset').value=offset*1000;$('#keySound').checked=keysEnabled;$('#keysVolume').value=keysVolume*100;$('#keysVolText').textContent=Math.round(keysVolume*100)+'%';$('#volText').textContent=Math.round(volume*100)+'%';$('#offsetText').textContent=Math.round(offset*1000)+' ms';renderBindings();refresh();requestAnimationFrame(draw);
 
 window.addEventListener('pulse-account-change',()=>{if(state==='idle'){stopSongPreview();refresh()}});
-
-window.PulseRefreshProgress=()=>{if(state==='idle')refresh()};
