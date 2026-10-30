@@ -997,447 +997,422 @@
     "name": "Bassline Riot",
     "bpm": 180,
     "bpmLabel": "≈180",
-    "duration": 133.558,
+    "duration": 122.227,
     "color": "#ff9b70",
     "short": "BASSLINE<br>RIOT",
-    "audio": "audio/bouncy-bass-party-v30.mp3",
+    "audio": "audio/bouncy-bass-party-v55.mp3",
     "genre": "Bass / Dance",
     "levels": [
       5,
-      11,
+      10,
       16,
       21
     ],
     "waveform": [
-      0.47,
-      0.433,
-      0.498,
-      0.557,
-      0.391,
-      0.423,
-      0.66,
-      0.428,
-      0.541,
-      0.494,
-      0.552,
-      0.495,
-      0.484,
-      0.567,
-      0.538,
-      0.38,
-      0.417,
-      0.367,
-      0.44,
-      0.504,
-      0.538,
-      0.538,
-      0.606,
-      0.555,
-      0.508,
-      0.601,
-      0.527,
-      0.494,
-      0.487,
-      0.419,
-      0.374,
-      0.431,
-      0.605,
-      0.648,
-      0.576,
-      0.602,
-      0.537,
-      0.492,
-      0.562,
-      0.61,
-      0.603,
-      0.701,
-      0.656,
-      0.665,
-      0.718,
-      0.613,
+      0.48,
+      0.426,
+      0.482,
+      0.545,
+      0.463,
+      0.39,
+      0.475,
       0.667,
-      0.655,
-      0.676,
-      0.611,
-      0.605,
-      0.603,
-      0.672,
-      0.586,
-      0.611,
-      0.531,
-      0.586,
-      0.614,
-      0.494,
-      0.5,
+      0.392,
+      0.549,
+      0.501,
+      0.553,
+      0.484,
+      0.505,
+      0.569,
+      0.492,
+      0.456,
+      0.403,
+      0.376,
+      0.41,
+      0.424,
+      0.54,
+      0.535,
+      0.535,
+      0.619,
+      0.543,
+      0.517,
       0.546,
-      0.671,
-      0.612,
-      0.58,
-      0.699,
-      0.701,
-      0.75,
-      0.686,
-      0.692,
-      0.694,
-      0.733,
-      0.669,
-      0.707,
-      0.726,
-      0.714,
-      0.679,
-      0.731,
-      0.778,
-      0.807,
-      0.872,
-      0.849,
-      0.75,
-      0.9,
-      0.852,
-      0.811,
-      0.911,
-      0.909,
-      0.901,
-      0.911,
-      0.873,
-      0.821,
-      0.816,
-      0.777,
-      0.829,
-      0.819,
-      0.809,
-      0.784,
+      0.577,
+      0.488,
+      0.521,
+      0.482,
+      0.364,
+      0.371,
+      0.453,
+      0.613,
+      0.652,
+      0.584,
+      0.599,
+      0.55,
+      0.501,
+      0.492,
+      0.585,
+      0.668,
+      0.599,
+      0.682,
       0.642,
-      0.635,
-      0.694,
-      0.563,
-      0.556,
-      0.526,
-      0.706,
-      0.797,
-      0.723,
-      0.745,
-      0.787,
-      0.69,
-      0.724,
-      0.797,
-      0.696,
+      0.677,
+      0.703,
+      0.615,
       0.678,
-      0.786,
-      0.722,
-      0.786,
-      0.714,
-      0.758,
-      0.785,
-      0.769,
-      0.747,
-      0.734,
-      0.738,
-      0.646,
-      0.755,
-      0.675,
-      0.632,
+      0.677,
+      0.638,
+      0.615,
+      0.625,
+      0.558,
+      0.702,
+      0.604,
+      0.594,
+      0.616,
       0.531,
+      0.566,
+      0.646,
+      0.822,
+      0.748,
+      0.717,
+      0.755,
+      0.741,
+      0.518,
+      0.616,
+      0.769,
+      0.914,
+      0.734,
+      0.877,
+      0.761,
+      0.917,
+      0.877,
+      0.781,
+      0.921,
+      0.879,
+      0.931,
+      0.895,
+      0.894,
+      0.861,
+      0.781,
+      0.765,
+      0.828,
+      0.804,
+      0.842,
+      0.793,
+      0.803,
       0.59,
-      0.821,
-      0.886,
-      0.778,
-      0.823,
-      0.862,
-      0.783,
-      0.78,
-      0.812,
+      0.655,
+      0.675,
+      0.598,
+      0.611,
+      0.523,
+      0.614,
+      0.702,
+      0.763,
+      0.727,
+      0.739,
+      0.782,
+      0.677,
+      0.769,
+      0.748,
       0.728,
-      0.711,
-      0.701,
-      0.597,
-      0.612,
-      0.366,
+      0.635,
+      0.786,
+      0.727,
+      0.752,
+      0.774,
+      0.713,
+      0.766,
+      0.746,
+      0.777,
+      0.756,
+      0.752,
+      0.755,
+      0.639,
+      0.723,
+      0.726,
+      0.655,
+      0.64,
+      0.53,
+      0.561,
+      0.801,
+      0.89,
+      0.772,
+      0.828,
+      0.835,
+      0.836,
+      0.792,
+      0.756,
+      0.802,
+      0.722,
+      0.713,
+      0.686,
+      0.627,
+      0.559,
+      0.449,
+      0.487,
+      0.475,
+      0.418,
+      0.377,
+      0.415,
       0.481,
-      0.434,
-      0.438,
-      0.381,
-      0.473,
-      0.887,
-      0.929,
-      1.025,
-      0.915,
-      0.432,
-      0.58,
-      0.684,
-      0.744,
-      0.829,
-      0.767,
-      0.567,
-      0.084
+      0.924,
+      0.926,
+      1.017,
+      1.029,
+      0.458,
+      0.553,
+      0.554,
+      0.783,
+      0.726,
+      0.843,
+      0.747,
+      0.51,
+      0.068
     ],
     "sections": [
       {
         "time": 0.0,
         "name": "FLOW",
-        "energy": 0.469
+        "energy": 0.467
       },
       {
         "time": 2.667,
         "name": "FLOW",
-        "energy": 0.468
+        "energy": 0.466
       },
       {
         "time": 5.333,
         "name": "FLOW",
-        "energy": 0.527
+        "energy": 0.525
       },
       {
         "time": 8.0,
         "name": "FLOW",
-        "energy": 0.522
+        "energy": 0.52
       },
       {
         "time": 10.667,
         "name": "FLOW",
-        "energy": 0.488
+        "energy": 0.486
       },
       {
         "time": 13.333,
         "name": "FLOW",
-        "energy": 0.406
+        "energy": 0.404
       },
       {
         "time": 16.0,
         "name": "FLOW",
-        "energy": 0.538
+        "energy": 0.536
       },
       {
         "time": 18.667,
         "name": "FLOW",
-        "energy": 0.565
+        "energy": 0.563
       },
       {
         "time": 21.333,
         "name": "FLOW",
-        "energy": 0.513
+        "energy": 0.511
       },
       {
         "time": 24.0,
         "name": "FLOW",
-        "energy": 0.419
+        "energy": 0.418
       },
       {
         "time": 26.667,
         "name": "FLOW",
-        "energy": 0.601
+        "energy": 0.599
       },
       {
         "time": 29.333,
         "name": "FLOW",
-        "energy": 0.546
+        "energy": 0.544
       },
       {
         "time": 32.0,
         "name": "FLOW",
-        "energy": 0.603
+        "energy": 0.601
       },
       {
         "time": 34.667,
         "name": "FLOW",
-        "energy": 0.684
+        "energy": 0.682
       },
       {
         "time": 37.333,
         "name": "FLOW",
-        "energy": 0.655
+        "energy": 0.653
       },
       {
         "time": 40.0,
         "name": "FLOW",
-        "energy": 0.63
+        "energy": 0.628
       },
       {
         "time": 42.667,
         "name": "FLOW",
-        "energy": 0.616
+        "energy": 0.614
       },
       {
         "time": 45.333,
         "name": "FLOW",
-        "energy": 0.581
+        "energy": 0.573
       },
       {
         "time": 48.0,
         "name": "FLOW",
-        "energy": 0.528
+        "energy": 0.749
       },
       {
         "time": 50.667,
         "name": "FLOW",
-        "energy": 0.6
+        "energy": 0.653
       },
       {
         "time": 53.333,
-        "name": "FLOW",
-        "energy": 0.716
+        "name": "PEAK",
+        "energy": 0.79
       },
       {
         "time": 56.0,
-        "name": "FLOW",
-        "energy": 0.692
+        "name": "PEAK",
+        "energy": 0.847
       },
       {
         "time": 58.667,
-        "name": "FLOW",
-        "energy": 0.696
-      },
-      {
-        "time": 61.333,
-        "name": "FLOW",
-        "energy": 0.711
-      },
-      {
-        "time": 64.0,
-        "name": "PEAK",
-        "energy": 0.813
-      },
-      {
-        "time": 66.667,
-        "name": "PEAK",
-        "energy": 0.824
-      },
-      {
-        "time": 69.333,
         "name": "PEAK",
         "energy": 0.859
       },
       {
-        "time": 72.0,
+        "time": 61.333,
         "name": "PEAK",
-        "energy": 0.904
+        "energy": 0.908
       },
       {
-        "time": 74.667,
+        "time": 64.0,
         "name": "PEAK",
-        "energy": 0.812
+        "energy": 0.805
       },
       {
-        "time": 77.333,
+        "time": 66.667,
         "name": "PEAK",
-        "energy": 0.826
+        "energy": 0.813
       },
       {
-        "time": 80.0,
-        "name": "FLOW",
-        "energy": 0.709
-      },
-      {
-        "time": 82.667,
-        "name": "FLOW",
-        "energy": 0.619
-      },
-      {
-        "time": 85.333,
-        "name": "FLOW",
-        "energy": 0.667
-      },
-      {
-        "time": 88.0,
-        "name": "FLOW",
-        "energy": 0.742
-      },
-      {
-        "time": 90.667,
-        "name": "FLOW",
-        "energy": 0.735
-      },
-      {
-        "time": 93.333,
-        "name": "FLOW",
-        "energy": 0.73
-      },
-      {
-        "time": 96.0,
-        "name": "FLOW",
-        "energy": 0.749
-      },
-      {
-        "time": 98.667,
-        "name": "FLOW",
-        "energy": 0.764
-      },
-      {
-        "time": 101.333,
-        "name": "FLOW",
-        "energy": 0.712
-      },
-      {
-        "time": 104.0,
+        "time": 69.333,
         "name": "FLOW",
         "energy": 0.673
       },
       {
+        "time": 72.0,
+        "name": "FLOW",
+        "energy": 0.582
+      },
+      {
+        "time": 74.667,
+        "name": "FLOW",
+        "energy": 0.71
+      },
+      {
+        "time": 77.333,
+        "name": "FLOW",
+        "energy": 0.737
+      },
+      {
+        "time": 80.0,
+        "name": "FLOW",
+        "energy": 0.712
+      },
+      {
+        "time": 82.667,
+        "name": "FLOW",
+        "energy": 0.752
+      },
+      {
+        "time": 85.333,
+        "name": "FLOW",
+        "energy": 0.753
+      },
+      {
+        "time": 88.0,
+        "name": "FLOW",
+        "energy": 0.757
+      },
+      {
+        "time": 90.667,
+        "name": "FLOW",
+        "energy": 0.711
+      },
+      {
+        "time": 93.333,
+        "name": "FLOW",
+        "energy": 0.596
+      },
+      {
+        "time": 96.0,
+        "name": "PEAK",
+        "energy": 0.789
+      },
+      {
+        "time": 98.667,
+        "name": "PEAK",
+        "energy": 0.821
+      },
+      {
+        "time": 101.333,
+        "name": "FLOW",
+        "energy": 0.769
+      },
+      {
+        "time": 104.0,
+        "name": "FLOW",
+        "energy": 0.651
+      },
+      {
         "time": 106.667,
         "name": "FLOW",
-        "energy": 0.705
+        "energy": 0.492
       },
       {
         "time": 109.333,
-        "name": "PEAK",
-        "energy": 0.823
+        "name": "FLOW",
+        "energy": 0.41
       },
       {
         "time": 112.0,
         "name": "PEAK",
-        "energy": 0.786
+        "energy": 0.898
       },
       {
         "time": 114.667,
         "name": "FLOW",
-        "energy": 0.703
+        "energy": 0.652
       },
       {
         "time": 117.333,
         "name": "FLOW",
-        "energy": 0.51
+        "energy": 0.757
       },
       {
         "time": 120.0,
         "name": "FLOW",
-        "energy": 0.419
-      },
-      {
-        "time": 122.667,
-        "name": "FLOW",
-        "energy": 0.75
-      },
-      {
-        "time": 125.333,
-        "name": "FLOW",
-        "energy": 0.777
-      },
-      {
-        "time": 128.0,
-        "name": "FLOW",
-        "energy": 0.688
-      },
-      {
-        "time": 130.667,
-        "name": "FLOW",
-        "energy": 0.575
-      },
-      {
-        "time": 133.333,
-        "name": "BREAK",
-        "energy": 0.006
+        "energy": 0.434
       }
     ],
     "pitchRange": [
       55,
       88
     ],
-    "chartVersion": 37,
+    "chartVersion": 55,
     "keyCount": 5,
     "chartIds": [
-      "bouncy-bass-party-v31-5key-reviewed-0",
-      "bouncy-bass-party-v31-5key-reviewed-1-v53",
-      "bouncy-bass-party-v37-5key-reviewed-2-v53",
-      "bouncy-bass-party-v31-5key-reviewed-3-v53"
+      "bouncy-bass-party-v39-5key-reviewed-0",
+      "bouncy-bass-party-v39-5key-reviewed-1",
+      "bouncy-bass-party-v39-5key-reviewed-2",
+      "bouncy-bass-party-v39-5key-reviewed-3"
     ],
     "legacyDifficulty": [
       null,
@@ -1445,29 +1420,23 @@
       null,
       null
     ],
-    "keysAudio": "audio/bouncy-bass-party-keys-v30.ogg",
+    "keysAudio": "audio/bouncy-bass-party-keys-v55.ogg",
     "previousChartIds": [
-      "bouncy-bass-party-v30-5key-gameedit-0",
-      "bouncy-bass-party-v30-5key-gameedit-1",
-      "bouncy-bass-party-v31-5key-reviewed-2",
-      "bouncy-bass-party-v30-5key-gameedit-3"
+      "bouncy-bass-party-v55-5key-gameedit-0",
+      "bouncy-bass-party-v55-5key-gameedit-1",
+      "bouncy-bass-party-v55-5key-gameedit-2",
+      "bouncy-bass-party-v55-5key-gameedit-3"
     ],
     "sourceDuration": 207.56,
-    "edit": {
-      "join": 42.984376,
-      "resumeSource": 128.31771,
-      "removed": 85.333333,
-      "version": "arcade-1"
-    },
     "keyModes": {
       "4": {
         "keyCount": 4,
-        "chartVersion": 37,
+        "chartVersion": 55,
         "chartIds": [
-          "bouncy-bass-party-v31-4key-reviewed-0",
-          "bouncy-bass-party-v31-4key-reviewed-1-v53",
-          "bouncy-bass-party-v37-4key-reviewed-2-v53",
-          "bouncy-bass-party-v31-4key-reviewed-3-v53"
+          "bouncy-bass-party-v39-4key-reviewed-0",
+          "bouncy-bass-party-v39-4key-reviewed-1",
+          "bouncy-bass-party-v39-4key-reviewed-2",
+          "bouncy-bass-party-v39-4key-reviewed-3"
         ],
         "levels": [
           5,
@@ -1476,10 +1445,10 @@
           20
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v30-4key-gameedit-0",
-          "bouncy-bass-party-v30-4key-gameedit-1",
-          "bouncy-bass-party-v31-4key-reviewed-2",
-          "bouncy-bass-party-v30-4key-gameedit-3"
+          "bouncy-bass-party-v55-4key-gameedit-0",
+          "bouncy-bass-party-v55-4key-gameedit-1",
+          "bouncy-bass-party-v55-4key-gameedit-2",
+          "bouncy-bass-party-v55-4key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1487,28 +1456,28 @@
           null,
           null
         ],
-        "ratingVersion": 46
+        "ratingVersion": 55
       },
       "6": {
         "keyCount": 6,
-        "chartVersion": 31,
+        "chartVersion": 55,
         "chartIds": [
-          "bouncy-bass-party-v31-6key-reviewed-0",
-          "bouncy-bass-party-v31-6key-reviewed-1-v53",
-          "bouncy-bass-party-v31-6key-reviewed-2-v53",
-          "bouncy-bass-party-v31-6key-reviewed-3-v53"
+          "bouncy-bass-party-v39-6key-reviewed-0",
+          "bouncy-bass-party-v39-6key-reviewed-1",
+          "bouncy-bass-party-v39-6key-reviewed-2",
+          "bouncy-bass-party-v39-6key-reviewed-3"
         ],
         "levels": [
           5,
-          12,
-          18,
-          24
+          11,
+          17,
+          23
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v30-6key-gameedit-0",
-          "bouncy-bass-party-v30-6key-gameedit-1",
-          "bouncy-bass-party-v30-6key-gameedit-2",
-          "bouncy-bass-party-v30-6key-gameedit-3"
+          "bouncy-bass-party-v55-6key-gameedit-0",
+          "bouncy-bass-party-v55-6key-gameedit-1",
+          "bouncy-bass-party-v55-6key-gameedit-2",
+          "bouncy-bass-party-v55-6key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1516,28 +1485,28 @@
           null,
           null
         ],
-        "ratingVersion": 46
+        "ratingVersion": 55
       },
       "8": {
         "keyCount": 8,
-        "chartVersion": 31,
+        "chartVersion": 55,
         "chartIds": [
-          "bouncy-bass-party-v31-8key-reviewed-0",
-          "bouncy-bass-party-v31-8key-reviewed-1-v53",
-          "bouncy-bass-party-v31-8key-reviewed-2-v53",
-          "bouncy-bass-party-v31-8key-reviewed-3-v53"
+          "bouncy-bass-party-v39-8key-reviewed-0",
+          "bouncy-bass-party-v39-8key-reviewed-1",
+          "bouncy-bass-party-v39-8key-reviewed-2",
+          "bouncy-bass-party-v39-8key-reviewed-3"
         ],
         "levels": [
           5,
           12,
           18,
-          25
+          24
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v30-8key-gameedit-0",
-          "bouncy-bass-party-v30-8key-gameedit-1",
-          "bouncy-bass-party-v30-8key-gameedit-2",
-          "bouncy-bass-party-v30-8key-gameedit-3"
+          "bouncy-bass-party-v55-8key-gameedit-0",
+          "bouncy-bass-party-v55-8key-gameedit-1",
+          "bouncy-bass-party-v55-8key-gameedit-2",
+          "bouncy-bass-party-v55-8key-gameedit-3"
         ],
         "legacyDifficulty": [
           null,
@@ -1545,21 +1514,21 @@
           null,
           null
         ],
-        "ratingVersion": 46
+        "ratingVersion": 55
       },
       "7": {
         "keyCount": 7,
-        "chartVersion": 31,
+        "chartVersion": 55,
         "chartIds": [
-          "bouncy-bass-party-v31-7key-reviewed-0",
-          "bouncy-bass-party-v31-7key-reviewed-1-v53",
-          "bouncy-bass-party-v31-7key-reviewed-2-v53",
-          "bouncy-bass-party-v31-7key-reviewed-3-v53"
+          "bouncy-bass-party-v39-7key-reviewed-0",
+          "bouncy-bass-party-v39-7key-reviewed-1",
+          "bouncy-bass-party-v39-7key-reviewed-2",
+          "bouncy-bass-party-v39-7key-reviewed-3"
         ],
         "levels": [
           5,
           12,
-          18,
+          17,
           24
         ],
         "legacyDifficulty": [
@@ -1569,30 +1538,30 @@
           null
         ],
         "previousChartIds": [
-          "bouncy-bass-party-v31-7key-gameedit-0",
-          "bouncy-bass-party-v31-7key-gameedit-1",
-          "bouncy-bass-party-v31-7key-gameedit-2",
-          "bouncy-bass-party-v31-7key-gameedit-3"
+          "bouncy-bass-party-v55-7key-gameedit-0",
+          "bouncy-bass-party-v55-7key-gameedit-1",
+          "bouncy-bass-party-v55-7key-gameedit-2",
+          "bouncy-bass-party-v55-7key-gameedit-3"
         ],
-        "ratingVersion": 46
+        "ratingVersion": 55
       }
     },
-    "editVersion": 30,
+    "editVersion": 55,
     "editSegments": [
       {
-        "sourceStart": 0.0,
-        "sourceEnd": 65.974014,
-        "gameStart": 0.0,
-        "gameEnd": 65.974014
+        "sourceStart": 0,
+        "sourceEnd": 48.0,
+        "gameStart": 0,
+        "gameEnd": 48.0
       },
       {
-        "sourceStart": 139.975828,
+        "sourceStart": 133.33333333333331,
         "sourceEnd": 207.56,
-        "gameStart": 65.974014,
-        "gameEnd": 133.558186
+        "gameStart": 48.0,
+        "gameEnd": 122.22666666666667
       }
     ],
-    "ratingVersion": 46
+    "ratingVersion": 55
   },
   {
     "id": "luminous-forward-motion",
