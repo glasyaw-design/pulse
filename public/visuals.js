@@ -12,7 +12,19 @@ let eightNoteColors=EIGHT_COLOR_PRESETS.CLASSIC.colors.slice();
 function validEightColors(colors){return Array.isArray(colors)&&colors.length===3&&colors.every(c=>typeof c==='string'&&/^#[0-9a-f]{6}$/i.test(c))}
 function laneColor(lane){if(VISUAL_KEY_COUNT===8)return eightNoteColors[EIGHT_COLOR_GROUPS[lane]];return VISUAL_KEY_COUNT%2&&lane===Math.floor(VISUAL_KEY_COUNT/2)?'#f2da7b':Math.min(lane,VISUAL_KEY_COUNT-1-lane)%2?'#6fd5ff':'#e8eff9'}
 function circleNoteRadius(width){return Math.max(2,width*.45)}
+const noteHeadCache=new Map();
 function paintNoteHead(c,x,y,w,color,skin){
+ if(typeof HTMLCanvasElement==='undefined'){paintNoteHeadRaw(c,x,y,w,color,skin);return}
+ const scale=Math.min(devicePixelRatio||1,2),key=[w,color,skin,scale].join('|');let sprite=noteHeadCache.get(key);
+ if(!sprite){
+  const extent=skin==='CIRCLE'?circleNoteRadius(w)+3:skin==='DIAMOND'?w*.25+3:8;
+  const width=w+8,height=Math.ceil(extent*2+4),canvas=document.createElement('canvas');canvas.width=Math.ceil(width*scale);canvas.height=Math.ceil(height*scale);
+  const paint=canvas.getContext('2d');paint.scale(scale,scale);paintNoteHeadRaw(paint,4,height/2,w,color,skin);
+  sprite={canvas,width:canvas.width/scale,height:canvas.height/scale,center:height/2};if(noteHeadCache.size>=96)noteHeadCache.clear();noteHeadCache.set(key,sprite);
+ }
+ c.drawImage(sprite.canvas,x-4,y-sprite.center,sprite.width,sprite.height);
+}
+function paintNoteHeadRaw(c,x,y,w,color,skin){
  c.save();
  if(skin==='CIRCLE'){
   const cx=x+w/2,r=circleNoteRadius(w),g=c.createRadialGradient(cx-r*.25,y-r*.35,1,cx,y,r);

@@ -2,7 +2,7 @@
 // A mixed-song approximation: subtract a shared harmonic slice from the song
 // at chart time and restore that same slice when its owning note is played.
 class KeySoundPlayer {
- constructor(context,backgroundBus,keyBus){this.context=context;this.backgroundBus=backgroundBus;this.keyBus=keyBus;this.buffer=null;this.sprites=[];this.index=0;this.sources=new Set();this.enabled=true}
+ constructor(context,backgroundBus,keyBus){this.context=context;this.backgroundBus=backgroundBus;this.keyBus=keyBus;this.buffer=null;this.sprites=[];this.index=0;this.sources=new Set();this.enabled=true;this.autoPlay=false}
  prepare(notes,buffer){
   this.buffer=buffer;this.sprites=[];
   const groups=new Map();for(const n of notes){n.sound=null;if(!groups.has(n.time))groups.set(n.time,[]);groups.get(n.time).push(n)}
@@ -31,9 +31,15 @@ class KeySoundPlayer {
    const s=this.sprites[this.index++],trim=Math.max(0,songTime-s.time),duration=s.duration-trim;if(duration<=.008)continue;
    const clip={offset:s.offset+trim,duration},when=Math.max(this.context.currentTime,startAt+s.time+trim);
    this.slice(clip,when,-1,this.backgroundBus);
+   if(this.autoPlay){this.slice(clip,when,1,this.keyBus);for(const voice of s.owners)voice.fired=true;continue}
    if(s.resumeGain>0){this.slice(clip,when,s.resumeGain,this.keyBus);for(const voice of s.owners)voice.fired=true;s.resumeGain=0}
   }
  }
- play(note){const s=note.sound;if(!this.enabled||!s||s.fired)return;s.fired=true;this.slice(s,this.context.currentTime,s.volume,this.keyBus)}
+ play(note,startAt){if(this.autoPlay)return;const s=note.sound;if(!this.enabled||!s||s.fired)return;s.fired=true;
+  // Mixed-source restoration must stay phase-aligned with the backing song.
+  const target=Number.isFinite(startAt)?startAt+s.time:this.context.currentTime;
+  const when=Math.max(this.context.currentTime,target),trim=Math.max(0,when-target);
+  this.slice({offset:s.offset+trim,duration:s.duration-trim},when,s.volume,this.keyBus);
+ }
  audition(offset){return this.slice({offset,duration:Math.min(.36,this.buffer.duration-offset)},this.context.currentTime,1,this.keyBus)}
 }

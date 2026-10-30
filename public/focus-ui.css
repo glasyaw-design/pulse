@@ -31,3 +31,14 @@
 
 .quick-play-options{display:grid;grid-template-columns:1.1fr 1fr;gap:12px;margin-top:20px;padding:16px;border:1px solid #544a68;background:#161322cc}.quick-play-options .equip-speed,.quick-play-options .arrangement{margin:0;width:auto}.quick-play-options .toggle{grid-column:1/-1;margin:0;padding:12px 0 0;border-top:1px solid #51475c;display:flex;justify-content:space-between;align-items:center}.quick-play-options .equip-speed label{font-size:11px}.quick-play-options .arrangement-top{height:100%;align-items:center}.quick-play-options input[type=checkbox]{accent-color:#a3e7d2;width:18px;height:18px}@media(max-width:700px){.quick-play-options{grid-template-columns:1fr}.quick-play-options .toggle{grid-column:1}.selection .songs{min-height:210px;height:28vh}}
 @media(min-width:701px){.selection .songs{height:30vh;min-height:210px;max-height:340px}.selection .launch-row{margin-top:12px}.quick-play-options{margin-top:12px;padding:12px}.selection .chart-select{margin-top:12px}}
+
+/* v44: judgement summary beside the gear. */
+.play-info .judgement-counts{display:grid;gap:12px;margin-top:20px;padding:18px 0;border-color:#a8c5d52b;font-variant-numeric:tabular-nums}
+.play-info .judgement-counts span{font-size:11px;letter-spacing:.5px;align-items:center}
+.play-info .judgement-counts b{font-size:20px;color:#edf5fa}
+.play-info .judgement-counts span:nth-child(1){color:#e9ff85}
+.play-info .judgement-counts span:nth-child(2){color:#8ddaff}
+.play-info .judgement-counts span:nth-child(3){color:#d7ddeb}
+.play-info .judgement-counts span:nth-child(n+4){color:#f19785}
+@media(max-width:1000px) and (min-width:601px){.play-info{left:3%;width:24%}}
+@media(max-width:600px){.play-info{display:block;left:7px;top:90px;width:78px}.play-info .play-rate>small{font-size:7px}.play-info .play-rate>strong{font-size:18px}.play-info .judgement-counts{gap:11px;padding:12px 0}.play-info .judgement-counts span{font-size:8px;letter-spacing:0}.play-info .judgement-counts b{font-size:13px}.play-info .play-meta{font-size:7px;overflow-wrap:anywhere}.play-screen .gear{left:calc(50% + 36px);width:min(var(--gear-width),calc((100vw - 132px)*var(--gear-scale)),calc(100vw - 132px))}}
