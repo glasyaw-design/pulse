@@ -1,0 +1,8190 @@
+[
+  {
+    "id": "bittersweet-ascension",
+    "name": "Afterglow Ascent",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 246,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 93.9,
+        "contourInversions": 0,
+        "contourEdges": 100
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 99,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 295,
+          "within40ms": 96.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 94.6,
+        "contourInversions": 0,
+        "contourEdges": 137
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 262,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.9
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 98.1,
+          "over80ms": 6,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 238
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 391,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 621,
+          "within40ms": 95.0,
+          "over80ms": 9,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 246,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 93.9,
+        "contourInversions": 0,
+        "contourEdges": 100
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 125,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.4,
+          "signedMedianMs": -12.4
+        },
+        "melody": {
+          "count": 295,
+          "within40ms": 96.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 94.6,
+        "contourInversions": 0,
+        "contourEdges": 137
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 323,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 98.1,
+          "over80ms": 6,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 238
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 570,
+          "within40ms": 99.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "melody": {
+          "count": 620,
+          "within40ms": 95.0,
+          "over80ms": 9,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 246,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 93.9,
+        "contourInversions": 0,
+        "contourEdges": 100
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 159,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.4,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 295,
+          "within40ms": 96.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 94.6,
+        "contourInversions": 0,
+        "contourEdges": 137
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 445,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 98.1,
+          "over80ms": 6,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 238
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 692,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 620,
+          "within40ms": 95.0,
+          "over80ms": 9,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 246,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 93.9,
+        "contourInversions": 0,
+        "contourEdges": 100
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 191,
+          "within40ms": 99.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 295,
+          "within40ms": 96.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 94.6,
+        "contourInversions": 0,
+        "contourEdges": 137
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 489,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 567,
+          "within40ms": 98.2,
+          "over80ms": 5,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 238
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 750,
+          "within40ms": 99.2,
+          "over80ms": 4,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 620,
+          "within40ms": 95.0,
+          "over80ms": 9,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 246,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 93.9,
+        "contourInversions": 0,
+        "contourEdges": 100
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 191,
+          "within40ms": 99.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 295,
+          "within40ms": 96.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 94.6,
+        "contourInversions": 0,
+        "contourEdges": 137
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 528,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 98.1,
+          "over80ms": 6,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 238
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 754,
+          "within40ms": 99.2,
+          "over80ms": 4,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.6
+        },
+        "melody": {
+          "count": 620,
+          "within40ms": 95.0,
+          "over80ms": 9,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.6
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 263
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 19.605,
+        "pitch": 72,
+        "onsetDeltaMs": -13.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 42.623,
+        "pitch": 74,
+        "onsetDeltaMs": -136.3,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 61.58,
+        "pitch": 79,
+        "onsetDeltaMs": -12.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 67.197,
+        "pitch": 71,
+        "onsetDeltaMs": -15.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 67.377,
+        "pitch": 71,
+        "onsetDeltaMs": 111.8,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 100.871,
+        "pitch": 62,
+        "onsetDeltaMs": -142.8,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 102.926,
+        "pitch": 64,
+        "onsetDeltaMs": -259.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 103.185,
+        "pitch": 59,
+        "onsetDeltaMs": -518.0,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 103.325,
+        "pitch": 64,
+        "onsetDeltaMs": -658.0,
+        "pitchClassRank": 2
+      }
+    ]
+  },
+  {
+    "id": "dreamy-piano-bounce",
+    "name": "Ivory Daydream",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 85.0,
+        "contourInversions": 0,
+        "contourEdges": 109
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 172,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.4
+        },
+        "melody": {
+          "count": 371,
+          "within40ms": 97.3,
+          "over80ms": 5,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 222
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 285,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "melody": {
+          "count": 470,
+          "within40ms": 95.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -11.8
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 277
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 364,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 688,
+          "within40ms": 93.9,
+          "over80ms": 19,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.7
+        },
+        "pitchClassTop3Pct": 88.2,
+        "contourInversions": 1,
+        "contourEdges": 368
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 85.0,
+        "contourInversions": 0,
+        "contourEdges": 109
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 202,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 371,
+          "within40ms": 97.3,
+          "over80ms": 5,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 222
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 12.4,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 470,
+          "within40ms": 95.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -11.8
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 277
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 481,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 687,
+          "within40ms": 93.9,
+          "over80ms": 19,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.7
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 2,
+        "contourEdges": 368
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 85.0,
+        "contourInversions": 0,
+        "contourEdges": 109
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 250,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.5,
+          "signedMedianMs": -12.5
+        },
+        "melody": {
+          "count": 371,
+          "within40ms": 97.3,
+          "over80ms": 5,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 222
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 383,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "melody": {
+          "count": 470,
+          "within40ms": 95.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -11.8
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 277
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 573,
+          "within40ms": 99.5,
+          "over80ms": 2,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 688,
+          "within40ms": 93.9,
+          "over80ms": 19,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.7
+        },
+        "pitchClassTop3Pct": 88.2,
+        "contourInversions": 1,
+        "contourEdges": 368
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 85.0,
+        "contourInversions": 0,
+        "contourEdges": 109
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 269,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 371,
+          "within40ms": 97.3,
+          "over80ms": 5,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 222
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 413,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 470,
+          "within40ms": 95.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -11.8
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 277
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 624,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 688,
+          "within40ms": 93.9,
+          "over80ms": 19,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.7
+        },
+        "pitchClassTop3Pct": 88.2,
+        "contourInversions": 1,
+        "contourEdges": 368
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 85.0,
+        "contourInversions": 0,
+        "contourEdges": 109
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 269,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 371,
+          "within40ms": 97.3,
+          "over80ms": 5,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 222
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 417,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 470,
+          "within40ms": 95.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -11.8
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 277
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 644,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 689,
+          "within40ms": 93.9,
+          "over80ms": 19,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.7
+        },
+        "pitchClassTop3Pct": 88.2,
+        "contourInversions": 1,
+        "contourEdges": 368
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 2.514,
+        "pitch": 57,
+        "onsetDeltaMs": 86.6,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 3.173,
+        "pitch": 74,
+        "onsetDeltaMs": -90.6,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 26.44,
+        "pitch": 60,
+        "onsetDeltaMs": -120.2,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 27.019,
+        "pitch": 57,
+        "onsetDeltaMs": 113.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 27.617,
+        "pitch": 79,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 28.815,
+        "pitch": 57,
+        "onsetDeltaMs": -10.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 30.481,
+        "pitch": 70,
+        "onsetDeltaMs": -16.4,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 32.307,
+        "pitch": 83,
+        "onsetDeltaMs": -13.8,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 45.157,
+        "pitch": 58,
+        "onsetDeltaMs": -5.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 50.475,
+        "pitch": 66,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 58.098,
+        "pitch": 66,
+        "onsetDeltaMs": -13.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 65.341,
+        "pitch": 62,
+        "onsetDeltaMs": -104.5,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 73.343,
+        "pitch": 68,
+        "onsetDeltaMs": -14.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 74.291,
+        "pitch": 68,
+        "onsetDeltaMs": -10.4,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 75.249,
+        "pitch": 65,
+        "onsetDeltaMs": -16.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 77.624,
+        "pitch": 65,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 80.008,
+        "pitch": 58,
+        "onsetDeltaMs": -15.3,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 83.65,
+        "pitch": 61,
+        "onsetDeltaMs": 156.6,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 88.579,
+        "pitch": 65,
+        "onsetDeltaMs": -12.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 89.058,
+        "pitch": 65,
+        "onsetDeltaMs": -15.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 91.771,
+        "pitch": 58,
+        "onsetDeltaMs": -104.4,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 91.911,
+        "pitch": 58,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 106.338,
+        "pitch": 63,
+        "onsetDeltaMs": -147.3,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 110.269,
+        "pitch": 65,
+        "onsetDeltaMs": -194.8,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 112.205,
+        "pitch": 61,
+        "onsetDeltaMs": 411.8,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 113.761,
+        "pitch": 73,
+        "onsetDeltaMs": -169.0,
+        "pitchClassRank": 1
+      }
+    ]
+  },
+  {
+    "id": "bouncy-bass-party",
+    "name": "Bassline Riot",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 274,
+          "within40ms": 98.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 72.3,
+        "contourInversions": 0,
+        "contourEdges": 128
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 137,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.2,
+          "signedMedianMs": -13.1
+        },
+        "melody": {
+          "count": 503,
+          "within40ms": 96.2,
+          "over80ms": 5,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 71.6,
+        "contourInversions": 1,
+        "contourEdges": 313
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 336,
+          "within40ms": 98.8,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 94.5,
+          "over80ms": 8,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 73.8,
+        "contourInversions": 1,
+        "contourEdges": 402
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 465,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 894,
+          "within40ms": 92.3,
+          "over80ms": 22,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 76.2,
+        "contourInversions": 5,
+        "contourEdges": 532
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 274,
+          "within40ms": 98.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 72.3,
+        "contourInversions": 0,
+        "contourEdges": 128
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 185,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 503,
+          "within40ms": 96.2,
+          "over80ms": 5,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 71.6,
+        "contourInversions": 1,
+        "contourEdges": 313
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 409,
+          "within40ms": 98.3,
+          "over80ms": 3,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.5
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 94.5,
+          "over80ms": 8,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 73.8,
+        "contourInversions": 1,
+        "contourEdges": 402
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 629,
+          "within40ms": 98.6,
+          "over80ms": 3,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 893,
+          "within40ms": 92.3,
+          "over80ms": 22,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 76.3,
+        "contourInversions": 2,
+        "contourEdges": 532
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 274,
+          "within40ms": 98.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 72.3,
+        "contourInversions": 0,
+        "contourEdges": 128
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 230,
+          "within40ms": 98.3,
+          "over80ms": 1,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 503,
+          "within40ms": 96.2,
+          "over80ms": 5,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 71.6,
+        "contourInversions": 1,
+        "contourEdges": 313
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 540,
+          "within40ms": 98.1,
+          "over80ms": 4,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 94.5,
+          "over80ms": 8,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 73.8,
+        "contourInversions": 1,
+        "contourEdges": 402
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 748,
+          "within40ms": 98.4,
+          "over80ms": 4,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 895,
+          "within40ms": 92.2,
+          "over80ms": 22,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 76.2,
+        "contourInversions": 0,
+        "contourEdges": 533
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 274,
+          "within40ms": 98.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 72.3,
+        "contourInversions": 0,
+        "contourEdges": 128
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 262,
+          "within40ms": 98.5,
+          "over80ms": 1,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 503,
+          "within40ms": 96.2,
+          "over80ms": 5,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 71.6,
+        "contourInversions": 0,
+        "contourEdges": 313
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 589,
+          "within40ms": 98.0,
+          "over80ms": 4,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 94.5,
+          "over80ms": 8,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 73.8,
+        "contourInversions": 1,
+        "contourEdges": 402
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 821,
+          "within40ms": 98.1,
+          "over80ms": 5,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "melody": {
+          "count": 895,
+          "within40ms": 92.2,
+          "over80ms": 22,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 76.3,
+        "contourInversions": 0,
+        "contourEdges": 532
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 274,
+          "within40ms": 98.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 72.3,
+        "contourInversions": 0,
+        "contourEdges": 128
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 264,
+          "within40ms": 98.5,
+          "over80ms": 1,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 503,
+          "within40ms": 96.2,
+          "over80ms": 5,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 71.6,
+        "contourInversions": 0,
+        "contourEdges": 313
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 610,
+          "within40ms": 98.0,
+          "over80ms": 4,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 94.5,
+          "over80ms": 8,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 73.8,
+        "contourInversions": 1,
+        "contourEdges": 402
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 842,
+          "within40ms": 98.1,
+          "over80ms": 5,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 894,
+          "within40ms": 92.2,
+          "over80ms": 22,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 76.3,
+        "contourInversions": 0,
+        "contourEdges": 532
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 1.487,
+        "pitch": 57,
+        "onsetDeltaMs": -12.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 2.983,
+        "pitch": 83,
+        "onsetDeltaMs": -5.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 4.111,
+        "pitch": 69,
+        "onsetDeltaMs": -6.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 5.667,
+        "pitch": 77,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 16.582,
+        "pitch": 57,
+        "onsetDeltaMs": -14.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 22.419,
+        "pitch": 57,
+        "onsetDeltaMs": 63.7,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 28.745,
+        "pitch": 81,
+        "onsetDeltaMs": -10.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 28.914,
+        "pitch": 79,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 29.254,
+        "pitch": 86,
+        "onsetDeltaMs": -14.3,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 29.603,
+        "pitch": 82,
+        "onsetDeltaMs": -9.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 32.416,
+        "pitch": 57,
+        "onsetDeltaMs": 91.9,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 32.586,
+        "pitch": 58,
+        "onsetDeltaMs": -20.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 33.334,
+        "pitch": 83,
+        "onsetDeltaMs": -13.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 34.332,
+        "pitch": 66,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 35.998,
+        "pitch": 79,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 38.991,
+        "pitch": 67,
+        "onsetDeltaMs": -10.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 40.328,
+        "pitch": 79,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 40.498,
+        "pitch": 81,
+        "onsetDeltaMs": -8.2,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 41.825,
+        "pitch": 65,
+        "onsetDeltaMs": -0.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 42.673,
+        "pitch": 71,
+        "onsetDeltaMs": -17.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 42.883,
+        "pitch": 59,
+        "onsetDeltaMs": 102.9,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 45.327,
+        "pitch": 78,
+        "onsetDeltaMs": -7.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 48.759,
+        "pitch": 58,
+        "onsetDeltaMs": -14.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 48.999,
+        "pitch": 58,
+        "onsetDeltaMs": -10.7,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 53.658,
+        "pitch": 79,
+        "onsetDeltaMs": -8.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 54.496,
+        "pitch": 57,
+        "onsetDeltaMs": -10.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 55.165,
+        "pitch": 83,
+        "onsetDeltaMs": -17.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 55.833,
+        "pitch": 83,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 56.172,
+        "pitch": 81,
+        "onsetDeltaMs": -14.5,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 56.332,
+        "pitch": 58,
+        "onsetDeltaMs": -17.8,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 56.841,
+        "pitch": 66,
+        "onsetDeltaMs": -16.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 58.497,
+        "pitch": 71,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 58.996,
+        "pitch": 55,
+        "onsetDeltaMs": -11.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 60.163,
+        "pitch": 81,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 61.73,
+        "pitch": 62,
+        "onsetDeltaMs": -81.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 62.827,
+        "pitch": 79,
+        "onsetDeltaMs": -5.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 66.419,
+        "pitch": 71,
+        "onsetDeltaMs": 100.4,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 66.549,
+        "pitch": 71,
+        "onsetDeltaMs": -29.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 67.906,
+        "pitch": 59,
+        "onsetDeltaMs": 0.8,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 68.744,
+        "pitch": 59,
+        "onsetDeltaMs": -7.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 73.164,
+        "pitch": 62,
+        "onsetDeltaMs": -9.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 75.658,
+        "pitch": 83,
+        "onsetDeltaMs": -13.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 78.492,
+        "pitch": 81,
+        "onsetDeltaMs": -14.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 82.822,
+        "pitch": 79,
+        "onsetDeltaMs": -13.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 86.324,
+        "pitch": 79,
+        "onsetDeltaMs": -9.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 86.663,
+        "pitch": 57,
+        "onsetDeltaMs": -11.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 87.491,
+        "pitch": 81,
+        "onsetDeltaMs": -15.6,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 87.83,
+        "pitch": 83,
+        "onsetDeltaMs": -17.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 88.499,
+        "pitch": 83,
+        "onsetDeltaMs": -13.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 90.325,
+        "pitch": 70,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 91.083,
+        "pitch": 55,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 96.66,
+        "pitch": 55,
+        "onsetDeltaMs": -12.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 98.327,
+        "pitch": 76,
+        "onsetDeltaMs": -13.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 99.324,
+        "pitch": 81,
+        "onsetDeltaMs": -6.4,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 102.826,
+        "pitch": 64,
+        "onsetDeltaMs": -13.8,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 105.41,
+        "pitch": 63,
+        "onsetDeltaMs": -8.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 106.159,
+        "pitch": 79,
+        "onsetDeltaMs": -14.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 106.538,
+        "pitch": 59,
+        "onsetDeltaMs": 1.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 106.897,
+        "pitch": 59,
+        "onsetDeltaMs": 83.1,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 107.556,
+        "pitch": 59,
+        "onsetDeltaMs": -7.0,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 108.823,
+        "pitch": 59,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 110.239,
+        "pitch": 83,
+        "onsetDeltaMs": -8.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 110.489,
+        "pitch": 56,
+        "onsetDeltaMs": -2.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 114.989,
+        "pitch": 57,
+        "onsetDeltaMs": -3.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 115.488,
+        "pitch": 57,
+        "onsetDeltaMs": -9.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 116.316,
+        "pitch": 58,
+        "onsetDeltaMs": -13.1,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 118.481,
+        "pitch": 56,
+        "onsetDeltaMs": -7.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 124.387,
+        "pitch": 66,
+        "onsetDeltaMs": -9.3,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 124.727,
+        "pitch": 66,
+        "onsetDeltaMs": -12.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 125.235,
+        "pitch": 64,
+        "onsetDeltaMs": -9.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 125.585,
+        "pitch": 79,
+        "onsetDeltaMs": -17.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 125.754,
+        "pitch": 69,
+        "onsetDeltaMs": -12.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 126.044,
+        "pitch": 83,
+        "onsetDeltaMs": 40.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 131.581,
+        "pitch": 66,
+        "onsetDeltaMs": -185.1,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 132.12,
+        "pitch": 59,
+        "onsetDeltaMs": -724.1,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 132.379,
+        "pitch": 59,
+        "onsetDeltaMs": -983.1,
+        "pitchClassRank": 8
+      }
+    ]
+  },
+  {
+    "id": "luminous-forward-motion",
+    "name": "Photon Rush",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 93.1,
+        "contourInversions": 0,
+        "contourEdges": 145
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 134,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -11.4
+        },
+        "melody": {
+          "count": 487,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 92.4,
+        "contourInversions": 0,
+        "contourEdges": 256
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 352,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 552,
+          "within40ms": 98.6,
+          "over80ms": 4,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 91.7,
+        "contourInversions": 2,
+        "contourEdges": 284
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 448,
+          "within40ms": 99.1,
+          "over80ms": 2,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "melody": {
+          "count": 943,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 90.9,
+        "contourInversions": 1,
+        "contourEdges": 424
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 93.1,
+        "contourInversions": 0,
+        "contourEdges": 145
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 175,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 487,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 92.4,
+        "contourInversions": 0,
+        "contourEdges": 256
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 406,
+          "within40ms": 98.8,
+          "over80ms": 1,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 552,
+          "within40ms": 98.6,
+          "over80ms": 4,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 91.7,
+        "contourInversions": 0,
+        "contourEdges": 284
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 593,
+          "within40ms": 99.0,
+          "over80ms": 4,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "melody": {
+          "count": 943,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 90.9,
+        "contourInversions": 1,
+        "contourEdges": 425
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 93.1,
+        "contourInversions": 0,
+        "contourEdges": 145
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 256,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "melody": {
+          "count": 487,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 92.4,
+        "contourInversions": 0,
+        "contourEdges": 256
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 544,
+          "within40ms": 98.5,
+          "over80ms": 1,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 552,
+          "within40ms": 98.6,
+          "over80ms": 4,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 91.7,
+        "contourInversions": 0,
+        "contourEdges": 284
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 802,
+          "within40ms": 99.0,
+          "over80ms": 6,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 941,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 90.9,
+        "contourInversions": 0,
+        "contourEdges": 422
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 93.1,
+        "contourInversions": 0,
+        "contourEdges": 145
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 285,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "melody": {
+          "count": 487,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 92.4,
+        "contourInversions": 0,
+        "contourEdges": 256
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 606,
+          "within40ms": 98.5,
+          "over80ms": 3,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 552,
+          "within40ms": 98.6,
+          "over80ms": 4,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 91.7,
+        "contourInversions": 1,
+        "contourEdges": 284
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 901,
+          "within40ms": 98.7,
+          "over80ms": 10,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 944,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 90.9,
+        "contourInversions": 1,
+        "contourEdges": 426
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 93.1,
+        "contourInversions": 0,
+        "contourEdges": 145
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 298,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "melody": {
+          "count": 487,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 92.4,
+        "contourInversions": 0,
+        "contourEdges": 256
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 631,
+          "within40ms": 98.6,
+          "over80ms": 3,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 552,
+          "within40ms": 98.6,
+          "over80ms": 4,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 91.7,
+        "contourInversions": 1,
+        "contourEdges": 284
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 961,
+          "within40ms": 98.8,
+          "over80ms": 10,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 944,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 90.9,
+        "contourInversions": 0,
+        "contourEdges": 426
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 9.917,
+        "pitch": 65,
+        "onsetDeltaMs": 90.8,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 10.456,
+        "pitch": 74,
+        "onsetDeltaMs": -245.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 15.385,
+        "pitch": 59,
+        "onsetDeltaMs": -7.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 54.506,
+        "pitch": 59,
+        "onsetDeltaMs": -8.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 55.624,
+        "pitch": 59,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 58.866,
+        "pitch": 59,
+        "onsetDeltaMs": -9.2,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 62.109,
+        "pitch": 69,
+        "onsetDeltaMs": -13.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 66.978,
+        "pitch": 71,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 84.817,
+        "pitch": 60,
+        "onsetDeltaMs": -6.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 113.482,
+        "pitch": 66,
+        "onsetDeltaMs": 133.2,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 114.869,
+        "pitch": 59,
+        "onsetDeltaMs": -17.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 115.278,
+        "pitch": 59,
+        "onsetDeltaMs": -8.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 116.815,
+        "pitch": 59,
+        "onsetDeltaMs": -82.5,
+        "pitchClassRank": 5
+      },
+      {
+        "time": 121.733,
+        "pitch": 59,
+        "onsetDeltaMs": -2.4,
+        "pitchClassRank": 8
+      }
+    ]
+  },
+  {
+    "id": "one-step-closer",
+    "name": "한 칸 더 가까이",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 270,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 156
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 58,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 529,
+          "within40ms": 98.3,
+          "over80ms": 4,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 85.8,
+        "contourInversions": 0,
+        "contourEdges": 281
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 397,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 95.5,
+          "over80ms": 5,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 85.7,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 458,
+          "within40ms": 99.3,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 658,
+          "within40ms": 91.0,
+          "over80ms": 24,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 86.8,
+        "contourInversions": 0,
+        "contourEdges": 354
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 270,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 156
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 136,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 529,
+          "within40ms": 98.3,
+          "over80ms": 4,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 85.8,
+        "contourInversions": 0,
+        "contourEdges": 281
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 426,
+          "within40ms": 99.3,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 95.5,
+          "over80ms": 5,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 85.7,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 779,
+          "within40ms": 99.4,
+          "over80ms": 1,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 658,
+          "within40ms": 91.0,
+          "over80ms": 24,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 86.8,
+        "contourInversions": 0,
+        "contourEdges": 354
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 270,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 156
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 224,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.0,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 529,
+          "within40ms": 98.3,
+          "over80ms": 4,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 85.8,
+        "contourInversions": 0,
+        "contourEdges": 281
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 677,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 95.5,
+          "over80ms": 5,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 85.7,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 835,
+          "within40ms": 99.2,
+          "over80ms": 1,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.4
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 91.0,
+          "over80ms": 24,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 86.8,
+        "contourInversions": 0,
+        "contourEdges": 354
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 270,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 156
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 315,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.9
+        },
+        "melody": {
+          "count": 529,
+          "within40ms": 98.3,
+          "over80ms": 4,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 85.8,
+        "contourInversions": 0,
+        "contourEdges": 281
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 721,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 95.5,
+          "over80ms": 5,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 85.7,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 876,
+          "within40ms": 99.1,
+          "over80ms": 2,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.4
+        },
+        "melody": {
+          "count": 658,
+          "within40ms": 91.0,
+          "over80ms": 24,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 86.8,
+        "contourInversions": 0,
+        "contourEdges": 354
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 270,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 156
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 331,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 529,
+          "within40ms": 98.3,
+          "over80ms": 4,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.0
+        },
+        "pitchClassTop3Pct": 85.8,
+        "contourInversions": 0,
+        "contourEdges": 281
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 754,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.5
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 95.5,
+          "over80ms": 5,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 85.7,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 877,
+          "within40ms": 99.1,
+          "over80ms": 2,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.4
+        },
+        "melody": {
+          "count": 657,
+          "within40ms": 91.0,
+          "over80ms": 24,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 86.8,
+        "contourInversions": 0,
+        "contourEdges": 354
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 4.829,
+        "pitch": 63,
+        "onsetDeltaMs": 169.1,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 7.842,
+        "pitch": 62,
+        "onsetDeltaMs": 110.8,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 8.151,
+        "pitch": 69,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 14.816,
+        "pitch": 59,
+        "onsetDeltaMs": -13.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 16.233,
+        "pitch": 59,
+        "onsetDeltaMs": 50.0,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 36.278,
+        "pitch": 59,
+        "onsetDeltaMs": -14.2,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 41.406,
+        "pitch": 69,
+        "onsetDeltaMs": -10.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 45.886,
+        "pitch": 71,
+        "onsetDeltaMs": -9.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 49.587,
+        "pitch": 57,
+        "onsetDeltaMs": -18.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 52.541,
+        "pitch": 71,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 55.953,
+        "pitch": 71,
+        "onsetDeltaMs": 88.4,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 56.232,
+        "pitch": 71,
+        "onsetDeltaMs": -10.7,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 57.709,
+        "pitch": 83,
+        "onsetDeltaMs": -7.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 59.674,
+        "pitch": 64,
+        "onsetDeltaMs": -21.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 63.625,
+        "pitch": 60,
+        "onsetDeltaMs": -8.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 64.364,
+        "pitch": 60,
+        "onsetDeltaMs": -9.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 67.497,
+        "pitch": 67,
+        "onsetDeltaMs": -8.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 73.224,
+        "pitch": 84,
+        "onsetDeltaMs": -11.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 74.7,
+        "pitch": 60,
+        "onsetDeltaMs": -13.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 76.177,
+        "pitch": 83,
+        "onsetDeltaMs": -9.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 83.211,
+        "pitch": 83,
+        "onsetDeltaMs": -13.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 88.359,
+        "pitch": 71,
+        "onsetDeltaMs": -7.1,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 89.098,
+        "pitch": 57,
+        "onsetDeltaMs": -14.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 89.227,
+        "pitch": 59,
+        "onsetDeltaMs": 42.1,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 94.984,
+        "pitch": 71,
+        "onsetDeltaMs": -14.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 95.712,
+        "pitch": 71,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 103.066,
+        "pitch": 60,
+        "onsetDeltaMs": -10.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 105.121,
+        "pitch": 71,
+        "onsetDeltaMs": -126.2,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 109.86,
+        "pitch": 67,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 116.286,
+        "pitch": 81,
+        "onsetDeltaMs": -12.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 122.162,
+        "pitch": 69,
+        "onsetDeltaMs": -7.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 122.422,
+        "pitch": 62,
+        "onsetDeltaMs": -87.7,
+        "pitchClassRank": 1
+      }
+    ]
+  },
+  {
+    "id": "to-our-tomorrow",
+    "name": "내일의 우리에게",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.1
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 90
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 183,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "melody": {
+          "count": 438,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.4
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 240
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 291,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.0,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 537,
+          "within40ms": 95.7,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 289
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 340,
+          "within40ms": 98.8,
+          "over80ms": 3,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 600,
+          "within40ms": 91.8,
+          "over80ms": 32,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.2,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.1
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 90
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 230,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 438,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.4
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 240
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 315,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 537,
+          "within40ms": 95.7,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 289
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 601,
+          "within40ms": 99.0,
+          "over80ms": 3,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 600,
+          "within40ms": 91.8,
+          "over80ms": 32,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.2,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.1
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 90
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 265,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.0,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 438,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.4
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 240
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 555,
+          "within40ms": 99.5,
+          "over80ms": 2,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 537,
+          "within40ms": 95.7,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 289
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 623,
+          "within40ms": 99.0,
+          "over80ms": 3,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 600,
+          "within40ms": 91.8,
+          "over80ms": 32,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.2,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.1
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 90
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 285,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 438,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.4
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 240
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 581,
+          "within40ms": 99.3,
+          "over80ms": 3,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 537,
+          "within40ms": 95.7,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 289
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 653,
+          "within40ms": 99.1,
+          "over80ms": 3,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 600,
+          "within40ms": 91.8,
+          "over80ms": 32,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.2,
+        "contourInversions": 0,
+        "contourEdges": 316
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 214,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.1
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 90
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 285,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 438,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.4
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 240
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 584,
+          "within40ms": 99.3,
+          "over80ms": 3,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 537,
+          "within40ms": 95.7,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.6,
+        "contourInversions": 0,
+        "contourEdges": 289
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 653,
+          "within40ms": 99.1,
+          "over80ms": 3,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 600,
+          "within40ms": 91.8,
+          "over80ms": 32,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.3
+        },
+        "pitchClassTop3Pct": 91.2,
+        "contourInversions": 0,
+        "contourEdges": 316
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 1.537,
+        "pitch": 58,
+        "onsetDeltaMs": 100.0,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 20.394,
+        "pitch": 65,
+        "onsetDeltaMs": 86.0,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 22.948,
+        "pitch": 60,
+        "onsetDeltaMs": 115.2,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 29.184,
+        "pitch": 69,
+        "onsetDeltaMs": -13.9,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 36.796,
+        "pitch": 60,
+        "onsetDeltaMs": -102.7,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 38.233,
+        "pitch": 76,
+        "onsetDeltaMs": 109.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 38.473,
+        "pitch": 77,
+        "onsetDeltaMs": 101.1,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 42.563,
+        "pitch": 65,
+        "onsetDeltaMs": -0.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 50.795,
+        "pitch": 62,
+        "onsetDeltaMs": -13.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 70.121,
+        "pitch": 70,
+        "onsetDeltaMs": 113.6,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 74.6,
+        "pitch": 66,
+        "onsetDeltaMs": -5.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 75.389,
+        "pitch": 66,
+        "onsetDeltaMs": -11.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 79.02,
+        "pitch": 58,
+        "onsetDeltaMs": 102.0,
+        "pitchClassRank": 5
+      },
+      {
+        "time": 86.793,
+        "pitch": 70,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 87.262,
+        "pitch": 69,
+        "onsetDeltaMs": -18.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 96.84,
+        "pitch": 72,
+        "onsetDeltaMs": 103.3,
+        "pitchClassRank": 5
+      },
+      {
+        "time": 99.374,
+        "pitch": 62,
+        "onsetDeltaMs": 106.1,
+        "pitchClassRank": 5
+      },
+      {
+        "time": 115.956,
+        "pitch": 58,
+        "onsetDeltaMs": 474.7,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 125.515,
+        "pitch": 67,
+        "onsetDeltaMs": 215.2,
+        "pitchClassRank": 1
+      }
+    ]
+  },
+  {
+    "id": "futuristic-minor-key",
+    "name": "Neon Eclipse",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 260,
+          "within40ms": 98.8,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 76.9,
+        "contourInversions": 0,
+        "contourEdges": 107
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 105,
+          "within40ms": 98.1,
+          "over80ms": 0,
+          "medianAbsMs": 15.3,
+          "signedMedianMs": -14.2
+        },
+        "melody": {
+          "count": 375,
+          "within40ms": 97.1,
+          "over80ms": 1,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 77.6,
+        "contourInversions": 0,
+        "contourEdges": 196
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 337,
+          "within40ms": 97.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 623,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 307
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 492,
+          "within40ms": 98.4,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "melody": {
+          "count": 797,
+          "within40ms": 94.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 82.1,
+        "contourInversions": 1,
+        "contourEdges": 385
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 260,
+          "within40ms": 98.8,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 76.9,
+        "contourInversions": 0,
+        "contourEdges": 107
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 149,
+          "within40ms": 97.3,
+          "over80ms": 0,
+          "medianAbsMs": 14.0,
+          "signedMedianMs": -13.7
+        },
+        "melody": {
+          "count": 375,
+          "within40ms": 97.1,
+          "over80ms": 1,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 77.6,
+        "contourInversions": 0,
+        "contourEdges": 196
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 416,
+          "within40ms": 97.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 623,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 307
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 688,
+          "within40ms": 98.4,
+          "over80ms": 1,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "melody": {
+          "count": 799,
+          "within40ms": 94.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 82.1,
+        "contourInversions": 1,
+        "contourEdges": 386
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 260,
+          "within40ms": 98.8,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 76.9,
+        "contourInversions": 0,
+        "contourEdges": 107
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 207,
+          "within40ms": 97.1,
+          "over80ms": 0,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -11.9
+        },
+        "melody": {
+          "count": 375,
+          "within40ms": 97.1,
+          "over80ms": 1,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 77.6,
+        "contourInversions": 0,
+        "contourEdges": 196
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 574,
+          "within40ms": 98.3,
+          "over80ms": 0,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 623,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 307
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 816,
+          "within40ms": 98.2,
+          "over80ms": 2,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 798,
+          "within40ms": 94.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 82.1,
+        "contourInversions": 0,
+        "contourEdges": 385
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 260,
+          "within40ms": 98.8,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 76.9,
+        "contourInversions": 0,
+        "contourEdges": 107
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 266,
+          "within40ms": 97.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 375,
+          "within40ms": 97.1,
+          "over80ms": 1,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 77.6,
+        "contourInversions": 0,
+        "contourEdges": 196
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 628,
+          "within40ms": 97.8,
+          "over80ms": 1,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 623,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 307
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 904,
+          "within40ms": 97.8,
+          "over80ms": 5,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 799,
+          "within40ms": 94.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 82.1,
+        "contourInversions": 1,
+        "contourEdges": 386
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 260,
+          "within40ms": 98.8,
+          "over80ms": 0,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 76.9,
+        "contourInversions": 0,
+        "contourEdges": 107
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 266,
+          "within40ms": 97.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 375,
+          "within40ms": 97.1,
+          "over80ms": 1,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 77.6,
+        "contourInversions": 0,
+        "contourEdges": 196
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 665,
+          "within40ms": 97.9,
+          "over80ms": 1,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 623,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 81.9,
+        "contourInversions": 0,
+        "contourEdges": 307
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 919,
+          "within40ms": 97.8,
+          "over80ms": 5,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 799,
+          "within40ms": 94.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 82.1,
+        "contourInversions": 0,
+        "contourEdges": 386
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 2.923,
+        "pitch": 78,
+        "onsetDeltaMs": -8.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 5.946,
+        "pitch": 66,
+        "onsetDeltaMs": -7.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 10.706,
+        "pitch": 83,
+        "onsetDeltaMs": 108.7,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 22.239,
+        "pitch": 59,
+        "onsetDeltaMs": -5.9,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 22.569,
+        "pitch": 59,
+        "onsetDeltaMs": -10.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 23.367,
+        "pitch": 78,
+        "onsetDeltaMs": -7.7,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 23.537,
+        "pitch": 81,
+        "onsetDeltaMs": -15.2,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 28.046,
+        "pitch": 80,
+        "onsetDeltaMs": -13.7,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 32.077,
+        "pitch": 78,
+        "onsetDeltaMs": -10.2,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 36.587,
+        "pitch": 78,
+        "onsetDeltaMs": -15.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 40.688,
+        "pitch": 71,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 50.565,
+        "pitch": 83,
+        "onsetDeltaMs": -15.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 50.805,
+        "pitch": 81,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 52.002,
+        "pitch": 55,
+        "onsetDeltaMs": -12.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 63.875,
+        "pitch": 59,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 65.202,
+        "pitch": 59,
+        "onsetDeltaMs": -6.2,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 67.507,
+        "pitch": 80,
+        "onsetDeltaMs": -18.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 68.135,
+        "pitch": 59,
+        "onsetDeltaMs": -7.7,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 68.444,
+        "pitch": 59,
+        "onsetDeltaMs": -9.0,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 71.338,
+        "pitch": 68,
+        "onsetDeltaMs": -6.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 72.385,
+        "pitch": 57,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 73.014,
+        "pitch": 64,
+        "onsetDeltaMs": -10.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 74.59,
+        "pitch": 79,
+        "onsetDeltaMs": -7.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 77.195,
+        "pitch": 55,
+        "onsetDeltaMs": -11.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 80.258,
+        "pitch": 69,
+        "onsetDeltaMs": -15.6,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 82.303,
+        "pitch": 59,
+        "onsetDeltaMs": -17.3,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 84.977,
+        "pitch": 78,
+        "onsetDeltaMs": -9.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 85.446,
+        "pitch": 80,
+        "onsetDeltaMs": -14.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 105.52,
+        "pitch": 69,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 106.777,
+        "pitch": 69,
+        "onsetDeltaMs": -17.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 108.563,
+        "pitch": 59,
+        "onsetDeltaMs": -73.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 108.912,
+        "pitch": 59,
+        "onsetDeltaMs": 47.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 109.042,
+        "pitch": 59,
+        "onsetDeltaMs": -1.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 109.282,
+        "pitch": 59,
+        "onsetDeltaMs": -8.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 110.459,
+        "pitch": 55,
+        "onsetDeltaMs": -1.7,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 110.698,
+        "pitch": 59,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 111.317,
+        "pitch": 59,
+        "onsetDeltaMs": -6.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 111.556,
+        "pitch": 59,
+        "onsetDeltaMs": -7.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 111.786,
+        "pitch": 59,
+        "onsetDeltaMs": -5.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 123.36,
+        "pitch": 56,
+        "onsetDeltaMs": -201.4,
+        "pitchClassRank": 8
+      }
+    ]
+  },
+  {
+    "id": "open-blue-sky",
+    "name": "Open Blue Sky",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 227,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 36.6,
+        "contourInversions": 0,
+        "contourEdges": 65
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 83,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.4,
+          "signedMedianMs": -11.4
+        },
+        "melody": {
+          "count": 511,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 64.0,
+        "contourInversions": 0,
+        "contourEdges": 171
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 308,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 64.5,
+        "contourInversions": 0,
+        "contourEdges": 190
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 363,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 731,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 70.5,
+        "contourInversions": 0,
+        "contourEdges": 255
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 227,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 36.6,
+        "contourInversions": 0,
+        "contourEdges": 65
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 153,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.9,
+          "signedMedianMs": -11.9
+        },
+        "melody": {
+          "count": 511,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 64.0,
+        "contourInversions": 0,
+        "contourEdges": 171
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 333,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 64.5,
+        "contourInversions": 0,
+        "contourEdges": 190
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 506,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 731,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 70.5,
+        "contourInversions": 0,
+        "contourEdges": 255
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 227,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 36.6,
+        "contourInversions": 0,
+        "contourEdges": 65
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 206,
+          "within40ms": 99.5,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 511,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 64.0,
+        "contourInversions": 0,
+        "contourEdges": 171
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 451,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 64.5,
+        "contourInversions": 0,
+        "contourEdges": 190
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 608,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 731,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 70.5,
+        "contourInversions": 0,
+        "contourEdges": 255
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 227,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 36.6,
+        "contourInversions": 0,
+        "contourEdges": 65
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 220,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 511,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 64.0,
+        "contourInversions": 0,
+        "contourEdges": 171
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 494,
+          "within40ms": 99.8,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 64.5,
+        "contourInversions": 0,
+        "contourEdges": 190
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 717,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 731,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 70.5,
+        "contourInversions": 0,
+        "contourEdges": 255
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 227,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 36.6,
+        "contourInversions": 0,
+        "contourEdges": 65
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 255,
+          "within40ms": 99.2,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 511,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 10.7,
+          "signedMedianMs": -10.7
+        },
+        "pitchClassTop3Pct": 64.0,
+        "contourInversions": 0,
+        "contourEdges": 171
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 513,
+          "within40ms": 99.8,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 99.1,
+          "over80ms": 0,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.8
+        },
+        "pitchClassTop3Pct": 64.5,
+        "contourInversions": 0,
+        "contourEdges": 190
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 734,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 731,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 70.5,
+        "contourInversions": 0,
+        "contourEdges": 255
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 25.951,
+        "pitch": 55,
+        "onsetDeltaMs": -14.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 27.966,
+        "pitch": 55,
+        "onsetDeltaMs": -15.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 32.007,
+        "pitch": 67,
+        "onsetDeltaMs": -15.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 32.406,
+        "pitch": 67,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 32.815,
+        "pitch": 55,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 35.24,
+        "pitch": 55,
+        "onsetDeltaMs": -15.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 36.048,
+        "pitch": 55,
+        "onsetDeltaMs": -16.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 36.447,
+        "pitch": 55,
+        "onsetDeltaMs": -9.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 36.856,
+        "pitch": 55,
+        "onsetDeltaMs": -17.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 37.255,
+        "pitch": 55,
+        "onsetDeltaMs": -10.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 37.654,
+        "pitch": 55,
+        "onsetDeltaMs": -8.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 38.063,
+        "pitch": 55,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 38.463,
+        "pitch": 55,
+        "onsetDeltaMs": -5.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 38.872,
+        "pitch": 55,
+        "onsetDeltaMs": -13.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 39.271,
+        "pitch": 55,
+        "onsetDeltaMs": -6.1,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 40.488,
+        "pitch": 55,
+        "onsetDeltaMs": -15.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 40.887,
+        "pitch": 55,
+        "onsetDeltaMs": -8.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 41.296,
+        "pitch": 55,
+        "onsetDeltaMs": -16.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 41.695,
+        "pitch": 65,
+        "onsetDeltaMs": -9.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 43.312,
+        "pitch": 55,
+        "onsetDeltaMs": -12.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 43.711,
+        "pitch": 55,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 44.12,
+        "pitch": 55,
+        "onsetDeltaMs": -13.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 44.519,
+        "pitch": 55,
+        "onsetDeltaMs": -6.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 44.928,
+        "pitch": 65,
+        "onsetDeltaMs": -14.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 45.327,
+        "pitch": 55,
+        "onsetDeltaMs": -7.5,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 46.135,
+        "pitch": 55,
+        "onsetDeltaMs": -8.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 46.943,
+        "pitch": 55,
+        "onsetDeltaMs": -9.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 47.751,
+        "pitch": 55,
+        "onsetDeltaMs": -10.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 48.56,
+        "pitch": 55,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 48.959,
+        "pitch": 55,
+        "onsetDeltaMs": -5.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 49.767,
+        "pitch": 55,
+        "onsetDeltaMs": -6.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 50.176,
+        "pitch": 55,
+        "onsetDeltaMs": -15.1,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 51.792,
+        "pitch": 58,
+        "onsetDeltaMs": -17.3,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 52.59,
+        "pitch": 69,
+        "onsetDeltaMs": -14.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 53.389,
+        "pitch": 67,
+        "onsetDeltaMs": -12.1,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 54.586,
+        "pitch": 67,
+        "onsetDeltaMs": -7.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 56.591,
+        "pitch": 67,
+        "onsetDeltaMs": -15.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 56.791,
+        "pitch": 58,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 56.99,
+        "pitch": 58,
+        "onsetDeltaMs": -14.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 57.39,
+        "pitch": 58,
+        "onsetDeltaMs": -13.5,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 57.789,
+        "pitch": 58,
+        "onsetDeltaMs": -11.9,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 58.188,
+        "pitch": 58,
+        "onsetDeltaMs": -10.4,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 58.587,
+        "pitch": 58,
+        "onsetDeltaMs": -8.9,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 58.986,
+        "pitch": 58,
+        "onsetDeltaMs": -7.3,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 59.385,
+        "pitch": 58,
+        "onsetDeltaMs": -5.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 59.784,
+        "pitch": 58,
+        "onsetDeltaMs": -4.2,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 60.183,
+        "pitch": 58,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 63.785,
+        "pitch": 58,
+        "onsetDeltaMs": -5.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 64.184,
+        "pitch": 70,
+        "onsetDeltaMs": -4.0,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 64.593,
+        "pitch": 58,
+        "onsetDeltaMs": -18.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 64.992,
+        "pitch": 55,
+        "onsetDeltaMs": -16.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 65.391,
+        "pitch": 69,
+        "onsetDeltaMs": -15.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 66.19,
+        "pitch": 55,
+        "onsetDeltaMs": -13.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 67.387,
+        "pitch": 58,
+        "onsetDeltaMs": -8.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 70.19,
+        "pitch": 58,
+        "onsetDeltaMs": -13.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 70.59,
+        "pitch": 58,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 70.989,
+        "pitch": 58,
+        "onsetDeltaMs": -11.4,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 71.388,
+        "pitch": 58,
+        "onsetDeltaMs": -9.9,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 71.787,
+        "pitch": 58,
+        "onsetDeltaMs": -8.3,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 72.186,
+        "pitch": 58,
+        "onsetDeltaMs": -6.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 72.994,
+        "pitch": 58,
+        "onsetDeltaMs": -13.7,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 83.39,
+        "pitch": 58,
+        "onsetDeltaMs": -12.9,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 83.79,
+        "pitch": 58,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 84.189,
+        "pitch": 58,
+        "onsetDeltaMs": -10.9,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 84.588,
+        "pitch": 58,
+        "onsetDeltaMs": -9.3,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 84.987,
+        "pitch": 58,
+        "onsetDeltaMs": -13.6,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 85.386,
+        "pitch": 58,
+        "onsetDeltaMs": -12.0,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 85.785,
+        "pitch": 58,
+        "onsetDeltaMs": -10.5,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 91.781,
+        "pitch": 55,
+        "onsetDeltaMs": -9.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 92.18,
+        "pitch": 55,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 92.58,
+        "pitch": 55,
+        "onsetDeltaMs": -7.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 92.979,
+        "pitch": 55,
+        "onsetDeltaMs": -12.1,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 93.118,
+        "pitch": 55,
+        "onsetDeltaMs": -17.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 93.378,
+        "pitch": 55,
+        "onsetDeltaMs": -10.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 94.585,
+        "pitch": 56,
+        "onsetDeltaMs": -15.9,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 94.984,
+        "pitch": 56,
+        "onsetDeltaMs": -14.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 95.383,
+        "pitch": 55,
+        "onsetDeltaMs": -12.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 95.782,
+        "pitch": 56,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 96.181,
+        "pitch": 55,
+        "onsetDeltaMs": -9.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 96.311,
+        "pitch": 55,
+        "onsetDeltaMs": -12.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 96.58,
+        "pitch": 56,
+        "onsetDeltaMs": -8.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 96.72,
+        "pitch": 55,
+        "onsetDeltaMs": -14.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 97.119,
+        "pitch": 55,
+        "onsetDeltaMs": -19.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 97.518,
+        "pitch": 55,
+        "onsetDeltaMs": -17.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 98.187,
+        "pitch": 56,
+        "onsetDeltaMs": -18.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 98.586,
+        "pitch": 55,
+        "onsetDeltaMs": -17.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 99.384,
+        "pitch": 55,
+        "onsetDeltaMs": -14.2,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 99.783,
+        "pitch": 55,
+        "onsetDeltaMs": -12.7,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 100.322,
+        "pitch": 55,
+        "onsetDeltaMs": -17.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 100.581,
+        "pitch": 56,
+        "onsetDeltaMs": -9.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 100.721,
+        "pitch": 55,
+        "onsetDeltaMs": -21.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 100.98,
+        "pitch": 55,
+        "onsetDeltaMs": -8.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 101.11,
+        "pitch": 55,
+        "onsetDeltaMs": -10.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 101.38,
+        "pitch": 55,
+        "onsetDeltaMs": -13.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 101.779,
+        "pitch": 55,
+        "onsetDeltaMs": -5.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 108.174,
+        "pitch": 70,
+        "onsetDeltaMs": -9.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 114.58,
+        "pitch": 70,
+        "onsetDeltaMs": -12.7,
+        "pitchClassRank": 9
+      }
+    ]
+  },
+  {
+    "id": "a-little-further",
+    "name": "A Little Further",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 144
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 212,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.5,
+          "signedMedianMs": -13.5
+        },
+        "melody": {
+          "count": 477,
+          "within40ms": 98.7,
+          "over80ms": 2,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 90.8,
+        "contourInversions": 1,
+        "contourEdges": 239
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 411,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 711,
+          "within40ms": 98.9,
+          "over80ms": 2,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 89.6,
+        "contourInversions": 1,
+        "contourEdges": 329
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 605,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 870,
+          "within40ms": 97.9,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.0
+        },
+        "pitchClassTop3Pct": 89.3,
+        "contourInversions": 1,
+        "contourEdges": 385
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 144
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 283,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.6,
+          "signedMedianMs": -13.6
+        },
+        "melody": {
+          "count": 477,
+          "within40ms": 98.7,
+          "over80ms": 2,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 90.8,
+        "contourInversions": 0,
+        "contourEdges": 239
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 486,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 711,
+          "within40ms": 98.9,
+          "over80ms": 2,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 89.6,
+        "contourInversions": 1,
+        "contourEdges": 329
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 801,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "melody": {
+          "count": 870,
+          "within40ms": 97.9,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.0
+        },
+        "pitchClassTop3Pct": 89.3,
+        "contourInversions": 1,
+        "contourEdges": 385
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 144
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 355,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.2,
+          "signedMedianMs": -13.2
+        },
+        "melody": {
+          "count": 477,
+          "within40ms": 98.7,
+          "over80ms": 2,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 90.8,
+        "contourInversions": 0,
+        "contourEdges": 239
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 648,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.5,
+          "signedMedianMs": -12.5
+        },
+        "melody": {
+          "count": 711,
+          "within40ms": 98.9,
+          "over80ms": 2,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 89.6,
+        "contourInversions": 0,
+        "contourEdges": 329
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 969,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 870,
+          "within40ms": 97.9,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.0
+        },
+        "pitchClassTop3Pct": 89.3,
+        "contourInversions": 1,
+        "contourEdges": 385
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 144
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 393,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 477,
+          "within40ms": 98.7,
+          "over80ms": 2,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 90.8,
+        "contourInversions": 0,
+        "contourEdges": 239
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 671,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.4,
+          "signedMedianMs": -12.4
+        },
+        "melody": {
+          "count": 711,
+          "within40ms": 98.9,
+          "over80ms": 2,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 89.6,
+        "contourInversions": 0,
+        "contourEdges": 329
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 1065,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.0,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 870,
+          "within40ms": 97.9,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.0
+        },
+        "pitchClassTop3Pct": 89.3,
+        "contourInversions": 0,
+        "contourEdges": 385
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 299,
+          "within40ms": 99.7,
+          "over80ms": 0,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 144
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 401,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 477,
+          "within40ms": 98.7,
+          "over80ms": 2,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 90.8,
+        "contourInversions": 0,
+        "contourEdges": 239
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 732,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.4,
+          "signedMedianMs": -12.4
+        },
+        "melody": {
+          "count": 711,
+          "within40ms": 98.9,
+          "over80ms": 2,
+          "medianAbsMs": 12.2,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 89.6,
+        "contourInversions": 1,
+        "contourEdges": 329
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 1124,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.0,
+          "signedMedianMs": -12.0
+        },
+        "melody": {
+          "count": 870,
+          "within40ms": 97.9,
+          "over80ms": 12,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.0
+        },
+        "pitchClassTop3Pct": 89.3,
+        "contourInversions": 1,
+        "contourEdges": 385
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 10.795,
+        "pitch": 64,
+        "onsetDeltaMs": -177.7,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 11.075,
+        "pitch": 59,
+        "onsetDeltaMs": 88.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 14.158,
+        "pitch": 83,
+        "onsetDeltaMs": -11.2,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 14.377,
+        "pitch": 83,
+        "onsetDeltaMs": -15.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 15.126,
+        "pitch": 57,
+        "onsetDeltaMs": -9.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 17.271,
+        "pitch": 59,
+        "onsetDeltaMs": -12.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 23.058,
+        "pitch": 57,
+        "onsetDeltaMs": -12.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 24.774,
+        "pitch": 55,
+        "onsetDeltaMs": -15.7,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 27.019,
+        "pitch": 59,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 33.234,
+        "pitch": 78,
+        "onsetDeltaMs": -12.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 37.415,
+        "pitch": 67,
+        "onsetDeltaMs": -13.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 44.698,
+        "pitch": 64,
+        "onsetDeltaMs": -11.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 44.808,
+        "pitch": 64,
+        "onsetDeltaMs": -10.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 49.617,
+        "pitch": 66,
+        "onsetDeltaMs": -7.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 76.187,
+        "pitch": 59,
+        "onsetDeltaMs": -8.1,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 90.275,
+        "pitch": 56,
+        "onsetDeltaMs": -1.6,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 90.764,
+        "pitch": 56,
+        "onsetDeltaMs": -14.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 97.728,
+        "pitch": 59,
+        "onsetDeltaMs": -12.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 100.083,
+        "pitch": 71,
+        "onsetDeltaMs": -10.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 104.473,
+        "pitch": 71,
+        "onsetDeltaMs": -6.4,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 121.614,
+        "pitch": 59,
+        "onsetDeltaMs": -11.1,
+        "pitchClassRank": 12
+      },
+      {
+        "time": 123.33,
+        "pitch": 59,
+        "onsetDeltaMs": -8.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 125.046,
+        "pitch": 59,
+        "onsetDeltaMs": -12.3,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 127.62,
+        "pitch": 59,
+        "onsetDeltaMs": -14.7,
+        "pitchClassRank": 7
+      }
+    ]
+  },
+  {
+    "id": "pulse-of-longing",
+    "name": "그리움의 고동",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 257,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 9.5,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.5,
+        "contourInversions": 0,
+        "contourEdges": 135
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 151,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.5
+        },
+        "melody": {
+          "count": 461,
+          "within40ms": 99.1,
+          "over80ms": 1,
+          "medianAbsMs": 9.7,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.8,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 313,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 9.9,
+          "signedMedianMs": -9.9
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 98.5,
+          "over80ms": 2,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -8.8
+        },
+        "pitchClassTop3Pct": 90.7,
+        "contourInversions": 0,
+        "contourEdges": 315
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 458,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 8.5,
+          "signedMedianMs": -8.5
+        },
+        "melody": {
+          "count": 791,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 8.7,
+          "signedMedianMs": -8.3
+        },
+        "pitchClassTop3Pct": 90.5,
+        "contourInversions": 0,
+        "contourEdges": 399
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {
+          "count": 1,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 257,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 9.5,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.5,
+        "contourInversions": 0,
+        "contourEdges": 135
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 198,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.5,
+          "signedMedianMs": -11.5
+        },
+        "melody": {
+          "count": 461,
+          "within40ms": 99.1,
+          "over80ms": 1,
+          "medianAbsMs": 9.7,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.8,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 345,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 9.4,
+          "signedMedianMs": -9.4
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 98.5,
+          "over80ms": 2,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -8.8
+        },
+        "pitchClassTop3Pct": 90.7,
+        "contourInversions": 0,
+        "contourEdges": 315
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 631,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 8.6,
+          "signedMedianMs": -8.6
+        },
+        "melody": {
+          "count": 791,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 8.7,
+          "signedMedianMs": -8.3
+        },
+        "pitchClassTop3Pct": 90.5,
+        "contourInversions": 0,
+        "contourEdges": 399
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {
+          "count": 1,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 257,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 9.5,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.5,
+        "contourInversions": 0,
+        "contourEdges": 135
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 242,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 461,
+          "within40ms": 99.1,
+          "over80ms": 1,
+          "medianAbsMs": 9.7,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.8,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 536,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -9.1
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 98.5,
+          "over80ms": 2,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -8.8
+        },
+        "pitchClassTop3Pct": 90.7,
+        "contourInversions": 0,
+        "contourEdges": 315
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 770,
+          "within40ms": 99.9,
+          "over80ms": 1,
+          "medianAbsMs": 8.5,
+          "signedMedianMs": -8.5
+        },
+        "melody": {
+          "count": 791,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 8.7,
+          "signedMedianMs": -8.3
+        },
+        "pitchClassTop3Pct": 90.5,
+        "contourInversions": 0,
+        "contourEdges": 399
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {
+          "count": 1,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 257,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 9.5,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.5,
+        "contourInversions": 0,
+        "contourEdges": 135
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 275,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.4
+        },
+        "melody": {
+          "count": 461,
+          "within40ms": 99.1,
+          "over80ms": 1,
+          "medianAbsMs": 9.7,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.8,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 583,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 8.9,
+          "signedMedianMs": -8.8
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 98.5,
+          "over80ms": 2,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -8.8
+        },
+        "pitchClassTop3Pct": 90.7,
+        "contourInversions": 0,
+        "contourEdges": 315
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 860,
+          "within40ms": 99.8,
+          "over80ms": 2,
+          "medianAbsMs": 8.4,
+          "signedMedianMs": -8.4
+        },
+        "melody": {
+          "count": 790,
+          "within40ms": 96.8,
+          "over80ms": 11,
+          "medianAbsMs": 8.7,
+          "signedMedianMs": -8.3
+        },
+        "pitchClassTop3Pct": 90.5,
+        "contourInversions": 0,
+        "contourEdges": 399
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {
+          "count": 1,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 257,
+          "within40ms": 99.6,
+          "over80ms": 0,
+          "medianAbsMs": 9.5,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.5,
+        "contourInversions": 0,
+        "contourEdges": 135
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 277,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.4
+        },
+        "melody": {
+          "count": 461,
+          "within40ms": 99.1,
+          "over80ms": 1,
+          "medianAbsMs": 9.7,
+          "signedMedianMs": -9.4
+        },
+        "pitchClassTop3Pct": 89.8,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 599,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 8.8,
+          "signedMedianMs": -8.8
+        },
+        "melody": {
+          "count": 547,
+          "within40ms": 98.5,
+          "over80ms": 2,
+          "medianAbsMs": 9.1,
+          "signedMedianMs": -8.8
+        },
+        "pitchClassTop3Pct": 90.7,
+        "contourInversions": 0,
+        "contourEdges": 315
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 905,
+          "within40ms": 99.8,
+          "over80ms": 2,
+          "medianAbsMs": 8.3,
+          "signedMedianMs": -8.3
+        },
+        "melody": {
+          "count": 791,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 8.7,
+          "signedMedianMs": -8.3
+        },
+        "pitchClassTop3Pct": 90.5,
+        "contourInversions": 0,
+        "contourEdges": 399
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 3.153,
+        "pitch": 62,
+        "onsetDeltaMs": -6.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 4.939,
+        "pitch": 62,
+        "onsetDeltaMs": -10.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 14.008,
+        "pitch": 55,
+        "onsetDeltaMs": -6.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 21.94,
+        "pitch": 60,
+        "onsetDeltaMs": -8.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 75.249,
+        "pitch": 58,
+        "onsetDeltaMs": 93.9,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 101.779,
+        "pitch": 62,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 113.522,
+        "pitch": 60,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 114.749,
+        "pitch": 60,
+        "onsetDeltaMs": -13.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 118.551,
+        "pitch": 62,
+        "onsetDeltaMs": -123.4,
+        "pitchClassRank": 1
+      }
+    ]
+  },
+  {
+    "id": "exciting-adventure",
+    "name": "Exciting Adventure",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 177,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 92.1,
+        "contourInversions": 0,
+        "contourEdges": 97
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 63,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.3,
+          "signedMedianMs": -12.3
+        },
+        "melody": {
+          "count": 349,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 94.0,
+        "contourInversions": 0,
+        "contourEdges": 216
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 259,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.6,
+          "signedMedianMs": -11.6
+        },
+        "melody": {
+          "count": 513,
+          "within40ms": 97.7,
+          "over80ms": 4,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 93.0,
+        "contourInversions": 1,
+        "contourEdges": 263
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 383,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 617,
+          "within40ms": 96.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 301
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 177,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 92.1,
+        "contourInversions": 0,
+        "contourEdges": 97
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 119,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.1,
+          "signedMedianMs": -12.1
+        },
+        "melody": {
+          "count": 349,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 94.0,
+        "contourInversions": 0,
+        "contourEdges": 216
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 307,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 513,
+          "within40ms": 97.7,
+          "over80ms": 4,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 93.0,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 583,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 617,
+          "within40ms": 96.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 301
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 177,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 92.1,
+        "contourInversions": 0,
+        "contourEdges": 97
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 167,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 349,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 94.0,
+        "contourInversions": 0,
+        "contourEdges": 216
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 483,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 513,
+          "within40ms": 97.7,
+          "over80ms": 4,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 93.0,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 695,
+          "within40ms": 99.9,
+          "over80ms": 1,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 617,
+          "within40ms": 96.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 301
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 177,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 92.1,
+        "contourInversions": 0,
+        "contourEdges": 97
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 224,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 349,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 94.0,
+        "contourInversions": 0,
+        "contourEdges": 216
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 507,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 513,
+          "within40ms": 97.7,
+          "over80ms": 4,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 93.0,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 768,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.9
+        },
+        "melody": {
+          "count": 617,
+          "within40ms": 96.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 301
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 177,
+          "within40ms": 99.4,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "pitchClassTop3Pct": 92.1,
+        "contourInversions": 0,
+        "contourEdges": 97
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 225,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 349,
+          "within40ms": 98.9,
+          "over80ms": 3,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.9
+        },
+        "pitchClassTop3Pct": 94.0,
+        "contourInversions": 0,
+        "contourEdges": 216
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 548,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 11.3,
+          "signedMedianMs": -11.3
+        },
+        "melody": {
+          "count": 513,
+          "within40ms": 97.7,
+          "over80ms": 4,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 93.0,
+        "contourInversions": 0,
+        "contourEdges": 263
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 796,
+          "within40ms": 99.7,
+          "over80ms": 1,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.9
+        },
+        "melody": {
+          "count": 617,
+          "within40ms": 96.9,
+          "over80ms": 9,
+          "medianAbsMs": 10.4,
+          "signedMedianMs": -10.3
+        },
+        "pitchClassTop3Pct": 92.5,
+        "contourInversions": 0,
+        "contourEdges": 301
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 1.836,
+        "pitch": 55,
+        "onsetDeltaMs": -7.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 13.729,
+        "pitch": 69,
+        "onsetDeltaMs": -17.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 14.966,
+        "pitch": 55,
+        "onsetDeltaMs": -163.3,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 29.852,
+        "pitch": 83,
+        "onsetDeltaMs": -8.6,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 52.93,
+        "pitch": 83,
+        "onsetDeltaMs": -11.7,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 55.544,
+        "pitch": 69,
+        "onsetDeltaMs": -19.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 67.716,
+        "pitch": 57,
+        "onsetDeltaMs": -12.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 68.694,
+        "pitch": 67,
+        "onsetDeltaMs": -9.4,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 71.627,
+        "pitch": 63,
+        "onsetDeltaMs": -10.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 79.878,
+        "pitch": 60,
+        "onsetDeltaMs": -7.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 86.274,
+        "pitch": 79,
+        "onsetDeltaMs": -81.5,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 86.444,
+        "pitch": 72,
+        "onsetDeltaMs": 178.0,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 86.713,
+        "pitch": 72,
+        "onsetDeltaMs": -91.0,
+        "pitchClassRank": 1
+      }
+    ]
+  },
+  {
+    "id": "mellow-light",
+    "name": "Mellow light",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {
+          "count": 1,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 16.8,
+          "signedMedianMs": -16.8
+        },
+        "melody": {
+          "count": 224,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.3
+        },
+        "pitchClassTop3Pct": 93.8,
+        "contourInversions": 0,
+        "contourEdges": 88
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 250,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.8,
+          "signedMedianMs": -13.8
+        },
+        "melody": {
+          "count": 380,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 13.3,
+          "signedMedianMs": -12.8
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 219
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 396,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.1,
+          "signedMedianMs": -13.1
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 95.0,
+          "over80ms": 10,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 485,
+          "within40ms": 99.4,
+          "over80ms": 1,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 92.8,
+          "over80ms": 17,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 297
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {
+          "count": 2,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 14.8,
+          "signedMedianMs": -14.8
+        },
+        "melody": {
+          "count": 224,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.3
+        },
+        "pitchClassTop3Pct": 93.8,
+        "contourInversions": 0,
+        "contourEdges": 88
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 286,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.6,
+          "signedMedianMs": -13.6
+        },
+        "melody": {
+          "count": 380,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 13.3,
+          "signedMedianMs": -12.8
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 219
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 428,
+          "within40ms": 99.5,
+          "over80ms": 1,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 95.0,
+          "over80ms": 10,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 685,
+          "within40ms": 99.4,
+          "over80ms": 2,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 92.8,
+          "over80ms": 17,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 297
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {
+          "count": 2,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 14.8,
+          "signedMedianMs": -14.8
+        },
+        "melody": {
+          "count": 224,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.3
+        },
+        "pitchClassTop3Pct": 93.8,
+        "contourInversions": 0,
+        "contourEdges": 88
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 312,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.5,
+          "signedMedianMs": -13.5
+        },
+        "melody": {
+          "count": 380,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 13.3,
+          "signedMedianMs": -12.8
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 219
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 580,
+          "within40ms": 99.5,
+          "over80ms": 1,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 95.0,
+          "over80ms": 10,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 749,
+          "within40ms": 98.5,
+          "over80ms": 6,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 92.8,
+          "over80ms": 17,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 297
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {
+          "count": 3,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 16.8,
+          "signedMedianMs": -16.8
+        },
+        "melody": {
+          "count": 224,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.3
+        },
+        "pitchClassTop3Pct": 93.8,
+        "contourInversions": 0,
+        "contourEdges": 88
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 336,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.4
+        },
+        "melody": {
+          "count": 380,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 13.3,
+          "signedMedianMs": -12.8
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 219
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 620,
+          "within40ms": 99.5,
+          "over80ms": 1,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 95.0,
+          "over80ms": 10,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 809,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 593,
+          "within40ms": 92.7,
+          "over80ms": 17,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 297
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {
+          "count": 3,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 16.8,
+          "signedMedianMs": -16.8
+        },
+        "melody": {
+          "count": 224,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.3
+        },
+        "pitchClassTop3Pct": 93.8,
+        "contourInversions": 0,
+        "contourEdges": 88
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 336,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.4,
+          "signedMedianMs": -13.4
+        },
+        "melody": {
+          "count": 380,
+          "within40ms": 96.6,
+          "over80ms": 2,
+          "medianAbsMs": 13.3,
+          "signedMedianMs": -12.8
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 219
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 632,
+          "within40ms": 99.5,
+          "over80ms": 1,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 95.0,
+          "over80ms": 10,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 93.4,
+        "contourInversions": 0,
+        "contourEdges": 259
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 812,
+          "within40ms": 97.9,
+          "over80ms": 9,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 594,
+          "within40ms": 92.8,
+          "over80ms": 17,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.2
+        },
+        "pitchClassTop3Pct": 93.3,
+        "contourInversions": 0,
+        "contourEdges": 297
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 4.629,
+        "pitch": 65,
+        "onsetDeltaMs": 102.1,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 4.749,
+        "pitch": 65,
+        "onsetDeltaMs": -17.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 10.736,
+        "pitch": 60,
+        "onsetDeltaMs": 101.9,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 11.234,
+        "pitch": 63,
+        "onsetDeltaMs": 114.8,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 21.192,
+        "pitch": 63,
+        "onsetDeltaMs": 89.1,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 48.789,
+        "pitch": 67,
+        "onsetDeltaMs": 94.8,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 63.895,
+        "pitch": 56,
+        "onsetDeltaMs": 105.0,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 64.773,
+        "pitch": 59,
+        "onsetDeltaMs": -18.4,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 74.321,
+        "pitch": 70,
+        "onsetDeltaMs": 99.0,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 84.927,
+        "pitch": 59,
+        "onsetDeltaMs": -92.9,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 89.058,
+        "pitch": 58,
+        "onsetDeltaMs": -9.5,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 94.924,
+        "pitch": 60,
+        "onsetDeltaMs": 86.2,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 100.931,
+        "pitch": 56,
+        "onsetDeltaMs": 174.5,
+        "pitchClassRank": 2
+      }
+    ]
+  },
+  {
+    "id": "summer-drive",
+    "name": "Summer Drive",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 232,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -13.0
+        },
+        "pitchClassTop3Pct": 84.9,
+        "contourInversions": 0,
+        "contourEdges": 119
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 198,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.8
+        },
+        "melody": {
+          "count": 458,
+          "within40ms": 98.7,
+          "over80ms": 4,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "pitchClassTop3Pct": 85.4,
+        "contourInversions": 0,
+        "contourEdges": 260
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 405,
+          "within40ms": 99.3,
+          "over80ms": 3,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 580,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 305
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 522,
+          "within40ms": 98.9,
+          "over80ms": 5,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.6
+        },
+        "melody": {
+          "count": 651,
+          "within40ms": 92.3,
+          "over80ms": 29,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 341
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 232,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -13.0
+        },
+        "pitchClassTop3Pct": 84.9,
+        "contourInversions": 0,
+        "contourEdges": 119
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 245,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 458,
+          "within40ms": 98.7,
+          "over80ms": 4,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "pitchClassTop3Pct": 85.4,
+        "contourInversions": 0,
+        "contourEdges": 260
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 461,
+          "within40ms": 98.9,
+          "over80ms": 5,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "melody": {
+          "count": 580,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 305
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 814,
+          "within40ms": 98.5,
+          "over80ms": 10,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 651,
+          "within40ms": 92.3,
+          "over80ms": 29,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 341
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 232,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -13.0
+        },
+        "pitchClassTop3Pct": 84.9,
+        "contourInversions": 0,
+        "contourEdges": 119
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 346,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 458,
+          "within40ms": 98.7,
+          "over80ms": 4,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "pitchClassTop3Pct": 85.4,
+        "contourInversions": 0,
+        "contourEdges": 260
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 692,
+          "within40ms": 98.8,
+          "over80ms": 7,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 580,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 305
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 920,
+          "within40ms": 98.5,
+          "over80ms": 10,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.5
+        },
+        "melody": {
+          "count": 651,
+          "within40ms": 92.3,
+          "over80ms": 29,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 341
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 232,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -13.0
+        },
+        "pitchClassTop3Pct": 84.9,
+        "contourInversions": 0,
+        "contourEdges": 119
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 384,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 457,
+          "within40ms": 98.7,
+          "over80ms": 4,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "pitchClassTop3Pct": 85.3,
+        "contourInversions": 0,
+        "contourEdges": 260
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 740,
+          "within40ms": 98.4,
+          "over80ms": 10,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 580,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 305
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 976,
+          "within40ms": 98.2,
+          "over80ms": 12,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.5
+        },
+        "melody": {
+          "count": 651,
+          "within40ms": 92.3,
+          "over80ms": 29,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 341
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 232,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 13.0,
+          "signedMedianMs": -13.0
+        },
+        "pitchClassTop3Pct": 84.9,
+        "contourInversions": 0,
+        "contourEdges": 119
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 384,
+          "within40ms": 100.0,
+          "over80ms": 0,
+          "medianAbsMs": 12.9,
+          "signedMedianMs": -12.9
+        },
+        "melody": {
+          "count": 458,
+          "within40ms": 98.7,
+          "over80ms": 4,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "pitchClassTop3Pct": 85.4,
+        "contourInversions": 0,
+        "contourEdges": 260
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 782,
+          "within40ms": 98.3,
+          "over80ms": 11,
+          "medianAbsMs": 12.8,
+          "signedMedianMs": -12.7
+        },
+        "melody": {
+          "count": 580,
+          "within40ms": 96.7,
+          "over80ms": 11,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "pitchClassTop3Pct": 87.9,
+        "contourInversions": 0,
+        "contourEdges": 305
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 986,
+          "within40ms": 98.2,
+          "over80ms": 12,
+          "medianAbsMs": 12.6,
+          "signedMedianMs": -12.4
+        },
+        "melody": {
+          "count": 651,
+          "within40ms": 92.3,
+          "over80ms": 29,
+          "medianAbsMs": 12.7,
+          "signedMedianMs": -12.3
+        },
+        "pitchClassTop3Pct": 88.3,
+        "contourInversions": 0,
+        "contourEdges": 341
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 1.357,
+        "pitch": 70,
+        "onsetDeltaMs": 175.5,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 2.594,
+        "pitch": 84,
+        "onsetDeltaMs": -121.1,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 10.875,
+        "pitch": 62,
+        "onsetDeltaMs": 113.8,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 19.506,
+        "pitch": 81,
+        "onsetDeltaMs": -12.8,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 26.639,
+        "pitch": 67,
+        "onsetDeltaMs": 180.0,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 29.333,
+        "pitch": 65,
+        "onsetDeltaMs": -87.5,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 31.369,
+        "pitch": 84,
+        "onsetDeltaMs": 169.5,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 36.507,
+        "pitch": 60,
+        "onsetDeltaMs": -11.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 40.278,
+        "pitch": 66,
+        "onsetDeltaMs": -8.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 51.742,
+        "pitch": 65,
+        "onsetDeltaMs": 96.5,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 53.937,
+        "pitch": 60,
+        "onsetDeltaMs": -130.6,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 54.077,
+        "pitch": 63,
+        "onsetDeltaMs": 124.2,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 54.915,
+        "pitch": 66,
+        "onsetDeltaMs": -11.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 60.103,
+        "pitch": 67,
+        "onsetDeltaMs": -9.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 61.42,
+        "pitch": 64,
+        "onsetDeltaMs": -142.5,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 63.845,
+        "pitch": 55,
+        "onsetDeltaMs": -13.3,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 79.35,
+        "pitch": 69,
+        "onsetDeltaMs": -13.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 82.403,
+        "pitch": 65,
+        "onsetDeltaMs": -18.6,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 83.57,
+        "pitch": 60,
+        "onsetDeltaMs": -13.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 93.996,
+        "pitch": 81,
+        "onsetDeltaMs": -7.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 97.628,
+        "pitch": 82,
+        "onsetDeltaMs": -11.3,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 98.566,
+        "pitch": 82,
+        "onsetDeltaMs": -8.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 108.873,
+        "pitch": 55,
+        "onsetDeltaMs": -12.0,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 109.81,
+        "pitch": 60,
+        "onsetDeltaMs": -8.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 115.537,
+        "pitch": 67,
+        "onsetDeltaMs": 115.8,
+        "pitchClassRank": 6
+      },
+      {
+        "time": 116.366,
+        "pitch": 66,
+        "onsetDeltaMs": -16.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 121.274,
+        "pitch": 73,
+        "onsetDeltaMs": -13.6,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 124.078,
+        "pitch": 59,
+        "onsetDeltaMs": -13.8,
+        "pitchClassRank": 9
+      }
+    ]
+  },
+  {
+    "id": "wind-across-sunlit-hills",
+    "name": "Wind Across Sunlit Hills",
+    "charts": [
+      {
+        "keys": 4,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 271,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 86.7,
+        "contourInversions": 0,
+        "contourEdges": 141
+      },
+      {
+        "keys": 4,
+        "tier": 1,
+        "rhythm": {
+          "count": 90,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 11.8,
+          "signedMedianMs": -11.8
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 98.4,
+          "over80ms": 3,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.5,
+        "contourInversions": 0,
+        "contourEdges": 251
+      },
+      {
+        "keys": 4,
+        "tier": 2,
+        "rhythm": {
+          "count": 366,
+          "within40ms": 97.8,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 94.7,
+          "over80ms": 12,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 274
+      },
+      {
+        "keys": 4,
+        "tier": 3,
+        "rhythm": {
+          "count": 485,
+          "within40ms": 99.8,
+          "over80ms": 1,
+          "medianAbsMs": 10.3,
+          "signedMedianMs": -10.3
+        },
+        "melody": {
+          "count": 761,
+          "within40ms": 93.3,
+          "over80ms": 29,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 0,
+        "contourEdges": 347
+      },
+      {
+        "keys": 5,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 271,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 86.7,
+        "contourInversions": 0,
+        "contourEdges": 141
+      },
+      {
+        "keys": 5,
+        "tier": 1,
+        "rhythm": {
+          "count": 155,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.7,
+          "signedMedianMs": -11.7
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 98.4,
+          "over80ms": 3,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.5,
+        "contourInversions": 1,
+        "contourEdges": 251
+      },
+      {
+        "keys": 5,
+        "tier": 2,
+        "rhythm": {
+          "count": 405,
+          "within40ms": 97.8,
+          "over80ms": 1,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 94.7,
+          "over80ms": 12,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 274
+      },
+      {
+        "keys": 5,
+        "tier": 3,
+        "rhythm": {
+          "count": 689,
+          "within40ms": 99.7,
+          "over80ms": 2,
+          "medianAbsMs": 10.2,
+          "signedMedianMs": -10.2
+        },
+        "melody": {
+          "count": 761,
+          "within40ms": 93.3,
+          "over80ms": 29,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 0,
+        "contourEdges": 347
+      },
+      {
+        "keys": 6,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 271,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 86.7,
+        "contourInversions": 0,
+        "contourEdges": 141
+      },
+      {
+        "keys": 6,
+        "tier": 1,
+        "rhythm": {
+          "count": 235,
+          "within40ms": 98.7,
+          "over80ms": 0,
+          "medianAbsMs": 11.2,
+          "signedMedianMs": -11.2
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 98.4,
+          "over80ms": 3,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.5,
+        "contourInversions": 0,
+        "contourEdges": 251
+      },
+      {
+        "keys": 6,
+        "tier": 2,
+        "rhythm": {
+          "count": 545,
+          "within40ms": 98.3,
+          "over80ms": 1,
+          "medianAbsMs": 10.9,
+          "signedMedianMs": -10.9
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 94.7,
+          "over80ms": 12,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 274
+      },
+      {
+        "keys": 6,
+        "tier": 3,
+        "rhythm": {
+          "count": 828,
+          "within40ms": 99.8,
+          "over80ms": 2,
+          "medianAbsMs": 10.2,
+          "signedMedianMs": -10.1
+        },
+        "melody": {
+          "count": 761,
+          "within40ms": 93.3,
+          "over80ms": 29,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 0,
+        "contourEdges": 347
+      },
+      {
+        "keys": 7,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 271,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 86.7,
+        "contourInversions": 0,
+        "contourEdges": 141
+      },
+      {
+        "keys": 7,
+        "tier": 1,
+        "rhythm": {
+          "count": 281,
+          "within40ms": 99.3,
+          "over80ms": 0,
+          "medianAbsMs": 11.1,
+          "signedMedianMs": -11.1
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 98.4,
+          "over80ms": 3,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.5,
+        "contourInversions": 0,
+        "contourEdges": 251
+      },
+      {
+        "keys": 7,
+        "tier": 2,
+        "rhythm": {
+          "count": 607,
+          "within40ms": 98.4,
+          "over80ms": 2,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 94.7,
+          "over80ms": 12,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 274
+      },
+      {
+        "keys": 7,
+        "tier": 3,
+        "rhythm": {
+          "count": 911,
+          "within40ms": 99.8,
+          "over80ms": 2,
+          "medianAbsMs": 10.2,
+          "signedMedianMs": -10.2
+        },
+        "melody": {
+          "count": 761,
+          "within40ms": 93.3,
+          "over80ms": 29,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 0,
+        "contourEdges": 347
+      },
+      {
+        "keys": 8,
+        "tier": 0,
+        "rhythm": {},
+        "melody": {
+          "count": 271,
+          "within40ms": 98.9,
+          "over80ms": 0,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.4
+        },
+        "pitchClassTop3Pct": 86.7,
+        "contourInversions": 0,
+        "contourEdges": 141
+      },
+      {
+        "keys": 8,
+        "tier": 1,
+        "rhythm": {
+          "count": 293,
+          "within40ms": 99.3,
+          "over80ms": 0,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -11.0
+        },
+        "melody": {
+          "count": 497,
+          "within40ms": 98.4,
+          "over80ms": 3,
+          "medianAbsMs": 10.6,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.5,
+        "contourInversions": 0,
+        "contourEdges": 251
+      },
+      {
+        "keys": 8,
+        "tier": 2,
+        "rhythm": {
+          "count": 626,
+          "within40ms": 98.4,
+          "over80ms": 2,
+          "medianAbsMs": 10.5,
+          "signedMedianMs": -10.5
+        },
+        "melody": {
+          "count": 568,
+          "within40ms": 94.7,
+          "over80ms": 12,
+          "medianAbsMs": 11.0,
+          "signedMedianMs": -10.5
+        },
+        "pitchClassTop3Pct": 88.6,
+        "contourInversions": 0,
+        "contourEdges": 274
+      },
+      {
+        "keys": 8,
+        "tier": 3,
+        "rhythm": {
+          "count": 937,
+          "within40ms": 99.8,
+          "over80ms": 2,
+          "medianAbsMs": 10.2,
+          "signedMedianMs": -10.2
+        },
+        "melody": {
+          "count": 761,
+          "within40ms": 93.3,
+          "over80ms": 29,
+          "medianAbsMs": 10.8,
+          "signedMedianMs": -10.2
+        },
+        "pitchClassTop3Pct": 88.4,
+        "contourInversions": 0,
+        "contourEdges": 347
+      }
+    ],
+    "inspectionCandidates5KeyHard": [
+      {
+        "time": 7.593,
+        "pitch": 66,
+        "onsetDeltaMs": 87.0,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 10.736,
+        "pitch": 76,
+        "onsetDeltaMs": -153.5,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 16.483,
+        "pitch": 64,
+        "onsetDeltaMs": -107.1,
+        "pitchClassRank": 2
+      },
+      {
+        "time": 20.364,
+        "pitch": 76,
+        "onsetDeltaMs": -93.0,
+        "pitchClassRank": 5
+      },
+      {
+        "time": 23.586,
+        "pitch": 68,
+        "onsetDeltaMs": 86.7,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 45.487,
+        "pitch": 78,
+        "onsetDeltaMs": -4.9,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 50.066,
+        "pitch": 63,
+        "onsetDeltaMs": -96.7,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 52.66,
+        "pitch": 64,
+        "onsetDeltaMs": -90.0,
+        "pitchClassRank": 3
+      },
+      {
+        "time": 54.376,
+        "pitch": 81,
+        "onsetDeltaMs": -6.5,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 57.579,
+        "pitch": 76,
+        "onsetDeltaMs": -5.1,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 59.874,
+        "pitch": 78,
+        "onsetDeltaMs": -7.2,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 64.863,
+        "pitch": 73,
+        "onsetDeltaMs": -90.9,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 69.702,
+        "pitch": 57,
+        "onsetDeltaMs": 79.8,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 70.38,
+        "pitch": 56,
+        "onsetDeltaMs": -11.9,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 73.982,
+        "pitch": 81,
+        "onsetDeltaMs": -14.8,
+        "pitchClassRank": 10
+      },
+      {
+        "time": 79.31,
+        "pitch": 59,
+        "onsetDeltaMs": 44.2,
+        "pitchClassRank": 11
+      },
+      {
+        "time": 79.968,
+        "pitch": 88,
+        "onsetDeltaMs": -10.1,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 80.766,
+        "pitch": 83,
+        "onsetDeltaMs": -7.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 83.57,
+        "pitch": 71,
+        "onsetDeltaMs": -7.2,
+        "pitchClassRank": 9
+      },
+      {
+        "time": 86.982,
+        "pitch": 59,
+        "onsetDeltaMs": -17.5,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 89.367,
+        "pitch": 80,
+        "onsetDeltaMs": -10.8,
+        "pitchClassRank": 8
+      },
+      {
+        "time": 110.569,
+        "pitch": 56,
+        "onsetDeltaMs": -13.0,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 111.766,
+        "pitch": 83,
+        "onsetDeltaMs": -8.4,
+        "pitchClassRank": 7
+      },
+      {
+        "time": 112.454,
+        "pitch": 83,
+        "onsetDeltaMs": -98.4,
+        "pitchClassRank": 1
+      },
+      {
+        "time": 122.322,
+        "pitch": 56,
+        "onsetDeltaMs": -98.0,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 127.71,
+        "pitch": 59,
+        "onsetDeltaMs": -232.4,
+        "pitchClassRank": 4
+      },
+      {
+        "time": 129.566,
+        "pitch": 68,
+        "onsetDeltaMs": -2088.4,
+        "pitchClassRank": 8
+      }
+    ]
+  }
+]
