@@ -28,3 +28,18 @@ body[data-chart-family=MOBILE] .life-rail{top:65px!important;bottom:40px!importa
 
 /* Keep the mobile stage stable during play. */
 body[data-chart-family=MOBILE] .play-backdrop,body[data-chart-family=MOBILE] .gear,body[data-chart-family=MOBILE] .gear-window,body[data-chart-family=MOBILE] #game{animation:none!important;transition:none!important}
+
+/* Mobile controls and quiet, two-tone stage frame. */
+#mobileExitPlay{display:none}
+body[data-chart-family=MOBILE] #mobileExitPlay{display:block;min-height:40px;padding:0 12px;border:1px solid #69869c66;border-radius:10px;background:#203044;color:#e4effb;font:inherit;font-size:12px;white-space:nowrap;touch-action:manipulation}
+body[data-chart-family=MOBILE] .play-top{height:48px;gap:10px;padding-inline:max(12px,env(safe-area-inset-left)) max(12px,env(safe-area-inset-right));background:linear-gradient(90deg,#142737,#26243b)!important}
+body[data-chart-family=MOBILE] #playTitle{flex:1;min-width:0;max-width:none!important}
+body[data-chart-family=MOBILE] #pauseButton{min-height:40px;min-width:44px;border-radius:10px}
+body[data-chart-family=MOBILE] #pauseButton span{display:none}
+body[data-chart-family=MOBILE] .gear{top:58px!important;bottom:24px!important;border-radius:12px!important;border:1px solid #7793b64d!important;background:linear-gradient(180deg,#142332,#101c2b)!important;box-shadow:0 0 0 3px #0c152540!important;overflow:hidden!important}
+body[data-chart-family=MOBILE] .gear-score{top:auto!important;bottom:8px!important;right:14px!important;pointer-events:none}
+body[data-chart-family=MOBILE] .gear-score b{font-size:16px!important;letter-spacing:1px!important}
+body[data-chart-family=MOBILE] .play-backdrop{background:linear-gradient(115deg,#101e2c,#222137 65%,#132a35)!important}
+body[data-chart-family=MOBILE] .play-info{top:70px!important}
+body[data-chart-family=MOBILE] .life-rail{top:70px!important}
+@media(max-height:360px){body[data-chart-family=MOBILE] .play-badge{display:none}body[data-chart-family=MOBILE] .gear{top:52px!important;bottom:20px!important}}
