@@ -9,7 +9,7 @@ for(const file of ['package.json','netlify.toml','netlify/functions/auth.mjs','n
 if(!missing.has('public/index.html')){
  const html=readFileSync(resolve(root,'public/index.html'),'utf8');
  for(const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)){
-  const file=match[1].split(/[?#]/)[0];if(/^(https?:|data:)/.test(file))continue;requireFile('public/'+file);
+  const file=match[1].split(/[?#]/)[0];if(/^(https?:|data:|mailto:|tel:)/.test(file))continue;requireFile('public/'+file);
   if(file.endsWith('.css')&&existsSync(resolve(root,'public',file))){
    for(const css of readFileSync(resolve(root,'public',file),'utf8').matchAll(/url\(['"]?([^)'"?#]+)(?:[^)'" ]*)['"]?\)/g))if(!/^(data:|https?:)/.test(css[1]))requireFile('public/'+css[1]);
   }

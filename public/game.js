@@ -418,7 +418,32 @@ document.addEventListener('keydown',e=>{
  const lane=resolveInputLane(e.code,keyCount,bindings,currentAuxBindings());if(lane>=0){e.preventDefault();if(!e.repeat)press(lane,e)}
 });
 document.addEventListener('keyup',e=>{const lane=resolveInputLane(e.code,keyCount,bindings,currentAuxBindings());if(lane>=0){if(e.code.startsWith('Alt')&&['playing','paused'].includes(state))e.preventDefault();release(lane,e)}});
-function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>{b.onpointerdown=e=>{e.preventDefault();b.setPointerCapture(e.pointerId);b.classList.add('down');press(+b.dataset.key,e,'pointer:'+e.pointerId)};b.onpointerup=b.onpointercancel=b.onlostpointercapture=e=>{b.classList.remove('down');release(+b.dataset.key,e,'pointer:'+e.pointerId)}})}
+// Capture each finger on its initial lane: drifting cannot release a long note.
+function bindTouchSurface(surface,laneAt){
+ surface.onpointerdown=e=>{
+  if(e.pointerType==='mouse'&&e.button!==0)return;
+  if(!['playing','paused'].includes(state)||sessionAuto)return;
+  const lane=laneAt(e);if(lane<0||lane>=keyCount)return;
+  e.preventDefault();
+  try{surface.setPointerCapture(e.pointerId)}catch{}
+  press(lane,e,'pointer:'+e.pointerId);
+  if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
+ };
+ const end=e=>{
+  const source='pointer:'+e.pointerId,lane=inputOwners.get(source);
+  if(lane===undefined)return;
+  e.preventDefault();release(lane,e,source);
+  if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
+ };
+ surface.onpointerup=surface.onpointercancel=surface.onlostpointercapture=end;
+ surface.oncontextmenu=e=>e.preventDefault();
+}
+function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>bindTouchSurface(b,()=>+b.dataset.key))}
+bindTouchSurface(canvas,e=>{
+ const r=canvas.getBoundingClientRect(),x=e.clientX-r.left;
+ if(r.width<=18||x<0||x>r.width)return -1;
+ return Math.max(0,Math.min(keyCount-1,Math.floor((x-9)/(r.width-18)*keyCount)));
+});
 function backgroundTick(){backgroundTimer=null;if(!continueInBackground||!document.hidden)return;const now=performance.now();if(state==='playing')updateGame(elapsed(),now);updateCompletion(now);backgroundTimer=setTimeout(backgroundTick,50)}
 function syncBackgroundTick(){clearTimeout(backgroundTimer);backgroundTimer=null;if(continueInBackground&&document.hidden)backgroundTimer=setTimeout(backgroundTick,50)}
 function handleFocusLoss(){if(state==='loading'&&!continueInBackground)loadingBlurred=true;if(state==='playing'&&!continueInBackground)togglePause();else resetInputState()}

@@ -1,3 +1,4 @@
+import {isDeleted,expired,markDeletion,erasePlayer} from './privacy.mjs';
 import {randomBytes,scrypt,timingSafeEqual,createHash} from 'node:crypto';
 import {promisify} from 'node:util';
 const derive=promisify(scrypt),TTL=7*86400000,COOKIE='__Host-pulse-session';
@@ -9,7 +10,8 @@ function tokenOf(request){return request.headers.get('cookie')?.split(';').map(x
 export async function accountSession(request,store){
  const token=tokenOf(request);if(!/^[a-f0-9]{64}$/.test(token||''))return null;
  const session=await store.get('auth/sessions/'+digest(token),{type:'json'});
- return session&&session.expiresAt>Date.now()&&!session.revoked?session:null;
+ if(!session||session.expiresAt<=Date.now()||session.revoked||await isDeleted(store,session.playerId))return null;
+ const user=await store.get('auth/users/'+session.username,{type:'json'});return user&&!expired(user.createdAt)?session:null;
 }
 async function rate(store,key,max){
  const path='auth/rates/'+digest(key),now=Date.now();
@@ -36,6 +38,22 @@ export async function handleAuth(request,store){
    if(/^[a-f0-9]{64}$/.test(token||''))await store.setJSON('auth/sessions/'+digest(token),{revoked:true,expiresAt:0});
    return reply({ok:true},200,cookie('',0));
   }
+  if(action==='delete'){
+   const session=await accountSession(request,store);if(!session)fail('로그인이 필요합니다.',401);
+   const text=await request.text();if(text.length>2048)fail('요청이 너무 큽니다.',413);
+   let input;try{input=JSON.parse(text)}catch{fail('입력을 확인해 주세요.')}
+   if(input.confirm!=='DELETE'||typeof input.password!=='string'||input.password.length>128)fail('비밀번호와 삭제 확인이 필요합니다.');
+   await rate(store,'delete:'+session.playerId,5);
+   const user=await store.get('auth/users/'+session.username,{type:'json'});
+   const actual=await passwordHash(input.password,user.salt);
+   if(!timingSafeEqual(Buffer.from(actual,'hex'),Buffer.from(user.hash,'hex')))fail('비밀번호가 맞지 않습니다.',401);
+   await markDeletion(store,session.playerId);
+   const result=await erasePlayer(store,session.playerId);
+   // Rate keys derived from the account are not directly linked by playerId.
+   await store.delete('auth/rates/'+digest('account:'+session.username));
+   await store.delete('auth/rates/'+digest('delete:'+session.playerId));
+   return reply({ok:true,deletionPending:!result.complete},200,cookie('',0));
+  }
   if(!['login','register'].includes(action))fail('요청을 찾을 수 없습니다.',404);
   const text=await request.text();if(text.length>2048)fail('요청이 너무 큽니다.',413);
   let body;try{body=JSON.parse(text)}catch{fail('입력을 확인해 주세요.')}
@@ -46,15 +64,17 @@ export async function handleAuth(request,store){
   await rate(store,'ip:'+ip,60);await rate(store,'account:'+username,12);
   const path='auth/users/'+username;let user=await store.get(path,{type:'json'});
   if(action==='register'){
+   if(body.privacyConsent!==true||body.privacyVersion!=='2026-10-30')fail('개인정보 수집·이용 안내를 확인하고 동의해 주세요.');
    if(user)fail('사용할 수 없는 아이디입니다.',409);
    const salt=randomBytes(16).toString('hex'),hash=await passwordHash(password,salt),playerId=randomBytes(32).toString('hex');
-   user={username,salt,hash,playerId,createdAt:Date.now()};
+   user={username,salt,hash,playerId,createdAt:Date.now(),privacyVersion:body.privacyVersion,consentedAt:Date.now()};
    const made=await store.setJSON(path,user,{onlyIfNew:true});if(!made.modified)fail('사용할 수 없는 아이디입니다.',409);
   }else{
    const actual=await passwordHash(password,user?.salt||'00000000000000000000000000000000');
    const expected=user?.hash||'0'.repeat(64);
    if(!timingSafeEqual(Buffer.from(actual,'hex'),Buffer.from(expected,'hex'))||!user)fail('아이디 또는 비밀번호가 맞지 않습니다.',401);
   }
+  if(expired(user.createdAt)||await isDeleted(store,user.playerId))fail('보유기간이 만료되었거나 삭제된 계정입니다.',403);
   // Idempotent repair if a prior signup stopped after creating the credential.
   await store.setJSON('players/'+user.playerId,{id:user.playerId,nickname:'',nicknameKey:null,createdAt:user.createdAt,account:true},{onlyIfNew:true});
   const token=randomBytes(32).toString('hex');

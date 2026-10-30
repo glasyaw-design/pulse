@@ -7,7 +7,7 @@ async function call(action,body,cookie='',origin='https://pulse.test'){
  const r=await handleAuth(new Request('https://pulse.test/api/auth/'+action,{method:body?'POST':'GET',headers:{Origin:origin,Cookie:cookie,'Content-Type':'application/json'},body:body?JSON.stringify(body):undefined}),store);
  return{status:r.status,data:await r.json(),cookie:r.headers.get('set-cookie')?.split(';')[0],headers:r.headers};
 }
-const cred={username:'player_19',password:'test-password-long'};
+const cred={username:'player_19',password:'test-password-long',privacyConsent:true,privacyVersion:'2026-10-30'};
 const a=await call('register',cred);assert.equal(a.status,200);
 assert(!JSON.stringify(a.data).includes('hash'));assert(!JSON.stringify([...data.values()]).includes(cred.password));
 for(const flag of ['HttpOnly','Secure','SameSite=Strict','Path=/'])assert(a.headers.get('set-cookie').includes(flag));
@@ -22,6 +22,6 @@ assert.equal((await call('session',null,b.cookie)).data.nickname,'회원테스�
 assert.equal((await handleBlobRanking(new Request('https://pulse.test/api/ranking/profile',{method:'POST',headers:{Cookie:b.cookie},body:'{"nickname":"공격테스트"}'}),store)).status,403);
 await call('logout',{},b.cookie);assert.equal((await call('session',null,b.cookie)).data.authenticated,false);
 const old=Date.now;Date.now=()=>old()+8*86400000;assert.equal((await call('session',null,a.cookie)).data.authenticated,false);Date.now=old;
-for(let i=0;i<13;i++)await call('login',{username:'rate_user',password:'test-password-long'});
-assert.equal((await call('login',{username:'rate_user',password:'test-password-long'})).status,429);
+for(let i=0;i<13;i++)await call('login',{username:'rate_user',password:'test-password-long',privacyConsent:true,privacyVersion:'2026-10-30'});
+assert.equal((await call('login',{username:'rate_user',password:'test-password-long',privacyConsent:true,privacyVersion:'2026-10-30'})).status,429);
 console.log('PASS account signup/login, wrong credentials, secure cookie, stable ranking identity, nickname, CSRF, logout, expiry, rate limits, no plaintext passwords');

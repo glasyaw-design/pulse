@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const read=p=>fs.readFileSync(new URL('../'+p,import.meta.url),'utf8');
+const config=read('netlify.toml');
+assert.match(config,/publish\s*=\s*"public"/);
+assert.match(config,/command\s*=\s*"npm run build"/);
+assert.match(config,/functions\s*=\s*"netlify\/functions"/);
+assert.match(config,/NODE_VERSION\s*=\s*"22"/);
+const pkg=JSON.parse(read('package.json')),lock=JSON.parse(read('package-lock.json'));
+assert.deepEqual(pkg.dependencies,lock.packages[''].dependencies);
+const auth=read('netlify/lib/auth.mjs');
+for(const flag of ['HttpOnly','Secure','SameSite=Strict','no-store'])assert(auth.includes(flag),'Missing session safeguard: '+flag);
+for(const flag of ['X-Content-Type-Options','Referrer-Policy'])assert(config.includes(flag),'Missing header: '+flag);
+console.log('PASS: publish path, functions, Node version, lockfile, session cookie flags and response headers');
+console.log('NOTE: hosted authentication, storage, domain and real-device behaviour require manual staging checks.');

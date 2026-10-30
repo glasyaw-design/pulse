@@ -1,0 +1,417 @@
+{
+  "reviewedAt": "2026-10-30",
+  "releaseCleared": false,
+  "assets": [
+    {
+      "title": "Afterglow Ascent",
+      "kind": "music",
+      "path": "public/audio/bittersweet-ascension-v39.mp3",
+      "sha256": "8036573ee9918b68e09bf03d0f1027a0e5350b32f74027b81e64c12a39db06ec",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Afterglow Ascent",
+      "kind": "keysound-derived",
+      "path": "public/audio/bittersweet-ascension-keys-v39.ogg",
+      "sha256": "5436a2adf0fbf131cb2252b61fe72745a54fa30d856fa8cf1774e05bba43d79e",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Ivory Daydream",
+      "kind": "music",
+      "path": "public/audio/dreamy-piano-bounce-v36.mp3",
+      "sha256": "e590cc2b882d266155cc80282e402b3a1a99847d5d474e9acf8c720df8c67391",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Ivory Daydream",
+      "kind": "keysound-derived",
+      "path": "public/audio/dreamy-piano-bounce-keys-v36.ogg",
+      "sha256": "59faef42805dc3504193e5a780161fc153dab3c834c4f6ffce115553e09cd059",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Bassline Riot",
+      "kind": "music",
+      "path": "public/audio/bouncy-bass-party-v55.mp3",
+      "sha256": "ac18a6c1cae98212c5e0c8d35903e24aa5d34998041d9b596f51c5f502ac12db",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Bassline Riot",
+      "kind": "keysound-derived",
+      "path": "public/audio/bouncy-bass-party-keys-v55.ogg",
+      "sha256": "cc4d7e1cbfec2721f52f224b5265849491438a7c9325f1dd0b6920ac7828ff3f",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Photon Rush",
+      "kind": "music",
+      "path": "public/audio/luminous-forward-motion-v30.mp3",
+      "sha256": "afbf869949a4dd5fd9549719a1c2ce3db5417390d18be2b543d0e0ef226837ae",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Photon Rush",
+      "kind": "keysound-derived",
+      "path": "public/audio/luminous-forward-motion-keys-v30.ogg",
+      "sha256": "94031c42786458ed396c5022e6a5f4bff3ab8a90e9f953baf5e0c2a5dee06dc4",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "한 칸 더 가까이",
+      "kind": "music",
+      "path": "public/audio/one-step-closer-v61.mp3",
+      "sha256": "efe0341d93034f5aa987944edf454201e8812490658cd94c910703f78f9bf537",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "한 칸 더 가까이",
+      "kind": "keysound-derived",
+      "path": "public/audio/one-step-closer-keys-v61.ogg",
+      "sha256": "c615c8ffc2620f893aa90c6244a013c27954f6f271358c3233361c94c739a127",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "내일의 우리에게",
+      "kind": "music",
+      "path": "public/audio/to-our-tomorrow-v30.mp3",
+      "sha256": "a231bdd4c8f574d627e252771b54325a71c2cf104e80dc8c9430d1a991bec2a5",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "내일의 우리에게",
+      "kind": "keysound-derived",
+      "path": "public/audio/to-our-tomorrow-keys-v30.ogg",
+      "sha256": "21d7e374a3fb8efda8115fd6918809545e7d159a195db0255ac37aa4359987bb",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Neon Eclipse",
+      "kind": "music",
+      "path": "public/audio/futuristic-minor-key-v30.mp3",
+      "sha256": "eba76d26d311f3f1f27e0f6c4431628b884bcf274f3cbc9a622f9fa9ced5a1cb",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Neon Eclipse",
+      "kind": "keysound-derived",
+      "path": "public/audio/futuristic-minor-key-keys-v30.ogg",
+      "sha256": "7cfe83085189c7138afdb35bd8e6224e323923aa660abba929af82de8c43ad53",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Open Blue Sky",
+      "kind": "music",
+      "path": "public/audio/open-blue-sky-v56.mp3",
+      "sha256": "9b8f09a35c20ec41c6d20b36120fb8d3732cae8a51927f02c87ef17828520d49",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Open Blue Sky",
+      "kind": "keysound-derived",
+      "path": "public/audio/open-blue-sky-keys-v56.ogg",
+      "sha256": "c559a1a03ac84464e8f3af84142149eba03cd311d438f2bef5df111f5224b41e",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "A Little Further",
+      "kind": "music",
+      "path": "public/audio/a-little-further-v56.mp3",
+      "sha256": "a33979726e816ee0e8a1c28e5816e3d9d1a156aab38d0c26a2850989d2b19e0f",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "A Little Further",
+      "kind": "keysound-derived",
+      "path": "public/audio/a-little-further-keys-v56.ogg",
+      "sha256": "3e2c6e304bc866d05e2c0fb8651abe2203ae27ed07e7ddd1bad934da2212a5eb",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "그리움의 고동",
+      "kind": "music",
+      "path": "public/audio/pulse-of-longing-v46.mp3",
+      "sha256": "cc6724120bade1bac8b40b5f68571d3767e26f88adfff99059363027230eb310",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "그리움의 고동",
+      "kind": "keysound-derived",
+      "path": "public/audio/pulse-of-longing-keys-v46.ogg",
+      "sha256": "7b86c8c7156531eacf9e2b5ef80cd1c38f7967adba6f79f510aaf0e798dc04ba",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Exciting Adventure",
+      "kind": "music",
+      "path": "public/audio/exciting-adventure-v46.mp3",
+      "sha256": "d9b5c979ef7c72fd897395257dbb8d62752db424367e6768ff8c97b33917c788",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Exciting Adventure",
+      "kind": "keysound-derived",
+      "path": "public/audio/exciting-adventure-keys-v46.ogg",
+      "sha256": "a4c3ef56509a6fc7312da8f7e557be61a1840626c188e2c831d448ccbfbcd4d2",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Mellow light",
+      "kind": "music",
+      "path": "public/audio/mellow-light-v46.mp3",
+      "sha256": "b7201310c7864cef6b8b34786ac4e82b08ee5b0758b1d5d84d7e073d092b7e3f",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Mellow light",
+      "kind": "keysound-derived",
+      "path": "public/audio/mellow-light-keys-v46.ogg",
+      "sha256": "927d3ac6d7d66aa19d4351bd5e4d37d502df37e4cfadee20b711b2ce4d9ea818",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Summer Drive",
+      "kind": "music",
+      "path": "public/audio/summer-drive-v46.mp3",
+      "sha256": "4a96c6a4a69dba331ca68653fdca2514e7c47733efe65c07c73e729759ea0e1f",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Summer Drive",
+      "kind": "keysound-derived",
+      "path": "public/audio/summer-drive-keys-v46.ogg",
+      "sha256": "ca4e37c9fe16510fc45e42cdb60cd4a975e1e891fb99f4c98de5f2f58b3f35e3",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Wind Across Sunlit Hills",
+      "kind": "music",
+      "path": "public/audio/wind-across-sunlit-hills-v46.mp3",
+      "sha256": "d5ee53304a7a03c3ad66901342a1177e1915a27e3e68418ab6b24b26caf0257e",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Wind Across Sunlit Hills",
+      "kind": "keysound-derived",
+      "path": "public/audio/wind-across-sunlit-hills-keys-v46.ogg",
+      "sha256": "3c102a594a661133fea1ded8c8054750cd921f5432be17b0726e3cf79d5f36a1",
+      "status": "operator-attested-paid-noncommercial",
+      "evidence": "",
+      "notes": "사용자: Suno 유료 플랜, 수익화하지 않음. 곡별 이용권 적용 시점/입력 소스는 직접 확인하지 않음."
+    },
+    {
+      "title": "Maplestory-Bold-v30.woff",
+      "kind": "font",
+      "path": "public/fonts/Maplestory-Bold-v30.woff",
+      "sha256": "78774968d56870ba2a347216e5eba6912dadfd97164d8d08e1c2203092137b14",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "WOFF 변환본은 공식 원형 유지 조건과 별도 확인 필요"
+    },
+    {
+      "title": "Maplestory-Light-v30.woff",
+      "kind": "font",
+      "path": "public/fonts/Maplestory-Light-v30.woff",
+      "sha256": "c5d0bbee067591d9917389e7b9727628976f54c8d2dc4bda340ead7668da73a7",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "WOFF 변환본은 공식 원형 유지 조건과 별도 확인 필요"
+    },
+    {
+      "title": "world.webp",
+      "kind": "image",
+      "path": "public/assets/world.webp",
+      "sha256": "50386dafad401c2331e3d0f3312376eac66ca43fc274201e783415a8c9909576",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "open-blue-sky-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/open-blue-sky-v30.svg",
+      "sha256": "3042ddbfc81ad3b23375a315ab96ac5c479d309a4c60a432d95aba66bf6b3a4d",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "summer-drive-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/summer-drive-v30.svg",
+      "sha256": "d1f49946723c7974472122ecb630bef3fb1d39dc0a1e89f7d38f43e46d0fdb31",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "one-step-closer-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/one-step-closer-v30.svg",
+      "sha256": "9b20a2bd74b22c97d42aff0308026d6ed94f627964bd8299c223dc814c831545",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "bouncy-bass-party-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/bouncy-bass-party-v30.svg",
+      "sha256": "1373e73f698caa7a109cae4f25d8244eec42b85e4cdb06aa0cb3a16138d52a06",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "mellow-light-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/mellow-light-v30.svg",
+      "sha256": "10d13552bfae86a5b9f8adc0f0e3f23569c05f716d7afac7f1552c6f23e14c1e",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "bittersweet-ascension-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/bittersweet-ascension-v30.svg",
+      "sha256": "1634bd33ff81c3b0ca2540b9261c85333c352142f25c6cc2db884ee13a78837b",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "dreamy-piano-bounce-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/dreamy-piano-bounce-v30.svg",
+      "sha256": "ecdae7d26f338a19c0594eb0fa929df524d4f6859d5b5dbd59bd106a1bbbe420",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "to-our-tomorrow-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/to-our-tomorrow-v30.svg",
+      "sha256": "92d48f097adbf9458b5054aee6f3b84e54f1f46ac0ee44b71373e53be4fb2a17",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "luminous-forward-motion-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/luminous-forward-motion-v30.svg",
+      "sha256": "1a90012f326aa29920c14df71ab3f7f1dc0d9dad0118898f552ae8ea3a97bb38",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "a-little-further-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/a-little-further-v30.svg",
+      "sha256": "739a8f37943fdcb093e25c7399c6c29dc339fb9a920099343ba3e440f2105951",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "wind-across-sunlit-hills-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/wind-across-sunlit-hills-v30.svg",
+      "sha256": "3be7d11089685d179a6ccb7136eee772c3c1b591e375c5a27a31f84b0034fd0d",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "futuristic-minor-key-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/futuristic-minor-key-v30.svg",
+      "sha256": "5321b46b0182fde9efe2f48413fc6d3691d0cdb806fd452f13b7aac9f03b761a",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "pulse-of-longing-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/pulse-of-longing-v30.svg",
+      "sha256": "b731eccc00c76548f926f4c3899b31b33bdad4ba54ac8c84f1d27e96f9176681",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    },
+    {
+      "title": "exciting-adventure-v30.svg",
+      "kind": "image",
+      "path": "public/assets/jackets/exciting-adventure-v30.svg",
+      "sha256": "a1f76b70cf1ca6d41658ec400603534bb9770bb6c8a883d6e84096de0a8ea525",
+      "status": "evidence-required",
+      "evidence": "",
+      "notes": "생성/제작 이력과 사용 조건 증빙 확인"
+    }
+  ],
+  "operatorStatement": {
+    "sunoPlan": "paid",
+    "monetization": false,
+    "date": "2026-10-30",
+    "verification": "사용자 진술; 계정 및 곡별 적용 시점 직접 확인 안 됨"
+  }
+}

@@ -3,20 +3,32 @@
  const $=s=>document.querySelector(s);let mode='pending',user=null,form='login',busy=false,sequence=0;
  const dialog=$('#accountDialog');
  async function api(action,body){
-  const r=await fetch('/api/auth/'+action,{method:body?'POST':'GET',credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(10000)});
+  const r=await fetch('/api/auth/'+action,{method:body?'POST':'GET',credentials:'same-origin',headers:body?{'Content-Type':'application/json'}:{},body:body?JSON.stringify(body):undefined,signal:AbortSignal.timeout(action==='delete'?25000:10000)});
   let data;try{data=await r.json()}catch{throw Error('계정 서버를 사용할 수 없습니다. 게스트로 시작해 주세요.')}
   if(!r.ok)throw Error(data.error||'계정 요청에 실패했습니다.');return data;
  }
  function notify(){window.dispatchEvent(new CustomEvent('pulse-account-change',{detail:{mode,user}}));$('#accountMenu').textContent=mode==='member'?'계정 · '+user.username:'로그인 / 회원가입'}
  function enter(next,data=null){mode=next;user=data;$('#accountPassword').value='';dialog.close();notify()}
- function show(){if(busy)return;sequence++;$('#accountPassword').value='';$('#accountStatus').textContent='';$('#accountLogout').hidden=mode!=='member';$('#accountGuest').hidden=mode==='member';$('#accountContinue').hidden=mode!=='member';if(!dialog.open)dialog.showModal()}
- function tab(next){form=next;$('#accountSubmit').textContent=next==='register'?'회원가입하고 시작':'로그인';$('#accountPassword').autocomplete=next==='register'?'new-password':'current-password';document.querySelectorAll('[data-account-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.accountTab===next)));$('#accountStatus').textContent=next==='register'?'가입 후 게임에서 랭킹 닉네임을 설정합니다.':''}
+ function show(){if(busy)return;$('#deleteAccountPanel').hidden=mode!=='member';$('#deleteAccountPassword').value='';$('#deleteAccountConfirm').checked=false;sequence++;$('#accountPassword').value='';$('#accountStatus').textContent='';$('#accountLogout').hidden=mode!=='member';$('#accountGuest').hidden=mode==='member';$('#accountContinue').hidden=mode!=='member';if(!dialog.open)dialog.showModal()}
+ function tab(next){form=next;$('#privacyConsentRow').hidden=next!=='register';$('#privacyConsent').required=next==='register';$('#privacyConsent').checked=false;$('#accountSubmit').textContent=next==='register'?'회원가입하고 시작':'로그인';$('#accountPassword').autocomplete=next==='register'?'new-password':'current-password';document.querySelectorAll('[data-account-tab]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.accountTab===next)));$('#accountStatus').textContent=next==='register'?'가입 후 게임에서 랭킹 닉네임을 설정합니다.':''}
  function lock(on){busy=on;$('#accountSubmit').disabled=on;$('#accountGuest').disabled=on;$('#accountLogout').disabled=on;document.querySelectorAll('[data-account-tab]').forEach(b=>b.disabled=on)}
  $('#accountForm').onsubmit=async e=>{
   e.preventDefault();if(busy)return;sequence++;lock(true);$('#accountStatus').textContent='처리 중…';
-  try{const data=await api(form,{username:$('#accountUsername').value,password:$('#accountPassword').value});enter('member',data)}
+  try{const data=await api(form,{username:$('#accountUsername').value,password:$('#accountPassword').value,privacyConsent:$('#privacyConsent').checked,privacyVersion:'2026-10-30'});enter('member',data)}
   catch(error){$('#accountStatus').textContent=error.message}
   finally{lock(false)}
+ };
+ $('#deleteAccountButton').onclick=async()=>{
+  if(busy||mode!=='member')return;
+  if(!$('#deleteAccountConfirm').checked){$('#accountStatus').textContent='삭제 동의를 체크해 주세요.';return}
+  const scope='member-'+user.playerId;lock(true);$('#deleteAccountButton').disabled=true;
+  try{
+   const result=await api('delete',{password:$('#deleteAccountPassword').value,confirm:'DELETE'});
+   try{for(let i=localStorage.length-1;i>=0;i--){const key=localStorage.key(i);if(key?.startsWith(scope+'-'))localStorage.removeItem(key)}}catch{}
+   $('#deleteAccountPassword').value='';$('#deleteAccountPanel').hidden=true;mode='guest';user=null;notify();$('#accountLogout').hidden=true;$('#accountContinue').hidden=false;$('#accountGuest').hidden=false;
+   $('#accountStatus').textContent=result.deletionPending?'탈퇴를 접수했습니다. 계정은 차단되었으며 남은 데이터는 순차 삭제됩니다.':'계정과 서버 기록을 삭제했습니다.';
+  }catch(e){$('#accountStatus').textContent=e.message}
+  finally{lock(false);$('#deleteAccountButton').disabled=false}
  };
  $('#accountGuest').onclick=()=>{if(busy)return;sequence++;enter('guest')};
  $('#accountContinue').onclick=()=>dialog.close();
