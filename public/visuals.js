@@ -15,7 +15,7 @@ function circleNoteRadius(width){return Math.max(2,width*.45)}
 const noteHeadCache=new Map();
 function paintNoteHead(c,x,y,w,color,skin){
  if(typeof HTMLCanvasElement==='undefined'){paintNoteHeadRaw(c,x,y,w,color,skin);return}
- const scale=Math.min(devicePixelRatio||1,2),key=[w,color,skin,scale].join('|');let sprite=noteHeadCache.get(key);
+ const scale=Math.min(devicePixelRatio||1,typeof lowSpecMode!=='undefined'&&lowSpecMode?1:2),key=[w,color,skin,scale].join('|');let sprite=noteHeadCache.get(key);
  if(!sprite){
   const extent=skin==='CIRCLE'?circleNoteRadius(w)+3:skin==='DIAMOND'?w*.25+3:8;
   const width=w+8,height=Math.ceil(extent*2+4),canvas=document.createElement('canvas');canvas.width=Math.ceil(width*scale);canvas.height=Math.ceil(height*scale);
@@ -112,3 +112,4 @@ function paintLongNote(c,x,top,bottom,width,color,skin,now,active,strength='NORM
  else{paintNoteHead(c,x,top,width,color,'BAR')}
  c.restore();
 }
+
