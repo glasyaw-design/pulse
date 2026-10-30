@@ -1,0 +1,48 @@
+[
+  {
+    "id": "a-little-further",
+    "duration": 140.68027210884352,
+    "peak": 0.69183349609375,
+    "clippedSampleRatio": 0.0,
+    "boundaryStep": 0.010894775390625,
+    "nearbyDerivative99": 0.085845947265625
+  },
+  {
+    "id": "pulse-of-longing",
+    "duration": 121.95827664399093,
+    "peak": 0.738128662109375,
+    "clippedSampleRatio": 0.0,
+    "boundaryStep": 0.007843017578125,
+    "nearbyDerivative99": 0.09875579833984371
+  },
+  {
+    "id": "exciting-adventure",
+    "duration": 88.0,
+    "peak": 0.553802490234375,
+    "clippedSampleRatio": 0.0
+  },
+  {
+    "id": "mellow-light",
+    "duration": 131.3586394557823,
+    "peak": 0.72674560546875,
+    "clippedSampleRatio": 0.0,
+    "boundaryStep": 0.014373779296875,
+    "nearbyDerivative99": 0.050721130371093714
+  },
+  {
+    "id": "summer-drive",
+    "duration": 125.42285714285714,
+    "peak": 0.6453857421875,
+    "clippedSampleRatio": 0.0,
+    "boundaryStep": 0.057159423828125,
+    "nearbyDerivative99": 0.10977264404296871
+  },
+  {
+    "id": "wind-across-sunlit-hills",
+    "duration": 130.99274376417233,
+    "peak": 0.62005615234375,
+    "clippedSampleRatio": 0.0,
+    "boundaryStep": 0.04150390625,
+    "nearbyDerivative99": 0.08392425537109371
+  }
+]

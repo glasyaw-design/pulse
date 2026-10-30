@@ -1,0 +1,1202 @@
+[
+  {
+    "song": "A Little Further",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "A Little Further",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 6,
+    "burdenBefore": 5.44,
+    "burdenAfter": 4.72,
+    "skewWindowsBefore": 11,
+    "skewWindowsAfter": 9
+  },
+  {
+    "song": "A Little Further",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 4.24,
+    "burdenAfter": 4.24,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "A Little Further",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 14.84,
+    "burdenAfter": 14.84,
+    "skewWindowsBefore": 9,
+    "skewWindowsAfter": 9
+  },
+  {
+    "song": "A Little Further",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "A Little Further",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 2.96,
+    "burdenAfter": 2.96,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "A Little Further",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 3.32,
+    "burdenAfter": 3.32,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "A Little Further",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 7.76,
+    "burdenAfter": 7.76,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "A Little Further",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "A Little Further",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "A Little Further",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 5.68,
+    "burdenAfter": 5.68,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "A Little Further",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 4.04,
+    "burdenAfter": 4.04,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "A Little Further",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "A Little Further",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 1.28,
+    "burdenAfter": 1.28,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "A Little Further",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 25.16,
+    "burdenAfter": 25.16,
+    "skewWindowsBefore": 9,
+    "skewWindowsAfter": 9
+  },
+  {
+    "song": "A Little Further",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 16.68,
+    "burdenAfter": 16.68,
+    "skewWindowsBefore": 10,
+    "skewWindowsAfter": 10
+  },
+  {
+    "song": "A Little Further",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "A Little Further",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "A Little Further",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 6.04,
+    "burdenAfter": 6.04,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "A Little Further",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 6.0,
+    "burdenAfter": 6.0,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 10,
+    "burdenBefore": 8.84,
+    "burdenAfter": 7.84,
+    "skewWindowsBefore": 9,
+    "skewWindowsAfter": 8
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 10,
+    "burdenBefore": 11.88,
+    "burdenAfter": 10.88,
+    "skewWindowsBefore": 8,
+    "skewWindowsAfter": 7
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 23,
+    "burdenBefore": 6.0,
+    "burdenAfter": 3.08,
+    "skewWindowsBefore": 6,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 3.32,
+    "burdenAfter": 3.32,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 1.56,
+    "burdenAfter": 1.56,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 2.32,
+    "burdenAfter": 2.32,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 3.12,
+    "burdenAfter": 3.12,
+    "skewWindowsBefore": 5,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 2.16,
+    "burdenAfter": 2.16,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 1.28,
+    "burdenAfter": 1.28,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 7.76,
+    "burdenAfter": 7.76,
+    "skewWindowsBefore": 6,
+    "skewWindowsAfter": 6
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 20,
+    "burdenBefore": 4.32,
+    "burdenAfter": 2.96,
+    "skewWindowsBefore": 5,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 4.72,
+    "burdenAfter": 4.72,
+    "skewWindowsBefore": 5,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 3.16,
+    "burdenAfter": 3.16,
+    "skewWindowsBefore": 5,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 2.2,
+    "burdenAfter": 2.2,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "그리움의 고동",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 8,
+    "burdenBefore": 7.88,
+    "burdenAfter": 7.52,
+    "skewWindowsBefore": 7,
+    "skewWindowsAfter": 6
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 17,
+    "burdenBefore": 5.28,
+    "burdenAfter": 4.32,
+    "skewWindowsBefore": 7,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.16,
+    "burdenAfter": 0.16,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Exciting Adventure",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 1.72,
+    "burdenAfter": 1.72,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Mellow light",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 1.08,
+    "burdenAfter": 1.08,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "Mellow light",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 1.36,
+    "burdenAfter": 1.36,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "Mellow light",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Mellow light",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0.64,
+    "burdenAfter": 0.64,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Mellow light",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Mellow light",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 1.0,
+    "burdenAfter": 1.0,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Mellow light",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 6,
+    "burdenBefore": 4.68,
+    "burdenAfter": 1.76,
+    "skewWindowsBefore": 6,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "Mellow light",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 3.64,
+    "burdenAfter": 3.64,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Mellow light",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 4.92,
+    "burdenAfter": 4.92,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Mellow light",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Mellow light",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0.36,
+    "burdenAfter": 0.36,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Mellow light",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 1.0,
+    "burdenAfter": 1.0,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 5.84,
+    "burdenAfter": 5.84,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 2.96,
+    "burdenAfter": 2.96,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0.68,
+    "burdenAfter": 0.68,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Summer Drive",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 5,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 5,
+    "difficulty": 1,
+    "movedNotes": 8,
+    "burdenBefore": 7.44,
+    "burdenAfter": 7.08,
+    "skewWindowsBefore": 9,
+    "skewWindowsAfter": 8
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 5,
+    "difficulty": 2,
+    "movedNotes": 11,
+    "burdenBefore": 6.72,
+    "burdenAfter": 6.36,
+    "skewWindowsBefore": 6,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 5,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 5.76,
+    "burdenAfter": 5.76,
+    "skewWindowsBefore": 5,
+    "skewWindowsAfter": 5
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 4,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 4,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 7.68,
+    "burdenAfter": 7.68,
+    "skewWindowsBefore": 8,
+    "skewWindowsAfter": 8
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 4,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 4.0,
+    "burdenAfter": 4.0,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 4,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 3.88,
+    "burdenAfter": 3.88,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 6,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 6,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 5.0,
+    "burdenAfter": 5.0,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 6,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 1.44,
+    "burdenAfter": 1.44,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 6,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 3.88,
+    "burdenAfter": 3.88,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 7,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 7,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 5.44,
+    "burdenAfter": 5.44,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 7,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 6.0,
+    "burdenAfter": 6.0,
+    "skewWindowsBefore": 4,
+    "skewWindowsAfter": 4
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 7,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 5.0,
+    "burdenAfter": 5.0,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 8,
+    "difficulty": 0,
+    "movedNotes": 0,
+    "burdenBefore": 0,
+    "burdenAfter": 0,
+    "skewWindowsBefore": 0,
+    "skewWindowsAfter": 0
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 8,
+    "difficulty": 1,
+    "movedNotes": 0,
+    "burdenBefore": 4.64,
+    "burdenAfter": 4.64,
+    "skewWindowsBefore": 2,
+    "skewWindowsAfter": 2
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 8,
+    "difficulty": 2,
+    "movedNotes": 0,
+    "burdenBefore": 1.44,
+    "burdenAfter": 1.44,
+    "skewWindowsBefore": 1,
+    "skewWindowsAfter": 1
+  },
+  {
+    "song": "Wind Across Sunlit Hills",
+    "keys": 8,
+    "difficulty": 3,
+    "movedNotes": 0,
+    "burdenBefore": 3.92,
+    "burdenAfter": 3.92,
+    "skewWindowsBefore": 3,
+    "skewWindowsAfter": 3
+  }
+]

@@ -32,5 +32,5 @@ for(const track of tracks)for(const keys of [4,5,6,7,8]){
   const spec=RANK_CATALOG[id];assert(spec,'Missing ranking chart');assert.equal(spec.total,total);assert.equal(spec.duration,track.duration);assert.equal(spec.keyCount,keys);checked++;
  }
 }
-assert.equal(checked,160);assert.equal(Object.keys(RANK_CATALOG).length,160);
-console.log('PASS: 160 charts, unique IDs, lane/hold timing, splice boundaries, final density bounds and ranking totals.');
+assert.equal(checked,tracks.length*20);assert.equal(Object.keys(RANK_CATALOG).length,tracks.length*20);
+console.log(`PASS: ${checked} charts, unique IDs, lane/hold timing, splice boundaries, final density bounds and ranking totals.`);

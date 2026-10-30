@@ -23,5 +23,5 @@ if(!missing.has('public/tracks.js')){
  }
 }
 if(missing.size){console.error('\nPULSE SHIFT: required files are missing:\n'+[...missing].map(x=>'  - '+x).join('\n')+'\nUse the FULL project folder containing package.json and netlify.toml. Publish directory: public. Do not deploy a patch ZIP on its own.\n');process.exit(1)}
-console.log('PULSE SHIFT v31: scripts, styles, fonts, 8 jackets, 16 audio files and 160 charts are present.');
+console.log('PULSE SHIFT: scripts, styles, fonts, jackets, audio files and all key-mode charts are present.');
 await import('./check-chart-integrity.mjs');

@@ -13,11 +13,11 @@ try{const chartId=Object.keys(RANK_CATALOG)[0],spec=RANK_CATALOG[chartId],g={cha
  const worse=(await call('runs',g,a.token)).data;now+=(spec.duration+3)*1000;await call('submit',{runId:worse.runId,judges:[spec.total-5,5,0,0,0],maxCombo:spec.total},a.token);assert.equal((await call('board?'+q,null,a.token)).data.mine.score,1000000);
  await call('profile',{nickname:'이름변경'},a.token);assert.equal((await call('board?'+q,null,a.token)).data.mine.nickname,'이름변경');assert.equal((await call('board?'+new URLSearchParams({...g,judgeMode:'BASIC'}))).data.total,0);assert.equal((await call('board?'+new URLSearchParams({...g,chartId:Object.keys(RANK_CATALOG)[4]}))).data.total,0);
  const progress=(await call('progress',null,a.token)).data;assert.equal(progress.records.length,1);assert.equal(progress.records[0].badge,3);assert.equal(progress.records[0].score,1000000);assert.equal((await call('progress')).status,401);const fresh=(await call('profile',{nickname:'空白ユーザー'})).data;assert.equal((await call('progress',null,fresh.token)).data.records.length,0);
- const seven=Object.entries(RANK_CATALOG).filter(([,s])=>s.keyCount===7);assert.equal(seven.length,32);
+ const seven=Object.entries(RANK_CATALOG).filter(([,s])=>s.keyCount===7);assert.equal(seven.length,Object.keys(RANK_CATALOG).length/5);
  const [sevenId,sevenSpec]=seven[0],sevenG={...g,chartId:sevenId},sevenRun=(await call('runs',sevenG,a.token)).data;now+=(sevenSpec.duration+3)*1000;
  assert.equal((await call('submit',{runId:sevenRun.runId,judges:[sevenSpec.total,0,0,0,0],maxCombo:sevenSpec.total},a.token)).status,200);
  assert.equal((await call('board?'+new URLSearchParams(sevenG),null,a.token)).data.mine.score,1000000);assert.equal((await call('board?'+q)).data.total,2);
- console.log('PASS: 32 seven-key charts and independent 7KEY leaderboard submission');
+ console.log('PASS: all seven-key charts and independent 7KEY leaderboard submission');
  console.log('PASS: account progress isolated; highest badge and score preserved');
  console.log('PASS: Netlify blob ranking contract, CAS duplicate submissions, shared ranks, server scoring, song/mode isolation, best preservation and nickname updates.');
 }finally{Date.now=actualNow}

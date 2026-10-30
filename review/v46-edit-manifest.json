@@ -1,0 +1,197 @@
+[
+  {
+    "id": "a-little-further",
+    "name": "A Little Further",
+    "source": "upload/A Little Further.mp3",
+    "bpm": 93.313,
+    "duration": 140.680272,
+    "sourceDuration": 202.4,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 46.394557823129254,
+        "gameStart": 0,
+        "gameEnd": 46.394557823129254
+      },
+      {
+        "sourceStart": 108.11428571428571,
+        "sourceEnd": 202.4,
+        "gameStart": 46.394557823129254,
+        "gameEnd": 140.68027210884352
+      }
+    ],
+    "joins": [
+      {
+        "gameTime": 46.394557823129254,
+        "sourceOut": 46.394557823129254,
+        "sourceIn": 108.11428571428571,
+        "preBoundaryCrossfade": 0.03501133786848073,
+        "chromaSimilarity": 0.9827,
+        "barsRemoved": 24
+      }
+    ],
+    "audio": "audio/a-little-further-v46.mp3",
+    "keysAudio": "audio/a-little-further-keys-v46.ogg",
+    "method": "Original beginning and ending; phrase-aligned removal with 35ms pre-boundary crossfade."
+  },
+  {
+    "id": "pulse-of-longing",
+    "name": "그리움의 고동",
+    "source": "upload/그리움의 고동.mp3",
+    "bpm": 142.032,
+    "duration": 121.958277,
+    "sourceDuration": 182.8,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 47.47210884353741,
+        "gameStart": 0,
+        "gameEnd": 47.47210884353741
+      },
+      {
+        "sourceStart": 108.31383219954648,
+        "sourceEnd": 182.8,
+        "gameStart": 47.47210884353741,
+        "gameEnd": 121.95827664399093
+      }
+    ],
+    "joins": [
+      {
+        "gameTime": 47.47210884353741,
+        "sourceOut": 47.47210884353741,
+        "sourceIn": 108.31383219954648,
+        "preBoundaryCrossfade": 0.03501133786848073,
+        "chromaSimilarity": 0.9921,
+        "barsRemoved": 36
+      }
+    ],
+    "audio": "audio/pulse-of-longing-v46.mp3",
+    "keysAudio": "audio/pulse-of-longing-keys-v46.ogg",
+    "method": "Original beginning and ending; phrase-aligned removal with 35ms pre-boundary crossfade."
+  },
+  {
+    "id": "exciting-adventure",
+    "name": "Exciting Adventure",
+    "source": "upload/Exciting Adventure.mp3",
+    "bpm": 137.824,
+    "duration": 88.0,
+    "sourceDuration": 88.0,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 88.0,
+        "gameStart": 0,
+        "gameEnd": 88.0
+      }
+    ],
+    "joins": [],
+    "audio": "audio/exciting-adventure-v46.mp3",
+    "keysAudio": "audio/exciting-adventure-keys-v46.ogg",
+    "method": "Entire original, no loop, stretch or padding."
+  },
+  {
+    "id": "mellow-light",
+    "name": "Mellow light",
+    "source": "upload/Mellow light.mp3",
+    "bpm": 157.354,
+    "duration": 131.358639,
+    "sourceDuration": 192.36,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 50.64489795918367,
+        "gameStart": 0,
+        "gameEnd": 50.64489795918367
+      },
+      {
+        "sourceStart": 111.64625850340136,
+        "sourceEnd": 192.36,
+        "gameStart": 50.64489795918367,
+        "gameEnd": 131.3586394557823
+      }
+    ],
+    "joins": [
+      {
+        "gameTime": 50.64489795918367,
+        "sourceOut": 50.64489795918367,
+        "sourceIn": 111.64625850340136,
+        "preBoundaryCrossfade": 0.03501133786848073,
+        "chromaSimilarity": 0.9668,
+        "barsRemoved": 40
+      }
+    ],
+    "audio": "audio/mellow-light-v46.mp3",
+    "keysAudio": "audio/mellow-light-keys-v46.ogg",
+    "method": "Original beginning and ending; phrase-aligned removal with 35ms pre-boundary crossfade."
+  },
+  {
+    "id": "summer-drive",
+    "name": "Summer Drive",
+    "source": "upload/Summer Drive.mp3",
+    "bpm": 127.134,
+    "duration": 125.422857,
+    "sourceDuration": 170.68,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 62.43809523809524,
+        "gameStart": 0,
+        "gameEnd": 62.43809523809524
+      },
+      {
+        "sourceStart": 107.6952380952381,
+        "sourceEnd": 170.68,
+        "gameStart": 62.43809523809524,
+        "gameEnd": 125.42285714285714
+      }
+    ],
+    "joins": [
+      {
+        "gameTime": 62.43809523809524,
+        "sourceOut": 62.43809523809524,
+        "sourceIn": 107.6952380952381,
+        "preBoundaryCrossfade": 0.03501133786848073,
+        "chromaSimilarity": 0.9469,
+        "barsRemoved": 24
+      }
+    ],
+    "audio": "audio/summer-drive-v46.mp3",
+    "keysAudio": "audio/summer-drive-keys-v46.ogg",
+    "method": "Original beginning and ending; phrase-aligned removal with 35ms pre-boundary crossfade."
+  },
+  {
+    "id": "wind-across-sunlit-hills",
+    "name": "Wind Across Sunlit Hills",
+    "source": "upload/Wind Across Sunlit Hills.mp3",
+    "bpm": 149.991,
+    "duration": 130.992744,
+    "sourceDuration": 163.0,
+    "segments": [
+      {
+        "sourceStart": 0,
+        "sourceEnd": 78.7609977324263,
+        "gameStart": 0,
+        "gameEnd": 78.7609977324263
+      },
+      {
+        "sourceStart": 110.76825396825397,
+        "sourceEnd": 163.0,
+        "gameStart": 78.7609977324263,
+        "gameEnd": 130.99274376417233
+      }
+    ],
+    "joins": [
+      {
+        "gameTime": 78.7609977324263,
+        "sourceOut": 78.7609977324263,
+        "sourceIn": 110.76825396825397,
+        "preBoundaryCrossfade": 0.03501133786848073,
+        "chromaSimilarity": 0.9895,
+        "barsRemoved": 20
+      }
+    ],
+    "audio": "audio/wind-across-sunlit-hills-v46.mp3",
+    "keysAudio": "audio/wind-across-sunlit-hills-keys-v46.ogg",
+    "method": "Original beginning and ending; phrase-aligned removal with 35ms pre-boundary crossfade."
+  }
+]
