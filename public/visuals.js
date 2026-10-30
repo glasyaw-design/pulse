@@ -27,8 +27,8 @@ function paintNoteHead(c,x,y,w,color,skin){
   c.fillStyle='#ffffff80';c.beginPath();c.moveTo(cx,y-ry*.74);c.lineTo(cx+rx*.72,y);c.lineTo(cx,y-ry*.12);c.lineTo(cx-rx*.72,y);c.closePath();c.fill();
   c.strokeStyle='#ffffff';c.lineWidth=1;c.beginPath();c.moveTo(cx-rx*.76,y);c.lineTo(cx+rx*.76,y);c.stroke();
  }else{
-  const g=c.createLinearGradient(0,y-3.5,0,y+3.5);g.addColorStop(0,'#ffffff');g.addColorStop(.25,color);g.addColorStop(.72,color);g.addColorStop(1,'#384858');
-  c.fillStyle=g;c.beginPath();c.roundRect(x,y-3.5,w,7,2);c.fill();c.fillStyle='#ffffffb0';c.fillRect(x+3,y-2.7,w-6,.7);
+  const g=c.createLinearGradient(0,y-6,0,y+6);g.addColorStop(0,'#ffffff');g.addColorStop(.25,color);g.addColorStop(.72,color);g.addColorStop(1,'#384858');
+  c.fillStyle=g;c.beginPath();c.roundRect(x,y-6,w,12,2);c.fill();c.fillStyle='#ffffffb0';c.fillRect(x+3,y-4.5,w-6,1.2);
  }
  c.restore();
 }
@@ -97,6 +97,6 @@ function paintLongNote(c,x,top,bottom,width,color,skin,now,active,strength='NORM
  if(skin==='CIRCLE'){
   const cx=x+width/2,r=circleNoteRadius(width)*.82;c.fillStyle='#091323';c.beginPath();c.arc(cx,top,r+1.4,0,Math.PI*2);c.fill();c.fillStyle=color;c.beginPath();c.arc(cx,top,r,0,Math.PI*2);c.fill();c.strokeStyle='#ffffff';c.lineWidth=1.5;c.stroke();c.strokeStyle='#263848';c.lineWidth=2;c.beginPath();c.moveTo(cx-r*.5,top);c.lineTo(cx+r*.5,top);c.stroke();
  }else if(skin==='DIAMOND'){paintNoteHead(c,x+width*.12,top,width*.76,color,skin)}
- else{c.fillStyle=color;c.fillRect(sx,top,stem,2)}
+ else{paintNoteHead(c,x,top,width,color,'BAR')}
  c.restore();
 }
