@@ -9,7 +9,7 @@ function drawMobileStage(now,t,track){
  ctx.lineWidth=1;for(let i=0;i<=4;i++){ctx.strokeStyle=i===0||i===4?'#a8dace':'#b3d3e640';ctx.beginPath();ctx.moveTo(edge(i/4,0),top);ctx.lineTo(edge(i/4,1.18),yy(1.18));ctx.stroke()}
  for(let i=pendingNoteStart();i<notes.length;i++){const n=notes[i];if(n.time>t+travel)break;if(n.status===2)continue;const head=n.status===1?1:1-(n.time-t)/travel;if(head<0||head>1.15)continue;const tail=Math.max(0,1-(n.time+n.dur-t)/travel),l=(n.lane+.06)/4,r=(n.lane+.94)/4;
  if(n.dur)quad(l,r,tail,head,n.lane===1||n.lane===2?(n.status===1?'#deb3efa0':'#b287d078'):(n.status===1?'#92f1cfa0':'#56bdb578'));
- const y=yy(head),x=edge(l,head),w=edge(r,head)-x,h=18+2*Math.min(1,head),y0=y-h/2;
+ const y=yy(head),x=edge(l,head),w=edge(r,head)-x,h=22+2*Math.min(1,head),y0=y-h/2;
  const gloss=ctx.createLinearGradient(0,y0,0,y0+h);
  const center=n.lane===1||n.lane===2;
  const palette=center?(n.dur?['#fff2fd','#e7bde9','#b683c7','#825898']:['#fcf2ff','#e3c6ff','#b296e0','#7863b5']):(n.dur?['#edfff5','#b0f0d4','#64b99e','#408b80']:['#efffff','#c0e9fa','#80bdd8','#4d88a9']);
