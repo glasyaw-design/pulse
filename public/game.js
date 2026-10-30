@@ -13,6 +13,8 @@ $('#showFPS').onchange=e=>{showFPS=e.target.checked;syncFrameSettings();savePref
 let backgroundBrightness=60,gearWidthPercent=100,judgePosition=82;
 const DEFAULT_KEYS=MODE_BINDINGS[5];
 let keyCount=5,bindingsByMode={},specialMode='';
+function mobilePortrait(){return specialMode==='MOBILE'&&window.innerHeight>window.innerWidth}
+function checkMobileOrientation(){const blocked=mobilePortrait()&&['playing','paused'].includes(state);$('#mobileRotateGate').hidden=!blocked;if(blocked&&state==='playing')togglePause()}
 function autoRequired(){return specialMode==='MOBILE'?!mobilePreviewOnly:mobilePreviewOnly}
 function modeLabel(){return specialMode==='MOBILE'?'MOBILE 4KEY':keyCount+'KEY'+(specialMode==='FX'?' FX':'')}
 let fiveAuxBindings=DEFAULT_FIVE_AUX.slice(),sevenAuxBindings=DEFAULT_FIVE_AUX.slice(),auxRemapping=null;
@@ -70,7 +72,7 @@ function applyKeyCharts(){tracks.forEach((t,i)=>{Object.assign(t,TRACK_LIBRARY[i
 function setKeyMode(count,kind=''){if(state!=='idle'||!KEY_MODES.includes(count))return;bindingsByMode[keyCount]=bindings.slice();specialMode=kind;if(kind==='MOBILE'&&arrangementMode==='RANDOM')arrangementMode='NORMAL';keyCount=count;if(kind==='FX'&&diff===0)diff=1;if(kind==='MOBILE'&&diff===3)diff=2;autoMode=autoRequired();$('#autoMode').checked=autoMode;bindings=(bindingsByMode[count]||MODE_BINDINGS[count]).slice();remapping=null;auxRemapping=null;applyKeyCharts();savePrefs();renderBindings();refresh()}
 function renderKeyMode(){
  document.body.dataset.chartFamily=specialMode||'NORMAL';document.querySelectorAll('[data-family]').forEach(b=>{const on=b.dataset.family===specialMode;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});document.querySelectorAll('[data-keymode]').forEach(b=>b.hidden=!!specialMode);document.querySelectorAll('[data-special-mode]').forEach(b=>b.hidden=b.dataset.specialMode!==specialMode);$('#familyDescription').textContent=(specialMode==='FX'?'4·6키 + 좌우 Shift 트리거 · 노말 / 하드 / 익스퍼트':specialMode==='MOBILE'?'가로 화면 · 4레인 터치 · 이지 / 노말 / 하드':'키보드 4·5·6·7·8키')+(autoRequired()?' · 현재 기기에서는 오토 감상만 가능합니다.':'');
-document.querySelectorAll('[data-special-mode]').forEach(b=>b.classList.toggle('active',b.dataset.specialMode===specialMode&&+b.dataset.count===keyCount));document.querySelectorAll('[data-diff]').forEach(b=>b.hidden=(specialMode==='FX'&&+b.dataset.diff===0)||(specialMode==='MOBILE'&&+b.dataset.diff===3));document.querySelectorAll('[data-keymode]').forEach(b=>{const on=!specialMode&&+b.dataset.keymode===keyCount;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});$('.top-mid strong').textContent=keyCount;$('.key-mode strong').textContent=keyCount;$('#keyConfigTitle').textContent=keyCount+' KEY CONFIGURATION';$('#playKeyCount').textContent=modeLabel();$('#gearKeyCount').textContent='PULSE / '+keyCount+'KEY';$('#game').setAttribute('aria-label',keyCount+'키 리듬게임 플레이 영역');$('#keyModeHint').textContent=keyCount===4?'4KEY · 압축된 리듬과 양손 교대':keyCount===5?'5KEY · 중앙 보조 '+(activeFiveAux().map(keyName).join(' / ')||'없음'):keyCount===6?'6KEY · 선율과 반주의 양손 분업':keyCount===7?'7KEY · 중앙 보조 '+(activeFiveAux().map(keyName).join(' / ')||'없음'):'8KEY · 넓은 음역과 다층 복합 연주'}
+document.querySelectorAll('[data-special-mode]').forEach(b=>b.classList.toggle('active',b.dataset.specialMode===specialMode&&+b.dataset.count===keyCount));document.querySelectorAll('[data-diff]').forEach(b=>b.hidden=(specialMode==='FX'&&+b.dataset.diff===0)||(specialMode==='MOBILE'&&+b.dataset.diff===3));document.querySelectorAll('[data-keymode]').forEach(b=>{const on=!specialMode&&+b.dataset.keymode===keyCount;b.classList.toggle('active',on);b.setAttribute('aria-pressed',String(on))});$('.top-mid strong').textContent=keyCount;$('.key-mode strong').textContent=keyCount;$('#keyConfigTitle').textContent=keyCount+' KEY CONFIGURATION';$('#playKeyCount').textContent=modeLabel();$('#gearKeyCount').textContent='PULSE / '+modeLabel();$('#game').setAttribute('aria-label',keyCount+'키 리듬게임 플레이 영역');$('#keyModeHint').textContent=keyCount===4?'4KEY · 압축된 리듬과 양손 교대':keyCount===5?'5KEY · 중앙 보조 '+(activeFiveAux().map(keyName).join(' / ')||'없음'):keyCount===6?'6KEY · 선율과 반주의 양손 분업':keyCount===7?'7KEY · 중앙 보조 '+(activeFiveAux().map(keyName).join(' / ')||'없음'):'8KEY · 넓은 음역과 다층 복합 연주'}
 function bestKey(mode=arrangementMode){return (window.PulseAccount?.isMember()?window.PulseAccount.scope()+'-':'')+'pulse-rules-v7-'+tracks[selected].chartIds[diff]+'-'+judgeMode.toLowerCase()+'-'+mode.toLowerCase()}
 function readLegacyBest(){if(window.PulseAccount?.isMember())return null;try{const prior=tracks[selected].previousChartIds?.[diff];if(prior){const r=JSON.parse(localStorage.getItem('pulse-rules-v7-'+prior+'-'+judgeMode.toLowerCase()+'-'+arrangementMode.toLowerCase())||'null');if(r&&Number.isFinite(r.score))return r}if(keyCount!==5||arrangementMode!=='NORMAL')return null;if(prior){const r=JSON.parse(localStorage.getItem('pulse-chart-'+prior+'-normal')||localStorage.getItem('pulse-chart-'+prior)||'null');if(r&&Number.isFinite(r.score))return r}const old=tracks[selected].legacyDifficulty[diff];if(old===null)return null;const r=JSON.parse(localStorage.getItem('pulse-5key-v4-'+tracks[selected].id+'-'+old)||'null');return r&&Number.isFinite(r.score)?r:null}catch{return null}}
 function clearBadgeKey(track=tracks[selected],difficulty=diff){return badgeRecordKey(track.chartIds[difficulty],judgeMode,arrangementMode,window.PulseAccount?.isMember()?window.PulseAccount.scope():'guest')}
@@ -82,7 +84,7 @@ function displayedClearBadge(track=tracks[selected],difficulty=diff){
 }
 function readBest(){try{const r=JSON.parse(localStorage.getItem(bestKey())||'null');return r&&Number.isFinite(r.score)?r:null}catch{return null}}
 function gradeFor(acc){return acc>=99?'S+':acc>=97?'S':acc>=90?'A':acc>=80?'B':acc>=65?'C':'D'}
-function setView(play){framePacer.reset();$('#selectScreen').hidden=play;$('#playScreen').hidden=!play;document.body.classList.toggle('is-playing',play);if(play)resize()}
+function setView(play){if(!play)$('#mobileRotateGate').hidden=true;framePacer.reset();$('#selectScreen').hidden=play;$('#playScreen').hidden=!play;document.body.classList.toggle('is-playing',play);if(play)resize()}
 function waveSVG(values,color){return '<svg viewBox="0 0 480 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" fill="'+color+'">'+(values||[]).map((v,i)=>'<rect x="'+(i*3)+'" y="'+(36-v*33)+'" width="1.8" height="'+Math.max(2,v*33)+'"/>').join('')+'</svg>'}
 function editBindings(){return settingsKeyMode===keyCount?bindings:(bindingsByMode[settingsKeyMode]||(bindingsByMode[settingsKeyMode]=MODE_BINDINGS[settingsKeyMode].slice()))}
 function editAux(){return settingsKeyMode===7?sevenAuxBindings:fiveAuxBindings}
@@ -198,7 +200,7 @@ async function start(options={}){
   setLoadingStage('플레이 기록 연결 중…');rankedRun=null;rankSubmission=null;if(!sessionAuto&&!specialMode&&window.PulseRanking){try{rankedRun=await bounded(window.PulseRanking.beginRun({chartId:track.chartIds[diff],judgeMode,arrangement:arrangementMode}),signal,6000)}catch(error){console.info('Ranking unavailable:',error.message)}}
   if(signal.aborted)throw Error('load_cancelled');setLoadingStage('채보 준비 중…');notes=chart(sessionArrangement,sessionSeed);if(keyPlayer&&keyAudioBuffer&&keyBufferId===track.id)keyPlayer.prepare(notes.filter(n=>n.kind!=='fx'),keyAudioBuffer);totalJudgements=notes.length+notes.filter(n=>n.dur).length;held.fill(false);flashes.fill(-9999);combo=maxCombo=earned=0;judges=[0,0,0,0,0];judgement='';life=100;completion=null;$('.gear').classList.remove('is-celebrating');hitEffects=[];timingSamples=[];timingSide='';timingError=0;sessionOffset=offset;sessionJudgeMode=judgeMode;sessionFailed=false;failPending=false;
   $('#playDifficulty').textContent=DIFF[diff];$('#playTitle').textContent=track.name;$('#bgaTitle').innerHTML=track.short;$('#playBest').textContent=readBest()?String(readBest().score).padStart(7,'0'):'NO RECORD';$('#gearLevel').textContent='LV.'+String(track.levels[diff]).padStart(2,'0');$('#sessionType').textContent=modeLabel()+' · '+JUDGE_LABELS[sessionJudgeMode]+' · '+sessionArrangement+(sessionAuto?' · AUTO / 기록 제외':rankedRun?'':' · LOCAL');$('#pauseOverlay').hidden=true;$('#playTime').textContent='00:00 / '+formatTime(track.duration);
-  closeLoading();startAt=ctxAudio.currentTime+2.5;pauseAt=-2.5;state='playing';resetInputState();setView(true);syncHUD();if(!continueInBackground&&(document.hidden||loadingBlurred)){state='paused';$('#pauseOverlay').hidden=false}else playMusic(0);$('#start>span').textContent='PLAY';$('#message').textContent='';
+  closeLoading();startAt=ctxAudio.currentTime+2.5;pauseAt=-2.5;state='playing';resetInputState();setView(true);syncHUD();if(mobilePortrait()||!continueInBackground&&(document.hidden||loadingBlurred)){state='paused';$('#pauseOverlay').hidden=false}else playMusic(0);$('#start>span').textContent='PLAY';$('#message').textContent='';checkMobileOrientation();
  }catch(e){stopMusic();state='idle';lockControls(false);setView(false);$('#start>span').textContent='RETRY';$('#message').textContent=e.message==='load_cancelled'?'로딩을 취소했어요. 다시 시작할 수 있습니다.':e.message==='load_timeout'?'로딩 시간이 초과됐어요. 연결을 확인하고 RETRY를 눌러 주세요.':'음원을 불러오지 못했어요. 연결을 확인하고 RETRY를 눌러 주세요.';if(e.message!=='load_cancelled')console.error(e)}finally{closeLoading();job.abort();if(loadingJob===job)loadingJob=null;$('#cancelLoading').hidden=true}
 }
 let inputEpoch=0;
@@ -222,12 +224,13 @@ function syncHUD(){
  if(hudNode('.timing-live').dataset.side!==timingSide)hudNode('.timing-live').dataset.side=timingSide;
  hudText('#fastCount',fastTotal);hudText('#slowCount',slowTotal);hudText('#offsetLive','OFFSET '+(offset>=0?'+':'')+Math.round(offset*1000)+' ms');
 }
-function give(n,q,holdEnd=false){if(holdEnd)n.tailJudge=q;else n.headJudge=q;if(q<3&&n.kind!=='fx'&&state==='playing')addHitEffect(n.lane,holdEnd?.9:q===0?1:q===1?.85:.65,holdEnd?'hold-end':'tap');judgementTiming=!holdEnd&&q<3;if(!holdEnd)n.status=n.dur&&q<3?1:2;if(q>=3){combo=0;judgement=q===4?'FAIL':'MISS';timingSide='';const w=JUDGE_PRESETS[sessionJudgeMode];life=Math.max(0,life-(holdEnd?w.holdDamage:q===4?w.failDamage:w.missDamage));if(life<=0&&state==='playing')failPending=true}else{combo++;maxCombo=Math.max(combo,maxCombo);earned+=[1,.75,.4][q];judgement=['PERFECT','GREAT','GOOD'][q];life=Math.min(100,life+JUDGE_PRESETS[sessionJudgeMode].recovery)}if(!holdEnd&&q<3&&n.kind!=='fx'&&keyPlayer)keyPlayer.play(n,startAt);judges[q]++;judgeAt=performance.now();hudDirty=true}
+function give(n,q,holdEnd=false){if(n.kind==='fx'&&q<3)flashes[n.lane]=performance.now();if(holdEnd)n.tailJudge=q;else n.headJudge=q;if(q<3&&n.kind!=='fx'&&state==='playing')addHitEffect(n.lane,holdEnd?.9:q===0?1:q===1?.85:.65,holdEnd?'hold-end':'tap');judgementTiming=!holdEnd&&q<3;if(!holdEnd)n.status=n.dur&&q<3?1:2;if(q>=3){combo=0;judgement=q===4?'FAIL':'MISS';timingSide='';const w=JUDGE_PRESETS[sessionJudgeMode];life=Math.max(0,life-(holdEnd?w.holdDamage:q===4?w.failDamage:w.missDamage));if(life<=0&&state==='playing')failPending=true}else{combo++;maxCombo=Math.max(combo,maxCombo);earned+=[1,.75,.4][q];judgement=['PERFECT','GREAT','GOOD'][q];life=Math.min(100,life+JUDGE_PRESETS[sessionJudgeMode].recovery)}if(!holdEnd&&q<3&&n.kind!=='fx'&&keyPlayer)keyPlayer.play(n,startAt);judges[q]++;judgeAt=performance.now();hudDirty=true}
 function recordTiming(error){timingError=error;timingSide=Math.abs(error)<=5?'CENTER':error<0?'FAST':'SLOW';timingSamples.push(error)}
 function press(l,event,source=event?.code?'key:'+event.code:null){
  if(!Number.isInteger(l)||l<0||l>=keyCount+(specialMode==='FX'?2:0)||event?.repeat||(source?inputOwners.has(source):held[l]))return;
  if(state==='paused'&&!sessionAuto&&notes.some(n=>n.lane===l&&n.status===1)){if(source)inputOwners.set(source,l);held[l]=true;return}
  if(state!=='playing'||failPending||sessionAuto)return;
+ if(specialMode==='FX'&&l>=keyCount)flashes[l]=performance.now();
  const at=eventElapsed(event);if(at===null)return;
  updateGame(at,performance.now());if(state!=='playing')return;if(source)inputOwners.set(source,l);held[l]=true;
  for(let i=pendingNoteStart();i<notes.length;i++){const n=notes[i];if(n.time>at-sessionOffset+INPUT_QUEUE_GRACE)break;if(n.lane===l&&n.status===1)return}
@@ -241,6 +244,7 @@ function release(l,event,source=event?.code?'key:'+event.code:null){
  if(event&&inputEventTime(event)<inputEpoch)return;
  if(source){if(!inputOwners.has(source))return;inputOwners.delete(source);if([...inputOwners.values()].includes(l))return}
  held[l]=false;if(state!=='playing'||failPending||sessionAuto)return;
+ if(specialMode==='FX'&&l>=keyCount)flashes[l]=performance.now();
  const at=eventElapsed(event);
  for(let i=pendingNoteStart();i<notes.length;i++){const n=notes[i];if(n.time>elapsed()-sessionOffset+JUDGE_PRESETS[sessionJudgeMode].miss/1000)break;if(n.lane===l&&n.status===1){n.status=2;give(n,at!==null&&at-sessionOffset>=n.time+n.dur-.10?0:3,true)}}resolveFailure();
 }
@@ -250,6 +254,7 @@ async function togglePause(){
  if(state==='celebrating'){finish();return}
  if(state==='playing'){pauseAt=elapsed();state='paused';stopMusic();resetInputState();$('#resume').textContent=notes.some(n=>n.status===1)&&!sessionAuto?'롱노트 키를 누른 채 재개':'계속하기';$('#pauseOverlay').hidden=false}
  else if(state==='paused'){
+  if(mobilePortrait()){checkMobileOrientation();return}
   if(!sessionAuto&&notes.some(n=>n.status===1&&!held[n.lane])){$('#resume').textContent='유지 중이던 롱노트 키를 누른 채 재개해 주세요';return}
   resumePending=true;try{await initAudio();if(state!=='paused'||document.hidden)return;
    if(!sessionAuto&&notes.some(n=>n.status===1&&!held[n.lane]))return;
@@ -270,7 +275,7 @@ function finish(aborted=false,failed=false){
  if(aborted){if(arrangementMode==='RANDOM')randomSeed=newArrangementSeed();refresh();return}
  const s=score(),count=judges.reduce((a,b)=>a+b,0),accuracy=count?earned/count*100:0,grade=gradeFor(accuracy),prev=readBest();
  if(!sessionAuto&&!failed&&(!prev||s>prev.score)){try{localStorage.setItem(bestKey(),JSON.stringify({score:s,accuracy,maxCombo,grade,judgeMode:sessionJudgeMode,arrangement:sessionArrangement,seed:sessionSeed,laneMap:createLaneMap(sessionArrangement,sessionSeed)}))}catch{}}
- $('#resultTitle').textContent=tracks[selected].name+' / '+keyCount+'KEY '+DIFF[diff]+' / '+JUDGE_LABELS[sessionJudgeMode]+' / '+sessionArrangement;$('.result-content').classList.toggle('failed',failed);$('#resultMode').textContent=sessionAuto?'AUTO PLAY · 기록 제외':failed?'STAGE FAILED':'RESULT';$('#grade').textContent=failed?'F':grade;$('#resultScore').textContent=String(s).padStart(7,'0');$('#resultClear').textContent=failed?'FAILED · 게이지 소진':achievementFor(judges,totalJudgements)||'TRACK CLEAR';
+ $('#resultTitle').textContent=tracks[selected].name+' / '+modeLabel()+' '+DIFF[diff]+' / '+JUDGE_LABELS[sessionJudgeMode]+' / '+sessionArrangement;$('.result-content').classList.toggle('failed',failed);$('#resultMode').textContent=sessionAuto?'AUTO PLAY · 기록 제외':failed?'STAGE FAILED':'RESULT';$('#grade').textContent=failed?'F':grade;$('#resultScore').textContent=String(s).padStart(7,'0');$('#resultClear').textContent=failed?'FAILED · 게이지 소진':achievementFor(judges,totalJudgements)||'TRACK CLEAR';
  $('#resultDetails').innerHTML='<div><small>ACCURACY</small><b>'+accuracy.toFixed(2)+'%</b></div><div><small>MAX COMBO</small><b>'+maxCombo+'</b></div><div><small>PERFECT / GREAT</small><b>'+judges[0]+' / '+judges[1]+'</b></div><div><small>GOOD / MISS / FAIL</small><b>'+judges[2]+' / '+judges[3]+' / '+judges[4]+'</b></div>';
  const earnedBadge=earnedClearBadge(judges,totalJudgements,failed);if(!sessionAuto&&earnedBadge)saveClearBadge(localStorage,clearBadgeKey(),earnedBadge);
  const weak=sessionInsight(notes,tracks[selected].duration);
@@ -316,11 +321,11 @@ function updateGame(t,now){
  if(t>=tracks[selected].duration+.4)completeTrack();
 }
 function setPlayText(selector,value){const node=hudNode(selector);if(node.textContent!==value)node.textContent=value}
-function draw(now){
- requestAnimationFrame(draw);updateCalibration();updateCompletion(now);
+function draw(now,immediate=false){
+ if(!immediate)requestAnimationFrame(draw);updateCalibration();updateCompletion(now);
  // Input callbacks and simulation/audio scheduling run even on skipped draws.
  if(state==='playing')updateGame(elapsed(),now);
- if(!framePacer.shouldDraw(now,frameLimit))return;
+ if(!immediate&&!framePacer.shouldDraw(now,specialMode==='MOBILE'?0:frameLimit))return;
  drawVisualPreview(now);if(!['playing','paused','celebrating'].includes(state))return;
  const measuredFPS=framePacer.rendered(now);if(showFPS&&measuredFPS!==null)hudText('#fpsDisplay','FPS '+measuredFPS);
  const track=tracks[selected],t=elapsed(),travel=3.9/speed,pad=9,lw=(W-pad*2)/keyCount;
@@ -343,10 +348,21 @@ function draw(now){
   if(n.dur)paintLongNote(ctx,x,tailY,n.status===1?lineY:y,w,c,noteSkin,now,n.status===1&&held[n.lane]&&state==='playing',effectStrength);paintNoteHead(ctx,x,n.status===1?lineY:y,w,c,noteSkin);if(n.status===1&&held[n.lane]&&state==='playing')paintHoldAnchor(ctx,x+w/2,lineY,w,c,now,noteSkin,effectStrength);
  }
  ctx.restore();if(noteSkin==='BAR')drawJudgementLine(lineY,pad,lw);
+ if(specialMode==='FX'){
+  const half=(W-pad*2)/2;
+  for(let side=0;side<2;side++){
+   const slot=keyCount+side,x=pad+side*half+3,w=half-6,age=now-flashes[slot],active=held[slot]||age<150;
+   ctx.save();ctx.fillStyle=active?'#bc3e3177':'#70221c44';ctx.fillRect(x,lineY-17,w,34);
+   ctx.strokeStyle=active?'#ffc2a4':'#c65a45';ctx.lineWidth=active?3:1.5;ctx.strokeRect(x,lineY-14,w,28);
+   if(active){const glow=ctx.createLinearGradient(0,lineY-110,0,lineY);glow.addColorStop(0,'#d64b2700');glow.addColorStop(1,'#d64b2766');ctx.fillStyle=glow;ctx.fillRect(x,lineY-110,w,95)}
+   ctx.fillStyle=active?'#fff0df':'#e3aa98';ctx.font='bold 10px sans-serif';ctx.textAlign='center';ctx.fillText(side?'R SHIFT':'L SHIFT',x+w/2,lineY-22);ctx.restore();
+  }
+ }
+
  for(let l=0;l<keyCount;l++){
   const x=pad+l*lw+3,w=lw-6,cx=x+w/2,active=held[l]||(sessionAuto&&now-flashes[l]<75);
   const g=ctx.createLinearGradient(0,keyTop,0,H);g.addColorStop(0,active?'#d6f6ff':centerLane(l,keyCount)?'#88794b':'#405f75');g.addColorStop(.16,active?'#88cce7':centerLane(l,keyCount)?'#3c3625':'#1c3447');g.addColorStop(1,centerLane(l,keyCount)?'#17160f':'#0a1622');ctx.fillStyle=g;ctx.beginPath();ctx.roundRect(x,keyTop,w,H-keyTop-6,4);ctx.fill();ctx.strokeStyle=centerLane(l,keyCount)?'#e4d09a66':'#b2ddf866';ctx.lineWidth=.7;ctx.stroke();ctx.globalAlpha=active?1:.4;ctx.fillStyle=laneColor(l);ctx.fillRect(x+5,keyTop+3,w-10,2);ctx.globalAlpha=1;
-  ctx.fillStyle=active?'#1b2d3b':'#c3d9e8';ctx.textAlign='center';ctx.font='700 '+(bindings[l]==='Space'?8:11)+'px PulseMaple30,sans-serif';ctx.fillText(keyName(bindings[l]),cx,H-22);
+  ctx.fillStyle=active?'#1b2d3b':'#c3d9e8';ctx.textAlign='center';ctx.font='700 '+(bindings[l]==='Space'?8:11)+'px PulseMaple30,sans-serif';ctx.fillText(specialMode==='MOBILE'?'●':keyName(bindings[l]),cx,H-22);
 
  }
  hitEffects=hitEffects.filter(hit=>now-hit.at<420);paintHitEffects(ctx,hitEffects,now,pad,lw,lineY,hitStyle,effectStrength);
@@ -426,7 +442,7 @@ document.addEventListener('keydown',e=>{
  if(e.code==='F2'){e.preventDefault();if(!e.repeat)openSettings();return}
  if(e.code==='Enter'){e.preventDefault();if(e.repeat)return;if(state==='idle')start();else togglePause();return}
  if(e.code==='Escape'){e.preventDefault();if(state==='loading'){cancelLoading();return}if(state==='celebrating'){finish();return}if(state==='playing')togglePause();else if(state==='paused')finish(true);return}
- if(state==='idle'){if(e.code==='Tab'&&!e.ctrlKey&&!e.altKey&&!e.metaKey){e.preventDefault();if(!e.repeat){const step=e.shiftKey?-1:1;setKeyMode(KEY_MODES[(KEY_MODES.indexOf(keyCount)+step+KEY_MODES.length)%KEY_MODES.length])}return}if(e.code==='ArrowUp'||e.code==='ArrowDown'){e.preventDefault();moveVisibleSong(e.code==='ArrowUp'?-1:1)}if(e.code==='ArrowLeft'||e.code==='ArrowRight'){e.preventDefault();selectDifficulty(diff+(e.code==='ArrowLeft'?-1:1))}return}
+ if(state==='idle'){if(e.code==='Tab'&&!e.ctrlKey&&!e.altKey&&!e.metaKey){e.preventDefault();if(!e.repeat){const step=e.shiftKey?-1:1;specialMode==='FX'?setKeyMode(keyCount===4?6:4,'FX'):specialMode==='MOBILE'?void 0:setKeyMode(KEY_MODES[(KEY_MODES.indexOf(keyCount)+step+KEY_MODES.length)%KEY_MODES.length])}return}if(e.code==='ArrowUp'||e.code==='ArrowDown'){e.preventDefault();moveVisibleSong(e.code==='ArrowUp'?-1:1)}if(e.code==='ArrowLeft'||e.code==='ArrowRight'){e.preventDefault();selectDifficulty(diff+(e.code==='ArrowLeft'?-1:1))}return}
  const lane=(specialMode==='FX'&&e.code==='ShiftLeft'?keyCount:specialMode==='FX'&&e.code==='ShiftRight'?keyCount+1:resolveInputLane(e.code,keyCount,bindings,currentAuxBindings()));if(lane>=0){e.preventDefault();if(!e.repeat)press(lane,e)}
 });
 document.addEventListener('keyup',e=>{const lane=(specialMode==='FX'&&e.code==='ShiftLeft'?keyCount:specialMode==='FX'&&e.code==='ShiftRight'?keyCount+1:resolveInputLane(e.code,keyCount,bindings,currentAuxBindings()));if(lane>=0){if(e.code.startsWith('Alt')&&['playing','paused'].includes(state))e.preventDefault();release(lane,e)}});
@@ -438,13 +454,20 @@ function bindTouchSurface(surface,laneAt){
   const lane=laneAt(e);if(lane<0||lane>=keyCount)return;
   e.preventDefault();
   try{surface.setPointerCapture(e.pointerId)}catch{}
+  const receivedAt=performance.now();
   press(lane,e,'pointer:'+e.pointerId);
+  if(specialMode==='MOBILE'){
+   document.querySelectorAll('#touchPads [data-key]').forEach(b=>b.classList.toggle('down',[...inputOwners.values()].includes(+b.dataset.key)));
+   draw(performance.now(),true);
+   if(showFPS)$('#fpsDisplay').textContent='입력 대기 '+Math.max(0,receivedAt-inputEventTime(e,receivedAt)).toFixed(1)+'ms · 처리 '+(performance.now()-receivedAt).toFixed(1)+'ms';
+  }
   if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
  };
  const end=e=>{
   const source='pointer:'+e.pointerId,lane=inputOwners.get(source);
   if(lane===undefined)return;
   e.preventDefault();release(lane,e,source);
+  if(specialMode==='MOBILE'){document.querySelectorAll('#touchPads [data-key]').forEach(b=>b.classList.toggle('down',[...inputOwners.values()].includes(+b.dataset.key)));draw(performance.now(),true);}
   if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
  };
  surface.onpointerup=surface.onpointercancel=surface.onlostpointercapture=end;
@@ -492,3 +515,5 @@ document.querySelectorAll('[data-config-mode]').forEach(b=>b.onclick=()=>{settin
 document.querySelectorAll('[data-special-mode]').forEach(b=>b.onclick=()=>setKeyMode(+b.dataset.count,b.dataset.specialMode));
 
 document.querySelectorAll('[data-family]').forEach(b=>b.onclick=()=>setKeyMode(b.dataset.family?4:5,b.dataset.family));
+
+window.addEventListener('resize',checkMobileOrientation);window.addEventListener('orientationchange',checkMobileOrientation);$('#mobileRotateExit').onclick=()=>{if(['playing','paused'].includes(state))finish(true);$('#mobileRotateGate').hidden=true};
