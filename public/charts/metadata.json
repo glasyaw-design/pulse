@@ -1608,7 +1608,7 @@
       5,
       11,
       16,
-      22
+      23
     ],
     "waveform": [
       0.059,
@@ -2070,7 +2070,7 @@
           "luminous-forward-motion-v31-8key-reviewed-0",
           "luminous-forward-motion-v31-8key-reviewed-1",
           "luminous-forward-motion-v31-8key-reviewed-2",
-          "luminous-forward-motion-v31-8key-reviewed-3"
+          "luminous-forward-motion-v31-8key-reviewed-3-v52"
         ],
         "levels": [
           5,
@@ -2143,7 +2143,7 @@
       null,
       null
     ],
-    "ratingVersion": 46
+    "ratingVersion": 52
   },
   {
     "id": "one-step-closer",
@@ -4397,7 +4397,7 @@
       5,
       11,
       16,
-      22
+      23
     ],
     "pitchRange": [
       55,
@@ -4485,7 +4485,7 @@
           "a-little-further-v46-8key-reviewed-0",
           "a-little-further-v46-8key-reviewed-1",
           "a-little-further-v46-8key-reviewed-2",
-          "a-little-further-v46-8key-reviewed-3"
+          "a-little-further-v46-8key-reviewed-3-v52"
         ],
         "levels": [
           5,
@@ -4827,7 +4827,7 @@
         "energy": 0.011
       }
     ],
-    "ratingVersion": 46
+    "ratingVersion": 52
   },
   {
     "id": "pulse-of-longing",
@@ -6300,7 +6300,7 @@
       "summer-drive-v46-5key-reviewed-0",
       "summer-drive-v46-5key-reviewed-1",
       "summer-drive-v46-5key-reviewed-2",
-      "summer-drive-v46-5key-reviewed-3"
+      "summer-drive-v46-5key-reviewed-3-v52"
     ],
     "levels": [
       5,
@@ -6348,7 +6348,7 @@
           "summer-drive-v46-6key-reviewed-0",
           "summer-drive-v46-6key-reviewed-1",
           "summer-drive-v46-6key-reviewed-2",
-          "summer-drive-v46-6key-reviewed-3"
+          "summer-drive-v46-6key-reviewed-3-v52"
         ],
         "levels": [
           4,
@@ -6394,7 +6394,7 @@
           "summer-drive-v46-8key-reviewed-0",
           "summer-drive-v46-8key-reviewed-1",
           "summer-drive-v46-8key-reviewed-2",
-          "summer-drive-v46-8key-reviewed-3"
+          "summer-drive-v46-8key-reviewed-3-v52"
         ],
         "levels": [
           4,
