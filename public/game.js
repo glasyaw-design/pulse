@@ -495,7 +495,7 @@ function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>bind
 bindTouchSurface(canvas,e=>{
  const r=canvas.getBoundingClientRect(),x=e.clientX-r.left;
  if(r.width<=18||x<0||x>r.width)return -1;
- if(specialMode==='MOBILE'){const progress=Math.max(0,Math.min(1.18,((e.clientY-r.top)/r.height-.06)/.78)),width=(r.width-18)*(.34+.66*progress);return Math.max(0,Math.min(3,Math.floor(((x-r.width/2)/width+.5)*4)))}
+ if(specialMode==='MOBILE'){const progress=Math.max(0,Math.min(1.18,((e.clientY-r.top)/r.height-.06)/.78)),width=(r.width-18)*(.84+.16*progress);return Math.max(0,Math.min(3,Math.floor(((x-r.width/2)/width+.5)*4)))}
  return Math.max(0,Math.min(keyCount-1,Math.floor((x-9)/(r.width-18)*keyCount)));
 });
 function backgroundTick(){backgroundTimer=null;if(!continueInBackground||!document.hidden)return;const now=performance.now();if(state==='playing')updateGame(elapsed(),now);updateCompletion(now);backgroundTimer=setTimeout(backgroundTick,50)}

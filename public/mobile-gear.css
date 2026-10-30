@@ -25,3 +25,6 @@ body[data-chart-family=MOBILE] .gear-score{position:fixed!important;top:8px!impo
 body[data-chart-family=MOBILE] #touchPads{display:none!important}body[data-chart-family=MOBILE] .play-info{top:60px!important;left:12px!important;width:100px!important}body[data-chart-family=MOBILE] .judgement-counts,body[data-chart-family=MOBILE] .play-meta{display:none!important}body[data-chart-family=MOBILE] .play-rate small{font-size:8px!important}body[data-chart-family=MOBILE] .play-rate strong{font-size:16px!important}
 body[data-chart-family=MOBILE] .play-top{background:#132534b3!important;border-bottom:1px solid #799eac33!important}body[data-chart-family=MOBILE] .play-top>#playTitle{max-width:40vw}body[data-chart-family=MOBILE] .play-backdrop{background:radial-gradient(ellipse at 50% 0,#48687955,transparent 60%),linear-gradient(140deg,#12202c,#26263e 60%,#173735)!important}
 body[data-chart-family=MOBILE] .life-rail{top:65px!important;bottom:40px!important;right:15px!important}body[data-chart-family=MOBILE] .play-bottom{bottom:8px!important;font-size:9px!important}
+
+/* Keep the mobile stage stable during play. */
+body[data-chart-family=MOBILE] .play-backdrop,body[data-chart-family=MOBILE] .gear,body[data-chart-family=MOBILE] .gear-window,body[data-chart-family=MOBILE] #game{animation:none!important;transition:none!important}
