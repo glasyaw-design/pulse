@@ -18,11 +18,14 @@ function currentAuxBindings(){return keyCount===7?sevenAuxBindings:fiveAuxBindin
 const inputOwners=new Map();
 let arrangementMode='NORMAL',sessionArrangement='NORMAL',randomSeed=newArrangementSeed(),sessionSeed=0,sessionChartId='';
 let selected=0,diff=1,state='idle',speed=3,volume=.6,offset=0,keysEnabled=true;
+let settingsKeyMode=5;
 let bindings=DEFAULT_KEYS.slice(),remapping=null,notes=[],held=Array(5).fill(false),flashes=Array(5).fill(-9999);
 let combo=0,maxCombo=0,earned=0,judges=[0,0,0,0,0],judgement='',judgeAt=-9999,life=100;
 let rankedRun=null,rankSubmission=null;
-let autoMode=false,sessionAuto=false;
-$('#autoMode').onchange=e=>{if(state!=='idle'){e.target.checked=autoMode;return}autoMode=e.target.checked};
+const mobilePreviewOnly=/Android|iPhone|iPad|iPod/i.test(navigator.userAgent)||(navigator.platform==='MacIntel'&&navigator.maxTouchPoints>1);
+let autoMode=mobilePreviewOnly,sessionAuto=false;
+if(mobilePreviewOnly){$('#autoMode').checked=true;}
+$('#autoMode').onchange=e=>{if(state!=='idle'){e.target.checked=autoMode;return}autoMode=mobilePreviewOnly||e.target.checked;e.target.checked=autoMode};
 let audioMode='LOW',audioReconfigure=null;
 let effectStrength='NORMAL',completion=null,visualPreviewMode='PLAY';
 let noteSkin='BAR',hitStyle='LASER',hitEffects=[],hitSerial=0,previewAt=-9999;
@@ -77,36 +80,39 @@ function readBest(){try{const r=JSON.parse(localStorage.getItem(bestKey())||'nul
 function gradeFor(acc){return acc>=99?'S+':acc>=97?'S':acc>=90?'A':acc>=80?'B':acc>=65?'C':'D'}
 function setView(play){framePacer.reset();$('#selectScreen').hidden=play;$('#playScreen').hidden=!play;document.body.classList.toggle('is-playing',play);if(play)resize()}
 function waveSVG(values,color){return '<svg viewBox="0 0 480 36" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" fill="'+color+'">'+(values||[]).map((v,i)=>'<rect x="'+(i*3)+'" y="'+(36-v*33)+'" width="1.8" height="'+Math.max(2,v*33)+'"/>').join('')+'</svg>'}
+function editBindings(){return settingsKeyMode===keyCount?bindings:(bindingsByMode[settingsKeyMode]||(bindingsByMode[settingsKeyMode]=MODE_BINDINGS[settingsKeyMode].slice()))}
+function editAux(){return settingsKeyMode===7?sevenAuxBindings:fiveAuxBindings}
 function renderBindings(){
+ document.querySelectorAll('[data-config-mode]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.configMode===settingsKeyMode)));
  $('#bindingGrid').innerHTML='';
- bindings.forEach((code,i)=>{const b=document.createElement('button');b.className='bind-button'+(remapping===i?' capturing':'');b.dataset.binding=i;b.setAttribute('aria-label','레인 '+(i+1)+' '+keyName(code));b.title=keyName(code);b.innerHTML='<small>LANE 0'+(i+1)+'</small><b>'+(remapping===i?'…':code==='Space'?'␣':keyName(code))+'</b>';b.onclick=()=>{auxRemapping=null;remapping=i;$('#bindingMessage').textContent='레인 '+(i+1)+'에 사용할 키를 누르세요. Esc로 취소할 수 있어요.';renderBindings()};$('#bindingGrid').append(b)});
+ editBindings().forEach((code,i)=>{const b=document.createElement('button');b.className='bind-button'+(remapping===i?' capturing':'');b.dataset.binding=i;b.setAttribute('aria-label','레인 '+(i+1)+' '+keyName(code));b.title=keyName(code);b.innerHTML='<small>LANE 0'+(i+1)+'</small><b>'+(remapping===i?'…':code==='Space'?'␣':keyName(code))+'</b>';b.onclick=()=>{auxRemapping=null;remapping=i;$('#bindingMessage').textContent='레인 '+(i+1)+'에 사용할 키를 누르세요. Esc로 취소할 수 있어요.';renderBindings()};$('#bindingGrid').append(b)});
  $('#bindingsLabel').textContent=bindings.map(keyName).join('  ');$('#keyConfig b').textContent=bindings.map(k=>k==='Space'?'␣':keyName(k)).join(' ');
  $('#touchPads').innerHTML=bindings.map((k,i)=>'<button data-key="'+i+'">'+keyName(k)+'</button>').join('');bindTouchPads();renderFiveAux();
 }
 function activeFiveAux(){return [5,7].includes(keyCount)?currentAuxBindings().filter(k=>k&&!bindings.includes(k)):[]}
 function renderFiveAux(){
- $('#fiveAuxPanel').hidden=![5,7].includes(keyCount);
+ $('#fiveAuxPanel').hidden=![5,7].includes(settingsKeyMode);
  for(let i=0;i<2;i++){
-  const code=currentAuxBindings()[i],conflict=code&&bindings.includes(code),button=$('#fiveAux'+i);
+  const code=editAux()[i],conflict=code&&editBindings().includes(code),button=$('#fiveAux'+i);
   button.textContent=auxRemapping===i?'키를 누르세요…':code?keyName(code)+(conflict?' · 기본키와 중복':''):'사용 안 함';
   button.classList.toggle('capturing',auxRemapping===i);button.setAttribute('aria-pressed',String(auxRemapping===i));
  }
- renderKeyMode();
+ renderKeyMode();$('#keyConfigTitle').textContent=settingsKeyMode+' KEY CONFIGURATION';
 }
 function assignFiveAux(code){
  if(!validFiveAux([code,null])){$('#bindingMessage').textContent='메뉴 키와 Shift·Ctrl·Meta는 보조키로 사용할 수 없어요.';return false}
- if(bindings.includes(code)||currentAuxBindings().some((k,i)=>i!==auxRemapping&&k===code)){$('#bindingMessage').textContent='이미 사용 중인 키예요. 다른 키를 선택해 주세요.';return false}
- currentAuxBindings()[auxRemapping]=code;auxRemapping=null;resetInputState();savePrefs();renderFiveAux();$('#bindingMessage').textContent=keyCount+'키 중앙 레인 보조키를 저장했어요.';return true;
+ if(editBindings().includes(code)||editAux().some((k,i)=>i!==auxRemapping&&k===code)){$('#bindingMessage').textContent='이미 사용 중인 키예요. 다른 키를 선택해 주세요.';return false}
+ editAux()[auxRemapping]=code;auxRemapping=null;resetInputState();savePrefs();renderFiveAux();$('#bindingMessage').textContent=settingsKeyMode+'키 중앙 레인 보조키를 저장했어요.';return true;
 }
 for(let i=0;i<2;i++){
  $('#fiveAux'+i).onclick=()=>{remapping=null;auxRemapping=i;renderBindings();$('#bindingMessage').textContent=(i===0?'왼손':'오른손')+' 중앙 보조키를 누르세요. Esc로 취소합니다.'};
- $('#fiveAuxOff'+i).onclick=()=>{currentAuxBindings()[i]=null;auxRemapping=null;resetInputState();savePrefs();renderFiveAux()};
+ $('#fiveAuxOff'+i).onclick=()=>{editAux()[i]=null;auxRemapping=null;resetInputState();savePrefs();renderFiveAux()};
 }
-$('#resetFiveAux').onclick=()=>{if(keyCount===7)sevenAuxBindings=DEFAULT_FIVE_AUX.slice();else fiveAuxBindings=DEFAULT_FIVE_AUX.slice();auxRemapping=null;resetInputState();savePrefs();renderFiveAux();$('#bindingMessage').textContent='중앙 보조키를 G/H로 초기화했어요. 기본키와 겹치면 해당 보조키는 적용되지 않습니다.'};
+$('#resetFiveAux').onclick=()=>{if(settingsKeyMode===7)sevenAuxBindings=DEFAULT_FIVE_AUX.slice();else fiveAuxBindings=DEFAULT_FIVE_AUX.slice();auxRemapping=null;resetInputState();savePrefs();renderFiveAux();$('#bindingMessage').textContent='중앙 보조키를 G/H로 초기화했어요. 기본키와 겹치면 해당 보조키는 적용되지 않습니다.'};
 function assignBinding(code){
  if(['Enter','Escape','F2'].includes(code)){$('#bindingMessage').textContent='Enter·Esc·F2는 메뉴 조작에 사용해요. 다른 키를 선택해 주세요.';return false}
  if(/^(Shift|Control|Meta)/.test(code)||!code)return false;
- const i=remapping,old=bindings[i],other=bindings.indexOf(code);if(other>=0)bindings[other]=old;bindings[i]=code;remapping=null;resetInputState();savePrefs();renderBindings();$('#bindingMessage').textContent=other>=0?'중복 키를 서로 교환했어요. 설정이 저장됐습니다.':'키 배치를 저장했어요.';return true;
+ const i=remapping,old=editBindings()[i],other=editBindings().indexOf(code);if(other>=0)editBindings()[other]=old;editBindings()[i]=code;remapping=null;resetInputState();savePrefs();renderBindings();$('#bindingMessage').textContent=other>=0?'중복 키를 서로 교환했어요. 설정이 저장됐습니다.':'키 배치를 저장했어요.';return true;
 }
 function refresh(){
  applySongFilters();
@@ -176,7 +182,7 @@ function stopMusic(){if(keyPlayer)keyPlayer.stop();if(musicSource){try{musicSour
 function playMusic(position){stopMusic();musicSource=ctxAudio.createBufferSource();musicSource.buffer=musicBuffer;musicSource.connect(backgroundBus||master);if(keyPlayer){keyPlayer.enabled=keysEnabled;keyPlayer.autoPlay=sessionAuto;keyPlayer.reset(position);keyPlayer.schedule(position,startAt)}musicSource.start(Math.max(ctxAudio.currentTime,startAt),Math.max(0,position))}
 function chart(mode=arrangementMode,seed=randomSeed){return transformChart(tracks[selected].charts[diff],mode,seed,keyCount).map(([time,lane,dur,pitch,kind])=>({time,lane,dur,pitch,kind,status:0}))}
 async function start(options={}){
- if(state!=='idle'||!visibleSongIndices.length||window.PulseAccount&&!window.PulseAccount.ready())return;stopSongPreview();sessionAuto=autoMode;state='loading';const job=new AbortController();loadingJob=job;loadingBlurred=false;const signal=job.signal;lockControls(true);$('#cancelLoading').hidden=false;$('#start>span').textContent='LOADING';$('#message').textContent='음원을 준비하고 있습니다…';
+ if(state!=='idle'||!visibleSongIndices.length||window.PulseAccount&&!window.PulseAccount.ready())return;stopSongPreview();sessionAuto=autoMode||mobilePreviewOnly;state='loading';const job=new AbortController();loadingJob=job;loadingBlurred=false;const signal=job.signal;lockControls(true);$('#cancelLoading').hidden=false;$('#start>span').textContent='LOADING';$('#message').textContent='음원을 준비하고 있습니다…';
  try{
   showLoading();await bounded(initAudio(),signal);if(document.fonts)await bounded(Promise.all([document.fonts.load('400 16px PulseMaple30'),document.fonts.load('700 28px PulseMaple30')]),signal,2000).catch(e=>{if(signal.aborted)throw e});const track=tracks[selected];
   setLoadingStage('음원 불러오는 중…');
@@ -390,7 +396,7 @@ function syncEightColorSettings(){
  document.querySelectorAll('[data-eight-color]').forEach(input=>{input.value=eightNoteColors[+input.dataset.eightColor]});
  document.querySelectorAll('[data-eight-lane]').forEach(cell=>{cell.style.setProperty('--note-color',eightNoteColors[EIGHT_COLOR_GROUPS[+cell.dataset.eightLane]])});
 }
-async function openSettings(){if(state==='loading'||state==='celebrating')return;if(state==='playing')await togglePause();remapping=null;auxRemapping=null;$('#autoMode').checked=autoMode;$('#autoMode').disabled=state!=='idle';syncEightColorSettings();setVisualPreview('PLAY');$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#bindingMessage').textContent='Enter: 일시정지 / Esc: 뒤로 가기';renderBindings();$('#settingsDialog').showModal()}
+async function openSettings(){if(state==='loading'||state==='celebrating')return;if(state==='playing')await togglePause();settingsKeyMode=keyCount;remapping=null;auxRemapping=null;$('#autoMode').checked=autoMode;$('#autoMode').disabled=state!=='idle';syncEightColorSettings();setVisualPreview('PLAY');$('#effectStrength').value=effectStrength;$('#audioMode').value=audioMode;refreshAudioInfo();$('#noteSkin').value=noteSkin;$('#hitStyle').value=hitStyle;$('#bindingMessage').textContent='Enter: 일시정지 / Esc: 뒤로 가기';renderBindings();$('#settingsDialog').showModal()}
 document.querySelectorAll('[data-judge]').forEach(b=>b.onclick=()=>setJudgeMode(b.dataset.judge));
 document.querySelectorAll('[data-arrangement]').forEach(b=>b.onclick=()=>setArrangement(b.dataset.arrangement));$('#shuffleSeed').onclick=()=>{if(state!=='idle')return;randomSeed=newArrangementSeed();renderArrangement()};
 
@@ -400,7 +406,7 @@ $('#openRankings').onclick=openRankings;$('#resultRanking').onclick=openRankings
 
 $('#loadingDialog').addEventListener('cancel',e=>{e.preventDefault();cancelLoading()});$('#cancelLoading').onclick=cancelLoading;$('#start').onclick=start;$('#pauseButton').onclick=togglePause;$('#resume').onclick=togglePause;$('#restart').onclick=()=>{finish(true);start({reuseSeed:true})};$('#exitPlay').onclick=()=>finish(true);
 $('#openSettings').onclick=openSettings;$('#keyConfig').onclick=openSettings;$('#closeSettings').onclick=()=>$('#settingsDialog').close();$('#settingsDialog').addEventListener('close',()=>{remapping=null;auxRemapping=null;stopCalibration()});
-$('#resetKeys').onclick=()=>{bindings=MODE_BINDINGS[keyCount].slice();remapping=null;auxRemapping=null;resetInputState();savePrefs();renderBindings();$('#bindingMessage').textContent='기본 키 배치로 초기화했어요.'};
+$('#resetKeys').onclick=()=>{if(settingsKeyMode===keyCount)bindings=MODE_BINDINGS[keyCount].slice();else bindingsByMode[settingsKeyMode]=MODE_BINDINGS[settingsKeyMode].slice();remapping=null;auxRemapping=null;resetInputState();savePrefs();renderBindings();$('#bindingMessage').textContent='기본 키 배치로 초기화했어요.'};
 $('#speed').oninput=e=>{speed=+e.target.value;savePrefs();refresh()};$('#volume').oninput=e=>{volume=+e.target.value/100;$('#volText').textContent=e.target.value+'%';if(master&&ctxAudio)master.gain.setTargetAtTime(volume,ctxAudio.currentTime,.02);savePrefs()};$('#offset').oninput=e=>setOffset(+e.target.value);$('#keySound').onchange=async e=>{keysEnabled=e.target.checked;savePrefs();if(keysEnabled){try{await initAudio();await loadKeys();if(state==='paused'||state==='playing')keyPlayer.prepare(notes,keyAudioBuffer);else keyPlayer.buffer=keyAudioBuffer;$('#keyAudioMessage').textContent='키음 연주 모드가 준비됐어요.'}catch{keysEnabled=false;e.target.checked=false;savePrefs();$('#keyAudioMessage').textContent='키음을 불러오지 못했어요. 원곡 모드로 재생합니다.'}}if(keyPlayer)keyPlayer.enabled=keysEnabled};$('#keysVolume').oninput=e=>{keysVolume=+e.target.value/100;$('#keysVolText').textContent=e.target.value+'%';if(keyBus&&ctxAudio)keyBus.gain.setTargetAtTime(keysVolume,ctxAudio.currentTime,.02);savePrefs()};
 $('#soundTest').onclick=async()=>{try{await initAudio();await loadKeys();keyPlayer.buffer=keyAudioBuffer;const sample=tracks[selected].charts[diff][Math.min(25,tracks[selected].charts[diff].length-1)];keyPlayer.audition(sample[0]);$('#keyAudioMessage').textContent='선택한 곡에서 근사 분리한 키음을 재생했어요.'}catch{$('#keyAudioMessage').textContent='키음을 불러오지 못했어요. 다시 시도해 주세요.'}};
 $('#retry').onclick=()=>{$('#resultDialog').close();start({reuseSeed:true})};$('#back').onclick=()=>$('#resultDialog').close();document.querySelectorAll('[data-diff]').forEach(b=>b.onclick=()=>selectDifficulty(+b.dataset.diff));
@@ -418,7 +424,32 @@ document.addEventListener('keydown',e=>{
  const lane=resolveInputLane(e.code,keyCount,bindings,currentAuxBindings());if(lane>=0){e.preventDefault();if(!e.repeat)press(lane,e)}
 });
 document.addEventListener('keyup',e=>{const lane=resolveInputLane(e.code,keyCount,bindings,currentAuxBindings());if(lane>=0){if(e.code.startsWith('Alt')&&['playing','paused'].includes(state))e.preventDefault();release(lane,e)}});
-function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>{b.onpointerdown=e=>{e.preventDefault();b.setPointerCapture(e.pointerId);b.classList.add('down');press(+b.dataset.key,e,'pointer:'+e.pointerId)};b.onpointerup=b.onpointercancel=b.onlostpointercapture=e=>{b.classList.remove('down');release(+b.dataset.key,e,'pointer:'+e.pointerId)}})}
+// Capture each finger on its initial lane: drifting cannot release a long note.
+function bindTouchSurface(surface,laneAt){
+ surface.onpointerdown=e=>{
+  if(e.pointerType==='mouse'&&e.button!==0)return;
+  if(!['playing','paused'].includes(state)||sessionAuto)return;
+  const lane=laneAt(e);if(lane<0||lane>=keyCount)return;
+  e.preventDefault();
+  try{surface.setPointerCapture(e.pointerId)}catch{}
+  press(lane,e,'pointer:'+e.pointerId);
+  if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
+ };
+ const end=e=>{
+  const source='pointer:'+e.pointerId,lane=inputOwners.get(source);
+  if(lane===undefined)return;
+  e.preventDefault();release(lane,e,source);
+  if(surface.dataset.key!==undefined)surface.classList.toggle('down',[...inputOwners.values()].includes(lane));
+ };
+ surface.onpointerup=surface.onpointercancel=surface.onlostpointercapture=end;
+ surface.oncontextmenu=e=>e.preventDefault();
+}
+function bindTouchPads(){document.querySelectorAll('[data-key]').forEach(b=>bindTouchSurface(b,()=>+b.dataset.key))}
+bindTouchSurface(canvas,e=>{
+ const r=canvas.getBoundingClientRect(),x=e.clientX-r.left;
+ if(r.width<=18||x<0||x>r.width)return -1;
+ return Math.max(0,Math.min(keyCount-1,Math.floor((x-9)/(r.width-18)*keyCount)));
+});
 function backgroundTick(){backgroundTimer=null;if(!continueInBackground||!document.hidden)return;const now=performance.now();if(state==='playing')updateGame(elapsed(),now);updateCompletion(now);backgroundTimer=setTimeout(backgroundTick,50)}
 function syncBackgroundTick(){clearTimeout(backgroundTimer);backgroundTimer=null;if(continueInBackground&&document.hidden)backgroundTimer=setTimeout(backgroundTick,50)}
 function handleFocusLoss(){if(state==='loading'&&!continueInBackground)loadingBlurred=true;if(state==='playing'&&!continueInBackground)togglePause();else resetInputState()}
@@ -449,3 +480,5 @@ loadPrefs();$('#continueInBackground').checked=continueInBackground;syncFrameSet
 window.addEventListener('pulse-account-change',()=>{if(state==='idle'){stopSongPreview();refresh()}});
 
 window.PulseRefreshProgress=()=>{if(state==='idle')refresh()};
+
+document.querySelectorAll('[data-config-mode]').forEach(b=>b.onclick=()=>{settingsKeyMode=+b.dataset.configMode;remapping=null;auxRemapping=null;renderBindings();$('#bindingMessage').textContent=settingsKeyMode+'키 배치를 편집합니다. 현재 플레이 모드는 유지됩니다.'});

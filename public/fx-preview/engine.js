@@ -1,0 +1,9 @@
+'use strict';
+class FXEngine {
+ constructor(chart,keys,start=0,onJudge=()=>{}){this.keys=keys;this.notes=chart.notes.filter(n=>n.time>=start).map(n=>({...n,state:0,slot:n.fx?(n.lane===0?0:keys+1):n.lane+1}));this.owners=new Map();this.counts=[0,0,0,0];this.combo=0;this.maxCombo=0;this.fxHit=0;this.fxMiss=0;this.cursor=0;this.time=start;this.onJudge=onJudge;}
+ held(slot){return [...this.owners.values()].includes(slot)}
+ judge(n,q,tail=false){this.counts[q]++;this.combo=q===3?0:this.combo+1;this.maxCombo=Math.max(this.maxCombo,this.combo);if(n.fx&&!tail){if(q===3)this.fxMiss++;else this.fxHit++}if(tail||!n.dur||q===3)n.state=2;else n.state=1;this.onJudge(n,q,tail);}
+ update(t,auto=false){this.time=t;for(let i=this.cursor;i<this.notes.length;i++){const n=this.notes[i];if(n.time>t+.001)break;if(n.state===0){if(auto)this.judge(n,0);else if(t>n.time+.14){this.judge(n,3);if(n.dur)this.judge(n,3,true)}}if(n.state===1&&t>=n.time+n.dur)this.judge(n,auto||this.held(n.slot)?0:3,true)}while(this.cursor<this.notes.length&&this.notes[this.cursor].state===2)this.cursor++}
+ press(slot,id,t,paused=false){if(this.owners.has(id))return;if(paused){if(this.notes.some(n=>n.slot===slot&&n.state===1))this.owners.set(id,slot);return}this.update(t);this.owners.set(id,slot);if(this.notes.some(n=>n.slot===slot&&n.state===1))return;let best=null,distance=.140001;for(let i=this.cursor;i<this.notes.length;i++){const n=this.notes[i];if(n.time>t+.14)break;const delta=Math.abs(n.time-t);if(n.state===0&&n.slot===slot&&delta<distance){best=n;distance=delta}}if(best)this.judge(best,distance<=.033?0:distance<=.08?1:2);}
+ release(id,t,paused=false){const slot=this.owners.get(id);this.owners.delete(id);if(slot===undefined||this.held(slot)||paused)return;for(const n of this.notes)if(n.state===1&&n.slot===slot)this.judge(n,t>=n.time+n.dur-.10?0:3,true);}
+}
