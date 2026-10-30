@@ -332,9 +332,9 @@
     "keyCount": 5,
     "chartIds": [
       "bittersweet-ascension-v39-5key-reviewed-0",
-      "bittersweet-ascension-v39-5key-reviewed-1",
-      "bittersweet-ascension-v39-5key-reviewed-2",
-      "bittersweet-ascension-v39-5key-reviewed-3"
+      "bittersweet-ascension-v39-5key-reviewed-1-v53",
+      "bittersweet-ascension-v39-5key-reviewed-2-v53",
+      "bittersweet-ascension-v39-5key-reviewed-3-v53"
     ],
     "legacyDifficulty": [
       null,
@@ -362,9 +362,9 @@
         "chartVersion": 39,
         "chartIds": [
           "bittersweet-ascension-v39-4key-reviewed-0",
-          "bittersweet-ascension-v39-4key-reviewed-1",
-          "bittersweet-ascension-v39-4key-reviewed-2",
-          "bittersweet-ascension-v39-4key-reviewed-3"
+          "bittersweet-ascension-v39-4key-reviewed-1-v53",
+          "bittersweet-ascension-v39-4key-reviewed-2-v53",
+          "bittersweet-ascension-v39-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -391,9 +391,9 @@
         "chartVersion": 39,
         "chartIds": [
           "bittersweet-ascension-v39-6key-reviewed-0",
-          "bittersweet-ascension-v39-6key-reviewed-1",
-          "bittersweet-ascension-v39-6key-reviewed-2",
-          "bittersweet-ascension-v39-6key-reviewed-3"
+          "bittersweet-ascension-v39-6key-reviewed-1-v53",
+          "bittersweet-ascension-v39-6key-reviewed-2-v53",
+          "bittersweet-ascension-v39-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -420,9 +420,9 @@
         "chartVersion": 39,
         "chartIds": [
           "bittersweet-ascension-v39-8key-reviewed-0",
-          "bittersweet-ascension-v39-8key-reviewed-1",
-          "bittersweet-ascension-v39-8key-reviewed-2",
-          "bittersweet-ascension-v39-8key-reviewed-3"
+          "bittersweet-ascension-v39-8key-reviewed-1-v53",
+          "bittersweet-ascension-v39-8key-reviewed-2-v53",
+          "bittersweet-ascension-v39-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -449,9 +449,9 @@
         "chartVersion": 39,
         "chartIds": [
           "bittersweet-ascension-v39-7key-reviewed-0",
-          "bittersweet-ascension-v39-7key-reviewed-1",
-          "bittersweet-ascension-v39-7key-reviewed-2",
-          "bittersweet-ascension-v39-7key-reviewed-3"
+          "bittersweet-ascension-v39-7key-reviewed-1-v53",
+          "bittersweet-ascension-v39-7key-reviewed-2-v53",
+          "bittersweet-ascension-v39-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -833,9 +833,9 @@
     "keyCount": 5,
     "chartIds": [
       "dreamy-piano-bounce-v36-5key-reviewed-0",
-      "dreamy-piano-bounce-v36-5key-reviewed-1",
-      "dreamy-piano-bounce-v36-5key-reviewed-2",
-      "dreamy-piano-bounce-v36-5key-reviewed-3"
+      "dreamy-piano-bounce-v36-5key-reviewed-1-v53",
+      "dreamy-piano-bounce-v36-5key-reviewed-2-v53",
+      "dreamy-piano-bounce-v36-5key-reviewed-3-v53"
     ],
     "legacyDifficulty": [
       null,
@@ -863,9 +863,9 @@
         "chartVersion": 37,
         "chartIds": [
           "dreamy-piano-bounce-v36-4key-reviewed-0",
-          "dreamy-piano-bounce-v36-4key-reviewed-1",
-          "dreamy-piano-bounce-v37-4key-reviewed-2",
-          "dreamy-piano-bounce-v36-4key-reviewed-3"
+          "dreamy-piano-bounce-v36-4key-reviewed-1-v53",
+          "dreamy-piano-bounce-v37-4key-reviewed-2-v53",
+          "dreamy-piano-bounce-v36-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -892,9 +892,9 @@
         "chartVersion": 36,
         "chartIds": [
           "dreamy-piano-bounce-v36-6key-reviewed-0",
-          "dreamy-piano-bounce-v36-6key-reviewed-1",
-          "dreamy-piano-bounce-v36-6key-reviewed-2",
-          "dreamy-piano-bounce-v36-6key-reviewed-3"
+          "dreamy-piano-bounce-v36-6key-reviewed-1-v53",
+          "dreamy-piano-bounce-v36-6key-reviewed-2-v53",
+          "dreamy-piano-bounce-v36-6key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -921,9 +921,9 @@
         "chartVersion": 36,
         "chartIds": [
           "dreamy-piano-bounce-v36-8key-reviewed-0",
-          "dreamy-piano-bounce-v36-8key-reviewed-1",
-          "dreamy-piano-bounce-v36-8key-reviewed-2",
-          "dreamy-piano-bounce-v36-8key-reviewed-3"
+          "dreamy-piano-bounce-v36-8key-reviewed-1-v53",
+          "dreamy-piano-bounce-v36-8key-reviewed-2-v53",
+          "dreamy-piano-bounce-v36-8key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -950,9 +950,9 @@
         "chartVersion": 37,
         "chartIds": [
           "dreamy-piano-bounce-v36-7key-reviewed-0",
-          "dreamy-piano-bounce-v37-7key-reviewed-1",
-          "dreamy-piano-bounce-v36-7key-reviewed-2",
-          "dreamy-piano-bounce-v36-7key-reviewed-3"
+          "dreamy-piano-bounce-v37-7key-reviewed-1-v53",
+          "dreamy-piano-bounce-v36-7key-reviewed-2-v53",
+          "dreamy-piano-bounce-v36-7key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -1435,9 +1435,9 @@
     "keyCount": 5,
     "chartIds": [
       "bouncy-bass-party-v31-5key-reviewed-0",
-      "bouncy-bass-party-v31-5key-reviewed-1",
-      "bouncy-bass-party-v37-5key-reviewed-2",
-      "bouncy-bass-party-v31-5key-reviewed-3"
+      "bouncy-bass-party-v31-5key-reviewed-1-v53",
+      "bouncy-bass-party-v37-5key-reviewed-2-v53",
+      "bouncy-bass-party-v31-5key-reviewed-3-v53"
     ],
     "legacyDifficulty": [
       null,
@@ -1465,9 +1465,9 @@
         "chartVersion": 37,
         "chartIds": [
           "bouncy-bass-party-v31-4key-reviewed-0",
-          "bouncy-bass-party-v31-4key-reviewed-1",
-          "bouncy-bass-party-v37-4key-reviewed-2",
-          "bouncy-bass-party-v31-4key-reviewed-3"
+          "bouncy-bass-party-v31-4key-reviewed-1-v53",
+          "bouncy-bass-party-v37-4key-reviewed-2-v53",
+          "bouncy-bass-party-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -1494,9 +1494,9 @@
         "chartVersion": 31,
         "chartIds": [
           "bouncy-bass-party-v31-6key-reviewed-0",
-          "bouncy-bass-party-v31-6key-reviewed-1",
-          "bouncy-bass-party-v31-6key-reviewed-2",
-          "bouncy-bass-party-v31-6key-reviewed-3"
+          "bouncy-bass-party-v31-6key-reviewed-1-v53",
+          "bouncy-bass-party-v31-6key-reviewed-2-v53",
+          "bouncy-bass-party-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -1523,9 +1523,9 @@
         "chartVersion": 31,
         "chartIds": [
           "bouncy-bass-party-v31-8key-reviewed-0",
-          "bouncy-bass-party-v31-8key-reviewed-1",
-          "bouncy-bass-party-v31-8key-reviewed-2",
-          "bouncy-bass-party-v31-8key-reviewed-3"
+          "bouncy-bass-party-v31-8key-reviewed-1-v53",
+          "bouncy-bass-party-v31-8key-reviewed-2-v53",
+          "bouncy-bass-party-v31-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -1552,9 +1552,9 @@
         "chartVersion": 31,
         "chartIds": [
           "bouncy-bass-party-v31-7key-reviewed-0",
-          "bouncy-bass-party-v31-7key-reviewed-1",
-          "bouncy-bass-party-v31-7key-reviewed-2",
-          "bouncy-bass-party-v31-7key-reviewed-3"
+          "bouncy-bass-party-v31-7key-reviewed-1-v53",
+          "bouncy-bass-party-v31-7key-reviewed-2-v53",
+          "bouncy-bass-party-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -1999,20 +1999,20 @@
       "estimatedBeatPhase": 0.2506345177664975
     },
     "chartIds": [
-      "luminous-forward-motion-v31-5key-reviewed-0",
-      "luminous-forward-motion-v31-5key-reviewed-1",
-      "luminous-forward-motion-v31-5key-reviewed-2",
-      "luminous-forward-motion-v31-5key-reviewed-3"
+      "luminous-forward-motion-v31-5key-reviewed-0-v53",
+      "luminous-forward-motion-v31-5key-reviewed-1-v53",
+      "luminous-forward-motion-v31-5key-reviewed-2-v53",
+      "luminous-forward-motion-v31-5key-reviewed-3-v53"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
         "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v31-4key-reviewed-0",
-          "luminous-forward-motion-v31-4key-reviewed-1",
-          "luminous-forward-motion-v31-4key-reviewed-2",
-          "luminous-forward-motion-v31-4key-reviewed-3"
+          "luminous-forward-motion-v31-4key-reviewed-0-v53",
+          "luminous-forward-motion-v31-4key-reviewed-1-v53",
+          "luminous-forward-motion-v31-4key-reviewed-2-v53",
+          "luminous-forward-motion-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2038,10 +2038,10 @@
         "keyCount": 6,
         "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v31-6key-reviewed-0",
-          "luminous-forward-motion-v31-6key-reviewed-1",
-          "luminous-forward-motion-v31-6key-reviewed-2",
-          "luminous-forward-motion-v31-6key-reviewed-3"
+          "luminous-forward-motion-v31-6key-reviewed-0-v53",
+          "luminous-forward-motion-v31-6key-reviewed-1-v53",
+          "luminous-forward-motion-v31-6key-reviewed-2-v53",
+          "luminous-forward-motion-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2067,10 +2067,10 @@
         "keyCount": 8,
         "chartVersion": 31,
         "chartIds": [
-          "luminous-forward-motion-v31-8key-reviewed-0",
-          "luminous-forward-motion-v31-8key-reviewed-1",
-          "luminous-forward-motion-v31-8key-reviewed-2",
-          "luminous-forward-motion-v31-8key-reviewed-3-v52"
+          "luminous-forward-motion-v31-8key-reviewed-0-v53",
+          "luminous-forward-motion-v31-8key-reviewed-1-v53",
+          "luminous-forward-motion-v31-8key-reviewed-2-v53",
+          "luminous-forward-motion-v31-8key-reviewed-3-v52-v53"
         ],
         "levels": [
           5,
@@ -2096,10 +2096,10 @@
         "keyCount": 7,
         "chartVersion": 37,
         "chartIds": [
-          "luminous-forward-motion-v31-7key-reviewed-0",
-          "luminous-forward-motion-v37-7key-reviewed-1",
-          "luminous-forward-motion-v31-7key-reviewed-2",
-          "luminous-forward-motion-v31-7key-reviewed-3"
+          "luminous-forward-motion-v31-7key-reviewed-0-v53",
+          "luminous-forward-motion-v37-7key-reviewed-1-v53",
+          "luminous-forward-motion-v31-7key-reviewed-2-v53",
+          "luminous-forward-motion-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2566,9 +2566,9 @@
     },
     "chartIds": [
       "one-step-closer-v31-5key-reviewed-0",
-      "one-step-closer-v37-5key-reviewed-1",
-      "one-step-closer-v31-5key-reviewed-2",
-      "one-step-closer-v31-5key-reviewed-3"
+      "one-step-closer-v37-5key-reviewed-1-v53",
+      "one-step-closer-v31-5key-reviewed-2-v53",
+      "one-step-closer-v31-5key-reviewed-3-v53"
     ],
     "keyModes": {
       "4": {
@@ -2576,9 +2576,9 @@
         "chartVersion": 37,
         "chartIds": [
           "one-step-closer-v31-4key-reviewed-0",
-          "one-step-closer-v37-4key-reviewed-1",
-          "one-step-closer-v31-4key-reviewed-2",
-          "one-step-closer-v31-4key-reviewed-3"
+          "one-step-closer-v37-4key-reviewed-1-v53",
+          "one-step-closer-v31-4key-reviewed-2-v53",
+          "one-step-closer-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2605,9 +2605,9 @@
         "chartVersion": 37,
         "chartIds": [
           "one-step-closer-v31-6key-reviewed-0",
-          "one-step-closer-v37-6key-reviewed-1",
-          "one-step-closer-v31-6key-reviewed-2",
-          "one-step-closer-v31-6key-reviewed-3"
+          "one-step-closer-v37-6key-reviewed-1-v53",
+          "one-step-closer-v31-6key-reviewed-2-v53",
+          "one-step-closer-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2634,9 +2634,9 @@
         "chartVersion": 37,
         "chartIds": [
           "one-step-closer-v31-8key-reviewed-0",
-          "one-step-closer-v37-8key-reviewed-1",
-          "one-step-closer-v31-8key-reviewed-2",
-          "one-step-closer-v31-8key-reviewed-3"
+          "one-step-closer-v37-8key-reviewed-1-v53",
+          "one-step-closer-v31-8key-reviewed-2-v53",
+          "one-step-closer-v31-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -2663,9 +2663,9 @@
         "chartVersion": 31,
         "chartIds": [
           "one-step-closer-v31-7key-reviewed-0",
-          "one-step-closer-v31-7key-reviewed-1",
-          "one-step-closer-v31-7key-reviewed-2",
-          "one-step-closer-v31-7key-reviewed-3"
+          "one-step-closer-v31-7key-reviewed-1-v53",
+          "one-step-closer-v31-7key-reviewed-2-v53",
+          "one-step-closer-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -3097,9 +3097,9 @@
     },
     "chartIds": [
       "to-our-tomorrow-v31-5key-reviewed-0",
-      "to-our-tomorrow-v31-5key-reviewed-1",
-      "to-our-tomorrow-v31-5key-reviewed-2",
-      "to-our-tomorrow-v31-5key-reviewed-3"
+      "to-our-tomorrow-v31-5key-reviewed-1-v53",
+      "to-our-tomorrow-v31-5key-reviewed-2-v53",
+      "to-our-tomorrow-v31-5key-reviewed-3-v53"
     ],
     "keyModes": {
       "4": {
@@ -3107,9 +3107,9 @@
         "chartVersion": 31,
         "chartIds": [
           "to-our-tomorrow-v31-4key-reviewed-0",
-          "to-our-tomorrow-v31-4key-reviewed-1",
-          "to-our-tomorrow-v31-4key-reviewed-2",
-          "to-our-tomorrow-v31-4key-reviewed-3"
+          "to-our-tomorrow-v31-4key-reviewed-1-v53",
+          "to-our-tomorrow-v31-4key-reviewed-2-v53",
+          "to-our-tomorrow-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -3136,9 +3136,9 @@
         "chartVersion": 31,
         "chartIds": [
           "to-our-tomorrow-v31-6key-reviewed-0",
-          "to-our-tomorrow-v31-6key-reviewed-1",
-          "to-our-tomorrow-v31-6key-reviewed-2",
-          "to-our-tomorrow-v31-6key-reviewed-3"
+          "to-our-tomorrow-v31-6key-reviewed-1-v53",
+          "to-our-tomorrow-v31-6key-reviewed-2-v53",
+          "to-our-tomorrow-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -3165,9 +3165,9 @@
         "chartVersion": 31,
         "chartIds": [
           "to-our-tomorrow-v31-8key-reviewed-0",
-          "to-our-tomorrow-v31-8key-reviewed-1",
-          "to-our-tomorrow-v31-8key-reviewed-2",
-          "to-our-tomorrow-v31-8key-reviewed-3"
+          "to-our-tomorrow-v31-8key-reviewed-1-v53",
+          "to-our-tomorrow-v31-8key-reviewed-2-v53",
+          "to-our-tomorrow-v31-8key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -3194,9 +3194,9 @@
         "chartVersion": 31,
         "chartIds": [
           "to-our-tomorrow-v31-7key-reviewed-0",
-          "to-our-tomorrow-v31-7key-reviewed-1",
-          "to-our-tomorrow-v31-7key-reviewed-2",
-          "to-our-tomorrow-v31-7key-reviewed-3"
+          "to-our-tomorrow-v31-7key-reviewed-1-v53",
+          "to-our-tomorrow-v31-7key-reviewed-2-v53",
+          "to-our-tomorrow-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -3697,20 +3697,20 @@
       "estimatedBeatPhase": 0.2568151595744681
     },
     "chartIds": [
-      "futuristic-minor-key-v31-5key-reviewed-0",
-      "futuristic-minor-key-v31-5key-reviewed-1",
-      "futuristic-minor-key-v37-5key-reviewed-2",
-      "futuristic-minor-key-v37-5key-reviewed-3"
+      "futuristic-minor-key-v31-5key-reviewed-0-v53",
+      "futuristic-minor-key-v31-5key-reviewed-1-v53",
+      "futuristic-minor-key-v37-5key-reviewed-2-v53",
+      "futuristic-minor-key-v37-5key-reviewed-3-v53"
     ],
     "keyModes": {
       "4": {
         "keyCount": 4,
         "chartVersion": 37,
         "chartIds": [
-          "futuristic-minor-key-v31-4key-reviewed-0",
-          "futuristic-minor-key-v37-4key-reviewed-1",
-          "futuristic-minor-key-v31-4key-reviewed-2",
-          "futuristic-minor-key-v31-4key-reviewed-3"
+          "futuristic-minor-key-v31-4key-reviewed-0-v53",
+          "futuristic-minor-key-v37-4key-reviewed-1-v53",
+          "futuristic-minor-key-v31-4key-reviewed-2-v53",
+          "futuristic-minor-key-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -3736,10 +3736,10 @@
         "keyCount": 6,
         "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v31-6key-reviewed-0",
-          "futuristic-minor-key-v31-6key-reviewed-1",
-          "futuristic-minor-key-v31-6key-reviewed-2",
-          "futuristic-minor-key-v31-6key-reviewed-3"
+          "futuristic-minor-key-v31-6key-reviewed-0-v53",
+          "futuristic-minor-key-v31-6key-reviewed-1-v53",
+          "futuristic-minor-key-v31-6key-reviewed-2-v53",
+          "futuristic-minor-key-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -3765,10 +3765,10 @@
         "keyCount": 8,
         "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v31-8key-reviewed-0",
-          "futuristic-minor-key-v31-8key-reviewed-1",
-          "futuristic-minor-key-v31-8key-reviewed-2",
-          "futuristic-minor-key-v31-8key-reviewed-3"
+          "futuristic-minor-key-v31-8key-reviewed-0-v53",
+          "futuristic-minor-key-v31-8key-reviewed-1-v53",
+          "futuristic-minor-key-v31-8key-reviewed-2-v53",
+          "futuristic-minor-key-v31-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -3794,10 +3794,10 @@
         "keyCount": 7,
         "chartVersion": 31,
         "chartIds": [
-          "futuristic-minor-key-v31-7key-reviewed-0",
-          "futuristic-minor-key-v31-7key-reviewed-1",
-          "futuristic-minor-key-v31-7key-reviewed-2",
-          "futuristic-minor-key-v31-7key-reviewed-3"
+          "futuristic-minor-key-v31-7key-reviewed-0-v53",
+          "futuristic-minor-key-v31-7key-reviewed-1-v53",
+          "futuristic-minor-key-v31-7key-reviewed-2-v53",
+          "futuristic-minor-key-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4226,9 +4226,9 @@
         "chartVersion": 37,
         "chartIds": [
           "open-blue-sky-v30-4key-gameedit-0",
-          "open-blue-sky-v37-4key-reviewed-1",
-          "open-blue-sky-v31-4key-reviewed-2",
-          "open-blue-sky-v31-4key-reviewed-3"
+          "open-blue-sky-v37-4key-reviewed-1-v53",
+          "open-blue-sky-v31-4key-reviewed-2-v53",
+          "open-blue-sky-v31-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4255,9 +4255,9 @@
         "chartVersion": 37,
         "chartIds": [
           "open-blue-sky-v30-6key-gameedit-0",
-          "open-blue-sky-v37-6key-reviewed-1",
-          "open-blue-sky-v31-6key-reviewed-2",
-          "open-blue-sky-v31-6key-reviewed-3"
+          "open-blue-sky-v37-6key-reviewed-1-v53",
+          "open-blue-sky-v31-6key-reviewed-2-v53",
+          "open-blue-sky-v31-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4284,9 +4284,9 @@
         "chartVersion": 37,
         "chartIds": [
           "open-blue-sky-v30-8key-gameedit-0",
-          "open-blue-sky-v37-8key-reviewed-1",
-          "open-blue-sky-v31-8key-reviewed-2",
-          "open-blue-sky-v31-8key-reviewed-3"
+          "open-blue-sky-v37-8key-reviewed-1-v53",
+          "open-blue-sky-v31-8key-reviewed-2-v53",
+          "open-blue-sky-v31-8key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -4313,9 +4313,9 @@
         "chartVersion": 31,
         "chartIds": [
           "open-blue-sky-v31-7key-gameedit-0",
-          "open-blue-sky-v31-7key-reviewed-1",
-          "open-blue-sky-v31-7key-reviewed-2",
-          "open-blue-sky-v31-7key-reviewed-3"
+          "open-blue-sky-v31-7key-reviewed-1-v53",
+          "open-blue-sky-v31-7key-reviewed-2-v53",
+          "open-blue-sky-v31-7key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -4340,9 +4340,9 @@
     },
     "chartIds": [
       "open-blue-sky-v31-5key-reviewed-0",
-      "open-blue-sky-v31-5key-reviewed-1",
-      "open-blue-sky-v31-5key-reviewed-2",
-      "open-blue-sky-v31-5key-reviewed-3"
+      "open-blue-sky-v31-5key-reviewed-1-v53",
+      "open-blue-sky-v31-5key-reviewed-2-v53",
+      "open-blue-sky-v31-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -4389,9 +4389,9 @@
     "chartVersion": 46,
     "chartIds": [
       "a-little-further-v46-5key-reviewed-0",
-      "a-little-further-v46-5key-reviewed-1",
-      "a-little-further-v46-5key-reviewed-2",
-      "a-little-further-v46-5key-reviewed-3"
+      "a-little-further-v46-5key-reviewed-1-v53",
+      "a-little-further-v46-5key-reviewed-2-v53",
+      "a-little-further-v46-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -4414,9 +4414,9 @@
         "keyCount": 4,
         "chartIds": [
           "a-little-further-v46-4key-reviewed-0",
-          "a-little-further-v46-4key-reviewed-1",
-          "a-little-further-v46-4key-reviewed-2",
-          "a-little-further-v46-4key-reviewed-3"
+          "a-little-further-v46-4key-reviewed-1-v53",
+          "a-little-further-v46-4key-reviewed-2-v53",
+          "a-little-further-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4437,9 +4437,9 @@
         "keyCount": 6,
         "chartIds": [
           "a-little-further-v46-6key-reviewed-0",
-          "a-little-further-v46-6key-reviewed-1",
-          "a-little-further-v46-6key-reviewed-2",
-          "a-little-further-v46-6key-reviewed-3"
+          "a-little-further-v46-6key-reviewed-1-v53",
+          "a-little-further-v46-6key-reviewed-2-v53",
+          "a-little-further-v46-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4460,9 +4460,9 @@
         "keyCount": 7,
         "chartIds": [
           "a-little-further-v46-7key-reviewed-0",
-          "a-little-further-v46-7key-reviewed-1",
-          "a-little-further-v46-7key-reviewed-2",
-          "a-little-further-v46-7key-reviewed-3"
+          "a-little-further-v46-7key-reviewed-1-v53",
+          "a-little-further-v46-7key-reviewed-2-v53",
+          "a-little-further-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4483,9 +4483,9 @@
         "keyCount": 8,
         "chartIds": [
           "a-little-further-v46-8key-reviewed-0",
-          "a-little-further-v46-8key-reviewed-1",
-          "a-little-further-v46-8key-reviewed-2",
-          "a-little-further-v46-8key-reviewed-3-v52"
+          "a-little-further-v46-8key-reviewed-1-v53",
+          "a-little-further-v46-8key-reviewed-2-v53",
+          "a-little-further-v46-8key-reviewed-3-v52-v53"
         ],
         "levels": [
           5,
@@ -4839,9 +4839,9 @@
     "chartVersion": 46,
     "chartIds": [
       "pulse-of-longing-v46-5key-reviewed-0",
-      "pulse-of-longing-v46-5key-reviewed-1",
-      "pulse-of-longing-v46-5key-reviewed-2",
-      "pulse-of-longing-v46-5key-reviewed-3"
+      "pulse-of-longing-v46-5key-reviewed-1-v53",
+      "pulse-of-longing-v46-5key-reviewed-2-v53",
+      "pulse-of-longing-v46-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -4864,9 +4864,9 @@
         "keyCount": 4,
         "chartIds": [
           "pulse-of-longing-v46-4key-reviewed-0",
-          "pulse-of-longing-v46-4key-reviewed-1",
-          "pulse-of-longing-v46-4key-reviewed-2",
-          "pulse-of-longing-v46-4key-reviewed-3"
+          "pulse-of-longing-v46-4key-reviewed-1-v53",
+          "pulse-of-longing-v46-4key-reviewed-2-v53",
+          "pulse-of-longing-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4887,9 +4887,9 @@
         "keyCount": 6,
         "chartIds": [
           "pulse-of-longing-v46-6key-reviewed-0",
-          "pulse-of-longing-v46-6key-reviewed-1",
-          "pulse-of-longing-v46-6key-reviewed-2",
-          "pulse-of-longing-v46-6key-reviewed-3"
+          "pulse-of-longing-v46-6key-reviewed-1-v53",
+          "pulse-of-longing-v46-6key-reviewed-2-v53",
+          "pulse-of-longing-v46-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4910,9 +4910,9 @@
         "keyCount": 7,
         "chartIds": [
           "pulse-of-longing-v46-7key-reviewed-0",
-          "pulse-of-longing-v46-7key-reviewed-1",
-          "pulse-of-longing-v46-7key-reviewed-2",
-          "pulse-of-longing-v46-7key-reviewed-3"
+          "pulse-of-longing-v46-7key-reviewed-1-v53",
+          "pulse-of-longing-v46-7key-reviewed-2-v53",
+          "pulse-of-longing-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -4933,9 +4933,9 @@
         "keyCount": 8,
         "chartIds": [
           "pulse-of-longing-v46-8key-reviewed-0",
-          "pulse-of-longing-v46-8key-reviewed-1",
-          "pulse-of-longing-v46-8key-reviewed-2",
-          "pulse-of-longing-v46-8key-reviewed-3"
+          "pulse-of-longing-v46-8key-reviewed-1-v53",
+          "pulse-of-longing-v46-8key-reviewed-2-v53",
+          "pulse-of-longing-v46-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5334,9 +5334,9 @@
     "chartVersion": 46,
     "chartIds": [
       "exciting-adventure-v46-5key-reviewed-0",
-      "exciting-adventure-v46-5key-reviewed-1",
-      "exciting-adventure-v46-5key-reviewed-2",
-      "exciting-adventure-v46-5key-reviewed-3"
+      "exciting-adventure-v46-5key-reviewed-1-v53",
+      "exciting-adventure-v46-5key-reviewed-2-v53",
+      "exciting-adventure-v46-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -5359,9 +5359,9 @@
         "keyCount": 4,
         "chartIds": [
           "exciting-adventure-v46-4key-reviewed-0",
-          "exciting-adventure-v46-4key-reviewed-1",
-          "exciting-adventure-v46-4key-reviewed-2",
-          "exciting-adventure-v46-4key-reviewed-3"
+          "exciting-adventure-v46-4key-reviewed-1-v53",
+          "exciting-adventure-v46-4key-reviewed-2-v53",
+          "exciting-adventure-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5382,9 +5382,9 @@
         "keyCount": 6,
         "chartIds": [
           "exciting-adventure-v46-6key-reviewed-0",
-          "exciting-adventure-v46-6key-reviewed-1",
-          "exciting-adventure-v46-6key-reviewed-2",
-          "exciting-adventure-v46-6key-reviewed-3"
+          "exciting-adventure-v46-6key-reviewed-1-v53",
+          "exciting-adventure-v46-6key-reviewed-2-v53",
+          "exciting-adventure-v46-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5405,9 +5405,9 @@
         "keyCount": 7,
         "chartIds": [
           "exciting-adventure-v46-7key-reviewed-0",
-          "exciting-adventure-v46-7key-reviewed-1",
-          "exciting-adventure-v46-7key-reviewed-2",
-          "exciting-adventure-v46-7key-reviewed-3"
+          "exciting-adventure-v46-7key-reviewed-1-v53",
+          "exciting-adventure-v46-7key-reviewed-2-v53",
+          "exciting-adventure-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5428,9 +5428,9 @@
         "keyCount": 8,
         "chartIds": [
           "exciting-adventure-v46-8key-reviewed-0",
-          "exciting-adventure-v46-8key-reviewed-1",
-          "exciting-adventure-v46-8key-reviewed-2",
-          "exciting-adventure-v46-8key-reviewed-3"
+          "exciting-adventure-v46-8key-reviewed-1-v53",
+          "exciting-adventure-v46-8key-reviewed-2-v53",
+          "exciting-adventure-v46-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5767,10 +5767,10 @@
     "keyCount": 5,
     "chartVersion": 46,
     "chartIds": [
-      "mellow-light-v46-5key-reviewed-0",
-      "mellow-light-v46-5key-reviewed-1",
-      "mellow-light-v46-5key-reviewed-2",
-      "mellow-light-v46-5key-reviewed-3"
+      "mellow-light-v46-5key-reviewed-0-v53",
+      "mellow-light-v46-5key-reviewed-1-v53",
+      "mellow-light-v46-5key-reviewed-2-v53",
+      "mellow-light-v46-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -5792,10 +5792,10 @@
       "4": {
         "keyCount": 4,
         "chartIds": [
-          "mellow-light-v46-4key-reviewed-0",
-          "mellow-light-v46-4key-reviewed-1",
-          "mellow-light-v46-4key-reviewed-2",
-          "mellow-light-v46-4key-reviewed-3"
+          "mellow-light-v46-4key-reviewed-0-v53",
+          "mellow-light-v46-4key-reviewed-1-v53",
+          "mellow-light-v46-4key-reviewed-2-v53",
+          "mellow-light-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5815,10 +5815,10 @@
       "6": {
         "keyCount": 6,
         "chartIds": [
-          "mellow-light-v46-6key-reviewed-0",
-          "mellow-light-v46-6key-reviewed-1",
-          "mellow-light-v46-6key-reviewed-2",
-          "mellow-light-v46-6key-reviewed-3"
+          "mellow-light-v46-6key-reviewed-0-v53",
+          "mellow-light-v46-6key-reviewed-1-v53",
+          "mellow-light-v46-6key-reviewed-2-v53",
+          "mellow-light-v46-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5838,10 +5838,10 @@
       "7": {
         "keyCount": 7,
         "chartIds": [
-          "mellow-light-v46-7key-reviewed-0",
-          "mellow-light-v46-7key-reviewed-1",
-          "mellow-light-v46-7key-reviewed-2",
-          "mellow-light-v46-7key-reviewed-3"
+          "mellow-light-v46-7key-reviewed-0-v53",
+          "mellow-light-v46-7key-reviewed-1-v53",
+          "mellow-light-v46-7key-reviewed-2-v53",
+          "mellow-light-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -5861,10 +5861,10 @@
       "8": {
         "keyCount": 8,
         "chartIds": [
-          "mellow-light-v46-8key-reviewed-0",
-          "mellow-light-v46-8key-reviewed-1",
-          "mellow-light-v46-8key-reviewed-2",
-          "mellow-light-v46-8key-reviewed-3"
+          "mellow-light-v46-8key-reviewed-0-v53",
+          "mellow-light-v46-8key-reviewed-1-v53",
+          "mellow-light-v46-8key-reviewed-2-v53",
+          "mellow-light-v46-8key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -6298,9 +6298,9 @@
     "chartVersion": 46,
     "chartIds": [
       "summer-drive-v46-5key-reviewed-0",
-      "summer-drive-v46-5key-reviewed-1",
-      "summer-drive-v46-5key-reviewed-2",
-      "summer-drive-v46-5key-reviewed-3-v52"
+      "summer-drive-v46-5key-reviewed-1-v53",
+      "summer-drive-v46-5key-reviewed-2-v53",
+      "summer-drive-v46-5key-reviewed-3-v52-v53"
     ],
     "levels": [
       5,
@@ -6323,9 +6323,9 @@
         "keyCount": 4,
         "chartIds": [
           "summer-drive-v46-4key-reviewed-0",
-          "summer-drive-v46-4key-reviewed-1",
-          "summer-drive-v46-4key-reviewed-2",
-          "summer-drive-v46-4key-reviewed-3"
+          "summer-drive-v46-4key-reviewed-1-v53",
+          "summer-drive-v46-4key-reviewed-2-v53",
+          "summer-drive-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -6346,9 +6346,9 @@
         "keyCount": 6,
         "chartIds": [
           "summer-drive-v46-6key-reviewed-0",
-          "summer-drive-v46-6key-reviewed-1",
-          "summer-drive-v46-6key-reviewed-2",
-          "summer-drive-v46-6key-reviewed-3-v52"
+          "summer-drive-v46-6key-reviewed-1-v53",
+          "summer-drive-v46-6key-reviewed-2-v53",
+          "summer-drive-v46-6key-reviewed-3-v52-v53"
         ],
         "levels": [
           4,
@@ -6369,9 +6369,9 @@
         "keyCount": 7,
         "chartIds": [
           "summer-drive-v46-7key-reviewed-0",
-          "summer-drive-v46-7key-reviewed-1",
-          "summer-drive-v46-7key-reviewed-2",
-          "summer-drive-v46-7key-reviewed-3"
+          "summer-drive-v46-7key-reviewed-1-v53",
+          "summer-drive-v46-7key-reviewed-2-v53",
+          "summer-drive-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           4,
@@ -6392,9 +6392,9 @@
         "keyCount": 8,
         "chartIds": [
           "summer-drive-v46-8key-reviewed-0",
-          "summer-drive-v46-8key-reviewed-1",
-          "summer-drive-v46-8key-reviewed-2",
-          "summer-drive-v46-8key-reviewed-3-v52"
+          "summer-drive-v46-8key-reviewed-1-v53",
+          "summer-drive-v46-8key-reviewed-2-v53",
+          "summer-drive-v46-8key-reviewed-3-v52-v53"
         ],
         "levels": [
           4,
@@ -6778,9 +6778,9 @@
     "chartVersion": 46,
     "chartIds": [
       "wind-across-sunlit-hills-v46-5key-reviewed-0",
-      "wind-across-sunlit-hills-v46-5key-reviewed-1",
-      "wind-across-sunlit-hills-v46-5key-reviewed-2",
-      "wind-across-sunlit-hills-v46-5key-reviewed-3"
+      "wind-across-sunlit-hills-v46-5key-reviewed-1-v53",
+      "wind-across-sunlit-hills-v46-5key-reviewed-2-v53",
+      "wind-across-sunlit-hills-v46-5key-reviewed-3-v53"
     ],
     "levels": [
       5,
@@ -6803,9 +6803,9 @@
         "keyCount": 4,
         "chartIds": [
           "wind-across-sunlit-hills-v46-4key-reviewed-0",
-          "wind-across-sunlit-hills-v46-4key-reviewed-1",
-          "wind-across-sunlit-hills-v46-4key-reviewed-2",
-          "wind-across-sunlit-hills-v46-4key-reviewed-3"
+          "wind-across-sunlit-hills-v46-4key-reviewed-1-v53",
+          "wind-across-sunlit-hills-v46-4key-reviewed-2-v53",
+          "wind-across-sunlit-hills-v46-4key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -6826,9 +6826,9 @@
         "keyCount": 6,
         "chartIds": [
           "wind-across-sunlit-hills-v46-6key-reviewed-0",
-          "wind-across-sunlit-hills-v46-6key-reviewed-1",
-          "wind-across-sunlit-hills-v46-6key-reviewed-2",
-          "wind-across-sunlit-hills-v46-6key-reviewed-3"
+          "wind-across-sunlit-hills-v46-6key-reviewed-1-v53",
+          "wind-across-sunlit-hills-v46-6key-reviewed-2-v53",
+          "wind-across-sunlit-hills-v46-6key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -6849,9 +6849,9 @@
         "keyCount": 7,
         "chartIds": [
           "wind-across-sunlit-hills-v46-7key-reviewed-0",
-          "wind-across-sunlit-hills-v46-7key-reviewed-1",
-          "wind-across-sunlit-hills-v46-7key-reviewed-2",
-          "wind-across-sunlit-hills-v46-7key-reviewed-3"
+          "wind-across-sunlit-hills-v46-7key-reviewed-1-v53",
+          "wind-across-sunlit-hills-v46-7key-reviewed-2-v53",
+          "wind-across-sunlit-hills-v46-7key-reviewed-3-v53"
         ],
         "levels": [
           5,
@@ -6872,9 +6872,9 @@
         "keyCount": 8,
         "chartIds": [
           "wind-across-sunlit-hills-v46-8key-reviewed-0",
-          "wind-across-sunlit-hills-v46-8key-reviewed-1",
-          "wind-across-sunlit-hills-v46-8key-reviewed-2",
-          "wind-across-sunlit-hills-v46-8key-reviewed-3"
+          "wind-across-sunlit-hills-v46-8key-reviewed-1-v53",
+          "wind-across-sunlit-hills-v46-8key-reviewed-2-v53",
+          "wind-across-sunlit-hills-v46-8key-reviewed-3-v53"
         ],
         "levels": [
           5,
